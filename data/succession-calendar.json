@@ -1,0 +1,187 @@
+{
+  "season": "2026",
+  "zone": "7b",
+  "location": "Vejle, Denmark",
+  "frost_dates": {
+    "last_spring_frost": "2026-05-10",
+    "first_autumn_frost": "2026-10-15"
+  },
+  "crops": [
+    {
+      "crop_id": "radish",
+      "succession": true,
+      "interval_weeks": 2,
+      "days_to_maturity": 25,
+      "buffer_weeks": 1,
+      "sowings": [
+        { "sow_week": 16, "harvest_week": 20, "bed": "bed-a", "slot": "S1" },
+        { "sow_week": 18, "harvest_week": 22, "bed": "bed-c", "slot": "S1" },
+        { "sow_week": 20, "harvest_week": 24, "bed": "bed-d", "slot": "S1" },
+        { "sow_week": 22, "harvest_week": 26, "bed": "bed-a", "slot": "S1" },
+        { "sow_week": 24, "harvest_week": 28, "bed": "bed-c", "slot": "S1" },
+        { "sow_week": 26, "harvest_week": 30, "bed": "bed-d", "slot": "S1" },
+        { "sow_week": 28, "harvest_week": 32, "bed": "bed-a", "slot": "S1" },
+        { "sow_week": 30, "harvest_week": 34, "bed": "bed-c", "slot": "S1" },
+        { "sow_week": 32, "harvest_week": 36, "bed": "bed-d", "slot": "S1" }
+      ]
+    },
+    {
+      "crop_id": "lettuce-baby-mix",
+      "succession": true,
+      "interval_weeks": 3,
+      "days_to_maturity": 21,
+      "buffer_weeks": 1,
+      "sowings": [
+        { "sow_week": 16, "harvest_week": 20, "bed": "bed-d", "slot": "S2" },
+        { "sow_week": 19, "harvest_week": 23, "bed": "bed-e", "slot": "S1" },
+        { "sow_week": 22, "harvest_week": 26, "bed": "bed-d", "slot": "S2" },
+        { "sow_week": 25, "harvest_week": 29, "bed": "bed-e", "slot": "S1" },
+        { "sow_week": 28, "harvest_week": 32, "bed": "bed-d", "slot": "S2" },
+        { "sow_week": 30, "harvest_week": 34, "bed": "bed-e", "slot": "S1" }
+      ]
+    },
+    {
+      "crop_id": "spring-onion-white-lisbon",
+      "succession": true,
+      "interval_weeks": 4,
+      "days_to_maturity": 56,
+      "buffer_weeks": 1,
+      "sowings": [
+        { "sow_week": 16, "harvest_week": 25, "bed": "bed-d", "slot": "S3" },
+        { "sow_week": 20, "harvest_week": 29, "bed": "bed-d", "slot": "S3" },
+        { "sow_week": 24, "harvest_week": 33, "bed": "bed-d", "slot": "S3" },
+        { "sow_week": 28, "harvest_week": 37, "bed": "bed-d", "slot": "S3" }
+      ]
+    },
+    {
+      "crop_id": "pea-kelvedon-wonder",
+      "succession": true,
+      "interval_weeks": 6,
+      "days_to_maturity": 56,
+      "buffer_weeks": 1,
+      "sowings": [
+        { "sow_week": 16, "harvest_week": 25, "bed": "bed-c", "slot": "S2" },
+        { "sow_week": 22, "harvest_week": 31, "bed": "bed-c", "slot": "S2" }
+      ]
+    },
+    {
+      "crop_id": "bush-bean-provider",
+      "succession": true,
+      "interval_weeks": 4,
+      "days_to_maturity": 56,
+      "buffer_weeks": 1,
+      "sowings": [
+        { "sow_week": 20, "harvest_week": 29, "bed": "bed-e", "slot": "S2" },
+        { "sow_week": 24, "harvest_week": 33, "bed": "bed-e", "slot": "S2" }
+      ]
+    },
+    {
+      "crop_id": "strawberry-ostara",
+      "succession": false,
+      "harvest_windows": [
+        { "start_week": 23, "end_week": 38, "continuous": true }
+      ]
+    },
+    {
+      "crop_id": "strawberry-korona",
+      "succession": false,
+      "harvest_windows": [
+        { "start_week": 23, "end_week": 30, "continuous": true }
+      ]
+    },
+    {
+      "crop_id": "raspberry-autumn-bliss",
+      "succession": false,
+      "harvest_windows": [
+        { "start_week": 31, "end_week": 40, "continuous": true }
+      ]
+    },
+    {
+      "crop_id": "kale-nero-di-toscana",
+      "succession": false,
+      "harvest_windows": [
+        { "start_week": 26, "end_week": 44, "continuous": true }
+      ]
+    },
+    {
+      "crop_id": "cherry-tomato-sungold",
+      "succession": false,
+      "harvest_windows": [
+        { "start_week": 28, "end_week": 40, "continuous": true }
+      ]
+    },
+    {
+      "crop_id": "cherry-tomato-tumbling-tom",
+      "succession": false,
+      "harvest_windows": [
+        { "start_week": 28, "end_week": 40, "continuous": true }
+      ]
+    },
+    {
+      "crop_id": "cucumber-mini-munch",
+      "succession": false,
+      "harvest_windows": [
+        { "start_week": 27, "end_week": 38, "continuous": true }
+      ]
+    },
+    {
+      "crop_id": "sweet-pepper-lipstick",
+      "succession": false,
+      "harvest_windows": [
+        { "start_week": 30, "end_week": 40, "continuous": true }
+      ]
+    },
+    {
+      "crop_id": "chives",
+      "succession": false,
+      "harvest_windows": [
+        { "start_week": 18, "end_week": 42, "continuous": true }
+      ]
+    },
+    {
+      "crop_id": "pea-shoots",
+      "succession": false,
+      "harvest_windows": [
+        { "start_week": 19, "end_week": 26, "continuous": true }
+      ]
+    },
+    {
+      "crop_id": "broccoli-calabrese",
+      "succession": false,
+      "harvest_windows": [
+        { "start_week": 30, "end_week": 36, "continuous": true }
+      ]
+    }
+  ],
+  "gap_analysis": {
+    "target": "No 2-week gap in harvestable crops from W22 (late May) through W43 (late October)",
+    "minimum_crops_per_week": 2,
+    "weeks": {
+      "W22": { "harvestable": ["radish", "lettuce-baby-mix", "pea-shoots", "chives"], "count": 4 },
+      "W23": { "harvestable": ["radish", "lettuce-baby-mix", "pea-shoots", "chives", "strawberry-ostara", "strawberry-korona"], "count": 6 },
+      "W24": { "harvestable": ["radish", "lettuce-baby-mix", "pea-shoots", "chives", "strawberry-ostara", "strawberry-korona"], "count": 6 },
+      "W25": { "harvestable": ["radish", "pea-kelvedon-wonder", "spring-onion-white-lisbon", "pea-shoots", "chives", "strawberry-ostara", "strawberry-korona"], "count": 7 },
+      "W26": { "harvestable": ["radish", "lettuce-baby-mix", "pea-kelvedon-wonder", "spring-onion-white-lisbon", "pea-shoots", "chives", "strawberry-ostara", "strawberry-korona", "kale-nero-di-toscana"], "count": 9 },
+      "W27": { "harvestable": ["radish", "pea-kelvedon-wonder", "chives", "strawberry-ostara", "strawberry-korona", "kale-nero-di-toscana", "cucumber-mini-munch"], "count": 7 },
+      "W28": { "harvestable": ["radish", "pea-kelvedon-wonder", "chives", "strawberry-ostara", "strawberry-korona", "kale-nero-di-toscana", "cucumber-mini-munch", "cherry-tomato-sungold", "cherry-tomato-tumbling-tom"], "count": 9 },
+      "W29": { "harvestable": ["radish", "lettuce-baby-mix", "pea-kelvedon-wonder", "spring-onion-white-lisbon", "bush-bean-provider", "chives", "strawberry-ostara", "strawberry-korona", "kale-nero-di-toscana", "cucumber-mini-munch", "cherry-tomato-sungold", "cherry-tomato-tumbling-tom"], "count": 12 },
+      "W30": { "harvestable": ["radish", "pea-kelvedon-wonder", "strawberry-ostara", "strawberry-korona", "kale-nero-di-toscana", "cucumber-mini-munch", "cherry-tomato-sungold", "cherry-tomato-tumbling-tom", "sweet-pepper-lipstick", "broccoli-calabrese", "chives"], "count": 11 },
+      "W31": { "harvestable": ["radish", "pea-kelvedon-wonder", "lettuce-baby-mix", "strawberry-ostara", "kale-nero-di-toscana", "cucumber-mini-munch", "cherry-tomato-sungold", "cherry-tomato-tumbling-tom", "sweet-pepper-lipstick", "broccoli-calabrese", "raspberry-autumn-bliss", "chives"], "count": 12 },
+      "W32": { "harvestable": ["radish", "lettuce-baby-mix", "strawberry-ostara", "kale-nero-di-toscana", "cucumber-mini-munch", "cherry-tomato-sungold", "cherry-tomato-tumbling-tom", "sweet-pepper-lipstick", "broccoli-calabrese", "raspberry-autumn-bliss", "chives"], "count": 11 },
+      "W33": { "harvestable": ["radish", "spring-onion-white-lisbon", "bush-bean-provider", "strawberry-ostara", "kale-nero-di-toscana", "cucumber-mini-munch", "cherry-tomato-sungold", "cherry-tomato-tumbling-tom", "sweet-pepper-lipstick", "broccoli-calabrese", "raspberry-autumn-bliss", "chives"], "count": 12 },
+      "W34": { "harvestable": ["radish", "lettuce-baby-mix", "strawberry-ostara", "kale-nero-di-toscana", "cucumber-mini-munch", "cherry-tomato-sungold", "cherry-tomato-tumbling-tom", "sweet-pepper-lipstick", "broccoli-calabrese", "raspberry-autumn-bliss", "chives"], "count": 11 },
+      "W35": { "harvestable": ["strawberry-ostara", "kale-nero-di-toscana", "cucumber-mini-munch", "cherry-tomato-sungold", "cherry-tomato-tumbling-tom", "sweet-pepper-lipstick", "broccoli-calabrese", "raspberry-autumn-bliss", "chives"], "count": 9 },
+      "W36": { "harvestable": ["radish", "strawberry-ostara", "kale-nero-di-toscana", "cucumber-mini-munch", "cherry-tomato-sungold", "cherry-tomato-tumbling-tom", "sweet-pepper-lipstick", "broccoli-calabrese", "raspberry-autumn-bliss", "chives"], "count": 10 },
+      "W37": { "harvestable": ["spring-onion-white-lisbon", "strawberry-ostara", "kale-nero-di-toscana", "cucumber-mini-munch", "cherry-tomato-sungold", "cherry-tomato-tumbling-tom", "sweet-pepper-lipstick", "raspberry-autumn-bliss", "chives"], "count": 9 },
+      "W38": { "harvestable": ["strawberry-ostara", "kale-nero-di-toscana", "cucumber-mini-munch", "cherry-tomato-sungold", "cherry-tomato-tumbling-tom", "sweet-pepper-lipstick", "raspberry-autumn-bliss", "chives"], "count": 8 },
+      "W39": { "harvestable": ["kale-nero-di-toscana", "cherry-tomato-sungold", "cherry-tomato-tumbling-tom", "sweet-pepper-lipstick", "raspberry-autumn-bliss", "chives"], "count": 6 },
+      "W40": { "harvestable": ["kale-nero-di-toscana", "cherry-tomato-sungold", "cherry-tomato-tumbling-tom", "sweet-pepper-lipstick", "raspberry-autumn-bliss", "chives"], "count": 6 },
+      "W41": { "harvestable": ["kale-nero-di-toscana", "chives"], "count": 2 },
+      "W42": { "harvestable": ["kale-nero-di-toscana", "chives"], "count": 2 },
+      "W43": { "harvestable": ["kale-nero-di-toscana", "chives"], "count": 2 }
+    },
+    "gaps_found": [],
+    "coverage_ok": true,
+    "notes": "All weeks W22-W43 have at least 2 harvestable crops. Peak diversity W29-W34 (10-12 crops). Late season W41-W43 relies on kale and chives as hardy holdovers. 1-week buffer added to all harvest estimates per research pitfall advice."
+  }
+}

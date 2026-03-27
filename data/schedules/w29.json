@@ -1,0 +1,86 @@
+{
+  "week": 29,
+  "iso_week": "2026-W29",
+  "date_range": { "start": "2026-07-13", "end": "2026-07-19" },
+  "theme": {
+    "name": { "en": "Harvest Basket Week", "da": "Hoestkurv Uge" },
+    "tagline": { "en": "Fill the basket from every bed!", "da": "Fyld kurven fra hvert bed!" },
+    "hero_task": "Fill a basket with harvest from at least 3 different beds"
+  },
+  "tasks": [
+    {
+      "id": "W29-01",
+      "action": "Harvest tomatoes, cucumbers, peas, and kale from Bed C",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 10,
+      "frequency": "daily",
+      "bed": "bed-c",
+      "prompt": { "en": "How many different things can you pick from this one bed?", "da": "Hvor mange forskellige ting kan du plukke fra dette ene bed?" }
+    },
+    {
+      "id": "W29-02",
+      "action": "Pick strawberries from Bed A",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 5,
+      "frequency": "daily",
+      "bed": "bed-a",
+      "crop_id": "strawberry-ostara",
+      "prompt": { "en": "Add strawberries to the harvest basket!", "da": "Laeg jordbaer i hoestkurven!" }
+    },
+    {
+      "id": "W29-03",
+      "action": "Water all beds",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 10,
+      "frequency": "daily",
+      "prompt": { "en": "Peak summer -- water every bed every day!", "da": "Hoejsommer -- vand hvert bed hver dag!" }
+    },
+    {
+      "id": "W29-04",
+      "action": "Harvest bush beans from Bed E (first sowing ready)",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 5,
+      "frequency": "weekly",
+      "bed": "bed-e",
+      "crop_id": "bush-bean-provider",
+      "prompt": { "en": "Feel the bean pod -- when it snaps cleanly, it's ready! Pick lots!", "da": "Maaerk boenneskallen -- naar den knaaekker rent, er den klar! Pluk mange!" }
+    },
+    {
+      "id": "W29-05",
+      "action": "Cut lettuce from Bed D or Bed E",
+      "priority": "nice_to_do",
+      "who": "child",
+      "minutes": 5,
+      "frequency": "weekly",
+      "bed": "bed-d",
+      "crop_id": "lettuce-baby-mix",
+      "prompt": { "en": "Cut outer leaves for tonight's salad!", "da": "Klip yderste blade til aftenens salat!" }
+    },
+    {
+      "id": "W29-06",
+      "action": "Prepare vacation watering plan for W30-W33 if going away",
+      "priority": "nice_to_do",
+      "who": "father",
+      "minutes": 15,
+      "frequency": "once",
+      "prompt": { "en": "If vacation is coming, arrange neighbor watering or set up extra deep-soak before leaving.", "da": "Hvis ferie er paa vej, aftal nabovanding eller giv ekstra dyb vanding foer afrejse." }
+    }
+  ],
+  "growth_events": [
+    {
+      "crop_id": "bush-bean-provider",
+      "event": "First bush bean pods ready to harvest",
+      "prompt": { "en": "The bean pods are hanging like green fingers! Snap one off and listen -- SNAP!", "da": "Boenneskulkerne haenger som groenne fingre! Knaek en af og lyt -- KNAEK!" }
+    },
+    {
+      "crop_id": "sunflower",
+      "event": "Sunflower forming flower bud at the top",
+      "prompt": { "en": "See the big fat bud at the top? The sunflower face is forming in there!", "da": "Ser du den store tykke knop i toppen? Solsikkeansigtet dannes derinde!" }
+    }
+  ],
+  "sowing_tasks": []
+}

@@ -1,0 +1,89 @@
+{
+  "week": 21,
+  "iso_week": "2026-W21",
+  "date_range": { "start": "2026-05-18", "end": "2026-05-24" },
+  "theme": {
+    "name": { "en": "Warm Friends Arrive", "da": "Varme Venner Ankommer" },
+    "tagline": { "en": "The tomatoes and cucumbers move outside!", "da": "Tomaterne og agurkerne flytter udenfor!" },
+    "hero_task": "Transplant tomato seedlings into Bed C"
+  },
+  "tasks": [
+    {
+      "id": "W21-01",
+      "action": "Transplant cherry tomato (Sungold) into Bed C",
+      "priority": "must_do",
+      "who": "together",
+      "minutes": 15,
+      "frequency": "once",
+      "bed": "bed-c",
+      "crop_id": "cherry-tomato-sungold",
+      "prompt": { "en": "Squeeze the pot gently to pop the plant out -- be careful with the roots!", "da": "Klem forsigtigt paa potten for at faa planten ud -- vaer forsigtig med roedderne!" }
+    },
+    {
+      "id": "W21-02",
+      "action": "Transplant cucumber seedling onto trellis in Bed C",
+      "priority": "must_do",
+      "who": "together",
+      "minutes": 10,
+      "frequency": "once",
+      "bed": "bed-c",
+      "crop_id": "cucumber-mini-munch",
+      "prompt": { "en": "Plant it right next to the trellis -- it will climb up like the peas!", "da": "Plant den lige ved espalieren -- den klatrer op ligesom aerterne!" }
+    },
+    {
+      "id": "W21-03",
+      "action": "Transplant sweet pepper into Bed C",
+      "priority": "must_do",
+      "who": "together",
+      "minutes": 10,
+      "frequency": "once",
+      "bed": "bed-c",
+      "crop_id": "sweet-pepper-lipstick",
+      "prompt": { "en": "This plant will make red peppers you can eat right off the plant!", "da": "Den her plante laver roede peberfrugter, du kan spise direkte fra planten!" }
+    },
+    {
+      "id": "W21-04",
+      "action": "Plant basil next to tomatoes in Bed C",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 5,
+      "frequency": "once",
+      "bed": "bed-c",
+      "crop_id": "basil",
+      "prompt": { "en": "Basil is the tomato's best friend -- they grow better together! Smell the leaves!", "da": "Basilikum er tomatens bedste ven -- de gror bedre sammen! Lugt til bladene!" }
+    },
+    {
+      "id": "W21-05",
+      "action": "Transplant Tumbling Tom cherry tomato into Bed E",
+      "priority": "must_do",
+      "who": "together",
+      "minutes": 10,
+      "frequency": "once",
+      "bed": "bed-e",
+      "crop_id": "cherry-tomato-tumbling-tom",
+      "prompt": { "en": "This tomato will hang over the edge like a waterfall of tomatoes!", "da": "Denne tomat haenger ud over kanten som et vandfald af tomater!" }
+    },
+    {
+      "id": "W21-06",
+      "action": "Water all beds -- extra water for new transplants",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 10,
+      "frequency": "daily",
+      "prompt": { "en": "The new plants are nervous in their new home -- give them extra water today!", "da": "De nye planter er nervose i deres nye hjem -- giv dem ekstra vand i dag!" }
+    }
+  ],
+  "growth_events": [
+    {
+      "crop_id": "strawberry-ostara",
+      "event": "Strawberries beginning to flower -- white petals with yellow centers",
+      "prompt": { "en": "Can you count the white flowers? Each one could become a strawberry!", "da": "Kan du taelle de hvide blomster? Hver en kan blive til et jordbaer!" }
+    },
+    {
+      "crop_id": "sunflower",
+      "event": "Sunflower seedlings emerging with thick sturdy stems",
+      "prompt": { "en": "The sunflower is already pushing up! Measure it with your hand -- how many hands tall?", "da": "Solsikken skyder allerede op! Maal den med din haand -- hvor mange haender hoej?" }
+    }
+  ],
+  "sowing_tasks": []
+}

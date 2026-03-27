@@ -1,0 +1,72 @@
+{
+  "week": 19,
+  "iso_week": "2026-W19",
+  "date_range": { "start": "2026-05-04", "end": "2026-05-10" },
+  "theme": {
+    "name": { "en": "Pea Shoot Snack Week", "da": "Aerteskud Snack Uge" },
+    "tagline": { "en": "Taste something you grew!", "da": "Smag noget du selv har dyrket!" },
+    "hero_task": "First pea shoot harvest for a snack"
+  },
+  "tasks": [
+    {
+      "id": "W19-01",
+      "action": "Harvest first pea shoots from Bed A for a snack",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 5,
+      "frequency": "once",
+      "bed": "bed-a",
+      "crop_id": "pea-shoots",
+      "prompt": { "en": "Snip the top 5cm with scissors -- taste it right there in the garden!", "da": "Klip de oeverste 5cm med en saks -- smag den lige der i haven!" }
+    },
+    {
+      "id": "W19-02",
+      "action": "Water all beds",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 10,
+      "frequency": "daily",
+      "prompt": { "en": "Check each bed with your finger first -- only water the dry ones!", "da": "Tjek hvert bed med din finger foerst -- vand kun de toerre!" }
+    },
+    {
+      "id": "W19-03",
+      "action": "Guide pea tendrils onto trellis in Bed C",
+      "priority": "must_do",
+      "who": "together",
+      "minutes": 5,
+      "frequency": "weekly",
+      "bed": "bed-c",
+      "crop_id": "pea-kelvedon-wonder",
+      "prompt": { "en": "Gently wrap the curly tendril around the wire -- it will grab on by itself!", "da": "Vikl forsigtigt snoetraaden rundt om traaden -- den griber selv fat!" }
+    },
+    {
+      "id": "W19-04",
+      "action": "Check slug defense copper tape on all beds",
+      "priority": "nice_to_do",
+      "who": "father",
+      "minutes": 5,
+      "frequency": "once",
+      "prompt": { "en": "Walk around all beds checking the copper tape -- replace any peeling sections.", "da": "Gaa rundt om alle bede og tjek kobbertapen -- udskift loese stykker." }
+    }
+  ],
+  "growth_events": [
+    {
+      "crop_id": "pea-shoots",
+      "event": "Pea shoots ready for first cutting at 10-15cm tall",
+      "prompt": { "en": "The pea shoots are tall enough to eat! Snip and taste -- do they taste sweet?", "da": "Aerteskuddene er hoeje nok til at spise! Klip og smag -- smager de soedt?" }
+    },
+    {
+      "crop_id": "lettuce-baby-mix",
+      "event": "First lettuce seedlings showing tiny leaves",
+      "prompt": { "en": "Can you see the baby lettuce leaves? They're so small right now!", "da": "Kan du se de smaa salatblade? De er saa smaa lige nu!" }
+    }
+  ],
+  "sowing_tasks": [
+    {
+      "crop_id": "lettuce-baby-mix",
+      "bed": "bed-e",
+      "slot": "S1",
+      "action": "Sow second succession lettuce in Bed E"
+    }
+  ]
+}

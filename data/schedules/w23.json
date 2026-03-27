@@ -1,0 +1,78 @@
+{
+  "week": 23,
+  "iso_week": "2026-W23",
+  "date_range": { "start": "2026-06-01", "end": "2026-06-07" },
+  "theme": {
+    "name": { "en": "First Strawberry Week", "da": "Foerste Jordbaer Uge" },
+    "tagline": { "en": "Red means GO -- pick and eat!", "da": "Roed betyder KOM -- pluk og spis!" },
+    "hero_task": "Pick the first ripe strawberries"
+  },
+  "tasks": [
+    {
+      "id": "W23-01",
+      "action": "Pick first ripe strawberries from Bed A",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 10,
+      "frequency": "daily",
+      "bed": "bed-a",
+      "crop_id": "strawberry-ostara",
+      "prompt": { "en": "Only pick the RED ones -- leave the white ones for tomorrow! How many did you get?", "da": "Pluk kun de ROEDE -- lad de hvide sidde til i morgen! Hvor mange fik du?" }
+    },
+    {
+      "id": "W23-02",
+      "action": "Water all beds",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 10,
+      "frequency": "daily",
+      "prompt": { "en": "Strawberries need steady water now that they're fruiting!", "da": "Jordbaer har brug for jaevn vanding nu, hvor de saetter frugt!" }
+    },
+    {
+      "id": "W23-03",
+      "action": "Harvest second-batch radishes from Bed C (sown W18)",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 5,
+      "frequency": "once",
+      "bed": "bed-c",
+      "crop_id": "radish",
+      "prompt": { "en": "Pull and taste -- are these different from the first ones?", "da": "Traek og smag -- er de her anderledes end de foerste?" }
+    },
+    {
+      "id": "W23-04",
+      "action": "Check tomato for first flowers",
+      "priority": "nice_to_do",
+      "who": "child",
+      "minutes": 3,
+      "frequency": "weekly",
+      "bed": "bed-c",
+      "crop_id": "cherry-tomato-sungold",
+      "prompt": { "en": "Look for little yellow star flowers on the tomato -- each one becomes a tomato!", "da": "Kig efter smaa gule stjerneblomster paa tomaten -- hver en bliver til en tomat!" }
+    },
+    {
+      "id": "W23-05",
+      "action": "Cut first lettuce harvest from Bed D",
+      "priority": "nice_to_do",
+      "who": "child",
+      "minutes": 5,
+      "frequency": "weekly",
+      "bed": "bed-d",
+      "crop_id": "lettuce-baby-mix",
+      "prompt": { "en": "Cut the outer leaves with scissors -- leave the middle so it grows back!", "da": "Klip de yderste blade med en saks -- lad midten staa, saa den gror igen!" }
+    }
+  ],
+  "growth_events": [
+    {
+      "crop_id": "strawberry-ostara",
+      "event": "First ripe strawberries turning red",
+      "prompt": { "en": "The green berries are turning RED! Each red one is ready to eat right now!", "da": "De groenne baer bliver ROEDE! Hvert roedt er klar til at spise lige nu!" }
+    },
+    {
+      "crop_id": "cucumber-mini-munch",
+      "event": "Cucumber starting to climb the trellis",
+      "prompt": { "en": "The cucumber is grabbing the trellis with its tendrils -- just like the peas did!", "da": "Agurken griber espalieren med sine snoetraade -- ligesom aerterne!" }
+    }
+  ],
+  "sowing_tasks": []
+}

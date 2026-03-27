@@ -1,0 +1,84 @@
+{
+  "week": 25,
+  "iso_week": "2026-W25",
+  "date_range": { "start": "2026-06-15", "end": "2026-06-21" },
+  "theme": {
+    "name": { "en": "Pea Pod Week", "da": "Aerteskal Uge" },
+    "tagline": { "en": "Pop the pod, eat the peas!", "da": "Knaaek skallen, spis aerterne!" },
+    "hero_task": "Pick and eat first pea pods from the trellis"
+  },
+  "tasks": [
+    {
+      "id": "W25-01",
+      "action": "Harvest first pea pods from Bed C trellis",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 10,
+      "frequency": "weekly",
+      "bed": "bed-c",
+      "crop_id": "pea-kelvedon-wonder",
+      "prompt": { "en": "Feel the pod -- when it's bumpy and fat, it's ready! Pop it open and eat the peas!", "da": "Maaerk skullen -- naar den er knoldret og tyk, er den klar! Knaek den op og spis aerterne!" }
+    },
+    {
+      "id": "W25-02",
+      "action": "Pick strawberries from Bed A",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 5,
+      "frequency": "daily",
+      "bed": "bed-a",
+      "crop_id": "strawberry-ostara",
+      "prompt": { "en": "How many red ones today? Keep count this week!", "da": "Hvor mange roede i dag? Hold taelling denne uge!" }
+    },
+    {
+      "id": "W25-03",
+      "action": "Water all beds",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 10,
+      "frequency": "daily",
+      "prompt": { "en": "Midsummer watering -- every bed needs a good drink!", "da": "Midsommervanding -- hvert bed har brug for en god slurk!" }
+    },
+    {
+      "id": "W25-04",
+      "action": "Cut lettuce from Bed E (second sowing ready)",
+      "priority": "nice_to_do",
+      "who": "child",
+      "minutes": 5,
+      "frequency": "weekly",
+      "bed": "bed-e",
+      "crop_id": "lettuce-baby-mix",
+      "prompt": { "en": "Cut-and-come-again! Snip the outer leaves for a salad.", "da": "Klip-og-kom-igen! Klip de yderste blade til en salat." }
+    },
+    {
+      "id": "W25-05",
+      "action": "Check for aphids on Bed C crops -- spray water if found",
+      "priority": "nice_to_do",
+      "who": "together",
+      "minutes": 5,
+      "frequency": "weekly",
+      "bed": "bed-c",
+      "prompt": { "en": "Look under the leaves -- see any tiny green bugs? Spray them off with the hose!", "da": "Kig under bladene -- ser du smaa groenne insekter? Spraaejt dem af med slangen!" }
+    }
+  ],
+  "growth_events": [
+    {
+      "crop_id": "pea-kelvedon-wonder",
+      "event": "First pea pods ready for picking on trellis",
+      "prompt": { "en": "The peas made pods! Feel how bumpy they are -- that's the peas inside!", "da": "Aerterne har lavet skuller! Maaerk hvor knoldrede de er -- det er aerterne indeni!" }
+    },
+    {
+      "crop_id": "nasturtium",
+      "event": "Nasturtium seedlings showing round lily-pad leaves",
+      "prompt": { "en": "See the round leaves like little lily pads? The flowers are coming soon!", "da": "Ser du de runde blade som smaa aakandeblade? Blomsterne kommer snart!" }
+    }
+  ],
+  "sowing_tasks": [
+    {
+      "crop_id": "lettuce-baby-mix",
+      "bed": "bed-e",
+      "slot": "S1",
+      "action": "Sow fourth succession lettuce in Bed E"
+    }
+  ]
+}

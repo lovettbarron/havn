@@ -1,0 +1,97 @@
+{
+  "week": 28,
+  "iso_week": "2026-W28",
+  "date_range": { "start": "2026-07-06", "end": "2026-07-12" },
+  "theme": {
+    "name": { "en": "Tomato Treasure Week", "da": "Tomat Skat Uge" },
+    "tagline": { "en": "Golden tomatoes -- sweeter than candy!", "da": "Gyldne tomater -- soedere end slik!" },
+    "hero_task": "Pick and taste the first ripe cherry tomatoes"
+  },
+  "tasks": [
+    {
+      "id": "W28-01",
+      "action": "Pick first ripe cherry tomatoes from Bed C (Sungold)",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 5,
+      "frequency": "daily",
+      "bed": "bed-c",
+      "crop_id": "cherry-tomato-sungold",
+      "prompt": { "en": "The orange ones are ripe! Twist gently and taste -- so sweet!", "da": "De orange er modne! Vrid forsigtigt og smag -- saa soedt!" }
+    },
+    {
+      "id": "W28-02",
+      "action": "Pick strawberries from Bed A",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 5,
+      "frequency": "daily",
+      "bed": "bed-a",
+      "crop_id": "strawberry-ostara",
+      "prompt": { "en": "Strawberry patrol continues! Check under the leaves too.", "da": "Jordbaerpatruljen fortsaetter! Tjek ogsaa under bladene." }
+    },
+    {
+      "id": "W28-03",
+      "action": "Harvest cucumbers from Bed C (pick when 10-15cm)",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 5,
+      "frequency": "daily",
+      "bed": "bed-c",
+      "crop_id": "cucumber-mini-munch",
+      "prompt": { "en": "Pick them small -- they taste better little! Use scissors to cut the stem.", "da": "Pluk dem smaa -- de smager bedre, naar de er smaa! Brug saks til at klippe stilken." }
+    },
+    {
+      "id": "W28-04",
+      "action": "Water all beds -- extra for tomatoes and cucumbers",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 10,
+      "frequency": "daily",
+      "prompt": { "en": "Tomatoes and cucumbers are thirsty in summer -- give them a big drink!", "da": "Tomater og agurker er toerstige om sommeren -- giv dem en stor slurk!" }
+    },
+    {
+      "id": "W28-05",
+      "action": "Check Tumbling Tom on Bed E for first tomatoes",
+      "priority": "nice_to_do",
+      "who": "child",
+      "minutes": 3,
+      "frequency": "weekly",
+      "bed": "bed-e",
+      "crop_id": "cherry-tomato-tumbling-tom",
+      "prompt": { "en": "Look at the hanging tomatoes -- any turning red yet?", "da": "Kig paa de haengende tomater -- er nogen ved at blive roede?" }
+    }
+  ],
+  "growth_events": [
+    {
+      "crop_id": "cherry-tomato-sungold",
+      "event": "First Sungold cherry tomatoes ripening to golden orange",
+      "prompt": { "en": "See the golden orange ones? Those are ready! Pop one in your mouth!", "da": "Ser du de gyldne orange? De er klar! Pop en i munden!" }
+    },
+    {
+      "crop_id": "nasturtium",
+      "event": "Nasturtiums bursting into flower -- orange and red blooms",
+      "prompt": { "en": "The nasturtiums are flowering! Try eating a petal -- it tastes peppery!", "da": "Nasturtierne blomstrer! Proev at spise et kronblad -- det smager peberagtigt!" }
+    }
+  ],
+  "sowing_tasks": [
+    {
+      "crop_id": "radish",
+      "bed": "bed-a",
+      "slot": "S1",
+      "action": "Sow seventh succession radish in Bed A"
+    },
+    {
+      "crop_id": "lettuce-baby-mix",
+      "bed": "bed-d",
+      "slot": "S2",
+      "action": "Sow fifth succession lettuce in Bed D"
+    },
+    {
+      "crop_id": "spring-onion-white-lisbon",
+      "bed": "bed-d",
+      "slot": "S3",
+      "action": "Sow fourth spring onion batch in Bed D"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "week": 15,
+  "iso_week": "2026-W15",
+  "date_range": { "start": "2026-04-06", "end": "2026-04-12" },
+  "theme": {
+    "name": { "en": "Preparation Week", "da": "Forberedelses Uge" },
+    "tagline": { "en": "Getting everything ready for planting day!", "da": "Vi goer alt klar til plantedagen!" },
+    "hero_task": "Paint plant markers for His Bed"
+  },
+  "tasks": [
+    {
+      "id": "W15-01",
+      "action": "Paint wooden plant markers for Bed A crops",
+      "priority": "must_do",
+      "who": "together",
+      "minutes": 30,
+      "frequency": "once",
+      "bed": "bed-a",
+      "prompt": { "en": "Draw a picture or write the plant name on each marker -- spelling doesn't matter, pictures work great!", "da": "Tegn et billede eller skriv plantens navn paa hver markering -- stavning er ligegyldigt, billeder virker ogsaa!" }
+    },
+    {
+      "id": "W15-02",
+      "action": "Check beds are ready: soil level, drainage, copper tape intact",
+      "priority": "must_do",
+      "who": "father",
+      "minutes": 15,
+      "frequency": "once",
+      "prompt": { "en": "Walk the bed circuit: check soil level is 5cm from rim, copper tape unbroken, reservoirs filled.", "da": "Gaa bedrunden: tjek jordniveau er 5cm fra kanten, kobbertape er hel, reservoirer fyldt." }
+    },
+    {
+      "id": "W15-03",
+      "action": "Lay out seeds and seedlings by each bed for planting day",
+      "priority": "nice_to_do",
+      "who": "father",
+      "minutes": 10,
+      "frequency": "once",
+      "prompt": { "en": "Sort all seeds and plugs into labelled bags by bed letter.", "da": "Sorter alle froe og planter i maerkede poser efter bedbogstav." }
+    },
+    {
+      "id": "W15-04",
+      "action": "Explore the garden together -- spot any early spring growth",
+      "priority": "nice_to_do",
+      "who": "together",
+      "minutes": 10,
+      "frequency": "once",
+      "prompt": { "en": "Walk around and look -- can you find anything green poking up?", "da": "Gaa rundt og kig -- kan du finde noget groent, der stikker op?" }
+    }
+  ],
+  "growth_events": [
+    {
+      "crop_id": "strawberry-ostara",
+      "event": "Strawberry crowns showing first green buds after winter dormancy",
+      "prompt": { "en": "Look at the strawberry plants -- can you see tiny green leaves uncurling from the middle?", "da": "Kig paa jordbaerplanterne -- kan du se smaa groenne blade, der folder sig ud fra midten?" }
+    }
+  ],
+  "sowing_tasks": []
+}

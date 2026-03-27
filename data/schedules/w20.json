@@ -1,0 +1,84 @@
+{
+  "week": 20,
+  "iso_week": "2026-W20",
+  "date_range": { "start": "2026-05-11", "end": "2026-05-17" },
+  "theme": {
+    "name": { "en": "Last Frost Week", "da": "Sidste Frost Uge" },
+    "tagline": { "en": "Almost safe to plant the warm friends!", "da": "Naesten sikkert at plante de varme venner!" },
+    "hero_task": "Pull the first radish harvest"
+  },
+  "tasks": [
+    {
+      "id": "W20-01",
+      "action": "Harvest first radishes from Bed A (sown W16)",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 10,
+      "frequency": "once",
+      "bed": "bed-a",
+      "crop_id": "radish",
+      "prompt": { "en": "Grab the green top and PULL! Rinse it off and taste it -- is it spicy or mild?", "da": "Tag fat i det groenne top og TRAEK! Skyl den og smag -- er den staerk eller mild?" }
+    },
+    {
+      "id": "W20-02",
+      "action": "Sow bush bean seeds in Bed E (after last frost)",
+      "priority": "must_do",
+      "who": "together",
+      "minutes": 10,
+      "frequency": "once",
+      "bed": "bed-e",
+      "crop_id": "bush-bean-provider",
+      "prompt": { "en": "Push each bean into the soil -- they look like little kidneys!", "da": "Tryk hver boenne ned i jorden -- de ligner smaa nyrer!" }
+    },
+    {
+      "id": "W20-03",
+      "action": "Water all beds",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 10,
+      "frequency": "daily",
+      "prompt": { "en": "Water each bed carefully -- the new seedlings need gentle watering.", "da": "Vand hvert bed forsigtigt -- de nye spirer har brug for blidd vanding." }
+    },
+    {
+      "id": "W20-04",
+      "action": "Check weather forecast for frost -- cover tender seedlings if needed",
+      "priority": "must_do",
+      "who": "father",
+      "minutes": 5,
+      "frequency": "daily",
+      "prompt": { "en": "Last frost date is around May 10 -- keep fleece ready for cold nights this week.", "da": "Sidste frostdato er omkring 10. maj -- hold fiberdug klar til kolde naetter i denne uge." }
+    }
+  ],
+  "growth_events": [
+    {
+      "crop_id": "radish",
+      "event": "First radishes ready to pull -- pink tops visible above soil",
+      "prompt": { "en": "See the pink top poking out? That means it's ready -- PULL!", "da": "Ser du den lyserode top, der stikker op? Det betyder den er klar -- TRAEK!" }
+    },
+    {
+      "crop_id": "pea-kelvedon-wonder",
+      "event": "Peas climbing the trellis actively",
+      "prompt": { "en": "The peas are racing up the trellis! How high have they climbed?", "da": "Aerterne klatrer op ad espalieren! Hvor hoejt er de kommet?" }
+    }
+  ],
+  "sowing_tasks": [
+    {
+      "crop_id": "radish",
+      "bed": "bed-d",
+      "slot": "S1",
+      "action": "Sow third succession radish in Bed D"
+    },
+    {
+      "crop_id": "spring-onion-white-lisbon",
+      "bed": "bed-d",
+      "slot": "S3",
+      "action": "Sow second spring onion batch in Bed D"
+    },
+    {
+      "crop_id": "bush-bean-provider",
+      "bed": "bed-e",
+      "slot": "S2",
+      "action": "Sow first bush bean seeds in Bed E"
+    }
+  ]
+}

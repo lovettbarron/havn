@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "week.schema.json",
+  "title": "Weekly Schedule",
+  "description": "Schema for Havn garden weekly schedule files (W15-W44)",
+  "type": "object",
+  "required": ["week", "iso_week", "date_range", "theme", "tasks", "growth_events", "sowing_tasks"],
+  "properties": {
+    "week": {
+      "type": "integer",
+      "minimum": 15,
+      "maximum": 44,
+      "description": "ISO week number"
+    },
+    "iso_week": {
+      "type": "string",
+      "pattern": "^2026-W[0-9]{2}$",
+      "description": "ISO 8601 week string, e.g. 2026-W15"
+    },
+    "date_range": {
+      "type": "object",
+      "required": ["start", "end"],
+      "properties": {
+        "start": { "type": "string", "format": "date" },
+        "end": { "type": "string", "format": "date" }
+      },
+      "additionalProperties": false
+    },
+    "theme": {
+      "type": "object",
+      "required": ["name", "tagline", "hero_task"],
+      "properties": {
+        "name": { "$ref": "#/$defs/bilingual" },
+        "tagline": { "$ref": "#/$defs/bilingual" },
+        "hero_task": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "tasks": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "action", "priority", "who", "minutes", "frequency"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^W[0-9]{2}-[0-9]{2}$"
+          },
+          "action": { "type": "string" },
+          "priority": { "enum": ["must_do", "nice_to_do"] },
+          "who": { "enum": ["child", "father", "together"] },
+          "minutes": { "type": "integer", "minimum": 1 },
+          "frequency": { "enum": ["daily", "once", "weekly"] },
+          "bed": { "type": "string" },
+          "crop_id": { "type": "string" },
+          "prompt": { "$ref": "#/$defs/bilingual" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "growth_events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["crop_id", "event", "prompt"],
+        "properties": {
+          "crop_id": { "type": "string" },
+          "event": { "type": "string" },
+          "prompt": { "$ref": "#/$defs/bilingual" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "sowing_tasks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["crop_id", "bed", "slot", "action"],
+        "properties": {
+          "crop_id": { "type": "string" },
+          "bed": { "type": "string" },
+          "slot": { "type": "string" },
+          "action": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "bilingual": {
+      "type": "object",
+      "required": ["en", "da"],
+      "properties": {
+        "en": { "type": "string" },
+        "da": { "type": "string" }
+      },
+      "additionalProperties": false
+    }
+  }
+}

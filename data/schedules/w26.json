@@ -1,0 +1,85 @@
+{
+  "week": 26,
+  "iso_week": "2026-W26",
+  "date_range": { "start": "2026-06-22", "end": "2026-06-28" },
+  "theme": {
+    "name": { "en": "Kale Dinosaur Week", "da": "Groenkal Dinosaur Uge" },
+    "tagline": { "en": "The dinosaur leaves are ready to pick!", "da": "Dinosaurbladene er klar til at plukke!" },
+    "hero_task": "Pick first kale leaves that look like dinosaur skin"
+  },
+  "tasks": [
+    {
+      "id": "W26-01",
+      "action": "Pick first kale leaves from Bed C",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 5,
+      "frequency": "weekly",
+      "bed": "bed-c",
+      "crop_id": "kale-nero-di-toscana",
+      "prompt": { "en": "Snap off the lowest big leaves -- feel the bumpy texture, just like dinosaur skin!", "da": "Knaek de nederste store blade af -- maaerk den knoldrede overflade, ligesom dinosaurhud!" }
+    },
+    {
+      "id": "W26-02",
+      "action": "Pick strawberries from Bed A",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 5,
+      "frequency": "daily",
+      "bed": "bed-a",
+      "crop_id": "strawberry-ostara",
+      "prompt": { "en": "Strawberry patrol! How many red ones today?", "da": "Jordbaerpatrulje! Hvor mange roede i dag?" }
+    },
+    {
+      "id": "W26-03",
+      "action": "Water all beds",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 10,
+      "frequency": "daily",
+      "prompt": { "en": "Hot week coming -- water deeply so roots stay happy.", "da": "Varm uge paa vej -- vand dybt saa roedderne har det godt." }
+    },
+    {
+      "id": "W26-04",
+      "action": "Harvest pea pods from Bed C",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 5,
+      "frequency": "weekly",
+      "bed": "bed-c",
+      "crop_id": "pea-kelvedon-wonder",
+      "prompt": { "en": "Check the trellis top to bottom -- pods hide behind the leaves!", "da": "Tjek espalieren fra top til bund -- skuller gemmer sig bag bladene!" }
+    },
+    {
+      "id": "W26-05",
+      "action": "Trim any brown or dead leaves from strawberries",
+      "priority": "nice_to_do",
+      "who": "child",
+      "minutes": 5,
+      "frequency": "weekly",
+      "bed": "bed-a",
+      "crop_id": "strawberry-ostara",
+      "prompt": { "en": "Pull off any brown leaves so the plant puts energy into making berries!", "da": "Fjern brune blade saa planten bruger energien paa at lave baer!" }
+    }
+  ],
+  "growth_events": [
+    {
+      "crop_id": "kale-nero-di-toscana",
+      "event": "Kale leaves large enough for first harvest",
+      "prompt": { "en": "The kale leaves are huge! Feel the bumpy texture -- they look like dinosaur skin!", "da": "Groenkalsbladene er kaempestore! Maaerk den knoldrede overflade -- de ligner dinosaurhud!" }
+    },
+    {
+      "crop_id": "cherry-tomato-sungold",
+      "event": "Tomato plants flowering heavily with yellow clusters",
+      "prompt": { "en": "Count the yellow flower clusters -- each cluster will become tomatoes!", "da": "Tael de gule blomsterklaser -- hver klase bliver til tomater!" }
+    }
+  ],
+  "sowing_tasks": [
+    {
+      "crop_id": "radish",
+      "bed": "bed-d",
+      "slot": "S1",
+      "action": "Sow sixth succession radish in Bed D"
+    }
+  ]
+}

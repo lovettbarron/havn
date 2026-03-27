@@ -1,0 +1,135 @@
+{
+  "week": 16,
+  "iso_week": "2026-W16",
+  "date_range": { "start": "2026-04-13", "end": "2026-04-19" },
+  "theme": {
+    "name": { "en": "Planting Day Week", "da": "Plantedags Uge" },
+    "tagline": { "en": "Our garden begins TODAY!", "da": "Vores have starter I DAG!" },
+    "hero_task": "Plant strawberries in His Bed"
+  },
+  "tasks": [
+    {
+      "id": "W16-01",
+      "action": "Plant strawberry plugs (Ostara + Korona) in Bed A",
+      "priority": "must_do",
+      "who": "together",
+      "minutes": 15,
+      "frequency": "once",
+      "bed": "bed-a",
+      "crop_id": "strawberry-ostara",
+      "prompt": { "en": "Dig a hole, place the crown at soil level, press soil around it. You place each plug!", "da": "Grav et hul, saet kronen i jordniveau, tryk jorden fast. Du saetter hver plante!" }
+    },
+    {
+      "id": "W16-02",
+      "action": "Sow pea seeds along trellis in Bed C",
+      "priority": "must_do",
+      "who": "together",
+      "minutes": 10,
+      "frequency": "once",
+      "bed": "bed-c",
+      "crop_id": "pea-kelvedon-wonder",
+      "prompt": { "en": "Push each big seed into the hole -- you can do this one all by yourself!", "da": "Tryk hvert stort froe ned i hullet -- det kan du helt selv!" }
+    },
+    {
+      "id": "W16-03",
+      "action": "Plant violas and lamb's ear in Bed A sensory corners",
+      "priority": "must_do",
+      "who": "together",
+      "minutes": 10,
+      "frequency": "once",
+      "bed": "bed-a",
+      "crop_id": "viola",
+      "prompt": { "en": "Feel the lamb's ear leaf -- it's like a bunny ear! Put it in the corner.", "da": "Maaerk lammeoere-bladet -- det er som et kaninore! Saet det i hjoernet." }
+    },
+    {
+      "id": "W16-04",
+      "action": "Plant thyme and lemon balm in Bed A and Bed D",
+      "priority": "must_do",
+      "who": "together",
+      "minutes": 10,
+      "frequency": "once",
+      "bed": "bed-a",
+      "crop_id": "thyme",
+      "prompt": { "en": "Rub the thyme between your fingers -- what does it smell like?", "da": "Gnub timian mellem fingrene -- hvad dufter det af?" }
+    },
+    {
+      "id": "W16-05",
+      "action": "Plant raspberry canes in Bed B",
+      "priority": "must_do",
+      "who": "father",
+      "minutes": 15,
+      "frequency": "once",
+      "bed": "bed-b",
+      "crop_id": "raspberry-autumn-bliss",
+      "prompt": { "en": "These sticks will grow into raspberry bushes by summer!", "da": "De her pinde bliver til hindbaerbuske til sommer!" }
+    },
+    {
+      "id": "W16-06",
+      "action": "Plant chive divisions in Bed B",
+      "priority": "must_do",
+      "who": "together",
+      "minutes": 5,
+      "frequency": "once",
+      "bed": "bed-b",
+      "crop_id": "chives",
+      "prompt": { "en": "Push the chive clump into the hole and press soil around it.", "da": "Tryk purloegklumpen ned i hullet og tryk jorden fast." }
+    },
+    {
+      "id": "W16-07",
+      "action": "Water all newly planted beds thoroughly",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 10,
+      "frequency": "once",
+      "prompt": { "en": "Give each new plant a big drink of water -- they're thirsty after their trip!", "da": "Giv hver ny plante en stor slurk vand -- de er toerstige efter turen!" }
+    },
+    {
+      "id": "W16-08",
+      "action": "Place painted plant markers next to each crop in Bed A",
+      "priority": "nice_to_do",
+      "who": "child",
+      "minutes": 5,
+      "frequency": "once",
+      "bed": "bed-a",
+      "prompt": { "en": "Put YOUR markers next to each plant so everyone knows what's growing!", "da": "Saet DINE markorer ved hver plante, saa alle kan se hvad der gror!" }
+    }
+  ],
+  "growth_events": [
+    {
+      "crop_id": "viola",
+      "event": "Violas already blooming from nursery seedlings",
+      "prompt": { "en": "The purple flowers are already open! Can you smell them?", "da": "De lilla blomster er allerede aabne! Kan du lugte dem?" }
+    },
+    {
+      "crop_id": "lambs-ear",
+      "event": "Lamb's ear has soft fuzzy leaves ready to touch",
+      "prompt": { "en": "Feel how soft the lamb's ear is -- softer than velvet!", "da": "Maaerk hvor bloedt lammeoeret er -- bloedere end flijl!" }
+    }
+  ],
+  "sowing_tasks": [
+    {
+      "crop_id": "radish",
+      "bed": "bed-a",
+      "slot": "S1",
+      "action": "Sow first succession radish seeds in Bed A"
+    },
+    {
+      "crop_id": "lettuce-baby-mix",
+      "bed": "bed-d",
+      "slot": "S2",
+      "action": "Sow first succession lettuce seeds in Bed D"
+    },
+    {
+      "crop_id": "spring-onion-white-lisbon",
+      "bed": "bed-d",
+      "slot": "S3",
+      "action": "Sow first spring onion seeds in Bed D"
+    },
+    {
+      "crop_id": "pea-kelvedon-wonder",
+      "bed": "bed-c",
+      "slot": "S2",
+      "action": "Sow pea seeds along trellis in Bed C"
+    }
+  ]
+}

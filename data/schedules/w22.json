@@ -1,0 +1,97 @@
+{
+  "week": 22,
+  "iso_week": "2026-W22",
+  "date_range": { "start": "2026-05-25", "end": "2026-05-31" },
+  "theme": {
+    "name": { "en": "Nasturtium Fireworks", "da": "Nasturtie Fyrvaerkeri" },
+    "tagline": { "en": "Sow seeds that explode with color!", "da": "Saa froe der eksploderer i farver!" },
+    "hero_task": "Sow nasturtium seeds in Bed A"
+  },
+  "tasks": [
+    {
+      "id": "W22-01",
+      "action": "Sow nasturtium seeds around edges of Bed A",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 10,
+      "frequency": "once",
+      "bed": "bed-a",
+      "crop_id": "nasturtium",
+      "prompt": { "en": "Push each wrinkly seed into the soil -- these make orange and red flowers you can EAT!", "da": "Tryk hvert rynket froe ned i jorden -- de laver orange og roede blomster, du kan SPISE!" }
+    },
+    {
+      "id": "W22-02",
+      "action": "Sow broccoli seeds in Bed E",
+      "priority": "must_do",
+      "who": "together",
+      "minutes": 10,
+      "frequency": "once",
+      "bed": "bed-e",
+      "crop_id": "broccoli-calabrese",
+      "prompt": { "en": "Tiny seeds for a big plant -- broccoli looks like little trees!", "da": "Smaa froe til en stor plante -- broccoli ligner smaa traeer!" }
+    },
+    {
+      "id": "W22-03",
+      "action": "Water all beds",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 10,
+      "frequency": "daily",
+      "prompt": { "en": "The warm weather means more water! Check every bed.", "da": "Det varme vejr betyder mere vand! Tjek hvert bed." }
+    },
+    {
+      "id": "W22-04",
+      "action": "Harvest second round of pea shoots from Bed A",
+      "priority": "nice_to_do",
+      "who": "child",
+      "minutes": 5,
+      "frequency": "once",
+      "bed": "bed-a",
+      "crop_id": "pea-shoots",
+      "prompt": { "en": "The pea shoots grew back after cutting! Snip again for a garden snack.", "da": "Aerteskuddene voksede tilbage efter klipning! Klip igen til en havesnack." }
+    },
+    {
+      "id": "W22-05",
+      "action": "Sow leek seeds in Bed D",
+      "priority": "must_do",
+      "who": "father",
+      "minutes": 10,
+      "frequency": "once",
+      "bed": "bed-d",
+      "crop_id": "leek-musselburgh",
+      "prompt": { "en": "Leeks are slow growers but worth the wait -- they'll be ready in autumn.", "da": "Porrer gror langsomt, men det er ventetiden vaerd -- de er klar til efteraaret." }
+    }
+  ],
+  "growth_events": [
+    {
+      "crop_id": "radish",
+      "event": "Second batch radishes (W18 sowing) developing root swelling",
+      "prompt": { "en": "Gently brush the soil around the radish -- can you see the pink top?", "da": "Boerst forsigtigt jorden vaek ved radisen -- kan du se den lyserode top?" }
+    },
+    {
+      "crop_id": "cherry-tomato-sungold",
+      "event": "Tomato establishing in new bed with first new growth",
+      "prompt": { "en": "The tomato is settling in! Can you see new tiny leaves at the top?", "da": "Tomaten har slaaet sig ned! Kan du se nye smaa blade i toppen?" }
+    }
+  ],
+  "sowing_tasks": [
+    {
+      "crop_id": "radish",
+      "bed": "bed-a",
+      "slot": "S1",
+      "action": "Sow fourth succession radish in Bed A"
+    },
+    {
+      "crop_id": "lettuce-baby-mix",
+      "bed": "bed-d",
+      "slot": "S2",
+      "action": "Sow third succession lettuce in Bed D"
+    },
+    {
+      "crop_id": "pea-kelvedon-wonder",
+      "bed": "bed-c",
+      "slot": "S2",
+      "action": "Sow second pea planting in Bed C"
+    }
+  ]
+}

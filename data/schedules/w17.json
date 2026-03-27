@@ -1,0 +1,78 @@
+{
+  "week": 17,
+  "iso_week": "2026-W17",
+  "date_range": { "start": "2026-04-20", "end": "2026-04-26" },
+  "theme": {
+    "name": { "en": "First Sprouts Week", "da": "Foerste Spirer Uge" },
+    "tagline": { "en": "Something is happening underground!", "da": "Der sker noget under jorden!" },
+    "hero_task": "Check for first radish and pea sprouts"
+  },
+  "tasks": [
+    {
+      "id": "W17-01",
+      "action": "Water all beds -- check soil moisture with finger test",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 10,
+      "frequency": "daily",
+      "prompt": { "en": "Push your finger into the soil -- if it feels dry, give it water!", "da": "Tryk din finger ned i jorden -- hvis den foeles toer, giv den vand!" }
+    },
+    {
+      "id": "W17-02",
+      "action": "Check Bed A for radish sprouts (sown W16)",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 5,
+      "frequency": "daily",
+      "bed": "bed-a",
+      "crop_id": "radish",
+      "prompt": { "en": "Look very closely at the soil -- can you see tiny green dots pushing up?", "da": "Kig meget taet paa jorden -- kan du se smaa groenne prikker, der skyder op?" }
+    },
+    {
+      "id": "W17-03",
+      "action": "Sow borage seeds in Bed C and Bed E",
+      "priority": "must_do",
+      "who": "together",
+      "minutes": 10,
+      "frequency": "once",
+      "bed": "bed-c",
+      "crop_id": "borage",
+      "prompt": { "en": "Sprinkle the big seeds in the holes -- these will grow star-shaped blue flowers!", "da": "Drys de store froe i hullerne -- de bliver til stjerneformede blaa blomster!" }
+    },
+    {
+      "id": "W17-04",
+      "action": "Sow calendula seeds in Bed A and Bed C",
+      "priority": "nice_to_do",
+      "who": "together",
+      "minutes": 10,
+      "frequency": "once",
+      "bed": "bed-a",
+      "crop_id": "calendula",
+      "prompt": { "en": "These curly seeds will grow orange flowers that the bees love!", "da": "De her krulle-froe bliver til orange blomster, som bierne elsker!" }
+    },
+    {
+      "id": "W17-05",
+      "action": "Check pea seeds in Bed C for germination",
+      "priority": "nice_to_do",
+      "who": "child",
+      "minutes": 3,
+      "frequency": "daily",
+      "bed": "bed-c",
+      "crop_id": "pea-kelvedon-wonder",
+      "prompt": { "en": "The pea seeds are waking up! Look for fat green shoots near the trellis.", "da": "Aertefroeene vaagner! Kig efter tykke groenne skud ved espalieren." }
+    }
+  ],
+  "growth_events": [
+    {
+      "crop_id": "radish",
+      "event": "First radish seedlings emerging 3-5 days after sowing",
+      "prompt": { "en": "The radishes are the fastest -- they pop up in just a few days! Can you count them?", "da": "Radiserne er de hurtigste -- de dukker op paa bare faa dage! Kan du taelle dem?" }
+    },
+    {
+      "crop_id": "strawberry-ostara",
+      "event": "Strawberry plants establishing with new leaf growth",
+      "prompt": { "en": "Look at the strawberry plants -- see the bright green new leaves in the center?", "da": "Kig paa jordbaerplanterne -- ser du de lyse groenne nye blade i midten?" }
+    }
+  ],
+  "sowing_tasks": []
+}

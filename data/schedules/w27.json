@@ -1,0 +1,78 @@
+{
+  "week": 27,
+  "iso_week": "2026-W27",
+  "date_range": { "start": "2026-06-29", "end": "2026-07-05" },
+  "theme": {
+    "name": { "en": "Cucumber Discovery Week", "da": "Agurke Opdagelses Uge" },
+    "tagline": { "en": "Hidden cucumbers behind the big leaves!", "da": "Gemte agurker bag de store blade!" },
+    "hero_task": "Find the first baby cucumber hiding on the trellis"
+  },
+  "tasks": [
+    {
+      "id": "W27-01",
+      "action": "Search for first baby cucumbers on Bed C trellis",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 5,
+      "frequency": "daily",
+      "bed": "bed-c",
+      "crop_id": "cucumber-mini-munch",
+      "prompt": { "en": "Look behind the big leaves -- cucumbers love to hide! Can you find one?", "da": "Kig bag de store blade -- agurker elsker at gemme sig! Kan du finde en?" }
+    },
+    {
+      "id": "W27-02",
+      "action": "Pick strawberries from Bed A",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 5,
+      "frequency": "daily",
+      "bed": "bed-a",
+      "crop_id": "strawberry-ostara",
+      "prompt": { "en": "Daily strawberry harvest! Save some for a smoothie!", "da": "Daglig jordbaerhoest! Gem nogle til en smoothie!" }
+    },
+    {
+      "id": "W27-03",
+      "action": "Water all beds",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 10,
+      "frequency": "daily",
+      "prompt": { "en": "July heat! Water early morning or evening -- not in the hot sun.", "da": "Juli varme! Vand tidlig morgen eller aften -- ikke i den varme sol." }
+    },
+    {
+      "id": "W27-04",
+      "action": "Harvest peas from Bed C",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 5,
+      "frequency": "weekly",
+      "bed": "bed-c",
+      "crop_id": "pea-kelvedon-wonder",
+      "prompt": { "en": "Keep picking! The more you pick, the more the plant makes!", "da": "Bliv ved med at plukke! Jo mere du plukker, jo mere laver planten!" }
+    },
+    {
+      "id": "W27-05",
+      "action": "Measure sunflower height",
+      "priority": "nice_to_do",
+      "who": "child",
+      "minutes": 3,
+      "frequency": "weekly",
+      "bed": "bed-a",
+      "crop_id": "sunflower",
+      "prompt": { "en": "Is the sunflower taller than you yet?", "da": "Er solsikken hoejere end dig endnu?" }
+    }
+  ],
+  "growth_events": [
+    {
+      "crop_id": "cucumber-mini-munch",
+      "event": "First small cucumbers forming behind flowers",
+      "prompt": { "en": "See the tiny cucumber behind the yellow flower? It will grow fast!", "da": "Ser du den lille agurk bag den gule blomst? Den vokser hurtigt!" }
+    },
+    {
+      "crop_id": "sweet-pepper-lipstick",
+      "event": "Pepper plants flowering with small white blooms",
+      "prompt": { "en": "The pepper has tiny white flowers -- each one becomes a pepper!", "da": "Peberplanten har smaa hvide blomster -- hver en bliver til en peberfrugt!" }
+    }
+  ],
+  "sowing_tasks": []
+}
