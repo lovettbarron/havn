@@ -1,0 +1,163 @@
+{
+  "$schema": "../schemas/crop.schema.json",
+  "id": "strawberry-ostara",
+  "name": {
+    "common": "Strawberry Ostara",
+    "botanical": "Fragaria x ananassa 'Ostara'",
+    "da": "Jordbaer Ostara",
+    "shortcode": "ST-O"
+  },
+  "type": "fruit",
+  "difficulty": {
+    "tier": "cant_fail",
+    "label": { "en": "Can't Fail", "da": "Kan ikke fejle" },
+    "reason": "Perennial, tolerates neglect, produces fruit with minimal care"
+  },
+  "growth_stages": [
+    {
+      "name": "Dormant",
+      "weeks": { "start": 1, "end": 14 },
+      "look_for": "Brown/dry leaves from winter, small green buds at crown",
+      "child_actions": []
+    },
+    {
+      "name": "Spring Growth",
+      "weeks": { "start": 15, "end": 18 },
+      "look_for": "Fresh green leaves uncurling from the center",
+      "child_actions": [
+        {
+          "action": "Remove dead leaves",
+          "type": "tend",
+          "who": "together",
+          "minutes": 5,
+          "frequency": "once",
+          "prompt": {
+            "en": "Can you find the brown crunchy leaves? Pull them off gently!",
+            "da": "Kan du finde de brune blade? Traek dem forsigtigt af!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Flowering",
+      "weeks": { "start": 19, "end": 22 },
+      "look_for": "White flowers with yellow centers",
+      "child_actions": [
+        {
+          "action": "Count flowers",
+          "type": "observe",
+          "who": "child",
+          "minutes": 3,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "How many white flowers can you count today?",
+            "da": "Hvor mange hvide blomster kan du taelle i dag?"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Fruiting",
+      "weeks": { "start": 23, "end": 38 },
+      "look_for": "Green berries turning white, then red",
+      "child_actions": [
+        {
+          "action": "Pick ripe berries",
+          "type": "harvest",
+          "who": "child",
+          "minutes": 5,
+          "frequency": "daily",
+          "prompt": {
+            "en": "Only pick the RED ones -- leave the white ones for tomorrow!",
+            "da": "Pluk kun de RODE -- lad de hvide sidde til i morgen!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Runner Production",
+      "weeks": { "start": 30, "end": 40 },
+      "look_for": "Long thin stems reaching out from the plant with baby plants at the end",
+      "child_actions": [
+        {
+          "action": "Spot runners",
+          "type": "observe",
+          "who": "child",
+          "minutes": 3,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "See the baby plants on strings? Those are runners -- the plant is making babies!",
+            "da": "Ser du de smaa planter paa snore? Det er udlobere -- planten laver babyer!"
+          }
+        }
+      ]
+    }
+  ],
+  "water_needs": {
+    "human_readable": {
+      "en": "Keep soil moist, not soggy. Water every 2-3 days in summer.",
+      "da": "Hold jorden fugtig, ikke gennembloedt. Vand hver 2-3 dag om sommeren."
+    },
+    "thresholds": {
+      "soil_moisture_min": 30,
+      "soil_moisture_max": 70,
+      "drought_alert_days": 3
+    }
+  },
+  "temperature": {
+    "optimal_min": 15,
+    "optimal_max": 25,
+    "frost_sensitive": true,
+    "frost_threshold": -2,
+    "heat_stress": 30
+  },
+  "harvest": {
+    "first_harvest_week": 23,
+    "last_harvest_week": 38,
+    "days_to_maturity": null,
+    "continuous": true,
+    "notes": "Everbearing: produces from June through September with peaks in early summer and early autumn"
+  },
+  "companion_plants": {
+    "good": ["thyme", "calendula", "borage", "viola"],
+    "bad": ["raspberry-autumn-bliss"],
+    "notes": "Thyme deters slugs; calendula repels aphids. Keep away from raspberries (verticillium wilt)."
+  },
+  "engagement": {
+    "action_types": ["harvest", "observe", "tend"],
+    "peak_engagement_weeks": { "start": 23, "end": 35 },
+    "attention_minutes_per_week": 10,
+    "sensory": ["taste", "smell", "touch"]
+  },
+  "beds": ["bed-a"],
+  "sowing": {
+    "method": "plug",
+    "indoor_start": null,
+    "outdoor_sow": null,
+    "transplant_week": 16,
+    "succession": false,
+    "interval_weeks": null
+  },
+  "alerts": [
+    {
+      "type": "drought",
+      "trigger": "soil_moisture_below",
+      "threshold": 30,
+      "delay_hours": 6,
+      "message": {
+        "en": "Strawberries in {bed} need water -- soil is too dry!",
+        "da": "Jordbaer i {bed} har brug for vand -- jorden er for toer!"
+      }
+    },
+    {
+      "type": "frost",
+      "trigger": "temperature_below",
+      "threshold": -2,
+      "delay_hours": 0,
+      "message": {
+        "en": "Frost warning for strawberries! Cover with fleece tonight.",
+        "da": "Frostadvarsel for jordbaer! Daek med fiberdug i aften."
+      }
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "bed.schema.json",
+  "title": "Havn Bed",
+  "description": "Schema for garden bed files mapping physical beds to crop placements",
+  "type": "object",
+  "required": ["id", "name", "physical", "crops", "succession_slots", "ha_sensors"],
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "description": "Reference to this schema file"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^bed-[a-e]$",
+      "description": "Unique bed identifier"
+    },
+    "name": {
+      "type": "string",
+      "description": "Human-friendly bed name"
+    },
+    "physical": {
+      "type": "object",
+      "required": ["position", "dimensions", "material", "features", "orientation"],
+      "properties": {
+        "position": { "type": "string" },
+        "dimensions": {
+          "type": "object",
+          "required": ["length_cm", "width_cm", "height_cm"],
+          "properties": {
+            "length_cm": { "type": "integer" },
+            "width_cm": { "type": "integer" },
+            "height_cm": { "type": "integer" }
+          }
+        },
+        "material": { "type": "string" },
+        "features": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "orientation": { "type": "string" }
+      }
+    },
+    "crops": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["crop_id", "shortcode", "positions", "planted_week"],
+        "properties": {
+          "crop_id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9-]*$"
+          },
+          "shortcode": { "type": "string" },
+          "positions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["center_w", "center_l", "spread_cm"],
+              "properties": {
+                "center_w": { "type": "number" },
+                "center_l": { "type": "number" },
+                "spread_cm": { "type": "number" }
+              }
+            }
+          },
+          "planted_week": { "type": "integer" }
+        }
+      }
+    },
+    "succession_slots": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "area", "crop_id", "first_sow_week", "interval_weeks"],
+        "properties": {
+          "id": { "type": "string" },
+          "area": {
+            "type": "object",
+            "required": ["w_start", "w_end", "l_start", "l_end"],
+            "properties": {
+              "w_start": { "type": "number" },
+              "w_end": { "type": "number" },
+              "l_start": { "type": "number" },
+              "l_end": { "type": "number" }
+            }
+          },
+          "crop_id": { "type": "string" },
+          "first_sow_week": { "type": "integer" },
+          "interval_weeks": { "type": "integer" }
+        }
+      }
+    },
+    "ha_sensors": {
+      "type": "object",
+      "required": ["moisture", "temperature"],
+      "properties": {
+        "moisture": { "type": "string" },
+        "temperature": { "type": "string" }
+      }
+    }
+  }
+}

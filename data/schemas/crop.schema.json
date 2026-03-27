@@ -1,0 +1,229 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "crop.schema.json",
+  "title": "Havn Crop",
+  "description": "Schema for individual crop data files in the Havn garden project",
+  "type": "object",
+  "required": [
+    "id", "name", "type", "difficulty", "growth_stages", "water_needs",
+    "temperature", "harvest", "companion_plants", "engagement", "beds",
+    "sowing", "alerts"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "description": "Reference to this schema file"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*$",
+      "description": "Unique lowercase-hyphen identifier"
+    },
+    "name": {
+      "type": "object",
+      "required": ["common", "botanical", "da", "shortcode"],
+      "properties": {
+        "common": { "type": "string" },
+        "botanical": { "type": "string" },
+        "da": { "type": "string", "description": "Danish common name" },
+        "shortcode": { "type": "string", "description": "Short code used in planting grid maps" }
+      }
+    },
+    "type": {
+      "type": "string",
+      "enum": ["fruit", "vegetable", "herb", "flower", "sensory"]
+    },
+    "difficulty": {
+      "type": "object",
+      "required": ["tier", "label", "reason"],
+      "properties": {
+        "tier": {
+          "type": "string",
+          "enum": ["cant_fail", "needs_care", "year_2_challenge"]
+        },
+        "label": {
+          "type": "object",
+          "required": ["en", "da"],
+          "properties": {
+            "en": { "type": "string" },
+            "da": { "type": "string" }
+          }
+        },
+        "reason": { "type": "string" }
+      }
+    },
+    "growth_stages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "weeks", "look_for", "child_actions"],
+        "properties": {
+          "name": { "type": "string" },
+          "weeks": {
+            "type": "object",
+            "required": ["start", "end"],
+            "properties": {
+              "start": { "type": "integer" },
+              "end": { "type": "integer" }
+            }
+          },
+          "look_for": { "type": "string" },
+          "child_actions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["action", "type", "who", "minutes", "frequency", "prompt"],
+              "properties": {
+                "action": { "type": "string" },
+                "type": {
+                  "type": "string",
+                  "enum": ["harvest", "observe", "tend", "sensory"]
+                },
+                "who": {
+                  "type": "string",
+                  "enum": ["child", "father", "together"]
+                },
+                "minutes": { "type": "integer", "minimum": 1, "maximum": 30 },
+                "frequency": {
+                  "type": "string",
+                  "enum": ["daily", "weekly", "once"]
+                },
+                "prompt": {
+                  "type": "object",
+                  "required": ["en", "da"],
+                  "properties": {
+                    "en": { "type": "string" },
+                    "da": { "type": "string" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "water_needs": {
+      "type": "object",
+      "required": ["human_readable", "thresholds"],
+      "properties": {
+        "human_readable": {
+          "type": "object",
+          "required": ["en", "da"],
+          "properties": {
+            "en": { "type": "string" },
+            "da": { "type": "string" }
+          }
+        },
+        "thresholds": {
+          "type": "object",
+          "required": ["soil_moisture_min", "soil_moisture_max", "drought_alert_days"],
+          "properties": {
+            "soil_moisture_min": { "type": "integer", "minimum": 0, "maximum": 100 },
+            "soil_moisture_max": { "type": "integer", "minimum": 0, "maximum": 100 },
+            "drought_alert_days": { "type": "integer", "minimum": 1 }
+          }
+        }
+      }
+    },
+    "temperature": {
+      "type": "object",
+      "required": ["optimal_min", "optimal_max", "frost_sensitive", "frost_threshold", "heat_stress"],
+      "properties": {
+        "optimal_min": { "type": "integer" },
+        "optimal_max": { "type": "integer" },
+        "frost_sensitive": { "type": "boolean" },
+        "frost_threshold": { "type": "integer" },
+        "heat_stress": { "type": "integer" }
+      }
+    },
+    "harvest": {
+      "type": "object",
+      "required": ["first_harvest_week", "last_harvest_week", "days_to_maturity", "continuous", "notes"],
+      "properties": {
+        "first_harvest_week": { "type": ["integer", "null"] },
+        "last_harvest_week": { "type": ["integer", "null"] },
+        "days_to_maturity": { "type": ["integer", "null"] },
+        "continuous": { "type": "boolean" },
+        "notes": { "type": "string" }
+      }
+    },
+    "companion_plants": {
+      "type": "object",
+      "required": ["good", "bad", "notes"],
+      "properties": {
+        "good": { "type": "array", "items": { "type": "string" } },
+        "bad": { "type": "array", "items": { "type": "string" } },
+        "notes": { "type": "string" }
+      }
+    },
+    "engagement": {
+      "type": "object",
+      "required": ["action_types", "peak_engagement_weeks", "attention_minutes_per_week", "sensory"],
+      "properties": {
+        "action_types": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["harvest", "observe", "tend", "sensory"]
+          }
+        },
+        "peak_engagement_weeks": {
+          "type": "object",
+          "required": ["start", "end"],
+          "properties": {
+            "start": { "type": "integer" },
+            "end": { "type": "integer" }
+          }
+        },
+        "attention_minutes_per_week": { "type": "integer" },
+        "sensory": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["taste", "smell", "touch", "sight", "sound"]
+          }
+        }
+      }
+    },
+    "beds": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^bed-[a-e]$" }
+    },
+    "sowing": {
+      "type": "object",
+      "required": ["method", "indoor_start", "outdoor_sow", "transplant_week", "succession"],
+      "properties": {
+        "method": {
+          "type": "string",
+          "enum": ["seed", "plug", "bare-root", "division", "buy-plant"]
+        },
+        "indoor_start": { "type": ["integer", "null"] },
+        "outdoor_sow": { "type": ["integer", "null"] },
+        "transplant_week": { "type": ["integer", "null"] },
+        "succession": { "type": "boolean" },
+        "interval_weeks": { "type": ["integer", "null"] }
+      }
+    },
+    "alerts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["type", "trigger", "threshold", "delay_hours", "message"],
+        "properties": {
+          "type": { "type": "string" },
+          "trigger": { "type": "string" },
+          "threshold": { "type": ["number", "string"] },
+          "delay_hours": { "type": "integer" },
+          "message": {
+            "type": "object",
+            "required": ["en", "da"],
+            "properties": {
+              "en": { "type": "string" },
+              "da": { "type": "string" }
+            }
+          }
+        }
+      }
+    }
+  }
+}

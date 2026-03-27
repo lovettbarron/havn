@@ -1,0 +1,147 @@
+{
+  "$schema": "../schemas/crop.schema.json",
+  "id": "radish",
+  "name": {
+    "common": "Radish",
+    "botanical": "Raphanus sativus",
+    "da": "Radise",
+    "shortcode": "SUCC"
+  },
+  "type": "vegetable",
+  "difficulty": {
+    "tier": "cant_fail",
+    "label": { "en": "Can't Fail", "da": "Kan ikke fejle" },
+    "reason": "Germinates in days, harvestable in 25 days, nearly impossible to kill"
+  },
+  "growth_stages": [
+    {
+      "name": "Germination",
+      "weeks": { "start": 18, "end": 18 },
+      "look_for": "Tiny green shoots poking through the soil within 3-5 days",
+      "child_actions": [
+        {
+          "action": "Check for sprouts",
+          "type": "observe",
+          "who": "child",
+          "minutes": 3,
+          "frequency": "daily",
+          "prompt": {
+            "en": "Look closely at the soil -- can you see tiny green dots pushing up?",
+            "da": "Kig taet paa jorden -- kan du se smaa groenne prikker, der skyder op?"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Leaf Growth",
+      "weeks": { "start": 19, "end": 20 },
+      "look_for": "Two round seed leaves, then rough true leaves appear",
+      "child_actions": [
+        {
+          "action": "Count leaves",
+          "type": "observe",
+          "who": "child",
+          "minutes": 3,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "How many leaves does each radish have now? Count them!",
+            "da": "Hvor mange blade har hver radise nu? Tael dem!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Root Swelling",
+      "weeks": { "start": 20, "end": 21 },
+      "look_for": "Pink/red tops visible above the soil line",
+      "child_actions": [
+        {
+          "action": "Brush soil to check",
+          "type": "observe",
+          "who": "child",
+          "minutes": 3,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "Gently brush the soil -- see the pink top? It's nearly ready!",
+            "da": "Boerst forsigtigt jorden vaek -- ser du den lyserode top? Den er naesten klar!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Harvest",
+      "weeks": { "start": 21, "end": 22 },
+      "look_for": "Radish top about 2-3cm across, visible above soil",
+      "child_actions": [
+        {
+          "action": "Pull radishes",
+          "type": "harvest",
+          "who": "child",
+          "minutes": 5,
+          "frequency": "once",
+          "prompt": {
+            "en": "Grab the green top and PULL! Rinse it, taste it -- is it spicy or mild?",
+            "da": "Tag fat i det groenne top og TRAEK! Skyl den, smag -- er den staerk eller mild?"
+          }
+        }
+      ]
+    }
+  ],
+  "water_needs": {
+    "human_readable": {
+      "en": "Water lightly every day or two. Don't let soil dry out completely.",
+      "da": "Vand let hver dag eller hver anden dag. Lad ikke jorden toerre helt ud."
+    },
+    "thresholds": {
+      "soil_moisture_min": 40,
+      "soil_moisture_max": 70,
+      "drought_alert_days": 2
+    }
+  },
+  "temperature": {
+    "optimal_min": 10,
+    "optimal_max": 20,
+    "frost_sensitive": false,
+    "frost_threshold": -4,
+    "heat_stress": 25
+  },
+  "harvest": {
+    "first_harvest_week": 21,
+    "last_harvest_week": 40,
+    "days_to_maturity": 25,
+    "continuous": true,
+    "notes": "Succession sow every 2 weeks from W18 for continuous harvest through summer. Pull before they go woody."
+  },
+  "companion_plants": {
+    "good": ["lettuce-baby-mix", "pea-kelvedon-wonder", "nasturtium"],
+    "bad": [],
+    "notes": "Quick crop that fits between slower plants. Good gap-filler."
+  },
+  "engagement": {
+    "action_types": ["harvest", "observe"],
+    "peak_engagement_weeks": { "start": 18, "end": 22 },
+    "attention_minutes_per_week": 8,
+    "sensory": ["taste", "touch", "sight"]
+  },
+  "beds": ["bed-a", "bed-c", "bed-d"],
+  "sowing": {
+    "method": "seed",
+    "indoor_start": null,
+    "outdoor_sow": 18,
+    "transplant_week": null,
+    "succession": true,
+    "interval_weeks": 2
+  },
+  "alerts": [
+    {
+      "type": "drought",
+      "trigger": "soil_moisture_below",
+      "threshold": 40,
+      "delay_hours": 4,
+      "message": {
+        "en": "Radishes need water -- they'll go woody if the soil dries out!",
+        "da": "Radiserne har brug for vand -- de bliver traede, hvis jorden toerrer ud!"
+      }
+    }
+  ]
+}

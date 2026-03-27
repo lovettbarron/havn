@@ -1,0 +1,185 @@
+{
+  "$schema": "../schemas/crop.schema.json",
+  "id": "cherry-tomato-sungold",
+  "name": {
+    "common": "Cherry Tomato Sungold",
+    "botanical": "Solanum lycopersicum 'Sungold'",
+    "da": "Cherrytomat Sungold",
+    "shortcode": "TOM"
+  },
+  "type": "vegetable",
+  "difficulty": {
+    "tier": "needs_care",
+    "label": { "en": "Needs Care", "da": "Kraever pasning" },
+    "reason": "Frost-sensitive, needs staking, weekly sucker pruning, consistent watering"
+  },
+  "growth_stages": [
+    {
+      "name": "Seedling",
+      "weeks": { "start": 12, "end": 20 },
+      "look_for": "Small plant with fuzzy stem and tomato-scented leaves",
+      "child_actions": [
+        {
+          "action": "Smell the leaves",
+          "type": "sensory",
+          "who": "child",
+          "minutes": 2,
+          "frequency": "once",
+          "prompt": {
+            "en": "Rub a leaf gently and smell your fingers -- that's tomato smell!",
+            "da": "Gnub et blad forsigtigt og lugt paa dine fingre -- det er tomatlugten!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Transplant & Establishment",
+      "weeks": { "start": 21, "end": 23 },
+      "look_for": "Plant adjusting to outdoor life, new growth at top",
+      "child_actions": [
+        {
+          "action": "Place the stake",
+          "type": "tend",
+          "who": "together",
+          "minutes": 5,
+          "frequency": "once",
+          "prompt": {
+            "en": "Push the tall stick into the soil next to the tomato -- it needs something to hold onto!",
+            "da": "Tryk den hoeje pind ned i jorden ved siden af tomaten -- den har brug for noget at holde fast i!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Vegetative Growth",
+      "weeks": { "start": 24, "end": 27 },
+      "look_for": "Rapid stem growth, side shoots appearing at leaf joints",
+      "child_actions": [
+        {
+          "action": "Find the suckers",
+          "type": "observe",
+          "who": "together",
+          "minutes": 5,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "See the little branch growing in the V between the main stem and a leaf? Pinch it off!",
+            "da": "Ser du den lille gren, der vokser i V'et mellem stammen og et blad? Knib den af!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Flowering",
+      "weeks": { "start": 25, "end": 30 },
+      "look_for": "Clusters of small yellow star-shaped flowers",
+      "child_actions": [
+        {
+          "action": "Count flower clusters",
+          "type": "observe",
+          "who": "child",
+          "minutes": 3,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "Each bunch of yellow flowers will become tomatoes! How many bunches are there?",
+            "da": "Hver buket gule blomster bliver til tomater! Hvor mange buketter er der?"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Fruiting",
+      "weeks": { "start": 28, "end": 40 },
+      "look_for": "Clusters of green tomatoes turning golden-orange",
+      "child_actions": [
+        {
+          "action": "Pick ripe tomatoes",
+          "type": "harvest",
+          "who": "child",
+          "minutes": 5,
+          "frequency": "daily",
+          "prompt": {
+            "en": "The ORANGE ones are ready! Twist gently and pop it in your mouth -- warm from the sun!",
+            "da": "De ORANGE er klar! Drej forsigtigt og put den i munden -- varm fra solen!"
+          }
+        }
+      ]
+    }
+  ],
+  "water_needs": {
+    "human_readable": {
+      "en": "Water deeply every 1-2 days. Keep soil consistently moist. Avoid wetting leaves.",
+      "da": "Vand grundigt hver 1-2 dag. Hold jorden jaevnt fugtig. Undgaa at vaede bladene."
+    },
+    "thresholds": {
+      "soil_moisture_min": 40,
+      "soil_moisture_max": 75,
+      "drought_alert_days": 2
+    }
+  },
+  "temperature": {
+    "optimal_min": 18,
+    "optimal_max": 28,
+    "frost_sensitive": true,
+    "frost_threshold": 2,
+    "heat_stress": 35
+  },
+  "harvest": {
+    "first_harvest_week": 28,
+    "last_harvest_week": 40,
+    "days_to_maturity": 57,
+    "continuous": true,
+    "notes": "Indeterminate: fruits continuously from mid-July until frost. Golden-orange when ripe, intensely sweet."
+  },
+  "companion_plants": {
+    "good": ["basil", "borage", "calendula", "nasturtium"],
+    "bad": ["cucumber-mini-munch"],
+    "notes": "Basil improves flavor and repels aphids. Borage attracts pollinators. Keep some distance from cucumbers in shared bed."
+  },
+  "engagement": {
+    "action_types": ["harvest", "observe", "tend", "sensory"],
+    "peak_engagement_weeks": { "start": 28, "end": 38 },
+    "attention_minutes_per_week": 15,
+    "sensory": ["taste", "smell", "touch", "sight"]
+  },
+  "beds": ["bed-c"],
+  "sowing": {
+    "method": "plug",
+    "indoor_start": 12,
+    "outdoor_sow": null,
+    "transplant_week": 21,
+    "succession": false,
+    "interval_weeks": null
+  },
+  "alerts": [
+    {
+      "type": "drought",
+      "trigger": "soil_moisture_below",
+      "threshold": 40,
+      "delay_hours": 4,
+      "message": {
+        "en": "Tomatoes in {bed} need water urgently -- cracking risk!",
+        "da": "Tomater i {bed} har akut brug for vand -- risiko for revner!"
+      }
+    },
+    {
+      "type": "frost",
+      "trigger": "temperature_below",
+      "threshold": 2,
+      "delay_hours": 0,
+      "message": {
+        "en": "FROST ALERT: Cover tomatoes NOW or bring indoors! They will die below 2C.",
+        "da": "FROSTALARM: Daek tomaterne NU eller tag dem ind! De doer under 2 grader."
+      }
+    },
+    {
+      "type": "heat_stress",
+      "trigger": "temperature_above",
+      "threshold": 35,
+      "delay_hours": 2,
+      "message": {
+        "en": "It's very hot -- tomatoes may drop flowers. Extra water today!",
+        "da": "Det er meget varmt -- tomater kan tabe blomster. Ekstra vand i dag!"
+      }
+    }
+  ]
+}
