@@ -67,7 +67,7 @@ This repo contains the complete planning and documentation for building, plantin
 | 2 | Spring Planting (W16-W18) | Complete |
 | 3 | Warm Season Planting (W21-W22) | Complete |
 | 4 | Data System and Schedules | Complete |
-| 5 | Documentation and Guides | In progress |
+| 5 | Documentation and Guides | Complete |
 | 6 | Vacation Preparation | Not started |
 
 ## License
