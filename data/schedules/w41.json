@@ -1,0 +1,64 @@
+{
+  "week": 41,
+  "iso_week": "2026-W41",
+  "date_range": { "start": "2026-10-05", "end": "2026-10-11" },
+  "theme": {
+    "name": { "en": "Garlic Planting Week", "da": "Hvidloeg Plantnings Uge" },
+    "tagline": { "en": "Planting for NEXT year -- patience pays!", "da": "Planter til NAESTE aar -- taalmodighed betaler sig!" },
+    "hero_task": "Plant more garlic cloves if not done in W40"
+  },
+  "tasks": [
+    {
+      "id": "W41-01",
+      "action": "Finish garlic planting if not completed in W40",
+      "priority": "must_do",
+      "who": "together",
+      "minutes": 10,
+      "frequency": "once",
+      "bed": "bed-c",
+      "prompt": { "en": "Each clove becomes a whole garlic bulb by next summer -- like magic!", "da": "Hvert fed bliver til en hel hvidloegsknold til naeste sommer -- som magi!" }
+    },
+    {
+      "id": "W41-02",
+      "action": "Harvest kale from Bed C",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 5,
+      "frequency": "weekly",
+      "bed": "bed-c",
+      "crop_id": "kale-nero-di-toscana",
+      "prompt": { "en": "Kale is still going strong! The cold makes it sweeter.", "da": "Groenkaalen er stadig i gang! Kulden goer den soedere." }
+    },
+    {
+      "id": "W41-03",
+      "action": "Clear spent annual plants from Beds A and E",
+      "priority": "must_do",
+      "who": "father",
+      "minutes": 15,
+      "frequency": "once",
+      "prompt": { "en": "Remove dead sunflower stalks, nasturtium vines, and spent annuals. Compost everything.", "da": "Fjern doede solsikkestilke, nasturtie-ranker og brugte enaarige. Laeg alt i kompost." }
+    },
+    {
+      "id": "W41-04",
+      "action": "Check beds for weeds -- pull any that appear",
+      "priority": "nice_to_do",
+      "who": "together",
+      "minutes": 10,
+      "frequency": "once",
+      "prompt": { "en": "Any weeds? Pull them before they set seed for next year!", "da": "Nogen ukrudt? Traek dem op foer de saetter froe til naeste aar!" }
+    }
+  ],
+  "growth_events": [
+    {
+      "crop_id": "kale-nero-di-toscana",
+      "event": "Kale leaves darkening and sweetening in cold weather",
+      "prompt": { "en": "Feel how the kale leaves are thicker now? Cold weather makes them tougher and sweeter!", "da": "Maaerk hvordan groenkalsbladene er tykkere nu? Koldt vejr goer dem sejere og soedere!" }
+    },
+    {
+      "crop_id": "chives",
+      "event": "Chives dying back for winter dormancy",
+      "prompt": { "en": "The chives are going yellow -- they're going to sleep for winter. They'll come back in spring!", "da": "Purloegene bliver gule -- de gaar i vintersovn. De kommer tilbage til foraar!" }
+    }
+  ],
+  "sowing_tasks": []
+}

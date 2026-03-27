@@ -1,0 +1,77 @@
+{
+  "week": 37,
+  "iso_week": "2026-W37",
+  "date_range": { "start": "2026-09-07", "end": "2026-09-13" },
+  "theme": {
+    "name": { "en": "Last Spring Onion Week", "da": "Sidste Foraarsloeg Uge" },
+    "tagline": { "en": "The final batch of spring onions are ready!", "da": "Det sidste hold foraarsloeg er klar!" },
+    "hero_task": "Pull the last spring onions for dinner"
+  },
+  "tasks": [
+    {
+      "id": "W37-01",
+      "action": "Harvest final spring onion batch from Bed D",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 5,
+      "frequency": "once",
+      "bed": "bed-d",
+      "crop_id": "spring-onion-white-lisbon",
+      "prompt": { "en": "The last spring onions of the year! Pull them for tonight's dinner.", "da": "De sidste foraarsloeg i aar! Traek dem til aftensmad." }
+    },
+    {
+      "id": "W37-02",
+      "action": "Harvest tomatoes and peppers from Bed C",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 10,
+      "frequency": "daily",
+      "bed": "bed-c",
+      "prompt": { "en": "Pick all ripe tomatoes -- even slightly green ones will ripen on the windowsill!", "da": "Pluk alle modne tomater -- selv lidt groenne modner paa vindueskarmen!" }
+    },
+    {
+      "id": "W37-03",
+      "action": "Water beds that need it",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 10,
+      "frequency": "daily",
+      "prompt": { "en": "September rain helps, but check anyway.", "da": "September-regn hjaelper, men tjek alligevel." }
+    },
+    {
+      "id": "W37-04",
+      "action": "Pick raspberries from Bed B",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 10,
+      "frequency": "daily",
+      "bed": "bed-b",
+      "crop_id": "raspberry-autumn-bliss",
+      "prompt": { "en": "Still raspberries! The birds want them too -- pick early in the morning!", "da": "Stadig hindbaer! Fuglene vil ogsaa have dem -- pluk tidligt om morgenen!" }
+    },
+    {
+      "id": "W37-05",
+      "action": "Remove spent cucumber plant from Bed C trellis",
+      "priority": "nice_to_do",
+      "who": "father",
+      "minutes": 10,
+      "frequency": "once",
+      "bed": "bed-c",
+      "crop_id": "cucumber-mini-munch",
+      "prompt": { "en": "The cucumber is done -- cut it free from the trellis and compost it.", "da": "Agurken er faerdig -- klip den fri fra espalieren og laeg den i kompost." }
+    }
+  ],
+  "growth_events": [
+    {
+      "crop_id": "kale-nero-di-toscana",
+      "event": "Kale sweetening after first cool nights",
+      "prompt": { "en": "The kale is actually getting SWEETER now! Cold nights make it taste better.", "da": "Groenkaalen bliver faktisk SOEDERE nu! Kolde naetter faar den til at smage bedre." }
+    },
+    {
+      "crop_id": "cherry-tomato-sungold",
+      "event": "Tomato production slowing but still ripening on the vine",
+      "prompt": { "en": "The last tomatoes are ripening slowly -- enjoy every one!", "da": "De sidste tomater modner langsomt -- nyd hver eneste en!" }
+    }
+  ],
+  "sowing_tasks": []
+}

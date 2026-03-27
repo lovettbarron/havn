@@ -1,0 +1,76 @@
+{
+  "week": 34,
+  "iso_week": "2026-W34",
+  "date_range": { "start": "2026-08-17", "end": "2026-08-23" },
+  "theme": {
+    "name": { "en": "Pepper Party Week", "da": "Peberfrugt Fest Uge" },
+    "tagline": { "en": "Red peppers from your own garden!", "da": "Roede peberfrugter fra din egen have!" },
+    "hero_task": "Pick the reddest pepper and eat it fresh"
+  },
+  "tasks": [
+    {
+      "id": "W34-01",
+      "action": "Harvest ripe red peppers from Bed C",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 5,
+      "frequency": "weekly",
+      "bed": "bed-c",
+      "crop_id": "sweet-pepper-lipstick",
+      "prompt": { "en": "Twist the pepper gently to pick it -- bite into it like an apple!", "da": "Vrid peberfrugten forsigtigt for at plukke den -- bid i den som et aeble!" }
+    },
+    {
+      "id": "W34-02",
+      "action": "Daily harvest walk -- all beds",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 15,
+      "frequency": "daily",
+      "prompt": { "en": "Tomatoes, cucumbers, raspberries, kale, beans -- check them all!", "da": "Tomater, agurker, hindbaer, groenkal, boenner -- tjek dem alle!" }
+    },
+    {
+      "id": "W34-03",
+      "action": "Water all beds",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 10,
+      "frequency": "daily",
+      "prompt": { "en": "Even as days get shorter, keep watering!", "da": "Selv naar dagene bliver kortere, bliv ved med at vande!" }
+    },
+    {
+      "id": "W34-04",
+      "action": "Remove spent pea plants from Bed C first trellis position",
+      "priority": "nice_to_do",
+      "who": "together",
+      "minutes": 10,
+      "frequency": "once",
+      "bed": "bed-c",
+      "crop_id": "pea-kelvedon-wonder",
+      "prompt": { "en": "The first peas are done -- pull out the brown vines and put them in compost.", "da": "De foerste aerter er faerdige -- traek de brune ranker ud og laeg dem i kompost." }
+    },
+    {
+      "id": "W34-05",
+      "action": "Cut lettuce from Bed D",
+      "priority": "nice_to_do",
+      "who": "child",
+      "minutes": 5,
+      "frequency": "weekly",
+      "bed": "bed-d",
+      "crop_id": "lettuce-baby-mix",
+      "prompt": { "en": "Last lettuce cuttings before it gets too hot for lettuce.", "da": "Sidste salatklipninger foer det bliver for varmt til salat." }
+    }
+  ],
+  "growth_events": [
+    {
+      "crop_id": "sweet-pepper-lipstick",
+      "event": "Peppers fully red and sweet",
+      "prompt": { "en": "The peppers went from green to red -- taste the difference! Red is much sweeter!", "da": "Peberfrugternes skiftede fra groen til roed -- smag forskellen! Roed er meget soedere!" }
+    },
+    {
+      "crop_id": "kale-nero-di-toscana",
+      "event": "Kale continuing strong harvest -- lower leaves keep producing",
+      "prompt": { "en": "The kale just keeps growing! Pick from the bottom and it makes more at the top.", "da": "Groenkaalen bliver bare ved med at gro! Pluk fra bunden og den laver mere i toppen." }
+    }
+  ],
+  "sowing_tasks": []
+}

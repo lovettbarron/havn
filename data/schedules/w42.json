@@ -1,0 +1,73 @@
+{
+  "week": 42,
+  "iso_week": "2026-W42",
+  "date_range": { "start": "2026-10-12", "end": "2026-10-18" },
+  "theme": {
+    "name": { "en": "Frost Watch", "da": "Frostovervagning" },
+    "tagline": { "en": "The first frost could come any night now!", "da": "Den foerste frost kan komme hvilken som helst nat nu!" },
+    "hero_task": "Check the garden on a frosty morning for ice crystals"
+  },
+  "tasks": [
+    {
+      "id": "W42-01",
+      "action": "Morning frost patrol: check for ice crystals on leaves",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 5,
+      "frequency": "daily",
+      "prompt": { "en": "Look at the leaves early in the morning -- can you see sparkly ice crystals?", "da": "Kig paa bladene tidligt om morgenen -- kan du se funklende iskrystaller?" }
+    },
+    {
+      "id": "W42-02",
+      "action": "Cover tender plants with fleece if frost forecast",
+      "priority": "must_do",
+      "who": "father",
+      "minutes": 10,
+      "frequency": "daily",
+      "prompt": { "en": "Drape fleece over Bed C and Bed E if frost is forecast tonight.", "da": "Laeg fiberdug over Bed C og Bed E hvis der er frost i aftens vejrudsigt." }
+    },
+    {
+      "id": "W42-03",
+      "action": "Harvest any remaining peppers or tomatoes before frost",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 10,
+      "frequency": "once",
+      "bed": "bed-c",
+      "prompt": { "en": "Frost kills tomatoes and peppers -- pick everything left!", "da": "Frost draeber tomater og peberfrugter -- pluk alt der er tilbage!" }
+    },
+    {
+      "id": "W42-04",
+      "action": "Harvest kale from Bed C",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 5,
+      "frequency": "weekly",
+      "bed": "bed-c",
+      "crop_id": "kale-nero-di-toscana",
+      "prompt": { "en": "Kale laughs at frost! It's one of the last plants standing.", "da": "Groenkal griner af frost! Den er en af de sidste planter der staar." }
+    },
+    {
+      "id": "W42-05",
+      "action": "Add mulch to all beds for winter protection",
+      "priority": "nice_to_do",
+      "who": "together",
+      "minutes": 15,
+      "frequency": "once",
+      "prompt": { "en": "Spread leaves or straw over the soil like a winter blanket for the worms.", "da": "Spred blade eller halm over jorden som et vintertaeppe til ormene." }
+    }
+  ],
+  "growth_events": [
+    {
+      "crop_id": "kale-nero-di-toscana",
+      "event": "Kale surviving frost -- leaves may have frost damage on edges but center grows on",
+      "prompt": { "en": "The kale is tough! Even after frost, the middle keeps growing new leaves.", "da": "Groenkaalen er sej! Selv efter frost bliver midten ved med at lave nye blade." }
+    },
+    {
+      "crop_id": "thyme",
+      "event": "Thyme staying green -- semi-evergreen through winter",
+      "prompt": { "en": "The thyme is still green! It stays green all winter -- you can pick it anytime.", "da": "Timianen er stadig groen! Den forbliver groen hele vinteren -- du kan plukke den naar som helst." }
+    }
+  ],
+  "sowing_tasks": []
+}

@@ -1,0 +1,77 @@
+{
+  "week": 40,
+  "iso_week": "2026-W40",
+  "date_range": { "start": "2026-09-28", "end": "2026-10-04" },
+  "theme": {
+    "name": { "en": "Last Raspberries", "da": "Sidste Hindbaer" },
+    "tagline": { "en": "Farewell berries -- hello garlic!", "da": "Farvel baer -- hej hvidloeg!" },
+    "hero_task": "Pick the very last raspberries and plant garlic for next year"
+  },
+  "tasks": [
+    {
+      "id": "W40-01",
+      "action": "Pick last raspberries from Bed B",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 10,
+      "frequency": "daily",
+      "bed": "bed-b",
+      "crop_id": "raspberry-autumn-bliss",
+      "prompt": { "en": "The last raspberries of the year! Savor every one.", "da": "Aarets sidste hindbaer! Nyd hver eneste en." }
+    },
+    {
+      "id": "W40-02",
+      "action": "Plant garlic cloves for Year 2 harvest",
+      "priority": "must_do",
+      "who": "together",
+      "minutes": 15,
+      "frequency": "once",
+      "bed": "bed-c",
+      "prompt": { "en": "Push each garlic clove pointy-end UP into the soil -- it will sleep all winter and grow in spring!", "da": "Tryk hvert hvidloegsbaad med spidsen OP ned i jorden -- det sover hele vinteren og gror til foraar!" }
+    },
+    {
+      "id": "W40-03",
+      "action": "Harvest kale from Bed C",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 5,
+      "frequency": "weekly",
+      "bed": "bed-c",
+      "crop_id": "kale-nero-di-toscana",
+      "prompt": { "en": "Kale after frost is the sweetest! Pick the big bottom leaves.", "da": "Groenkal efter frost er den soedeste! Pluk de store bundlade." }
+    },
+    {
+      "id": "W40-04",
+      "action": "Water only if dry -- less often now",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 5,
+      "frequency": "daily",
+      "prompt": { "en": "Autumn rains are starting -- check before watering.", "da": "Efteraarsregn er begyndt -- tjek foer du vander." }
+    },
+    {
+      "id": "W40-05",
+      "action": "Mulch around strawberry plants in Bed A with straw",
+      "priority": "nice_to_do",
+      "who": "together",
+      "minutes": 10,
+      "frequency": "once",
+      "bed": "bed-a",
+      "crop_id": "strawberry-ostara",
+      "prompt": { "en": "Tuck straw around the strawberry plants like a blanket for winter.", "da": "Laeg halm rundt om jordbaerplanterne som et taeppe til vinteren." }
+    }
+  ],
+  "growth_events": [
+    {
+      "crop_id": "raspberry-autumn-bliss",
+      "event": "Final raspberries of the season -- canes starting to brown",
+      "prompt": { "en": "The raspberry canes are going brown -- the plant is getting ready to sleep for winter.", "da": "Hindbaerstaenglerne bliver brune -- planten goer sig klar til at sove om vinteren." }
+    },
+    {
+      "crop_id": "strawberry-ostara",
+      "event": "Strawberry plants sending out runners to prepare for winter",
+      "prompt": { "en": "The strawberry plant is done fruiting -- it's storing energy for next year now.", "da": "Jordbaerplanten er faerdig med at baere frugt -- den gemmer energi til naeste aar nu." }
+    }
+  ],
+  "sowing_tasks": []
+}

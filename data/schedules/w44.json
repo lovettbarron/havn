@@ -1,0 +1,74 @@
+{
+  "week": 44,
+  "iso_week": "2026-W44",
+  "date_range": { "start": "2026-10-26", "end": "2026-11-01" },
+  "theme": {
+    "name": { "en": "Tuck In Week", "da": "Putte-I-Seng Uge" },
+    "tagline": { "en": "Tuck the garden into bed for winter!", "da": "Put haven i seng til vinteren!" },
+    "hero_task": "Cover all beds with winter mulch and say goodnight"
+  },
+  "tasks": [
+    {
+      "id": "W44-01",
+      "action": "Spread winter mulch over all beds",
+      "priority": "must_do",
+      "who": "together",
+      "minutes": 20,
+      "frequency": "once",
+      "prompt": { "en": "Cover each bed with leaves or straw -- like tucking them in with a blanket!", "da": "Daek hvert bed med blade eller halm -- som at putte dem i seng med et taeppe!" }
+    },
+    {
+      "id": "W44-02",
+      "action": "Cut back raspberry canes in Bed B to ground level",
+      "priority": "must_do",
+      "who": "father",
+      "minutes": 10,
+      "frequency": "once",
+      "bed": "bed-b",
+      "crop_id": "raspberry-autumn-bliss",
+      "prompt": { "en": "Autumn Bliss fruits on new wood -- cut all canes to the ground. Fresh ones grow in spring!", "da": "Autumn Bliss baerer frugt paa nyt trae -- skaer alle staengler til jorden. Nye gror til foraar!" }
+    },
+    {
+      "id": "W44-03",
+      "action": "Final kale harvest if any leaves remain in Bed C",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 5,
+      "frequency": "once",
+      "bed": "bed-c",
+      "crop_id": "kale-nero-di-toscana",
+      "prompt": { "en": "The very last harvest of the year! Thank you, garden!", "da": "Den allerlaeste hoest i aar! Tak, have!" }
+    },
+    {
+      "id": "W44-04",
+      "action": "Clean and store tools for winter",
+      "priority": "must_do",
+      "who": "together",
+      "minutes": 15,
+      "frequency": "once",
+      "prompt": { "en": "Wash tools, dry them, and put them away. The garden sleeps now.", "da": "Vask vaerktoej, toer det, og laeg det vaek. Haven sover nu." }
+    },
+    {
+      "id": "W44-05",
+      "action": "Make a 'what we grew this year' poster together",
+      "priority": "nice_to_do",
+      "who": "together",
+      "minutes": 30,
+      "frequency": "once",
+      "prompt": { "en": "Draw or paste photos of everything you grew this year! Count how many different things!", "da": "Tegn eller klaeb billeder af alt du har dyrket i aar! Tael hvor mange forskellige ting!" }
+    }
+  ],
+  "growth_events": [
+    {
+      "crop_id": "kale-nero-di-toscana",
+      "event": "Kale may survive into November if not too cold",
+      "prompt": { "en": "The kale might keep going! Check it next week too -- it's the toughest plant in the garden.", "da": "Groenkaalen bliver maaske ved! Tjek den ogsaa naeste uge -- den er den sejeste plante i haven." }
+    },
+    {
+      "crop_id": "thyme",
+      "event": "Thyme staying green through first frosts -- evergreen herb",
+      "prompt": { "en": "Thyme is still here! Pick a sprig and crush it -- still smells amazing!", "da": "Timian er stadig her! Pluk en kvist og knus den -- dufter stadig fantastisk!" }
+    }
+  ],
+  "sowing_tasks": []
+}

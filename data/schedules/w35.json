@@ -1,0 +1,76 @@
+{
+  "week": 35,
+  "iso_week": "2026-W35",
+  "date_range": { "start": "2026-08-24", "end": "2026-08-30" },
+  "theme": {
+    "name": { "en": "Harvest Festival", "da": "Hoestfest" },
+    "tagline": { "en": "The most different things to pick in one week!", "da": "Flest forskellige ting at plukke paa een uge!" },
+    "hero_task": "Count how many different crops you harvest this week"
+  },
+  "tasks": [
+    {
+      "id": "W35-01",
+      "action": "Harvest festival walk: count different crop types picked",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 15,
+      "frequency": "daily",
+      "prompt": { "en": "How many DIFFERENT things can you pick today? Tomatoes, raspberries, peppers, kale, beans, cucumbers...", "da": "Hvor mange FORSKELLIGE ting kan du plukke i dag? Tomater, hindbaer, peberfrugter, groenkal, boenner, agurker..." }
+    },
+    {
+      "id": "W35-02",
+      "action": "Water all beds",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 10,
+      "frequency": "daily",
+      "prompt": { "en": "Late August -- nights are getting cooler but still water in the day!", "da": "Slutningen af august -- naetterne bliver koligere, men vand stadig om dagen!" }
+    },
+    {
+      "id": "W35-03",
+      "action": "Harvest broccoli side shoots from Bed E",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 5,
+      "frequency": "weekly",
+      "bed": "bed-e",
+      "crop_id": "broccoli-calabrese",
+      "prompt": { "en": "After the big head was cut, the plant makes mini broccolis on the sides!", "da": "Efter det store hoved blev skaaret, laver planten mini-broccoli paa siderne!" }
+    },
+    {
+      "id": "W35-04",
+      "action": "Pick raspberries from Bed B",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 10,
+      "frequency": "daily",
+      "bed": "bed-b",
+      "crop_id": "raspberry-autumn-bliss",
+      "prompt": { "en": "Still raspberries! How many days in a row have you picked now?", "da": "Stadig hindbaer! Hvor mange dage i traek har du plukket nu?" }
+    },
+    {
+      "id": "W35-05",
+      "action": "Pull spent bush bean plants from Bed E (first sowing)",
+      "priority": "nice_to_do",
+      "who": "together",
+      "minutes": 10,
+      "frequency": "once",
+      "bed": "bed-e",
+      "crop_id": "bush-bean-provider",
+      "prompt": { "en": "These bean plants are done -- pull them out. Leave the roots in the soil though!", "da": "De her boenneplanter er faerdige -- traek dem op. Lad roedderne sidde i jorden dog!" }
+    }
+  ],
+  "growth_events": [
+    {
+      "crop_id": "raspberry-autumn-bliss",
+      "event": "Raspberry harvest continuing strong",
+      "prompt": { "en": "The Autumn Bliss name makes sense now -- autumn is coming and they're still fruiting!", "da": "Autumn Bliss-navnet giver mening nu -- efteraaret naermer sig og de baerer stadig frugt!" }
+    },
+    {
+      "crop_id": "borage",
+      "event": "Borage still producing blue star flowers, attracting bees",
+      "prompt": { "en": "See the bees on the blue borage stars? They're collecting nectar!", "da": "Ser du bierne paa de blaa borago-stjerner? De samler nektar!" }
+    }
+  ],
+  "sowing_tasks": []
+}

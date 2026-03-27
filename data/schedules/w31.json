@@ -1,0 +1,77 @@
+{
+  "week": 31,
+  "iso_week": "2026-W31",
+  "date_range": { "start": "2026-07-27", "end": "2026-08-02" },
+  "theme": {
+    "name": { "en": "Raspberry Rush", "da": "Hindbaer Rush" },
+    "tagline": { "en": "The raspberries are here -- race to pick them!", "da": "Hindbaererne er her -- loeb om kap for at plukke dem!" },
+    "hero_task": "Pick the first ripe raspberries from Bed B"
+  },
+  "tasks": [
+    {
+      "id": "W31-01",
+      "action": "Pick first ripe raspberries from Bed B",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 10,
+      "frequency": "daily",
+      "bed": "bed-b",
+      "crop_id": "raspberry-autumn-bliss",
+      "prompt": { "en": "Gently pull the raspberry -- if it comes off easily, it's ripe! Don't squish!", "da": "Traek forsigtigt i hindbaeret -- hvis det slipper nemt, er det modent! Lad vaere med at mase!" }
+    },
+    {
+      "id": "W31-02",
+      "action": "Harvest tomatoes and cucumbers from Bed C",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 10,
+      "frequency": "daily",
+      "bed": "bed-c",
+      "prompt": { "en": "Daily Bed C round -- tomatoes, cucumbers, and check the pepper!", "da": "Daglig Bed C runde -- tomater, agurker, og tjek peberfrugten!" }
+    },
+    {
+      "id": "W31-03",
+      "action": "Water all beds (neighbor handles if on vacation)",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 10,
+      "frequency": "daily",
+      "prompt": { "en": "If on vacation: neighbor waters. If home: your job! Check every bed.", "da": "Hvis paa ferie: naboen vander. Hvis hjemme: dit job! Tjek hvert bed." }
+    },
+    {
+      "id": "W31-04",
+      "action": "Check broccoli heads forming in Bed E",
+      "priority": "nice_to_do",
+      "who": "child",
+      "minutes": 3,
+      "frequency": "weekly",
+      "bed": "bed-e",
+      "crop_id": "broccoli-calabrese",
+      "prompt": { "en": "Look for the tiny green tree forming in the middle -- that's the broccoli head!", "da": "Kig efter det lille groenne trae i midten -- det er broccolihovedet!" }
+    },
+    {
+      "id": "W31-05",
+      "action": "Harvest bush beans from Bed E",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 5,
+      "frequency": "weekly",
+      "bed": "bed-e",
+      "crop_id": "bush-bean-provider",
+      "prompt": { "en": "Pick beans every few days so the plant keeps making more!", "da": "Pluk boenner hver faa dage, saa planten bliver ved med at lave flere!" }
+    }
+  ],
+  "growth_events": [
+    {
+      "crop_id": "raspberry-autumn-bliss",
+      "event": "Autumn Bliss raspberries beginning to ripen -- green turning pink then red",
+      "prompt": { "en": "The raspberries are turning from green to pink to red! Only pick the dark red ones!", "da": "Hindbaererne skifter fra groen til lyseroed til roed! Pluk kun de moerke roede!" }
+    },
+    {
+      "crop_id": "broccoli-calabrese",
+      "event": "Broccoli forming central head",
+      "prompt": { "en": "See the little green tree forming? That's the broccoli growing inside!", "da": "Ser du det lille groenne trae? Det er broccolien, der gror indeni!" }
+    }
+  ],
+  "sowing_tasks": []
+}

@@ -1,0 +1,76 @@
+{
+  "week": 38,
+  "iso_week": "2026-W38",
+  "date_range": { "start": "2026-09-14", "end": "2026-09-20" },
+  "theme": {
+    "name": { "en": "Last Strawberry Week", "da": "Sidste Jordbaer Uge" },
+    "tagline": { "en": "Goodbye strawberries -- until next year!", "da": "Farvel jordbaer -- til naeste aar!" },
+    "hero_task": "Pick the last strawberries of the season"
+  },
+  "tasks": [
+    {
+      "id": "W38-01",
+      "action": "Pick the last strawberries from Bed A",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 5,
+      "frequency": "daily",
+      "bed": "bed-a",
+      "crop_id": "strawberry-ostara",
+      "prompt": { "en": "These might be the last strawberries! Enjoy every one -- they'll be back next year.", "da": "Det her er maaske de sidste jordbaer! Nyd hver en -- de kommer igen naeste aar." }
+    },
+    {
+      "id": "W38-02",
+      "action": "Harvest remaining tomatoes and peppers from Bed C",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 10,
+      "frequency": "daily",
+      "bed": "bed-c",
+      "prompt": { "en": "Pick everything that's ripe or nearly ripe -- green ones ripen inside!", "da": "Pluk alt der er modent eller naesten modent -- groenne modner indenfoer!" }
+    },
+    {
+      "id": "W38-03",
+      "action": "Pick raspberries from Bed B",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 10,
+      "frequency": "daily",
+      "bed": "bed-b",
+      "crop_id": "raspberry-autumn-bliss",
+      "prompt": { "en": "Raspberries are slowing down but still some left!", "da": "Hindbaererne saaetner farten, men der er stadig nogle tilbage!" }
+    },
+    {
+      "id": "W38-04",
+      "action": "Water beds only if dry -- less frequent watering now",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 5,
+      "frequency": "daily",
+      "prompt": { "en": "Check the soil -- only water if it feels dry to your finger.", "da": "Tjek jorden -- vand kun hvis den foeles toer for din finger." }
+    },
+    {
+      "id": "W38-05",
+      "action": "Trim dead nasturtium and calendula stems",
+      "priority": "nice_to_do",
+      "who": "together",
+      "minutes": 10,
+      "frequency": "once",
+      "bed": "bed-a",
+      "prompt": { "en": "Flowers are finishing -- trim the dead parts to keep beds tidy.", "da": "Blomsterne er ved at vaere faerdige -- trim de doede dele for at holde bedene paene." }
+    }
+  ],
+  "growth_events": [
+    {
+      "crop_id": "strawberry-ostara",
+      "event": "Last everbearing strawberries ripening -- season ending",
+      "prompt": { "en": "The strawberry season is ending -- say thank you to the plants for all the berries!", "da": "Jordbaersaesonen slutter -- sig tak til planterne for alle baerrene!" }
+    },
+    {
+      "crop_id": "raspberry-autumn-bliss",
+      "event": "Raspberry production tapering off",
+      "prompt": { "en": "The raspberry canes are getting tired -- a few more weeks of berries left.", "da": "Hindbaerbusten bliver traet -- faa uger mere med baer." }
+    }
+  ],
+  "sowing_tasks": []
+}

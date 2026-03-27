@@ -1,0 +1,74 @@
+{
+  "week": 33,
+  "iso_week": "2026-W33",
+  "date_range": { "start": "2026-08-10", "end": "2026-08-16" },
+  "theme": {
+    "name": { "en": "Back to School Harvest", "da": "Tilbage-til-Skole Hoest" },
+    "tagline": { "en": "Show your friends what you grew!", "da": "Vis dine venner hvad du har dyrket!" },
+    "hero_task": "Pick a harvest basket to share with a friend or teacher"
+  },
+  "tasks": [
+    {
+      "id": "W33-01",
+      "action": "Harvest a basket of mixed produce to share",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 10,
+      "frequency": "once",
+      "prompt": { "en": "Pick your best tomatoes, beans, and herbs -- make a gift basket for someone!", "da": "Pluk dine bedste tomater, boenner og urter -- lav en gavekurv til nogen!" }
+    },
+    {
+      "id": "W33-02",
+      "action": "Daily harvest walk -- Beds A through E",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 15,
+      "frequency": "daily",
+      "prompt": { "en": "Keep harvesting every day -- if you leave things too long, they get too big!", "da": "Bliv ved med at hoeste hver dag -- hvis du venter for laenge, bliver de for store!" }
+    },
+    {
+      "id": "W33-03",
+      "action": "Water all beds",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 10,
+      "frequency": "daily",
+      "prompt": { "en": "Late summer watering -- still important even if it rained!", "da": "Sen-sommer vanding -- stadig vigtigt selv om det har regnet!" }
+    },
+    {
+      "id": "W33-04",
+      "action": "Pick raspberries from Bed B",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 10,
+      "frequency": "daily",
+      "bed": "bed-b",
+      "crop_id": "raspberry-autumn-bliss",
+      "prompt": { "en": "Peak raspberry season! Pick every ripe one -- they don't wait!", "da": "Hoejsaeson for hindbaer! Pluk hvert modent et -- de venter ikke!" }
+    },
+    {
+      "id": "W33-05",
+      "action": "Harvest spring onions from Bed D (third batch)",
+      "priority": "nice_to_do",
+      "who": "child",
+      "minutes": 5,
+      "frequency": "once",
+      "bed": "bed-d",
+      "crop_id": "spring-onion-white-lisbon",
+      "prompt": { "en": "Pull spring onions for a stir-fry or salad topping!", "da": "Traek foraarsloeg til en wok eller salat-topping!" }
+    }
+  ],
+  "growth_events": [
+    {
+      "crop_id": "raspberry-autumn-bliss",
+      "event": "Peak raspberry production -- multiple ripe berries daily",
+      "prompt": { "en": "How many raspberries can you pick today? Try to beat yesterday's count!", "da": "Hvor mange hindbaer kan du plukke i dag? Proev at slaa gaardagens rekord!" }
+    },
+    {
+      "crop_id": "calendula",
+      "event": "Calendula still blooming with bright orange flowers",
+      "prompt": { "en": "The calendula keeps making flowers! Bees love the orange ones.", "da": "Morgenfrue bliver ved med at lave blomster! Bierne elsker de orange." }
+    }
+  ],
+  "sowing_tasks": []
+}

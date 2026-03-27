@@ -1,0 +1,64 @@
+{
+  "week": 43,
+  "iso_week": "2026-W43",
+  "date_range": { "start": "2026-10-19", "end": "2026-10-25" },
+  "theme": {
+    "name": { "en": "Season Wrap-Up", "da": "Saeson Afrunding" },
+    "tagline": { "en": "Almost done -- the garden did amazing this year!", "da": "Naesten faerdig -- haven var fantastisk i aar!" },
+    "hero_task": "Take end-of-season photos of every bed"
+  },
+  "tasks": [
+    {
+      "id": "W43-01",
+      "action": "Take photos of each bed for a season memory album",
+      "priority": "must_do",
+      "who": "together",
+      "minutes": 10,
+      "frequency": "once",
+      "prompt": { "en": "Take a photo of each bed A through E -- compare with your planting day photos!", "da": "Tag et billede af hvert bed A til E -- sammenlign med dine plantedags-billeder!" }
+    },
+    {
+      "id": "W43-02",
+      "action": "Final kale harvest from Bed C",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 5,
+      "frequency": "once",
+      "bed": "bed-c",
+      "crop_id": "kale-nero-di-toscana",
+      "prompt": { "en": "Big final kale harvest! Enough for a soup or kale chips.", "da": "Stor afsluttende groenkaalshoest! Nok til en suppe eller groenkaalschips." }
+    },
+    {
+      "id": "W43-03",
+      "action": "Clear remaining annual plants from all beds",
+      "priority": "must_do",
+      "who": "father",
+      "minutes": 20,
+      "frequency": "once",
+      "prompt": { "en": "Pull dead annuals, cut back perennials, compost everything. Leave kale if still producing.", "da": "Traek doede enaarige op, beskaer fleraaring, kompost alt. Lad groenkal staa hvis den stadig baerer." }
+    },
+    {
+      "id": "W43-04",
+      "action": "Check garlic is sprouting (planted W40-41)",
+      "priority": "nice_to_do",
+      "who": "child",
+      "minutes": 5,
+      "frequency": "once",
+      "bed": "bed-c",
+      "prompt": { "en": "Look for tiny green tips from the garlic -- it's already growing underground!", "da": "Kig efter smaa groenne spidser fra hvidloegen -- den gror allerede under jorden!" }
+    }
+  ],
+  "growth_events": [
+    {
+      "crop_id": "kale-nero-di-toscana",
+      "event": "Kale still harvestable even in late October cold",
+      "prompt": { "en": "Kale is the champion of the garden -- still standing when everything else is done!", "da": "Groenkal er havens mester -- staar stadig, naar alt andet er faerdigt!" }
+    },
+    {
+      "crop_id": "strawberry-ostara",
+      "event": "Strawberry plants dormant under mulch -- safely sleeping",
+      "prompt": { "en": "The strawberries are sleeping under their straw blanket -- they'll wake up in spring!", "da": "Jordbaererne sover under deres halmtaeppe -- de vaagner igen til foraar!" }
+    }
+  ],
+  "sowing_tasks": []
+}

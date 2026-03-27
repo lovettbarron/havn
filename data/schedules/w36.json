@@ -1,0 +1,75 @@
+{
+  "week": 36,
+  "iso_week": "2026-W36",
+  "date_range": { "start": "2026-08-31", "end": "2026-09-06" },
+  "theme": {
+    "name": { "en": "September Garden Walk", "da": "September Havevandring" },
+    "tagline": { "en": "The garden is changing -- watch the colors shift!", "da": "Haven forandrer sig -- se farverne skifte!" },
+    "hero_task": "Spot three signs that autumn is on its way"
+  },
+  "tasks": [
+    {
+      "id": "W36-01",
+      "action": "Autumn observation walk: spot 3 signs of the season changing",
+      "priority": "must_do",
+      "who": "together",
+      "minutes": 10,
+      "frequency": "once",
+      "prompt": { "en": "Walk the garden and find 3 autumn signs: shorter days, cooler mornings, or leaves turning?", "da": "Gaa gennem haven og find 3 efteraarstegn: kortere dage, koligere morgener, eller blade der skifter farve?" }
+    },
+    {
+      "id": "W36-02",
+      "action": "Harvest tomatoes, peppers, cucumbers from Bed C",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 10,
+      "frequency": "daily",
+      "bed": "bed-c",
+      "prompt": { "en": "The plants are slowing down -- pick everything that's ripe!", "da": "Planterne saaetner farten -- pluk alt der er modent!" }
+    },
+    {
+      "id": "W36-03",
+      "action": "Water beds that need it (less frequent now)",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 10,
+      "frequency": "daily",
+      "prompt": { "en": "Check the soil -- if it's damp already, skip that bed today.", "da": "Tjek jorden -- hvis den allerede er fugtig, spring det bed over i dag." }
+    },
+    {
+      "id": "W36-04",
+      "action": "Pick last radishes from final succession sowing",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 5,
+      "frequency": "once",
+      "bed": "bed-d",
+      "crop_id": "radish",
+      "prompt": { "en": "Pull the last radishes of the season! How do they compare to the first ones?", "da": "Traek de sidste radiser for saesonen! Hvordan er de sammenlignet med de foerste?" }
+    },
+    {
+      "id": "W36-05",
+      "action": "Pick raspberries from Bed B",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 10,
+      "frequency": "daily",
+      "bed": "bed-b",
+      "crop_id": "raspberry-autumn-bliss",
+      "prompt": { "en": "Raspberries are still going! These late ones are often the sweetest.", "da": "Hindbaererne baerer stadig! De sene er tit de soedeste." }
+    }
+  ],
+  "growth_events": [
+    {
+      "crop_id": "strawberry-ostara",
+      "event": "Strawberry runners visible -- long stems with baby plants",
+      "prompt": { "en": "See the baby strawberry plants at the end of the long strings? The mother plant is making babies!", "da": "Ser du de smaa jordbaerplanter i enden af de lange snore? Moderplanten laver babyer!" }
+    },
+    {
+      "crop_id": "cucumber-mini-munch",
+      "event": "Cucumber production slowing as temperatures drop",
+      "prompt": { "en": "The cucumber leaves are looking tired -- it's almost done for the year.", "da": "Agurkens blade ser traette ud -- den er naesten faerdig for i aar." }
+    }
+  ],
+  "sowing_tasks": []
+}

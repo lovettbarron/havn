@@ -1,0 +1,77 @@
+{
+  "week": 39,
+  "iso_week": "2026-W39",
+  "date_range": { "start": "2026-09-21", "end": "2026-09-27" },
+  "theme": {
+    "name": { "en": "Autumn Equinox Week", "da": "Efteraarsjaaevndoegn Uge" },
+    "tagline": { "en": "Day and night are the same length today!", "da": "Dag og nat er lige lange i dag!" },
+    "hero_task": "Harvest kale for a kale chip snack"
+  },
+  "tasks": [
+    {
+      "id": "W39-01",
+      "action": "Harvest kale leaves for homemade kale chips",
+      "priority": "must_do",
+      "who": "together",
+      "minutes": 10,
+      "frequency": "once",
+      "bed": "bed-c",
+      "crop_id": "kale-nero-di-toscana",
+      "prompt": { "en": "Pick big kale leaves, tear them up, toss with oil and salt, bake until crispy!", "da": "Pluk store groenkalsblade, riv dem i stykker, vend i olie og salt, bag til de er sprode!" }
+    },
+    {
+      "id": "W39-02",
+      "action": "Pick last tomatoes from Bed C -- bring green ones inside to ripen",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 10,
+      "frequency": "once",
+      "bed": "bed-c",
+      "crop_id": "cherry-tomato-sungold",
+      "prompt": { "en": "Pick all remaining tomatoes -- green ones ripen on the windowsill in the sun!", "da": "Pluk alle resterende tomater -- groenne modner paa vindueskarmen i solen!" }
+    },
+    {
+      "id": "W39-03",
+      "action": "Water only if soil is dry",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 5,
+      "frequency": "daily",
+      "prompt": { "en": "Autumn rain usually helps now -- just check and water if dry.", "da": "Efteraarsregn hjaelper normalt nu -- tjek bare og vand hvis toert." }
+    },
+    {
+      "id": "W39-04",
+      "action": "Pick last peppers from Bed C",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 5,
+      "frequency": "once",
+      "bed": "bed-c",
+      "crop_id": "sweet-pepper-lipstick",
+      "prompt": { "en": "Last peppers of the year! Even if they're still green, they taste fine.", "da": "Aarets sidste peberfrugter! Selv hvis de stadig er groenne, smager de fint." }
+    },
+    {
+      "id": "W39-05",
+      "action": "Clear spent tomato and pepper plants from Bed C",
+      "priority": "nice_to_do",
+      "who": "father",
+      "minutes": 15,
+      "frequency": "once",
+      "bed": "bed-c",
+      "prompt": { "en": "Pull out the tomato and pepper plants -- they're done for the year. Compost them.", "da": "Traek tomat- og peberplanterne op -- de er faerdige for i aar. Laeg dem i kompost." }
+    }
+  ],
+  "growth_events": [
+    {
+      "crop_id": "kale-nero-di-toscana",
+      "event": "Kale thriving in cooler weather -- leaves large and sweet",
+      "prompt": { "en": "Kale is a cool-weather champion! It actually gets better as it gets colder.", "da": "Groenkal er en kulde-mester! Den bliver faktisk bedre, naar det bliver koldere." }
+    },
+    {
+      "crop_id": "chives",
+      "event": "Chives still producing but growth slowing",
+      "prompt": { "en": "The chives are still going! Snip some for a baked potato topping.", "da": "Purloeg baerer stadig! Klip nogle til en bagt kartoffel-topping." }
+    }
+  ],
+  "sowing_tasks": []
+}

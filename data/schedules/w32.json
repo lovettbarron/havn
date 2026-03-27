@@ -1,0 +1,83 @@
+{
+  "week": 32,
+  "iso_week": "2026-W32",
+  "date_range": { "start": "2026-08-03", "end": "2026-08-09" },
+  "theme": {
+    "name": { "en": "Summer Feast Week", "da": "Sommerfest Uge" },
+    "tagline": { "en": "So much to harvest you need a bigger basket!", "da": "Saa meget at hoeste, du har brug for en stoerre kurv!" },
+    "hero_task": "Harvest from every bed in one walk"
+  },
+  "tasks": [
+    {
+      "id": "W32-01",
+      "action": "Full garden harvest walk: every bed from A to E",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 15,
+      "frequency": "daily",
+      "prompt": { "en": "Start at Bed A and walk to Bed E -- pick something from every single bed!", "da": "Start ved Bed A og gaa til Bed E -- pluk noget fra hvert eneste bed!" }
+    },
+    {
+      "id": "W32-02",
+      "action": "Water all beds (neighbor handles if on vacation)",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 10,
+      "frequency": "daily",
+      "prompt": { "en": "August heat! Water deeply in the evening.", "da": "August varme! Vand dybt om aftenen." }
+    },
+    {
+      "id": "W32-03",
+      "action": "Pick raspberries from Bed B",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 10,
+      "frequency": "daily",
+      "bed": "bed-b",
+      "crop_id": "raspberry-autumn-bliss",
+      "prompt": { "en": "Raspberries ripen fast -- check every day or the birds eat them!", "da": "Hindbaer modner hurtigt -- tjek hver dag ellers spiser fuglene dem!" }
+    },
+    {
+      "id": "W32-04",
+      "action": "Cut broccoli main head from Bed E when fist-sized",
+      "priority": "must_do",
+      "who": "together",
+      "minutes": 5,
+      "frequency": "once",
+      "bed": "bed-e",
+      "crop_id": "broccoli-calabrese",
+      "prompt": { "en": "Cut the main head with a sharp knife -- leave the stem for side-shoot broccoli!", "da": "Skaer hovedet af med en skarp kniv -- lad stilken staa til side-skuds broccoli!" }
+    },
+    {
+      "id": "W32-05",
+      "action": "Pick first sweet peppers from Bed C if turning red",
+      "priority": "nice_to_do",
+      "who": "child",
+      "minutes": 5,
+      "frequency": "weekly",
+      "bed": "bed-c",
+      "crop_id": "sweet-pepper-lipstick",
+      "prompt": { "en": "Wait until it's really red -- green ones are okay too but red is sweeter!", "da": "Vent til den er helt roed -- groenne er ogsaa okay, men roede er soedere!" }
+    }
+  ],
+  "growth_events": [
+    {
+      "crop_id": "sweet-pepper-lipstick",
+      "event": "Peppers beginning to turn from green to red",
+      "prompt": { "en": "Watch the pepper changing color -- green to orange to red, like a traffic light!", "da": "Se peberfrugten skifte farve -- groen til orange til roed, som et trafiklys!" }
+    },
+    {
+      "crop_id": "cherry-tomato-tumbling-tom",
+      "event": "Tumbling Tom cascading over edge of Bed E with ripe red tomatoes",
+      "prompt": { "en": "The Tumbling Tom is hanging over the edge like a tomato waterfall!", "da": "Tumbling Tom haenger ud over kanten som et tomat-vandfald!" }
+    }
+  ],
+  "sowing_tasks": [
+    {
+      "crop_id": "radish",
+      "bed": "bed-d",
+      "slot": "S1",
+      "action": "Sow ninth (final) succession radish in Bed D"
+    }
+  ]
+}

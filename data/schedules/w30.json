@@ -1,0 +1,88 @@
+{
+  "week": 30,
+  "iso_week": "2026-W30",
+  "date_range": { "start": "2026-07-20", "end": "2026-07-26" },
+  "theme": {
+    "name": { "en": "Sunflower Show Week", "da": "Solsikke Show Uge" },
+    "tagline": { "en": "The sunflower opened its face to the sun!", "da": "Solsikken aabnede sit ansigt mod solen!" },
+    "hero_task": "Take a photo next to the open sunflower"
+  },
+  "tasks": [
+    {
+      "id": "W30-01",
+      "action": "Stand next to sunflower for a height comparison photo",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 5,
+      "frequency": "once",
+      "bed": "bed-a",
+      "crop_id": "sunflower",
+      "prompt": { "en": "Stand next to the sunflower -- is it taller than you? Take a photo!", "da": "Stil dig ved solsikken -- er den hoejere end dig? Tag et billede!" }
+    },
+    {
+      "id": "W30-02",
+      "action": "Harvest tomatoes, cucumbers, and peas from Bed C",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 10,
+      "frequency": "daily",
+      "bed": "bed-c",
+      "prompt": { "en": "The daily harvest round -- check every plant!", "da": "Den daglige hoest-runde -- tjek hver plante!" }
+    },
+    {
+      "id": "W30-03",
+      "action": "Pick strawberries from Bed A",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 5,
+      "frequency": "daily",
+      "bed": "bed-a",
+      "crop_id": "strawberry-ostara",
+      "prompt": { "en": "Still making strawberries! Keep picking the red ones.", "da": "Laver stadig jordbaer! Bliv ved med at plukke de roede." }
+    },
+    {
+      "id": "W30-04",
+      "action": "Water all beds -- deep soak in hot weather",
+      "priority": "must_do",
+      "who": "child",
+      "minutes": 10,
+      "frequency": "daily",
+      "prompt": { "en": "Hot weather deep soak! Count to 10 slowly at each bed.", "da": "Varmt vejr dyb vanding! Tael langsomt til 10 ved hvert bed." }
+    },
+    {
+      "id": "W30-05",
+      "action": "Prepare vacation watering instructions for neighbor",
+      "priority": "must_do",
+      "who": "father",
+      "minutes": 15,
+      "frequency": "once",
+      "prompt": { "en": "Write simple watering instructions: which beds daily, how much. Leave by the beds.", "da": "Skriv enkle vandingsinstruktioner: hvilke bede dagligt, hvor meget. Laeg dem ved bedene." }
+    }
+  ],
+  "growth_events": [
+    {
+      "crop_id": "sunflower",
+      "event": "Sunflower head fully opened -- large golden face with brown center",
+      "prompt": { "en": "The sunflower opened! See how it faces the sun? It's called a sunflower because it follows the sun!", "da": "Solsikken aabnede sig! Ser du hvordan den vender mod solen? Den hedder solsikke fordi den foelger solen!" }
+    },
+    {
+      "crop_id": "sweet-pepper-lipstick",
+      "event": "First small peppers forming on plants",
+      "prompt": { "en": "See the tiny green peppers? They will turn red when they are ready!", "da": "Ser du de smaa groenne peberfrugter? De bliver roede, naar de er klar!" }
+    }
+  ],
+  "sowing_tasks": [
+    {
+      "crop_id": "radish",
+      "bed": "bed-c",
+      "slot": "S1",
+      "action": "Sow eighth succession radish in Bed C"
+    },
+    {
+      "crop_id": "lettuce-baby-mix",
+      "bed": "bed-e",
+      "slot": "S1",
+      "action": "Sow sixth (final) succession lettuce in Bed E"
+    }
+  ]
+}
