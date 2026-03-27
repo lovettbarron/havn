@@ -15,19 +15,34 @@ This repo contains the complete planning and documentation for building, plantin
 | Document | Description |
 |----------|-------------|
 | [Shopping List](docs/shopping-list.md) | All materials with DKK pricing -- corten steel and budget alternatives |
+| [Warm Season Shopping](docs/warm-season-shopping-list.md) | Materials for W21-W22 warm season planting |
 | [Bed Layout](docs/bed-layout.md) | Where each of the 5 beds goes, with ASCII diagrams and spacing |
+| [Property Map](docs/property-map.md) | Garden site overview with bed placement |
 | [Soil Layers](docs/soil-layers.md) | Three-layer fill system for each bed type |
 | [Slug Defense](docs/slug-defense.md) | Copper tape installation guide |
 | [Reservoir Build](docs/reservoir-build.md) | DIY self-watering wicking system for tomato and cucumber beds |
 | [Trellis Build](docs/trellis-build.md) | A-frame cucumber trellis -- child picks from underneath |
 | [Setup Guide](docs/setup-guide.md) | Master construction sequence across 2 days |
 | [Planting Grids](docs/planting-grid-bed-a.md) | Bed-by-bed planting maps with exact cm positions (5 beds, A-E) |
-| [Planting Day Script](docs/planting-day-script.md) | Step-by-step session guide with timing, breaks, and transition cues |
+| [Planting Day Script](docs/planting-day-script.md) | Step-by-step session guide for spring planting with timing and transition cues |
+| [Warm Season Sessions](docs/warm-season-session-scripts.md) | Planting scripts for W21-W22 warm season transplants |
 | [Bug Hotel Guide](docs/bug-hotel-guide.md) | Weekend creature habitat building activity |
+| [Crop Difficulty Tiers](docs/crop-difficulty-tiers.md) | Crop categorization by child independence level |
+| [Troubleshooting Guide](docs/troubleshooting-guide.md) | Common garden problems and fixes |
+| [Neighbor Vacation Guide](docs/neighbor-vacation-guide.md) | Handoff instructions for garden care during holidays |
+| [Garlic Autumn Plan](docs/garlic-autumn-plan.md) | Year 2 garlic planting preparation |
 
-### `.planning/` -- Project Planning
+### `data/` -- Structured Data
 
-The project uses the [GSD methodology](https://github.com/csellis/get-shit-done) for structured planning. The `.planning/` directory contains the roadmap, requirements, phase research, context, and execution plans.
+| Directory | Description |
+|-----------|-------------|
+| [Crop Database](data/crops/) | 27 JSON files -- one per planted variety with growth stages, child actions (EN/DA), difficulty tiers, companion plants, and alert triggers |
+| [Bed Definitions](data/beds/) | 5 JSON files mapping crops to exact cm positions with HA sensor references |
+| [Weekly Schedules](data/schedules/) | 30 weekly JSON files (W15-W44) with themed names, hero tasks, and bilingual prompts |
+| [Succession Calendar](data/succession-calendar.json) | Master sowing/harvest timeline with gap analysis -- continuous harvest W22-W43 |
+| [HA Integration](data/ha/) | Home Assistant sensor definitions, plant monitors, alert rules (bilingual), and entity customization |
+| [Sensor Guide](data/sensors/) | Hardware recommendations for soil moisture and temperature monitoring |
+| [JSON Schemas](data/schemas/) | Validation schemas for crops, beds, and weekly schedules |
 
 ## The Garden
 
@@ -49,15 +64,11 @@ The project uses the [GSD methodology](https://github.com/csellis/get-shit-done)
 | # | Phase | Status |
 |---|-------|--------|
 | 1 | Bed Infrastructure | Complete |
-| 2 | Spring Planting (W16-W18) | Planned |
-| 3 | Warm Season Planting (W21-W22) | Not started |
-| 4 | Data System and Schedules | Not started |
-| 5 | Documentation and Guides | Not started |
+| 2 | Spring Planting (W16-W18) | Complete |
+| 3 | Warm Season Planting (W21-W22) | Complete |
+| 4 | Data System and Schedules | Complete |
+| 5 | Documentation and Guides | In progress |
 | 6 | Vacation Preparation | Not started |
-
-## Built With
-
-This entire project -- every document, plan, and guide -- was created through conversations with [Claude Code](https://claude.ai/claude-code). The garden planning is AI-assisted from crop selection and companion planting through to construction sequences and child engagement scripting.
 
 ## License
 
