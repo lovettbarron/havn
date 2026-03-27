@@ -42,7 +42,7 @@ created: 2026-03-27
 | 05-02-XX | 02 | 1 | DOCS-02 | manual-only | Verify all 27 crops appear in crop index | N/A | ⬜ pending |
 | 05-02-XX | 02 | 1 | DOCS-03 | manual-only | Count crops in tiers vs total (should be 27) | N/A | ⬜ pending |
 | 05-03-XX | 03 | 1 | DOCS-04 | manual-only | Verify all 5 beds have detail cards | N/A | ⬜ pending |
-| 05-03-XX | 03 | 1 | DOCS-05 | manual-only | Verify guardrails section, file paths valid | N/A | ⬜ pending |
+| 05-01-XX | 01 | 1 | DOCS-05 | manual-only | Verify guardrails section, file paths valid | N/A | ⬜ pending |
 | 05-03-XX | 03 | 1 | COOK-02 | manual-only | Verify planting window, depth, spacing present | N/A | ⬜ pending |
 
 *Status: ⬜ pending · ✅ green · ❌ red · ⚠️ flaky*
