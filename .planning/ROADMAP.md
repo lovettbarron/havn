@@ -113,11 +113,11 @@ Plans:
   2. All beds are mulched with 5-8cm of straw or bark before departure
   3. A pre-vacation harvest protocol has been executed (everything showing color picked)
   4. The neighbor has received a printed vacation guide with per-bed photos, watering frequency, harvest instructions, and emergency contacts
-**Plans**: TBD
+**Plans:** 2 plans
 
 Plans:
-- [ ] 06-01: TBD
-- [ ] 06-02: TBD
+- [ ] 06-01-PLAN.md — Reservoir test protocol and per-bed mulching guide
+- [ ] 06-02-PLAN.md — 3-day pre-departure countdown script, printable checklist, and JSON data
 
 ## Progress
 
@@ -132,4 +132,4 @@ Note: Phase 4 (Data) and Phase 5 (Docs) can run in parallel with physical planti
 | 3. Warm Season Planting | 0/2 | Planned | - |
 | 4. Data System and Schedules | 3/3 | Complete   | 2026-03-27 |
 | 5. Documentation and Guides | 3/3 | Complete   | 2026-03-27 |
-| 6. Vacation Preparation | 0/2 | Not started | - |
+| 6. Vacation Preparation | 0/2 | Planned | - |
