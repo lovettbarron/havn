@@ -31,6 +31,10 @@ This repo contains the complete planning and documentation for building, plantin
 | [Troubleshooting Guide](docs/troubleshooting-guide.md) | Common garden problems and fixes |
 | [Neighbor Vacation Guide](docs/neighbor-vacation-guide.md) | Handoff instructions for garden care during holidays |
 | [Garlic Autumn Plan](docs/garlic-autumn-plan.md) | Year 2 garlic planting preparation |
+| [Reservoir Test Protocol](docs/reservoir-test-protocol.md) | 5-day self-watering dry-run test with daily log and pass/fail criteria |
+| [Mulching Guide](docs/mulching-guide.md) | Per-bed mulching instructions with material types and volume calculations |
+| [Vacation Countdown Script](docs/vacation-countdown-script.md) | 3-day pre-departure session script with ADHD-adapted structure |
+| [Pre-Departure Checklist](docs/pre-departure-checklist.md) | One-page printable checklist for vacation preparation |
 
 ### `data/` -- Structured Data
 
@@ -42,7 +46,7 @@ This repo contains the complete planning and documentation for building, plantin
 | [Succession Calendar](data/succession-calendar.json) | Master sowing/harvest timeline with gap analysis -- continuous harvest W22-W43 |
 | [HA Integration](data/ha/) | Home Assistant sensor definitions, plant monitors, alert rules (bilingual), and entity customization |
 | [Sensor Guide](data/sensors/) | Hardware recommendations for soil moisture and temperature monitoring |
-| [JSON Schemas](data/schemas/) | Validation schemas for crops, beds, and weekly schedules |
+| [JSON Schemas](data/schemas/) | Validation schemas for crops, beds, weekly schedules, and checklists |
 
 ## The Garden
 
@@ -68,7 +72,7 @@ This repo contains the complete planning and documentation for building, plantin
 | 3 | Warm Season Planting (W21-W22) | Complete |
 | 4 | Data System and Schedules | Complete |
 | 5 | Documentation and Guides | Complete |
-| 6 | Vacation Preparation | Not started |
+| 6 | Vacation Preparation | Complete |
 
 ## License
 
