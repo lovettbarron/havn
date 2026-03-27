@@ -80,7 +80,7 @@ Plans:
   3. A staggered planting schedule ensures continuous harvest from late May through October with no 2-week gap
   4. Home Assistant entity schemas follow the havn_ prefix convention with per-bed sensor entities and Plant Monitor configurations
   5. Zigbee/LoRaWAN sensor recommendations are documented with specific models, prices, and HA compatibility
-**Plans:** 1/3 plans executed
+**Plans:** 2/3 plans executed
 
 Plans:
 - [ ] 04-01-PLAN.md — Crop JSON database (27 files) with schemas and bed mapping files
@@ -130,6 +130,6 @@ Note: Phase 4 (Data) and Phase 5 (Docs) can run in parallel with physical planti
 | 1. Bed Infrastructure | 3/3 | Complete   | 2026-03-26 |
 | 2. Spring Planting | 0/2 | Planned | - |
 | 3. Warm Season Planting | 0/2 | Planned | - |
-| 4. Data System and Schedules | 1/3 | In Progress|  |
+| 4. Data System and Schedules | 2/3 | In Progress|  |
 | 5. Documentation and Guides | 0/3 | Planned | - |
 | 6. Vacation Preparation | 0/2 | Not started | - |

@@ -3,15 +3,15 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 05-01-PLAN.md
-last_updated: "2026-03-27T06:23:35.391Z"
-last_activity: 2026-03-27 -- Completed Plan 04-01 (crop database and bed files)
+stopped_at: Completed 04-03-PLAN.md
+last_updated: "2026-03-27T06:30:39.290Z"
+last_activity: 2026-03-27 -- Completed Plan 04-03 (HA schemas and sensor recommendations)
 progress:
   total_phases: 6
   completed_phases: 3
   total_plans: 13
-  completed_plans: 9
-  percent: 69
+  completed_plans: 11
+  percent: 85
 ---
 
 # Project State
@@ -21,16 +21,16 @@ progress:
 See: .planning/PROJECT.md (updated 2026-03-26)
 
 **Core value:** A child who independently checks on, cares for, and harvests from plants he chose to grow
-**Current focus:** Phase 4: Data System and Schedules
+**Current focus:** Phase 5: Documentation and Guides (completing)
 
 ## Current Position
 
 Phase: 4 of 6 (Data System and Schedules)
-Plan: 1 of 3 in current phase
+Plan: 3 of 3 in current phase (complete)
 Status: Executing
-Last activity: 2026-03-27 -- Completed Plan 04-01 (crop database and bed files)
+Last activity: 2026-03-27 -- Completed Plan 04-03 (HA schemas and sensor recommendations)
 
-Progress: [███████░░░] 69%
+Progress: [█████████░] 85%
 
 ## Performance Metrics
 
@@ -57,6 +57,8 @@ Progress: [███████░░░] 69%
 | Phase 03-warm-season-planting P02 | 3 min | 1 tasks | 1 files |
 | Phase 05 P01 | 4 min | 2 tasks | 2 files |
 | Phase 04-data-system-and-schedules P01 | 15 min | 2 tasks | 34 files |
+| Phase 05-documentation-and-guides P03 | 5 min | 2 tasks | 2 files |
+| Phase 04-data-system-and-schedules P03 | 5 | 2 tasks | 5 files |
 
 ## Accumulated Context
 
@@ -85,6 +87,12 @@ Recent decisions affecting current work:
 - [04-01]: Bed files reference crops by lowercase-hyphen ID with exact cm positions from planting grids
 - [04-01]: Sowing method enum includes buy-plant for nursery-purchased perennials
 - [04-01]: Difficulty tier enum: cant_fail / needs_care / year_2_challenge
+- [05-03]: Bed detail cards use physical descriptions alongside bed letters so neighbor needs zero project context
+- [05-03]: Garlic bed assignment left flexible (Bed D primary, Bed C alt) -- decide at planting time based on which clears first
+- [05-03]: Vacation guide targets peak summer (Jul-Aug) with reservoir-aware watering instructions
+- [Phase 04-03]: Plant Monitor thresholds use most-restrictive crop value per bed (e.g., Bed A max moisture 50% from lambs-ear)
+- [Phase 04-03]: Haozee TS0601_soil selected as primary sensor at ~150 DKK/unit
+- [Phase 04-03]: Alert delay: 6h for moisture (avoid false alarms), 0h for frost (immediate)
 
 ### Pending Todos
 
@@ -98,6 +106,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-27T06:23:35.389Z
-Stopped at: Completed 04-01-PLAN.md
+Last session: 2026-03-27T06:30:39.287Z
+Stopped at: Completed 04-03-PLAN.md
 Resume file: None

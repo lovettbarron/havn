@@ -77,9 +77,9 @@
 - [x] **DATA-01**: JSON schema for crop database (growth stages, water needs, harvest timing, companion plants, difficulty tier, child actions, alert triggers)
 - [x] **DATA-02**: Individual JSON crop files for every planted crop with all schema fields populated
 - [ ] **DATA-03**: Weekly schedule JSON files (one per ISO week) with themed names, prioritized tasks, expected growth events
-- [ ] **DATA-04**: Home Assistant entity schema following havn_ prefix convention with per-bed sensor entities
-- [ ] **DATA-05**: Home Assistant Plant Monitor configuration with moisture/temperature thresholds per crop
-- [ ] **DATA-06**: Zigbee/LoRaWAN sensor recommendations with specific models, prices, and HA compatibility confirmation
+- [x] **DATA-04**: Home Assistant entity schema following havn_ prefix convention with per-bed sensor entities
+- [x] **DATA-05**: Home Assistant Plant Monitor configuration with moisture/temperature thresholds per crop
+- [x] **DATA-06**: Zigbee/LoRaWAN sensor recommendations with specific models, prices, and HA compatibility confirmation
 
 ### Documentation
 
@@ -180,9 +180,9 @@
 | DATA-01 | Phase 4 | Complete |
 | DATA-02 | Phase 4 | Complete |
 | DATA-03 | Phase 4 | Pending |
-| DATA-04 | Phase 4 | Pending |
-| DATA-05 | Phase 4 | Pending |
-| DATA-06 | Phase 4 | Pending |
+| DATA-04 | Phase 4 | Complete |
+| DATA-05 | Phase 4 | Complete |
+| DATA-06 | Phase 4 | Complete |
 | SCHED-02 | Phase 4 | Pending |
 | SCHED-03 | Phase 4 | Pending |
 | SCHED-04 | Phase 4 | Pending |
