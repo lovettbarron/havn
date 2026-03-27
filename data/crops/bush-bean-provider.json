@@ -1,0 +1,157 @@
+{
+  "$schema": "../schemas/crop.schema.json",
+  "id": "bush-bean-provider",
+  "name": {
+    "common": "Bush Bean Provider",
+    "botanical": "Phaseolus vulgaris 'Provider'",
+    "da": "Buskbonne Provider",
+    "shortcode": "BN"
+  },
+  "type": "vegetable",
+  "difficulty": {
+    "tier": "cant_fail",
+    "label": { "en": "Can't Fail", "da": "Kan ikke fejle" },
+    "reason": "Direct sow after frost, big seeds easy to handle, quick to produce, nitrogen fixer"
+  },
+  "growth_stages": [
+    {
+      "name": "Germination",
+      "weeks": { "start": 20, "end": 21 },
+      "look_for": "Fat stems pushing up through the soil, seed leaves unfurling",
+      "child_actions": [
+        {
+          "action": "Find the bean sprouts",
+          "type": "observe",
+          "who": "child",
+          "minutes": 3,
+          "frequency": "daily",
+          "prompt": {
+            "en": "The bean seeds you planted are STRONG -- see them push right through the soil!",
+            "da": "De boennefroe, du plantede, er STAERKE -- se dem presse lige op gennem jorden!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Vegetative Growth",
+      "weeks": { "start": 22, "end": 26 },
+      "look_for": "Bushy plant about 30-40cm tall with trifoliate leaves",
+      "child_actions": [
+        {
+          "action": "Check for flowers",
+          "type": "observe",
+          "who": "child",
+          "minutes": 3,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "Look in the leaves for tiny white or purple flowers -- each one becomes a bean!",
+            "da": "Kig i bladene efter smaa hvide eller lilla blomster -- hver en bliver til en boenne!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Flowering & Pod Set",
+      "weeks": { "start": 26, "end": 28 },
+      "look_for": "Small white flowers turning into thin green beans",
+      "child_actions": [
+        {
+          "action": "Find baby beans",
+          "type": "observe",
+          "who": "child",
+          "minutes": 3,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "Can you find the tiny bean fingers hiding under the leaves?",
+            "da": "Kan du finde de bitte boennefingre, der gemmer sig under bladene?"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Harvest",
+      "weeks": { "start": 28, "end": 34 },
+      "look_for": "Green beans about 12-15cm long, firm and snappy",
+      "child_actions": [
+        {
+          "action": "Snap beans off",
+          "type": "harvest",
+          "who": "child",
+          "minutes": 10,
+          "frequency": "daily",
+          "prompt": {
+            "en": "Hold the stem with one hand, snap the bean off with the other! Listen for the SNAP!",
+            "da": "Hold stammen med en haand, knaek boennen af med den anden! Lyt efter KNAKKET!"
+          }
+        }
+      ]
+    }
+  ],
+  "water_needs": {
+    "human_readable": {
+      "en": "Water when soil surface is dry. Extra water during flowering and podding.",
+      "da": "Vand naar jordoverfladen er toer. Ekstra vand under blomstring og baelgdannelse."
+    },
+    "thresholds": {
+      "soil_moisture_min": 35,
+      "soil_moisture_max": 70,
+      "drought_alert_days": 3
+    }
+  },
+  "temperature": {
+    "optimal_min": 15,
+    "optimal_max": 28,
+    "frost_sensitive": true,
+    "frost_threshold": 2,
+    "heat_stress": 32
+  },
+  "harvest": {
+    "first_harvest_week": 28,
+    "last_harvest_week": 34,
+    "days_to_maturity": 54,
+    "continuous": true,
+    "notes": "Pick regularly to keep producing. 50-55 days to harvest. Nitrogen fixer -- good for soil."
+  },
+  "companion_plants": {
+    "good": ["broccoli-calabrese", "borage", "calendula"],
+    "bad": ["spring-onion-white-lisbon", "chives", "leek-musselburgh"],
+    "notes": "Beans fix nitrogen, benefiting brassicas. ALL alliums inhibit bean nitrogen fixation."
+  },
+  "engagement": {
+    "action_types": ["harvest", "observe"],
+    "peak_engagement_weeks": { "start": 26, "end": 34 },
+    "attention_minutes_per_week": 10,
+    "sensory": ["taste", "touch", "sight"]
+  },
+  "beds": ["bed-e"],
+  "sowing": {
+    "method": "seed",
+    "indoor_start": null,
+    "outdoor_sow": 20,
+    "transplant_week": null,
+    "succession": false,
+    "interval_weeks": null
+  },
+  "alerts": [
+    {
+      "type": "frost",
+      "trigger": "temperature_below",
+      "threshold": 2,
+      "delay_hours": 0,
+      "message": {
+        "en": "Frost warning for beans! Cover with fleece tonight!",
+        "da": "Frostadvarsel for boenner! Daek med fiberdug i aften!"
+      }
+    },
+    {
+      "type": "drought",
+      "trigger": "soil_moisture_below",
+      "threshold": 35,
+      "delay_hours": 6,
+      "message": {
+        "en": "Beans need water, especially during flowering and podding!",
+        "da": "Boenner har brug for vand, isaer under blomstring og baelgdannelse!"
+      }
+    }
+  ]
+}

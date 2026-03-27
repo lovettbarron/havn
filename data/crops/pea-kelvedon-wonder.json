@@ -1,0 +1,165 @@
+{
+  "$schema": "../schemas/crop.schema.json",
+  "id": "pea-kelvedon-wonder",
+  "name": {
+    "common": "Pea Kelvedon Wonder",
+    "botanical": "Pisum sativum 'Kelvedon Wonder'",
+    "da": "Aert Kelvedon Wonder",
+    "shortcode": "PEA"
+  },
+  "type": "vegetable",
+  "difficulty": {
+    "tier": "cant_fail",
+    "label": { "en": "Can't Fail", "da": "Kan ikke fejle" },
+    "reason": "Hardy, big seeds easy for child to handle, visible tendrils and pods"
+  },
+  "growth_stages": [
+    {
+      "name": "Germination",
+      "weeks": { "start": 16, "end": 17 },
+      "look_for": "Green shoots pushing up through the soil in 7-10 days",
+      "child_actions": [
+        {
+          "action": "Check for sprouts",
+          "type": "observe",
+          "who": "child",
+          "minutes": 3,
+          "frequency": "daily",
+          "prompt": {
+            "en": "Look along the trellis -- any green hooks poking up yet?",
+            "da": "Kig langs espalier -- er der nogen groenne kroge, der stikker op endnu?"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Climbing",
+      "weeks": { "start": 18, "end": 20 },
+      "look_for": "Curly tendrils reaching out and grabbing the trellis wire",
+      "child_actions": [
+        {
+          "action": "Guide tendrils to trellis",
+          "type": "tend",
+          "who": "child",
+          "minutes": 5,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "Can you find the curly bits? Gently wrap them around the wire -- they'll hold on!",
+            "da": "Kan du finde de krullede dele? Vikl dem forsigtigt om traaden -- de holder fast!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Flowering",
+      "weeks": { "start": 20, "end": 22 },
+      "look_for": "White or pale purple butterfly-shaped flowers",
+      "child_actions": [
+        {
+          "action": "Count flowers",
+          "type": "observe",
+          "who": "child",
+          "minutes": 3,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "Each flower becomes a pea pod! How many butterfly flowers can you spot?",
+            "da": "Hver blomst bliver til en aertebaelg! Hvor mange sommerfugleblomster kan du se?"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Pod Development",
+      "weeks": { "start": 22, "end": 26 },
+      "look_for": "Flat green pods filling out, getting plump",
+      "child_actions": [
+        {
+          "action": "Feel the bumps",
+          "type": "observe",
+          "who": "child",
+          "minutes": 3,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "Squeeze a pod gently -- can you feel the peas inside like little balls?",
+            "da": "Klem forsigtigt paa en baelg -- kan du maerke aerterne indeni som smaa bolde?"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Harvest",
+      "weeks": { "start": 24, "end": 28 },
+      "look_for": "Plump pods about 7-8cm long, peas visible through the pod",
+      "child_actions": [
+        {
+          "action": "Pick and eat peas",
+          "type": "harvest",
+          "who": "child",
+          "minutes": 10,
+          "frequency": "daily",
+          "prompt": {
+            "en": "Hold the vine with one hand, pull the pod with the other. Pop it open -- eat them raw!",
+            "da": "Hold ranken med en haand, traek baelgen med den anden. Knip den op -- spis dem raa!"
+          }
+        }
+      ]
+    }
+  ],
+  "water_needs": {
+    "human_readable": {
+      "en": "Water when soil surface is dry. Extra water when flowering and podding.",
+      "da": "Vand naar jordoverfladen er toer. Ekstra vand under blomstring og baelgdannelse."
+    },
+    "thresholds": {
+      "soil_moisture_min": 35,
+      "soil_moisture_max": 70,
+      "drought_alert_days": 3
+    }
+  },
+  "temperature": {
+    "optimal_min": 10,
+    "optimal_max": 20,
+    "frost_sensitive": false,
+    "frost_threshold": -5,
+    "heat_stress": 25
+  },
+  "harvest": {
+    "first_harvest_week": 24,
+    "last_harvest_week": 28,
+    "days_to_maturity": 65,
+    "continuous": true,
+    "notes": "Pick regularly to encourage more pods. Cut at ground level after harvest -- leave roots for nitrogen."
+  },
+  "companion_plants": {
+    "good": ["radish", "lettuce-baby-mix", "calendula"],
+    "bad": ["spring-onion-white-lisbon", "chives"],
+    "notes": "Alliums inhibit pea growth. Peas fix nitrogen for subsequent crops."
+  },
+  "engagement": {
+    "action_types": ["harvest", "observe", "tend"],
+    "peak_engagement_weeks": { "start": 22, "end": 28 },
+    "attention_minutes_per_week": 12,
+    "sensory": ["taste", "touch", "sight"]
+  },
+  "beds": ["bed-c"],
+  "sowing": {
+    "method": "seed",
+    "indoor_start": null,
+    "outdoor_sow": 16,
+    "transplant_week": null,
+    "succession": false,
+    "interval_weeks": null
+  },
+  "alerts": [
+    {
+      "type": "drought",
+      "trigger": "soil_moisture_below",
+      "threshold": 35,
+      "delay_hours": 6,
+      "message": {
+        "en": "Peas need water, especially during flowering and podding!",
+        "da": "Aerter har brug for vand, isaer under blomstring og baelgdannelse!"
+      }
+    }
+  ]
+}

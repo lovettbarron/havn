@@ -1,0 +1,135 @@
+{
+  "$schema": "../schemas/crop.schema.json",
+  "id": "lemon-balm",
+  "name": {
+    "common": "Lemon Balm",
+    "botanical": "Melissa officinalis",
+    "da": "Citronmelisse",
+    "shortcode": "LE"
+  },
+  "type": "herb",
+  "difficulty": {
+    "tier": "cant_fail",
+    "label": { "en": "Can't Fail", "da": "Kan ikke fejle" },
+    "reason": "Perennial, vigorous, spreads easily, crush-and-smell sensory plant"
+  },
+  "growth_stages": [
+    {
+      "name": "Dormant",
+      "weeks": { "start": 1, "end": 14 },
+      "look_for": "Dead-looking stems from winter, new green at base",
+      "child_actions": []
+    },
+    {
+      "name": "Spring Growth",
+      "weeks": { "start": 15, "end": 20 },
+      "look_for": "Fresh bright green leaves with crinkly texture emerging",
+      "child_actions": [
+        {
+          "action": "Crush and smell",
+          "type": "sensory",
+          "who": "child",
+          "minutes": 2,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "Crush a leaf between your fingers and smell -- it's like lemon candy!",
+            "da": "Knus et blad mellem dine fingre og lugt -- det er som citronbolsjer!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Full Growth",
+      "weeks": { "start": 20, "end": 35 },
+      "look_for": "Bushy plant with many leaves, small white flowers",
+      "child_actions": [
+        {
+          "action": "Pick leaves for tea",
+          "type": "harvest",
+          "who": "together",
+          "minutes": 5,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "Pick a handful of leaves -- we'll make lemon tea with hot water!",
+            "da": "Pluk en haandfuld blade -- vi laver citron-te med varmt vand!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Late Season",
+      "weeks": { "start": 36, "end": 44 },
+      "look_for": "Plant getting leggy, leaves still aromatic",
+      "child_actions": [
+        {
+          "action": "Cut back stems",
+          "type": "tend",
+          "who": "together",
+          "minutes": 5,
+          "frequency": "once",
+          "prompt": {
+            "en": "Time for a haircut! Cut the tall stems back to keep it bushy for next year.",
+            "da": "Tid til en klipning! Klip de hoeje stammer ned, saa den bliver taet naeste aar."
+          }
+        }
+      ]
+    }
+  ],
+  "water_needs": {
+    "human_readable": {
+      "en": "Tolerates dry and moist. Water when wilting in hot weather.",
+      "da": "Taaler baade toert og fugtigt. Vand naar den haenger i varmt vejr."
+    },
+    "thresholds": {
+      "soil_moisture_min": 25,
+      "soil_moisture_max": 70,
+      "drought_alert_days": 5
+    }
+  },
+  "temperature": {
+    "optimal_min": 10,
+    "optimal_max": 28,
+    "frost_sensitive": false,
+    "frost_threshold": -15,
+    "heat_stress": 32
+  },
+  "harvest": {
+    "first_harvest_week": 18,
+    "last_harvest_week": 38,
+    "days_to_maturity": null,
+    "continuous": true,
+    "notes": "Perennial: pick leaves as needed. Plant in sunken pot to contain spreading. Crush-and-smell sensory plant."
+  },
+  "companion_plants": {
+    "good": ["strawberry-ostara", "strawberry-korona", "lambs-ear", "thyme"],
+    "bad": [],
+    "notes": "Part of the sensory edge in Bed A. Repels mosquitoes with lemon scent."
+  },
+  "engagement": {
+    "action_types": ["harvest", "sensory"],
+    "peak_engagement_weeks": { "start": 18, "end": 30 },
+    "attention_minutes_per_week": 5,
+    "sensory": ["smell", "touch", "taste"]
+  },
+  "beds": ["bed-a"],
+  "sowing": {
+    "method": "buy-plant",
+    "indoor_start": null,
+    "outdoor_sow": null,
+    "transplant_week": 16,
+    "succession": false,
+    "interval_weeks": null
+  },
+  "alerts": [
+    {
+      "type": "drought",
+      "trigger": "soil_moisture_below",
+      "threshold": 25,
+      "delay_hours": 12,
+      "message": {
+        "en": "Lemon balm is wilting -- it could use some water.",
+        "da": "Citronmelissen haenger -- den kunne bruge lidt vand."
+      }
+    }
+  ]
+}

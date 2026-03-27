@@ -1,0 +1,88 @@
+{
+  "$schema": "../schemas/bed.schema.json",
+  "id": "bed-c",
+  "name": "Shared Bed",
+  "physical": {
+    "position": "Bed 2, backyard center",
+    "dimensions": { "length_cm": 120, "width_cm": 60, "height_cm": 40 },
+    "material": "corten_steel",
+    "features": ["a-frame-trellis", "self-watering-reservoir"],
+    "orientation": "N-S"
+  },
+  "crops": [
+    {
+      "crop_id": "pea-kelvedon-wonder",
+      "shortcode": "PEA",
+      "positions": [
+        { "center_w": 15, "center_l": 5, "spread_cm": 20 },
+        { "center_w": 30, "center_l": 5, "spread_cm": 20 },
+        { "center_w": 45, "center_l": 5, "spread_cm": 20 }
+      ],
+      "planted_week": 16
+    },
+    {
+      "crop_id": "kale-nero-di-toscana",
+      "shortcode": "KAL",
+      "positions": [
+        { "center_w": 25, "center_l": 70, "spread_cm": 30 },
+        { "center_w": 35, "center_l": 90, "spread_cm": 30 }
+      ],
+      "planted_week": 17
+    },
+    {
+      "crop_id": "borage",
+      "shortcode": "BOR",
+      "positions": [
+        { "center_w": 15, "center_l": 30, "spread_cm": 35 }
+      ],
+      "planted_week": 17
+    },
+    {
+      "crop_id": "cucumber-mini-munch",
+      "shortcode": "CUC",
+      "positions": [
+        { "center_w": 15, "center_l": 10, "spread_cm": 30 },
+        { "center_w": 45, "center_l": 10, "spread_cm": 30 }
+      ],
+      "planted_week": 21
+    },
+    {
+      "crop_id": "cherry-tomato-sungold",
+      "shortcode": "TOM",
+      "positions": [
+        { "center_w": 30, "center_l": 55, "spread_cm": 45 }
+      ],
+      "planted_week": 21
+    },
+    {
+      "crop_id": "basil",
+      "shortcode": "BAS",
+      "positions": [
+        { "center_w": 15, "center_l": 60, "spread_cm": 25 },
+        { "center_w": 45, "center_l": 60, "spread_cm": 25 }
+      ],
+      "planted_week": 21
+    },
+    {
+      "crop_id": "sweet-pepper-lipstick",
+      "shortcode": "PEP",
+      "positions": [
+        { "center_w": 30, "center_l": 85, "spread_cm": 35 }
+      ],
+      "planted_week": 22
+    }
+  ],
+  "succession_slots": [
+    {
+      "id": "S1",
+      "area": { "w_start": 10, "w_end": 50, "l_start": 35, "l_end": 55 },
+      "crop_id": "radish",
+      "first_sow_week": 18,
+      "interval_weeks": 2
+    }
+  ],
+  "ha_sensors": {
+    "moisture": "sensor.havn_bed_c_moisture",
+    "temperature": "sensor.havn_bed_c_temperature"
+  }
+}

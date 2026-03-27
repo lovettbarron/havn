@@ -1,0 +1,139 @@
+{
+  "$schema": "../schemas/crop.schema.json",
+  "id": "basil",
+  "name": {
+    "common": "Basil Genovese",
+    "botanical": "Ocimum basilicum 'Genovese'",
+    "da": "Basilikum Genovese",
+    "shortcode": "BAS"
+  },
+  "type": "herb",
+  "difficulty": {
+    "tier": "needs_care",
+    "label": { "en": "Needs Care", "da": "Kraever pasning" },
+    "reason": "Frost-sensitive, needs warm position, regular watering, and pinching"
+  },
+  "growth_stages": [
+    {
+      "name": "Transplant",
+      "weeks": { "start": 21, "end": 22 },
+      "look_for": "Bushy seedling with aromatic green leaves",
+      "child_actions": [
+        {
+          "action": "Smell the basil",
+          "type": "sensory",
+          "who": "child",
+          "minutes": 2,
+          "frequency": "once",
+          "prompt": {
+            "en": "Cup a leaf and smell -- it smells like pizza! That's basil!",
+            "da": "Hold et blad i din haand og lugt -- det dufter som pizza! Det er basilikum!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Bushy Growth",
+      "weeks": { "start": 23, "end": 30 },
+      "look_for": "Plant getting bushier, especially after pinching tips",
+      "child_actions": [
+        {
+          "action": "Pinch the tips",
+          "type": "tend",
+          "who": "child",
+          "minutes": 3,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "Pinch off the top two leaves -- it makes two new branches! Magic!",
+            "da": "Knib de to oeverste blade af -- det laver to nye grene! Magi!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Harvest",
+      "weeks": { "start": 24, "end": 38 },
+      "look_for": "Abundant leaves ready for picking, may try to flower",
+      "child_actions": [
+        {
+          "action": "Pick for caprese salad",
+          "type": "harvest",
+          "who": "together",
+          "minutes": 5,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "Pick a handful of leaves -- we'll make tomato-basil salad with OUR tomatoes and OUR basil!",
+            "da": "Pluk en haandfuld blade -- vi laver tomat-basilikum salat med VORES tomater og VORES basilikum!"
+          }
+        }
+      ]
+    }
+  ],
+  "water_needs": {
+    "human_readable": {
+      "en": "Keep moist but not waterlogged. Water at soil level. Wilts dramatically when dry but recovers.",
+      "da": "Hold fugtig, men ikke vandfyldt. Vand ved jordoverfladen. Haenger dramatisk ved toerke, men retter sig."
+    },
+    "thresholds": {
+      "soil_moisture_min": 40,
+      "soil_moisture_max": 70,
+      "drought_alert_days": 2
+    }
+  },
+  "temperature": {
+    "optimal_min": 18,
+    "optimal_max": 30,
+    "frost_sensitive": true,
+    "frost_threshold": 4,
+    "heat_stress": 35
+  },
+  "harvest": {
+    "first_harvest_week": 24,
+    "last_harvest_week": 38,
+    "days_to_maturity": null,
+    "continuous": true,
+    "notes": "Harvest tips to keep bushy. Remove flower buds to prolong leaf production. Classic tomato companion."
+  },
+  "companion_plants": {
+    "good": ["cherry-tomato-sungold", "sweet-pepper-lipstick"],
+    "bad": [],
+    "notes": "Classic companion: improves tomato flavor, repels aphids and whiteflies. Plant within 30cm of tomatoes."
+  },
+  "engagement": {
+    "action_types": ["harvest", "tend", "sensory"],
+    "peak_engagement_weeks": { "start": 24, "end": 36 },
+    "attention_minutes_per_week": 8,
+    "sensory": ["smell", "taste", "touch"]
+  },
+  "beds": ["bed-c"],
+  "sowing": {
+    "method": "plug",
+    "indoor_start": 14,
+    "outdoor_sow": null,
+    "transplant_week": 21,
+    "succession": false,
+    "interval_weeks": null
+  },
+  "alerts": [
+    {
+      "type": "frost",
+      "trigger": "temperature_below",
+      "threshold": 4,
+      "delay_hours": 0,
+      "message": {
+        "en": "Basil will die in cold! Cover or bring indoors tonight!",
+        "da": "Basilikum doer af kulde! Daek eller tag ind i aften!"
+      }
+    },
+    {
+      "type": "drought",
+      "trigger": "soil_moisture_below",
+      "threshold": 40,
+      "delay_hours": 4,
+      "message": {
+        "en": "Basil is probably wilting -- give it a good drink!",
+        "da": "Basilikum haenger nok -- giv den en god taar vand!"
+      }
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "$schema": "../schemas/bed.schema.json",
+  "id": "bed-a",
+  "name": "His Bed",
+  "physical": {
+    "position": "Bed 3, backyard east",
+    "dimensions": { "length_cm": 120, "width_cm": 60, "height_cm": 40 },
+    "material": "corten_steel",
+    "features": [],
+    "orientation": "N-S"
+  },
+  "crops": [
+    {
+      "crop_id": "strawberry-ostara",
+      "shortcode": "ST-O",
+      "positions": [
+        { "center_w": 25, "center_l": 30, "spread_cm": 30 },
+        { "center_w": 25, "center_l": 70, "spread_cm": 30 }
+      ],
+      "planted_week": 16
+    },
+    {
+      "crop_id": "strawberry-korona",
+      "shortcode": "ST-K",
+      "positions": [
+        { "center_w": 35, "center_l": 50, "spread_cm": 40 }
+      ],
+      "planted_week": 16
+    },
+    {
+      "crop_id": "lambs-ear",
+      "shortcode": "LAM",
+      "positions": [
+        { "center_w": 5, "center_l": 50, "spread_cm": 45 }
+      ],
+      "planted_week": 16
+    },
+    {
+      "crop_id": "thyme",
+      "shortcode": "THY",
+      "positions": [
+        { "center_w": 5, "center_l": 5, "spread_cm": 20 },
+        { "center_w": 5, "center_l": 95, "spread_cm": 20 },
+        { "center_w": 5, "center_l": 115, "spread_cm": 20 }
+      ],
+      "planted_week": 16
+    },
+    {
+      "crop_id": "lemon-balm",
+      "shortcode": "LE",
+      "positions": [
+        { "center_w": 5, "center_l": 25, "spread_cm": 30 }
+      ],
+      "planted_week": 16
+    },
+    {
+      "crop_id": "viola",
+      "shortcode": "VIO",
+      "positions": [
+        { "center_w": 15, "center_l": 5, "spread_cm": 15 },
+        { "center_w": 55, "center_l": 95, "spread_cm": 15 }
+      ],
+      "planted_week": 16
+    },
+    {
+      "crop_id": "calendula",
+      "shortcode": "CAL",
+      "positions": [
+        { "center_w": 35, "center_l": 5, "spread_cm": 25 },
+        { "center_w": 45, "center_l": 85, "spread_cm": 25 }
+      ],
+      "planted_week": 17
+    },
+    {
+      "crop_id": "pea-shoots",
+      "shortcode": "PS",
+      "positions": [
+        { "center_w": 25, "center_l": 105, "spread_cm": 30 }
+      ],
+      "planted_week": 16
+    },
+    {
+      "crop_id": "sunflower",
+      "shortcode": "SUN",
+      "positions": [
+        { "center_w": 30, "center_l": 105, "spread_cm": 15 }
+      ],
+      "planted_week": 18
+    },
+    {
+      "crop_id": "nasturtium",
+      "shortcode": "NAS",
+      "positions": [
+        { "center_w": 55, "center_l": 50, "spread_cm": 30 }
+      ],
+      "planted_week": 18
+    },
+    {
+      "crop_id": "mint",
+      "shortcode": "MINT",
+      "positions": [
+        { "center_w": 65, "center_l": 50, "spread_cm": 30 }
+      ],
+      "planted_week": 21
+    }
+  ],
+  "succession_slots": [
+    {
+      "id": "S1",
+      "area": { "w_start": 40, "w_end": 60, "l_start": 30, "l_end": 50 },
+      "crop_id": "radish",
+      "first_sow_week": 18,
+      "interval_weeks": 2
+    }
+  ],
+  "ha_sensors": {
+    "moisture": "sensor.havn_bed_a_moisture",
+    "temperature": "sensor.havn_bed_a_temperature"
+  }
+}

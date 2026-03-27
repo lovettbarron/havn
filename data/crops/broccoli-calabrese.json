@@ -1,0 +1,158 @@
+{
+  "$schema": "../schemas/crop.schema.json",
+  "id": "broccoli-calabrese",
+  "name": {
+    "common": "Broccoli Calabrese",
+    "botanical": "Brassica oleracea var. italica 'Calabrese'",
+    "da": "Broccoli Calabrese",
+    "shortcode": "BRC"
+  },
+  "type": "vegetable",
+  "difficulty": {
+    "tier": "needs_care",
+    "label": { "en": "Needs Care", "da": "Kraever pasning" },
+    "reason": "Needs consistent water, pest protection, and timely harvest of main head"
+  },
+  "growth_stages": [
+    {
+      "name": "Transplant",
+      "weeks": { "start": 21, "end": 22 },
+      "look_for": "Seedling with large round leaves settling in",
+      "child_actions": [
+        {
+          "action": "Water in the transplant",
+          "type": "tend",
+          "who": "together",
+          "minutes": 5,
+          "frequency": "once",
+          "prompt": {
+            "en": "Give it a big drink -- it needs to settle into its new home!",
+            "da": "Giv den en stor taar vand -- den skal falde til i sit nye hjem!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Vegetative Growth",
+      "weeks": { "start": 23, "end": 28 },
+      "look_for": "Big blue-green leaves getting larger each week",
+      "child_actions": [
+        {
+          "action": "Check for caterpillars",
+          "type": "observe",
+          "who": "child",
+          "minutes": 5,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "Flip the leaves over -- any caterpillars hiding? Pick them off gently!",
+            "da": "Vend bladene om -- gemmer der sig larver? Pluk dem forsigtigt af!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Head Formation",
+      "weeks": { "start": 28, "end": 32 },
+      "look_for": "Tight green cluster forming in the center -- the broccoli head!",
+      "child_actions": [
+        {
+          "action": "Watch the head grow",
+          "type": "observe",
+          "who": "child",
+          "minutes": 3,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "See the green ball growing in the middle? That's YOUR broccoli forming!",
+            "da": "Ser du den groenne kugle, der vokser i midten? Det er DIN broccoli, der dannes!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Harvest",
+      "weeks": { "start": 32, "end": 40 },
+      "look_for": "Main head 10-15cm across, then side shoots sprouting after main harvest",
+      "child_actions": [
+        {
+          "action": "Cut the main head",
+          "type": "harvest",
+          "who": "together",
+          "minutes": 5,
+          "frequency": "once",
+          "prompt": {
+            "en": "CUT the big head with a knife -- but DON'T pull the plant! Baby broccolis will grow from the sides!",
+            "da": "SKAER det store hoved med en kniv -- men TRAEK IKKE planten op! Baby-broccolier vokser fra siderne!"
+          }
+        },
+        {
+          "action": "Pick side shoots",
+          "type": "harvest",
+          "who": "child",
+          "minutes": 5,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "Snap off the baby broccoli side shoots -- they keep coming for weeks!",
+            "da": "Knaek de smaa broccoli-sideskud af -- de bliver ved med at komme i ugevis!"
+          }
+        }
+      ]
+    }
+  ],
+  "water_needs": {
+    "human_readable": {
+      "en": "Water consistently. Brassicas need steady moisture for good head development.",
+      "da": "Vand jaevnt. Kaalplanter har brug for jaevn fugtighed for god hoveddannelse."
+    },
+    "thresholds": {
+      "soil_moisture_min": 40,
+      "soil_moisture_max": 75,
+      "drought_alert_days": 2
+    }
+  },
+  "temperature": {
+    "optimal_min": 12,
+    "optimal_max": 22,
+    "frost_sensitive": false,
+    "frost_threshold": -5,
+    "heat_stress": 28
+  },
+  "harvest": {
+    "first_harvest_week": 32,
+    "last_harvest_week": 40,
+    "days_to_maturity": 70,
+    "continuous": true,
+    "notes": "Harvest main head when 10-15cm, then side shoots continue for weeks. Don't pull plant after main harvest!"
+  },
+  "companion_plants": {
+    "good": ["bush-bean-provider", "borage", "calendula"],
+    "bad": [],
+    "notes": "Beans fix nitrogen for brassicas. Dill attracts hoverflies that eat broccoli aphids."
+  },
+  "engagement": {
+    "action_types": ["harvest", "observe", "tend"],
+    "peak_engagement_weeks": { "start": 28, "end": 38 },
+    "attention_minutes_per_week": 10,
+    "sensory": ["taste", "sight", "touch"]
+  },
+  "beds": ["bed-e"],
+  "sowing": {
+    "method": "plug",
+    "indoor_start": 14,
+    "outdoor_sow": null,
+    "transplant_week": 21,
+    "succession": false,
+    "interval_weeks": null
+  },
+  "alerts": [
+    {
+      "type": "drought",
+      "trigger": "soil_moisture_below",
+      "threshold": 40,
+      "delay_hours": 4,
+      "message": {
+        "en": "Broccoli needs water -- heads won't form properly if dry!",
+        "da": "Broccoli har brug for vand -- hoveder dannes ikke ordentligt, hvis den er toer!"
+      }
+    }
+  ]
+}

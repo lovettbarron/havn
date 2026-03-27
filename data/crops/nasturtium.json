@@ -1,0 +1,140 @@
+{
+  "$schema": "../schemas/crop.schema.json",
+  "id": "nasturtium",
+  "name": {
+    "common": "Nasturtium (trailing)",
+    "botanical": "Tropaeolum majus",
+    "da": "Blomsterkarse",
+    "shortcode": "NAS"
+  },
+  "type": "flower",
+  "difficulty": {
+    "tier": "cant_fail",
+    "label": { "en": "Can't Fail", "da": "Kan ikke fejle" },
+    "reason": "Big seeds easy for child, fast growth, trailing, trap crop for aphids"
+  },
+  "growth_stages": [
+    {
+      "name": "Germination",
+      "weeks": { "start": 18, "end": 19 },
+      "look_for": "Large round seed leaves on thick stems",
+      "child_actions": [
+        {
+          "action": "Find the sprouts",
+          "type": "observe",
+          "who": "child",
+          "minutes": 3,
+          "frequency": "daily",
+          "prompt": {
+            "en": "Remember the big seeds you pushed in? Look -- round leaves like tiny lily pads!",
+            "da": "Husker du de store froe, du trykkede ned? Se -- runde blade som smaa aaknuder!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Trailing Growth",
+      "weeks": { "start": 20, "end": 26 },
+      "look_for": "Stems trailing outward from the bed, round shield-like leaves",
+      "child_actions": [
+        {
+          "action": "Guide the trails",
+          "type": "tend",
+          "who": "child",
+          "minutes": 3,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "The nasturtium is exploring! Point the trails where you want them to go!",
+            "da": "Blomsterkarserne udforsker! Peg de ranker, hvor du vil have dem hen!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Flowering",
+      "weeks": { "start": 24, "end": 38 },
+      "look_for": "Bright orange, red, and yellow trumpet flowers",
+      "child_actions": [
+        {
+          "action": "Eat a flower",
+          "type": "harvest",
+          "who": "child",
+          "minutes": 3,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "Taste a flower -- it's peppery like a tiny pepper! Bees love them too!",
+            "da": "Smag paa en blomst -- den er pebret som en lille peber! Bier elsker dem ogsaa!"
+          }
+        },
+        {
+          "action": "Check for aphids and ladybugs",
+          "type": "observe",
+          "who": "child",
+          "minutes": 5,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "Look under the leaves -- see tiny green bugs? Those are aphids! And the red spotted ones eat them -- ladybugs!",
+            "da": "Kig under bladene -- ser du smaa groenne insekter? Det er bladlus! Og de roede med prikker spiser dem -- marihoens!"
+          }
+        }
+      ]
+    }
+  ],
+  "water_needs": {
+    "human_readable": {
+      "en": "Moderate water. Don't overwater -- lean soil produces more flowers.",
+      "da": "Moderat vand. Overdriv ikke -- mager jord giver flere blomster."
+    },
+    "thresholds": {
+      "soil_moisture_min": 25,
+      "soil_moisture_max": 60,
+      "drought_alert_days": 4
+    }
+  },
+  "temperature": {
+    "optimal_min": 15,
+    "optimal_max": 28,
+    "frost_sensitive": true,
+    "frost_threshold": 0,
+    "heat_stress": 32
+  },
+  "harvest": {
+    "first_harvest_week": 24,
+    "last_harvest_week": 38,
+    "days_to_maturity": 45,
+    "continuous": true,
+    "notes": "Edible flowers: peppery taste. Seeds are 'poor man's capers'. Trap crop: draws aphids away from strawberries."
+  },
+  "companion_plants": {
+    "good": ["strawberry-ostara", "strawberry-korona", "sunflower"],
+    "bad": [],
+    "notes": "Trap crop: draws aphids away from valuable plants. Ladybug observation point."
+  },
+  "engagement": {
+    "action_types": ["harvest", "observe", "tend"],
+    "peak_engagement_weeks": { "start": 24, "end": 36 },
+    "attention_minutes_per_week": 8,
+    "sensory": ["taste", "sight", "smell"]
+  },
+  "beds": ["bed-a"],
+  "sowing": {
+    "method": "seed",
+    "indoor_start": null,
+    "outdoor_sow": 18,
+    "transplant_week": null,
+    "succession": false,
+    "interval_weeks": null
+  },
+  "alerts": [
+    {
+      "type": "frost",
+      "trigger": "temperature_below",
+      "threshold": 0,
+      "delay_hours": 0,
+      "message": {
+        "en": "Frost warning! Nasturtiums will die in frost -- enjoy the last flowers!",
+        "da": "Frostadvarsel! Blomsterkarse doer af frost -- nyd de sidste blomster!"
+      }
+    }
+  ]
+}

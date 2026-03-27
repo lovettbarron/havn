@@ -1,0 +1,147 @@
+{
+  "$schema": "../schemas/crop.schema.json",
+  "id": "sunflower",
+  "name": {
+    "common": "Sunflower (tall variety)",
+    "botanical": "Helianthus annuus",
+    "da": "Solsikke",
+    "shortcode": "SUN"
+  },
+  "type": "flower",
+  "difficulty": {
+    "tier": "cant_fail",
+    "label": { "en": "Can't Fail", "da": "Kan ikke fejle" },
+    "reason": "Big seeds easy to handle, fast visible growth, height measurement activity"
+  },
+  "growth_stages": [
+    {
+      "name": "Germination",
+      "weeks": { "start": 18, "end": 19 },
+      "look_for": "Large seed leaves pushing up, seed shell may still be on top",
+      "child_actions": [
+        {
+          "action": "Spot the sprouts",
+          "type": "observe",
+          "who": "child",
+          "minutes": 3,
+          "frequency": "daily",
+          "prompt": {
+            "en": "The sunflower seeds you planted are waking up! Can you see them pushing through?",
+            "da": "Solsikkefroene du plantede er ved at vaagne! Kan du se dem skyde op?"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Rapid Growth",
+      "weeks": { "start": 20, "end": 28 },
+      "look_for": "Stem growing taller each week, big heart-shaped leaves",
+      "child_actions": [
+        {
+          "action": "Measure weekly height",
+          "type": "observe",
+          "who": "child",
+          "minutes": 5,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "Stand next to the ruler stake -- where does the top reach this week? Write it down!",
+            "da": "Stil dig ved maalestokken -- hvor naar toppen hen til denne uge? Skriv det ned!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Flowering",
+      "weeks": { "start": 28, "end": 34 },
+      "look_for": "Giant flower head opening, yellow petals around dark center",
+      "child_actions": [
+        {
+          "action": "Watch the bees",
+          "type": "observe",
+          "who": "child",
+          "minutes": 5,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "The sunflower is a bee restaurant! Sit and count how many bees visit in one minute!",
+            "da": "Solsikken er en bi-restaurant! Sid og tael, hvor mange bier der kommer paa et minut!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Seed Development",
+      "weeks": { "start": 34, "end": 40 },
+      "look_for": "Petals falling off, seed head drooping, seeds forming in the center",
+      "child_actions": [
+        {
+          "action": "Harvest seeds",
+          "type": "harvest",
+          "who": "together",
+          "minutes": 10,
+          "frequency": "once",
+          "prompt": {
+            "en": "Cut the big head off and rub the seeds out with your thumb -- save some for next year!",
+            "da": "Klip det store hoved af og gnub froene ud med din tommelfinger -- gem nogle til naeste aar!"
+          }
+        }
+      ]
+    }
+  ],
+  "water_needs": {
+    "human_readable": {
+      "en": "Water regularly during rapid growth. Deep roots are somewhat drought tolerant once established.",
+      "da": "Vand regelmaessigt under hurtig vaekst. Dybe roedder er noget toerketolerante naar de er etableret."
+    },
+    "thresholds": {
+      "soil_moisture_min": 30,
+      "soil_moisture_max": 70,
+      "drought_alert_days": 3
+    }
+  },
+  "temperature": {
+    "optimal_min": 15,
+    "optimal_max": 30,
+    "frost_sensitive": true,
+    "frost_threshold": 0,
+    "heat_stress": 35
+  },
+  "harvest": {
+    "first_harvest_week": 34,
+    "last_harvest_week": 40,
+    "days_to_maturity": 80,
+    "continuous": false,
+    "notes": "Seeds: dry on stem, harvest head when petals fall. Save seeds for next year or roast them."
+  },
+  "companion_plants": {
+    "good": ["nasturtium", "strawberry-ostara"],
+    "bad": [],
+    "notes": "Plant at north end of bed so they don't shade shorter plants."
+  },
+  "engagement": {
+    "action_types": ["observe", "harvest"],
+    "peak_engagement_weeks": { "start": 20, "end": 34 },
+    "attention_minutes_per_week": 8,
+    "sensory": ["sight", "touch"]
+  },
+  "beds": ["bed-a"],
+  "sowing": {
+    "method": "seed",
+    "indoor_start": null,
+    "outdoor_sow": 18,
+    "transplant_week": null,
+    "succession": false,
+    "interval_weeks": null
+  },
+  "alerts": [
+    {
+      "type": "frost",
+      "trigger": "temperature_below",
+      "threshold": 0,
+      "delay_hours": 0,
+      "message": {
+        "en": "Frost warning! Young sunflowers are sensitive -- cover with fleece!",
+        "da": "Frostadvarsel! Unge solsikker er foelsomme -- daek med fiberdug!"
+      }
+    }
+  ]
+}

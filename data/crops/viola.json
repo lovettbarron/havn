@@ -1,0 +1,129 @@
+{
+  "$schema": "../schemas/crop.schema.json",
+  "id": "viola",
+  "name": {
+    "common": "Viola",
+    "botanical": "Viola x wittrockiana",
+    "da": "Stedmoderblomst",
+    "shortcode": "VIO"
+  },
+  "type": "flower",
+  "difficulty": {
+    "tier": "cant_fail",
+    "label": { "en": "Can't Fail", "da": "Kan ikke fejle" },
+    "reason": "Seedling instant color, edible petals, cold-tolerant, blooms for months"
+  },
+  "growth_stages": [
+    {
+      "name": "Transplant",
+      "weeks": { "start": 16, "end": 17 },
+      "look_for": "Seedling already has flowers from the nursery",
+      "child_actions": [
+        {
+          "action": "Place seedling in hole",
+          "type": "tend",
+          "who": "child",
+          "minutes": 3,
+          "frequency": "once",
+          "prompt": {
+            "en": "Put the little plant in the hole and press the soil around it -- instant flowers!",
+            "da": "Saet den lille plante i hullet og tryk jorden fast -- blomster med det samme!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Blooming",
+      "weeks": { "start": 16, "end": 30 },
+      "look_for": "Colorful flowers in purple, yellow, white, or multi-colored faces",
+      "child_actions": [
+        {
+          "action": "Pick flowers for crystallizing",
+          "type": "harvest",
+          "who": "together",
+          "minutes": 5,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "Pick the prettiest flowers -- we'll brush them with egg white and sugar to make candy flowers!",
+            "da": "Pluk de smukkeste blomster -- vi pensler dem med aeggehvide og sukker og laver slikblomster!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Fading",
+      "weeks": { "start": 31, "end": 38 },
+      "look_for": "Fewer flowers, plant getting leggy in summer heat",
+      "child_actions": [
+        {
+          "action": "Deadhead spent flowers",
+          "type": "tend",
+          "who": "child",
+          "minutes": 3,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "Pinch off the old droopy flowers so new ones can come!",
+            "da": "Knib de gamle slappe blomster af, saa nye kan komme!"
+          }
+        }
+      ]
+    }
+  ],
+  "water_needs": {
+    "human_readable": {
+      "en": "Keep evenly moist. Water regularly in warm weather.",
+      "da": "Hold jaevnt fugtig. Vand regelmaessigt i varmt vejr."
+    },
+    "thresholds": {
+      "soil_moisture_min": 35,
+      "soil_moisture_max": 70,
+      "drought_alert_days": 3
+    }
+  },
+  "temperature": {
+    "optimal_min": 8,
+    "optimal_max": 20,
+    "frost_sensitive": false,
+    "frost_threshold": -8,
+    "heat_stress": 25
+  },
+  "harvest": {
+    "first_harvest_week": 16,
+    "last_harvest_week": 30,
+    "days_to_maturity": null,
+    "continuous": true,
+    "notes": "Edible petals: crystallize with egg white and sugar. Blooms best in cool weather, fades in summer heat."
+  },
+  "companion_plants": {
+    "good": ["strawberry-ostara", "thyme", "calendula"],
+    "bad": [],
+    "notes": "Purely ornamental companion. Adds immediate color at bed edges."
+  },
+  "engagement": {
+    "action_types": ["harvest", "tend", "observe"],
+    "peak_engagement_weeks": { "start": 16, "end": 26 },
+    "attention_minutes_per_week": 5,
+    "sensory": ["sight", "taste"]
+  },
+  "beds": ["bed-a", "bed-d"],
+  "sowing": {
+    "method": "plug",
+    "indoor_start": null,
+    "outdoor_sow": null,
+    "transplant_week": 16,
+    "succession": false,
+    "interval_weeks": null
+  },
+  "alerts": [
+    {
+      "type": "drought",
+      "trigger": "soil_moisture_below",
+      "threshold": 35,
+      "delay_hours": 6,
+      "message": {
+        "en": "Violas are thirsty -- water them to keep the flowers coming!",
+        "da": "Stedmoderblomster er toerstige -- vand dem for at holde blomsterne i gang!"
+      }
+    }
+  ]
+}

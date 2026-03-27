@@ -1,0 +1,79 @@
+{
+  "$schema": "../schemas/bed.schema.json",
+  "id": "bed-d",
+  "name": "Terrace Herb Bed",
+  "physical": {
+    "position": "Bed 4, terrace south end",
+    "dimensions": { "length_cm": 80, "width_cm": 40, "height_cm": 30 },
+    "material": "galvanized_steel",
+    "features": ["lightweight-soil-mix"],
+    "orientation": "N-S"
+  },
+  "crops": [
+    {
+      "crop_id": "lettuce-baby-mix",
+      "shortcode": "LETTUCE",
+      "positions": [
+        { "center_w": 20, "center_l": 30, "spread_cm": 20 }
+      ],
+      "planted_week": 16
+    },
+    {
+      "crop_id": "spring-onion-white-lisbon",
+      "shortcode": "SON",
+      "positions": [
+        { "center_w": 20, "center_l": 55, "spread_cm": 40 }
+      ],
+      "planted_week": 16
+    },
+    {
+      "crop_id": "thyme",
+      "shortcode": "THY",
+      "positions": [
+        { "center_w": 35, "center_l": 5, "spread_cm": 20 },
+        { "center_w": 35, "center_l": 75, "spread_cm": 20 }
+      ],
+      "planted_week": 16
+    },
+    {
+      "crop_id": "viola",
+      "shortcode": "VIO",
+      "positions": [
+        { "center_w": 5, "center_l": 5, "spread_cm": 15 },
+        { "center_w": 5, "center_l": 75, "spread_cm": 15 }
+      ],
+      "planted_week": 16
+    },
+    {
+      "crop_id": "leek-musselburgh",
+      "shortcode": "LEK",
+      "positions": [
+        { "center_w": 20, "center_l": 20, "spread_cm": 15 },
+        { "center_w": 20, "center_l": 35, "spread_cm": 15 },
+        { "center_w": 20, "center_l": 50, "spread_cm": 15 }
+      ],
+      "planted_week": 21
+    },
+    {
+      "crop_id": "radish",
+      "shortcode": "SUCC",
+      "positions": [
+        { "center_w": 20, "center_l": 75, "spread_cm": 10 }
+      ],
+      "planted_week": 18
+    }
+  ],
+  "succession_slots": [
+    {
+      "id": "S1",
+      "area": { "w_start": 10, "w_end": 30, "l_start": 70, "l_end": 80 },
+      "crop_id": "radish",
+      "first_sow_week": 18,
+      "interval_weeks": 2
+    }
+  ],
+  "ha_sensors": {
+    "moisture": "sensor.havn_bed_d_moisture",
+    "temperature": "sensor.havn_bed_d_temperature"
+  }
+}

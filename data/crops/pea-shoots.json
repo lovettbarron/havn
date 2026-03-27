@@ -1,0 +1,129 @@
+{
+  "$schema": "../schemas/crop.schema.json",
+  "id": "pea-shoots",
+  "name": {
+    "common": "Pea Shoots",
+    "botanical": "Pisum sativum (microgreen)",
+    "da": "Aerteskud",
+    "shortcode": "PS"
+  },
+  "type": "vegetable",
+  "difficulty": {
+    "tier": "cant_fail",
+    "label": { "en": "Can't Fail", "da": "Kan ikke fejle" },
+    "reason": "Dense sow, harvest in 2-3 weeks, foolproof, tastes great raw"
+  },
+  "growth_stages": [
+    {
+      "name": "Germination",
+      "weeks": { "start": 16, "end": 16 },
+      "look_for": "Dense carpet of green loops pushing up through the soil",
+      "child_actions": [
+        {
+          "action": "Watch the green carpet",
+          "type": "observe",
+          "who": "child",
+          "minutes": 3,
+          "frequency": "daily",
+          "prompt": {
+            "en": "Look! The soil is turning into a green carpet -- so many little shoots!",
+            "da": "Se! Jorden bliver til et groent taepp -- saa mange smaa skud!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Growth",
+      "weeks": { "start": 17, "end": 17 },
+      "look_for": "Shoots about 5-8cm tall with small tender leaves",
+      "child_actions": [
+        {
+          "action": "Measure shoot height",
+          "type": "observe",
+          "who": "child",
+          "minutes": 3,
+          "frequency": "daily",
+          "prompt": {
+            "en": "How tall are the pea shoots now? Use your finger as a ruler!",
+            "da": "Hvor hoeje er aerteskuddene nu? Brug din finger som en lineal!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Harvest",
+      "weeks": { "start": 18, "end": 18 },
+      "look_for": "Shoots 10-15cm tall with curly tendrils, ready to cut",
+      "child_actions": [
+        {
+          "action": "Cut and eat shoots",
+          "type": "harvest",
+          "who": "child",
+          "minutes": 5,
+          "frequency": "once",
+          "prompt": {
+            "en": "Grab a bunch and snip with scissors! Eat them right there -- they taste like sweet peas!",
+            "da": "Tag fat i en bunke og klip med saksen! Spis dem med det samme -- de smager af soede aerter!"
+          }
+        }
+      ]
+    }
+  ],
+  "water_needs": {
+    "human_readable": {
+      "en": "Keep moist. Water daily in warm weather.",
+      "da": "Hold fugtig. Vand dagligt i varmt vejr."
+    },
+    "thresholds": {
+      "soil_moisture_min": 40,
+      "soil_moisture_max": 75,
+      "drought_alert_days": 2
+    }
+  },
+  "temperature": {
+    "optimal_min": 8,
+    "optimal_max": 20,
+    "frost_sensitive": false,
+    "frost_threshold": -5,
+    "heat_stress": 22
+  },
+  "harvest": {
+    "first_harvest_week": 18,
+    "last_harvest_week": 18,
+    "days_to_maturity": 14,
+    "continuous": false,
+    "notes": "Quick microgreen crop: dense sow, harvest in 2-3 weeks. Zone replaced by sunflowers in Phase 3 (W18)."
+  },
+  "companion_plants": {
+    "good": ["strawberry-ostara"],
+    "bad": ["spring-onion-white-lisbon"],
+    "notes": "Short-lived crop, minimal companion interactions. Keep away from alliums."
+  },
+  "engagement": {
+    "action_types": ["harvest", "observe"],
+    "peak_engagement_weeks": { "start": 16, "end": 18 },
+    "attention_minutes_per_week": 8,
+    "sensory": ["taste", "sight"]
+  },
+  "beds": ["bed-a"],
+  "sowing": {
+    "method": "seed",
+    "indoor_start": null,
+    "outdoor_sow": 16,
+    "transplant_week": null,
+    "succession": false,
+    "interval_weeks": null
+  },
+  "alerts": [
+    {
+      "type": "drought",
+      "trigger": "soil_moisture_below",
+      "threshold": 40,
+      "delay_hours": 4,
+      "message": {
+        "en": "Pea shoots need daily water to stay tender!",
+        "da": "Aerteskud har brug for dagligt vand for at holde sig moere!"
+      }
+    }
+  ]
+}

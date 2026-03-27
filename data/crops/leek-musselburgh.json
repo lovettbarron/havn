@@ -1,0 +1,147 @@
+{
+  "$schema": "../schemas/crop.schema.json",
+  "id": "leek-musselburgh",
+  "name": {
+    "common": "Leek Musselburgh",
+    "botanical": "Allium porrum 'Musselburgh'",
+    "da": "Porre Musselburgh",
+    "shortcode": "LEK"
+  },
+  "type": "vegetable",
+  "difficulty": {
+    "tier": "year_2_challenge",
+    "label": { "en": "Year 2 Challenge", "da": "Aar 2-udfordring" },
+    "reason": "150+ days to maturity, long season, deep planting technique, requires patience"
+  },
+  "growth_stages": [
+    {
+      "name": "Transplant",
+      "weeks": { "start": 21, "end": 22 },
+      "look_for": "Thin pencil-thick seedlings dropped into deep holes",
+      "child_actions": [
+        {
+          "action": "Drop seedlings into holes",
+          "type": "tend",
+          "who": "child",
+          "minutes": 5,
+          "frequency": "once",
+          "prompt": {
+            "en": "Drop the skinny leek into the deep hole -- don't fill it in! Just water gently!",
+            "da": "Lad den tynde porre falde ned i det dybe hul -- fyld det ikke op! Bare vand forsigtigt!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Slow Growth",
+      "weeks": { "start": 23, "end": 35 },
+      "look_for": "Leek slowly getting thicker, flat leaves growing taller",
+      "child_actions": [
+        {
+          "action": "Measure thickness",
+          "type": "observe",
+          "who": "child",
+          "minutes": 3,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "Is it as thick as your pinky finger yet? This one takes ALL summer to grow big!",
+            "da": "Er den saa tyk som din lillefinger endnu? Denne tager HELE sommeren om at vokse stor!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Thickening",
+      "weeks": { "start": 36, "end": 40 },
+      "look_for": "Leek getting noticeably thicker, white stem visible in the hole",
+      "child_actions": [
+        {
+          "action": "Check the white part",
+          "type": "observe",
+          "who": "child",
+          "minutes": 3,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "Peek down the hole -- see how the white part is growing? That's the yummy bit!",
+            "da": "Kig ned i hullet -- ser du, hvordan den hvide del vokser? Det er den laekre del!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Harvest",
+      "weeks": { "start": 40, "end": 48 },
+      "look_for": "Thick leek ready to dig up, at least thumb-width",
+      "child_actions": [
+        {
+          "action": "Dig up leeks",
+          "type": "harvest",
+          "who": "together",
+          "minutes": 10,
+          "frequency": "once",
+          "prompt": {
+            "en": "Loosen the soil with a fork, then PULL! Look how long the white part is! We waited ALL year for this!",
+            "da": "Loesn jorden med en greb, saa TRAEK! Se hvor lang den hvide del er! Vi har ventet HELE aaret paa dette!"
+          }
+        }
+      ]
+    }
+  ],
+  "water_needs": {
+    "human_readable": {
+      "en": "Water regularly. Keep evenly moist but don't waterlog the planting holes.",
+      "da": "Vand regelmaessigt. Hold jaevnt fugtig, men lad ikke plantehullerne staa i vand."
+    },
+    "thresholds": {
+      "soil_moisture_min": 35,
+      "soil_moisture_max": 70,
+      "drought_alert_days": 3
+    }
+  },
+  "temperature": {
+    "optimal_min": 10,
+    "optimal_max": 22,
+    "frost_sensitive": false,
+    "frost_threshold": -10,
+    "heat_stress": 28
+  },
+  "harvest": {
+    "first_harvest_week": 40,
+    "last_harvest_week": 48,
+    "days_to_maturity": 150,
+    "continuous": false,
+    "notes": "Harvest from autumn into winter. Very hardy -- survives frost. Plant 15cm deep for blanching (white stems)."
+  },
+  "companion_plants": {
+    "good": ["spring-onion-white-lisbon", "thyme"],
+    "bad": ["bush-bean-provider", "pea-kelvedon-wonder"],
+    "notes": "Allium: compatible with other alliums, but inhibits legume nitrogen fixation."
+  },
+  "engagement": {
+    "action_types": ["observe", "tend", "harvest"],
+    "peak_engagement_weeks": { "start": 36, "end": 48 },
+    "attention_minutes_per_week": 5,
+    "sensory": ["touch", "sight"]
+  },
+  "beds": ["bed-d"],
+  "sowing": {
+    "method": "plug",
+    "indoor_start": 10,
+    "outdoor_sow": null,
+    "transplant_week": 21,
+    "succession": false,
+    "interval_weeks": null
+  },
+  "alerts": [
+    {
+      "type": "drought",
+      "trigger": "soil_moisture_below",
+      "threshold": 35,
+      "delay_hours": 8,
+      "message": {
+        "en": "Leeks need steady moisture to keep growing -- water the bed!",
+        "da": "Porrer har brug for jaevn fugtighed for at vokse -- vand bedet!"
+      }
+    }
+  ]
+}

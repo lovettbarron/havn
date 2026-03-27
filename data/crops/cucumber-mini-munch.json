@@ -1,0 +1,157 @@
+{
+  "$schema": "../schemas/crop.schema.json",
+  "id": "cucumber-mini-munch",
+  "name": {
+    "common": "Cucumber Mini Munch",
+    "botanical": "Cucumis sativus 'Mini Munch'",
+    "da": "Agurk Mini Munch",
+    "shortcode": "CUC"
+  },
+  "type": "vegetable",
+  "difficulty": {
+    "tier": "needs_care",
+    "label": { "en": "Needs Care", "da": "Kraever pasning" },
+    "reason": "Frost-sensitive, needs trellis training, consistent watering critical"
+  },
+  "growth_stages": [
+    {
+      "name": "Transplant",
+      "weeks": { "start": 21, "end": 22 },
+      "look_for": "Small plant with rough hairy leaves settling in at trellis base",
+      "child_actions": [
+        {
+          "action": "Place at trellis base",
+          "type": "tend",
+          "who": "together",
+          "minutes": 5,
+          "frequency": "once",
+          "prompt": {
+            "en": "Plant it right at the bottom of the climbing frame -- it needs something to climb!",
+            "da": "Plant den lige ved bunden af klatrestativet -- den har brug for noget at klatre paa!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Climbing",
+      "weeks": { "start": 23, "end": 27 },
+      "look_for": "Curly tendrils reaching out, vine climbing the trellis",
+      "child_actions": [
+        {
+          "action": "Guide vine to trellis",
+          "type": "tend",
+          "who": "child",
+          "minutes": 5,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "The cucumber is climbing! Help the curly bits grab the wire -- they're like tiny fingers!",
+            "da": "Agurken klatrer! Hjaelp de krullede dele med at gribe traaden -- de er som bitte fingre!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Flowering",
+      "weeks": { "start": 26, "end": 30 },
+      "look_for": "Yellow star-shaped flowers, some with tiny baby cucumbers behind them",
+      "child_actions": [
+        {
+          "action": "Find baby cucumbers",
+          "type": "observe",
+          "who": "child",
+          "minutes": 3,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "Look behind the yellow flowers -- see the tiny green finger? That's a baby cucumber!",
+            "da": "Kig bag de gule blomster -- ser du den lille groenne finger? Det er en baby-agurk!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Fruiting",
+      "weeks": { "start": 28, "end": 38 },
+      "look_for": "Mini cucumbers about 8-10cm long hanging from the trellis",
+      "child_actions": [
+        {
+          "action": "Pick mini cucumbers",
+          "type": "harvest",
+          "who": "child",
+          "minutes": 5,
+          "frequency": "daily",
+          "prompt": {
+            "en": "Twist the little cucumber off the vine -- crunch! Eat it like a snack right here!",
+            "da": "Drej den lille agurk af ranken -- knasss! Spis den som en snack lige her!"
+          }
+        }
+      ]
+    }
+  ],
+  "water_needs": {
+    "human_readable": {
+      "en": "Water deeply and consistently. Cucumbers HATE drying out. Water at soil level, not on leaves.",
+      "da": "Vand grundigt og jaevnt. Agurker HADER at toerre ud. Vand ved jordoverfladen, ikke paa bladene."
+    },
+    "thresholds": {
+      "soil_moisture_min": 45,
+      "soil_moisture_max": 80,
+      "drought_alert_days": 1
+    }
+  },
+  "temperature": {
+    "optimal_min": 18,
+    "optimal_max": 30,
+    "frost_sensitive": true,
+    "frost_threshold": 4,
+    "heat_stress": 35
+  },
+  "harvest": {
+    "first_harvest_week": 28,
+    "last_harvest_week": 38,
+    "days_to_maturity": 50,
+    "continuous": true,
+    "notes": "Mini snack cucumbers: pick at 8-10cm for best flavor. Grows on A-frame trellis. Benefits from pea nitrogen in soil."
+  },
+  "companion_plants": {
+    "good": ["borage", "radish", "pea-kelvedon-wonder"],
+    "bad": [],
+    "notes": "Borage attracts pollinators for cucumber flowers. Benefits from nitrogen left by pea roots."
+  },
+  "engagement": {
+    "action_types": ["harvest", "observe", "tend"],
+    "peak_engagement_weeks": { "start": 26, "end": 36 },
+    "attention_minutes_per_week": 12,
+    "sensory": ["taste", "touch", "sight"]
+  },
+  "beds": ["bed-c"],
+  "sowing": {
+    "method": "plug",
+    "indoor_start": 14,
+    "outdoor_sow": null,
+    "transplant_week": 21,
+    "succession": false,
+    "interval_weeks": null
+  },
+  "alerts": [
+    {
+      "type": "drought",
+      "trigger": "soil_moisture_below",
+      "threshold": 45,
+      "delay_hours": 2,
+      "message": {
+        "en": "Cucumbers need water NOW -- they get bitter and stop producing if dry!",
+        "da": "Agurker har brug for vand NU -- de bliver bitre og stopper med at producere, hvis de er toerre!"
+      }
+    },
+    {
+      "type": "frost",
+      "trigger": "temperature_below",
+      "threshold": 4,
+      "delay_hours": 0,
+      "message": {
+        "en": "Cold warning for cucumbers! Cover or bring indoors if below 4C.",
+        "da": "Kuldeadvarsel for agurker! Daek eller tag ind, hvis under 4 grader."
+      }
+    }
+  ]
+}

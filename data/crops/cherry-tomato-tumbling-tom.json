@@ -1,0 +1,157 @@
+{
+  "$schema": "../schemas/crop.schema.json",
+  "id": "cherry-tomato-tumbling-tom",
+  "name": {
+    "common": "Cherry Tomato Tumbling Tom",
+    "botanical": "Solanum lycopersicum 'Tumbling Tom'",
+    "da": "Cherrytomat Tumbling Tom",
+    "shortcode": "TT"
+  },
+  "type": "vegetable",
+  "difficulty": {
+    "tier": "needs_care",
+    "label": { "en": "Needs Care", "da": "Kraever pasning" },
+    "reason": "Frost-sensitive, needs consistent watering, but compact/trailing so no staking needed"
+  },
+  "growth_stages": [
+    {
+      "name": "Seedling",
+      "weeks": { "start": 12, "end": 20 },
+      "look_for": "Small compact plant with tomato-scented leaves",
+      "child_actions": [
+        {
+          "action": "Smell the leaves",
+          "type": "sensory",
+          "who": "child",
+          "minutes": 2,
+          "frequency": "once",
+          "prompt": {
+            "en": "This tomato TRAILS instead of growing tall! Smell the leaves -- same tomato smell!",
+            "da": "Denne tomat HAENGER i stedet for at vokse hoeijt! Lugt bladene -- samme tomatlug!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Transplant & Trailing",
+      "weeks": { "start": 21, "end": 25 },
+      "look_for": "Stems starting to trail over the edge of the bed or pot",
+      "child_actions": [
+        {
+          "action": "Watch it trail",
+          "type": "observe",
+          "who": "child",
+          "minutes": 3,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "This one doesn't grow up -- it grows DOWN! How far has it trailed over the edge?",
+            "da": "Denne vokser ikke op -- den vokser NED! Hvor langt haenger den ud over kanten?"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Flowering",
+      "weeks": { "start": 25, "end": 30 },
+      "look_for": "Clusters of small yellow flowers along the trailing stems",
+      "child_actions": [
+        {
+          "action": "Count flower clusters",
+          "type": "observe",
+          "who": "child",
+          "minutes": 3,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "Yellow flowers on the hanging stems! Each one becomes a tiny tomato!",
+            "da": "Gule blomster paa de haengende stammer! Hver en bliver til en lille tomat!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Fruiting",
+      "weeks": { "start": 28, "end": 40 },
+      "look_for": "Red cherry tomatoes dangling from trailing stems",
+      "child_actions": [
+        {
+          "action": "Pick trailing tomatoes",
+          "type": "harvest",
+          "who": "child",
+          "minutes": 5,
+          "frequency": "daily",
+          "prompt": {
+            "en": "The red ones hanging down are ready! Pick and eat -- like nature's gummy bears!",
+            "da": "De roede, der haenger ned, er klar! Pluk og spis -- som naturens vingummi!"
+          }
+        }
+      ]
+    }
+  ],
+  "water_needs": {
+    "human_readable": {
+      "en": "Water deeply every 1-2 days. Keep consistently moist. Trailing habit dries out faster.",
+      "da": "Vand grundigt hver 1-2 dag. Hold jaevnt fugtig. Haengende vaekst toerrer hurtigere ud."
+    },
+    "thresholds": {
+      "soil_moisture_min": 40,
+      "soil_moisture_max": 75,
+      "drought_alert_days": 2
+    }
+  },
+  "temperature": {
+    "optimal_min": 18,
+    "optimal_max": 28,
+    "frost_sensitive": true,
+    "frost_threshold": 2,
+    "heat_stress": 35
+  },
+  "harvest": {
+    "first_harvest_week": 28,
+    "last_harvest_week": 40,
+    "days_to_maturity": 60,
+    "continuous": true,
+    "notes": "Determinate trailing variety: compact, no staking. Fruits cascade over bed or pot edge. Red when ripe."
+  },
+  "companion_plants": {
+    "good": ["basil", "calendula", "borage"],
+    "bad": [],
+    "notes": "Benefits from same companions as Sungold. Compact size means less crowding."
+  },
+  "engagement": {
+    "action_types": ["harvest", "observe", "sensory"],
+    "peak_engagement_weeks": { "start": 28, "end": 38 },
+    "attention_minutes_per_week": 10,
+    "sensory": ["taste", "smell", "sight"]
+  },
+  "beds": ["bed-e"],
+  "sowing": {
+    "method": "plug",
+    "indoor_start": 12,
+    "outdoor_sow": null,
+    "transplant_week": 21,
+    "succession": false,
+    "interval_weeks": null
+  },
+  "alerts": [
+    {
+      "type": "drought",
+      "trigger": "soil_moisture_below",
+      "threshold": 40,
+      "delay_hours": 4,
+      "message": {
+        "en": "Tumbling Tom needs water -- trailing tomatoes dry out fast!",
+        "da": "Tumbling Tom har brug for vand -- haengende tomater toerrer hurtigt ud!"
+      }
+    },
+    {
+      "type": "frost",
+      "trigger": "temperature_below",
+      "threshold": 2,
+      "delay_hours": 0,
+      "message": {
+        "en": "FROST ALERT: Cover tomatoes NOW! They will die below 2C.",
+        "da": "FROSTALARM: Daek tomaterne NU! De doer under 2 grader."
+      }
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "$schema": "../schemas/crop.schema.json",
+  "id": "mint",
+  "name": {
+    "common": "Mint (Spearmint)",
+    "botanical": "Mentha spicata",
+    "da": "Mynte (Spearmint)",
+    "shortcode": "MINT"
+  },
+  "type": "herb",
+  "difficulty": {
+    "tier": "cant_fail",
+    "label": { "en": "Can't Fail", "da": "Kan ikke fejle" },
+    "reason": "Nearly indestructible, own pot prevents invasion, daily sensory route stop"
+  },
+  "growth_stages": [
+    {
+      "name": "Establishment",
+      "weeks": { "start": 21, "end": 23 },
+      "look_for": "Fresh green leaves in pot, growing outward quickly",
+      "child_actions": [
+        {
+          "action": "Smell the mint",
+          "type": "sensory",
+          "who": "child",
+          "minutes": 2,
+          "frequency": "daily",
+          "prompt": {
+            "en": "Rub a leaf and smell your hand -- MINT! The freshest smell in the garden!",
+            "da": "Gnub et blad og lugt paa din haand -- MYNTE! Den friskeste duft i haven!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Full Growth",
+      "weeks": { "start": 24, "end": 36 },
+      "look_for": "Bushy plant filling the pot, very aromatic",
+      "child_actions": [
+        {
+          "action": "Pick for drinks",
+          "type": "harvest",
+          "who": "child",
+          "minutes": 3,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "Pick a few leaves for your water glass -- fancy mint water! Or we'll make hot chocolate with mint!",
+            "da": "Pluk et par blade til dit vandglas -- flot myntevand! Eller vi laver varm kakao med mynte!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Late Season",
+      "weeks": { "start": 37, "end": 44 },
+      "look_for": "Growth slowing, may flower with small purple spikes",
+      "child_actions": [
+        {
+          "action": "Cut back for winter",
+          "type": "tend",
+          "who": "together",
+          "minutes": 5,
+          "frequency": "once",
+          "prompt": {
+            "en": "Give the mint a big haircut before winter -- it'll grow back even bushier next year!",
+            "da": "Giv mynten en stor klipning foer vinteren -- den vokser endnu taettere naeste aar!"
+          }
+        }
+      ]
+    }
+  ],
+  "water_needs": {
+    "human_readable": {
+      "en": "Keep pot moist. Water daily in warm weather -- pots dry out fast.",
+      "da": "Hold potten fugtig. Vand dagligt i varmt vejr -- potter toerrer hurtigt ud."
+    },
+    "thresholds": {
+      "soil_moisture_min": 40,
+      "soil_moisture_max": 80,
+      "drought_alert_days": 2
+    }
+  },
+  "temperature": {
+    "optimal_min": 12,
+    "optimal_max": 28,
+    "frost_sensitive": false,
+    "frost_threshold": -15,
+    "heat_stress": 32
+  },
+  "harvest": {
+    "first_harvest_week": 22,
+    "last_harvest_week": 38,
+    "days_to_maturity": null,
+    "continuous": true,
+    "notes": "Perennial in pot. NOT in bed -- invasive. Part of daily sensory route: lamb's ear (touch) -> lemon balm (crush) -> mint (smell)."
+  },
+  "companion_plants": {
+    "good": [],
+    "bad": [],
+    "notes": "Kept in own pot outside bed. No companion interactions. Invasive if planted in ground."
+  },
+  "engagement": {
+    "action_types": ["harvest", "sensory"],
+    "peak_engagement_weeks": { "start": 22, "end": 36 },
+    "attention_minutes_per_week": 5,
+    "sensory": ["smell", "taste", "touch"]
+  },
+  "beds": ["bed-a"],
+  "sowing": {
+    "method": "buy-plant",
+    "indoor_start": null,
+    "outdoor_sow": null,
+    "transplant_week": 21,
+    "succession": false,
+    "interval_weeks": null
+  },
+  "alerts": [
+    {
+      "type": "drought",
+      "trigger": "soil_moisture_below",
+      "threshold": 40,
+      "delay_hours": 4,
+      "message": {
+        "en": "The mint pot is drying out -- water it! Pots need daily watering in summer.",
+        "da": "Myntepotten toerrer ud -- vand den! Potter har brug for dagligt vand om sommeren."
+      }
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "$schema": "../schemas/crop.schema.json",
+  "id": "spring-onion-white-lisbon",
+  "name": {
+    "common": "Spring Onion White Lisbon",
+    "botanical": "Allium cepa 'White Lisbon'",
+    "da": "Foraarsloeg White Lisbon",
+    "shortcode": "SON"
+  },
+  "type": "vegetable",
+  "difficulty": {
+    "tier": "cant_fail",
+    "label": { "en": "Can't Fail", "da": "Kan ikke fejle" },
+    "reason": "Easy from seed, quick growth, tolerates cool weather, monthly succession"
+  },
+  "growth_stages": [
+    {
+      "name": "Germination",
+      "weeks": { "start": 16, "end": 18 },
+      "look_for": "Thin green spikes like grass poking through the soil",
+      "child_actions": [
+        {
+          "action": "Spot the green spikes",
+          "type": "observe",
+          "who": "child",
+          "minutes": 3,
+          "frequency": "daily",
+          "prompt": {
+            "en": "Can you see tiny green needles poking up? Those will become spring onions!",
+            "da": "Kan du se bittesmaa groenne naale, der stikker op? De bliver til foraarsloeg!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Growth",
+      "weeks": { "start": 18, "end": 24 },
+      "look_for": "Green tubes getting taller and thicker, white base forming",
+      "child_actions": [
+        {
+          "action": "Smell the onion scent",
+          "type": "sensory",
+          "who": "child",
+          "minutes": 2,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "Rub a leaf and smell -- onion! The bugs don't like that smell!",
+            "da": "Gnub et blad og lugt -- loeg! Insekterne kan ikke lide den lugt!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Harvest",
+      "weeks": { "start": 24, "end": 36 },
+      "look_for": "Pencil-thick stems with white base, about 15-20cm tall",
+      "child_actions": [
+        {
+          "action": "Pull spring onions",
+          "type": "harvest",
+          "who": "child",
+          "minutes": 5,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "Grab near the bottom and pull up! Rinse and eat it like a stick!",
+            "da": "Tag fat taet ved bunden og traek op! Skyl og spis det som en pind!"
+          }
+        }
+      ]
+    }
+  ],
+  "water_needs": {
+    "human_readable": {
+      "en": "Water regularly. Keep soil moist but not waterlogged.",
+      "da": "Vand regelmaessigt. Hold jorden fugtig, men ikke vandfyldt."
+    },
+    "thresholds": {
+      "soil_moisture_min": 35,
+      "soil_moisture_max": 70,
+      "drought_alert_days": 3
+    }
+  },
+  "temperature": {
+    "optimal_min": 10,
+    "optimal_max": 22,
+    "frost_sensitive": false,
+    "frost_threshold": -6,
+    "heat_stress": 28
+  },
+  "harvest": {
+    "first_harvest_week": 24,
+    "last_harvest_week": 36,
+    "days_to_maturity": 60,
+    "continuous": true,
+    "notes": "Pull as needed. Succession sow monthly for continuous supply. Allium -- keep away from peas and beans."
+  },
+  "companion_plants": {
+    "good": ["lettuce-baby-mix", "radish", "thyme"],
+    "bad": ["pea-kelvedon-wonder", "bush-bean-provider"],
+    "notes": "Onion scent deters lettuce pests. Alliums inhibit legume nitrogen fixation."
+  },
+  "engagement": {
+    "action_types": ["harvest", "observe", "sensory"],
+    "peak_engagement_weeks": { "start": 24, "end": 34 },
+    "attention_minutes_per_week": 5,
+    "sensory": ["taste", "smell"]
+  },
+  "beds": ["bed-d"],
+  "sowing": {
+    "method": "seed",
+    "indoor_start": null,
+    "outdoor_sow": 16,
+    "transplant_week": null,
+    "succession": true,
+    "interval_weeks": 4
+  },
+  "alerts": [
+    {
+      "type": "drought",
+      "trigger": "soil_moisture_below",
+      "threshold": 35,
+      "delay_hours": 6,
+      "message": {
+        "en": "Spring onions need water to keep growing evenly.",
+        "da": "Foraarsloeg har brug for vand for at vokse jaevnt."
+      }
+    }
+  ]
+}

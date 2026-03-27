@@ -1,0 +1,48 @@
+{
+  "$schema": "../schemas/bed.schema.json",
+  "id": "bed-b",
+  "name": "Raspberry Bed",
+  "physical": {
+    "position": "Bed 1, backyard west",
+    "dimensions": { "length_cm": 120, "width_cm": 60, "height_cm": 40 },
+    "material": "corten_steel",
+    "features": [],
+    "orientation": "N-S"
+  },
+  "crops": [
+    {
+      "crop_id": "raspberry-autumn-bliss",
+      "shortcode": "RB",
+      "positions": [
+        { "center_w": 30, "center_l": 25, "spread_cm": 45 },
+        { "center_w": 30, "center_l": 70, "spread_cm": 45 },
+        { "center_w": 30, "center_l": 110, "spread_cm": 45 }
+      ],
+      "planted_week": 16
+    },
+    {
+      "crop_id": "chives",
+      "shortcode": "CHV",
+      "positions": [
+        { "center_w": 5, "center_l": 5, "spread_cm": 15 },
+        { "center_w": 15, "center_l": 5, "spread_cm": 15 },
+        { "center_w": 55, "center_l": 5, "spread_cm": 15 },
+        { "center_w": 45, "center_l": 5, "spread_cm": 15 },
+        { "center_w": 5, "center_l": 45, "spread_cm": 15 },
+        { "center_w": 55, "center_l": 45, "spread_cm": 15 },
+        { "center_w": 5, "center_l": 85, "spread_cm": 15 },
+        { "center_w": 55, "center_l": 85, "spread_cm": 15 },
+        { "center_w": 5, "center_l": 115, "spread_cm": 15 },
+        { "center_w": 15, "center_l": 115, "spread_cm": 15 },
+        { "center_w": 45, "center_l": 115, "spread_cm": 15 },
+        { "center_w": 55, "center_l": 115, "spread_cm": 15 }
+      ],
+      "planted_week": 16
+    }
+  ],
+  "succession_slots": [],
+  "ha_sensors": {
+    "moisture": "sensor.havn_bed_b_moisture",
+    "temperature": "sensor.havn_bed_b_temperature"
+  }
+}

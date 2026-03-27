@@ -1,0 +1,129 @@
+{
+  "$schema": "../schemas/crop.schema.json",
+  "id": "lettuce-baby-mix",
+  "name": {
+    "common": "Baby Lettuce Mix",
+    "botanical": "Lactuca sativa (mixed varieties)",
+    "da": "Babysalat blanding",
+    "shortcode": "LETTUCE"
+  },
+  "type": "vegetable",
+  "difficulty": {
+    "tier": "cant_fail",
+    "label": { "en": "Can't Fail", "da": "Kan ikke fejle" },
+    "reason": "Broadcast sow, cut-and-come-again, fast visible results"
+  },
+  "growth_stages": [
+    {
+      "name": "Germination",
+      "weeks": { "start": 16, "end": 17 },
+      "look_for": "Tiny green sprouts across the soil like a green carpet forming",
+      "child_actions": [
+        {
+          "action": "Spot the green carpet",
+          "type": "observe",
+          "who": "child",
+          "minutes": 3,
+          "frequency": "daily",
+          "prompt": {
+            "en": "Look! The soil is turning green -- those are baby lettuce plants!",
+            "da": "Se! Jorden bliver groen -- det er baby salatplanter!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Growth",
+      "weeks": { "start": 17, "end": 19 },
+      "look_for": "Leaves getting taller, different shapes and colors in the mix",
+      "child_actions": [
+        {
+          "action": "Find different leaf shapes",
+          "type": "observe",
+          "who": "child",
+          "minutes": 3,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "How many different leaf shapes can you see? Some are smooth, some are frilly!",
+            "da": "Hvor mange forskellige bladformer kan du se? Nogle er glatte, nogle er krusede!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "First Harvest",
+      "weeks": { "start": 19, "end": 26 },
+      "look_for": "Leaves about 10cm tall, ready to cut",
+      "child_actions": [
+        {
+          "action": "Cut leaves with scissors",
+          "type": "harvest",
+          "who": "child",
+          "minutes": 5,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "Use the scissors to cut leaves 2cm above the soil -- they'll grow back!",
+            "da": "Brug saksen til at klippe blade 2cm over jorden -- de vokser ud igen!"
+          }
+        }
+      ]
+    }
+  ],
+  "water_needs": {
+    "human_readable": {
+      "en": "Keep moist. Water lightly every day in warm weather. Drying out causes bolting.",
+      "da": "Hold fugtig. Vand let hver dag i varmt vejr. Udtoerring faar den til at skyde."
+    },
+    "thresholds": {
+      "soil_moisture_min": 40,
+      "soil_moisture_max": 75,
+      "drought_alert_days": 2
+    }
+  },
+  "temperature": {
+    "optimal_min": 10,
+    "optimal_max": 20,
+    "frost_sensitive": false,
+    "frost_threshold": -3,
+    "heat_stress": 24
+  },
+  "harvest": {
+    "first_harvest_week": 19,
+    "last_harvest_week": 26,
+    "days_to_maturity": 21,
+    "continuous": true,
+    "notes": "Cut-and-come-again: cut 2cm above soil, regrows 2-3 times. Bolts in summer heat (June+)."
+  },
+  "companion_plants": {
+    "good": ["spring-onion-white-lisbon", "radish", "chives"],
+    "bad": [],
+    "notes": "Spring onion scent deters lettuce pests. Radish marks rows."
+  },
+  "engagement": {
+    "action_types": ["harvest", "observe"],
+    "peak_engagement_weeks": { "start": 19, "end": 25 },
+    "attention_minutes_per_week": 8,
+    "sensory": ["taste", "touch", "sight"]
+  },
+  "beds": ["bed-d"],
+  "sowing": {
+    "method": "seed",
+    "indoor_start": null,
+    "outdoor_sow": 16,
+    "transplant_week": null,
+    "succession": true,
+    "interval_weeks": 3
+  },
+  "alerts": [
+    {
+      "type": "drought",
+      "trigger": "soil_moisture_below",
+      "threshold": 40,
+      "delay_hours": 4,
+      "message": {
+        "en": "Lettuce needs water urgently -- it will bolt if it dries out!",
+        "da": "Salat har akut brug for vand -- den skyder, hvis den toerrer ud!"
+      }
+    }
+  ]
+}

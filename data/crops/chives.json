@@ -1,0 +1,135 @@
+{
+  "$schema": "../schemas/crop.schema.json",
+  "id": "chives",
+  "name": {
+    "common": "Chives",
+    "botanical": "Allium schoenoprasum",
+    "da": "Purloeg",
+    "shortcode": "CHV"
+  },
+  "type": "herb",
+  "difficulty": {
+    "tier": "cant_fail",
+    "label": { "en": "Can't Fail", "da": "Kan ikke fejle" },
+    "reason": "Perennial, division W16, edible purple flowers, pest deterrent"
+  },
+  "growth_stages": [
+    {
+      "name": "Dormant",
+      "weeks": { "start": 1, "end": 14 },
+      "look_for": "Brown dried grass-like tufts from last year",
+      "child_actions": []
+    },
+    {
+      "name": "Spring Growth",
+      "weeks": { "start": 15, "end": 18 },
+      "look_for": "Thin green tubes shooting up from each division",
+      "child_actions": [
+        {
+          "action": "Snip and taste",
+          "type": "harvest",
+          "who": "child",
+          "minutes": 3,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "Snip a few green tubes with scissors -- taste them! Mild onion flavor!",
+            "da": "Klip et par groenne roer med saksen -- smag dem! Mild loegsmag!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Flowering",
+      "weeks": { "start": 20, "end": 26 },
+      "look_for": "Purple globe-shaped flowers on top of stems",
+      "child_actions": [
+        {
+          "action": "Eat chive flowers",
+          "type": "harvest",
+          "who": "child",
+          "minutes": 3,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "Pull apart a purple ball and taste the tiny flowers -- onion confetti!",
+            "da": "Pil en lilla kugle fra hinanden og smag de smaa blomster -- loeg-konfetti!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Summer Growth",
+      "weeks": { "start": 27, "end": 40 },
+      "look_for": "Regrowth after flower cutting, continuous green tubes",
+      "child_actions": [
+        {
+          "action": "Harvest for cooking",
+          "type": "harvest",
+          "who": "child",
+          "minutes": 3,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "Snip a handful for dinner -- chop them up for the baked potato!",
+            "da": "Klip en haandfuld til aftensmad -- hak dem til den bagte kartoffel!"
+          }
+        }
+      ]
+    }
+  ],
+  "water_needs": {
+    "human_readable": {
+      "en": "Water regularly but tolerates some drought. Keep reasonably moist.",
+      "da": "Vand regelmaessigt, men taaler lidt toerke. Hold rimelig fugtig."
+    },
+    "thresholds": {
+      "soil_moisture_min": 25,
+      "soil_moisture_max": 65,
+      "drought_alert_days": 5
+    }
+  },
+  "temperature": {
+    "optimal_min": 10,
+    "optimal_max": 25,
+    "frost_sensitive": false,
+    "frost_threshold": -20,
+    "heat_stress": 30
+  },
+  "harvest": {
+    "first_harvest_week": 16,
+    "last_harvest_week": 40,
+    "days_to_maturity": null,
+    "continuous": true,
+    "notes": "Perennial: cut-and-come-again herb. Purple flowers edible May-June. Repels Japanese beetles and aphids."
+  },
+  "companion_plants": {
+    "good": ["raspberry-autumn-bliss"],
+    "bad": ["pea-kelvedon-wonder", "bush-bean-provider"],
+    "notes": "Chives repel Japanese beetles and aphids from raspberries. Alliums inhibit legume nitrogen fixation."
+  },
+  "engagement": {
+    "action_types": ["harvest", "sensory"],
+    "peak_engagement_weeks": { "start": 20, "end": 26 },
+    "attention_minutes_per_week": 5,
+    "sensory": ["taste", "smell", "sight"]
+  },
+  "beds": ["bed-b"],
+  "sowing": {
+    "method": "division",
+    "indoor_start": null,
+    "outdoor_sow": null,
+    "transplant_week": 16,
+    "succession": false,
+    "interval_weeks": null
+  },
+  "alerts": [
+    {
+      "type": "drought",
+      "trigger": "soil_moisture_below",
+      "threshold": 25,
+      "delay_hours": 12,
+      "message": {
+        "en": "Chives could use a drink -- they look a bit droopy.",
+        "da": "Purloeg kunne bruge en taar vand -- de ser lidt slappe ud."
+      }
+    }
+  ]
+}

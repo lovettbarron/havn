@@ -1,0 +1,135 @@
+{
+  "$schema": "../schemas/crop.schema.json",
+  "id": "thyme",
+  "name": {
+    "common": "Creeping Thyme",
+    "botanical": "Thymus serpyllum",
+    "da": "Krybende timian",
+    "shortcode": "THY"
+  },
+  "type": "herb",
+  "difficulty": {
+    "tier": "cant_fail",
+    "label": { "en": "Can't Fail", "da": "Kan ikke fejle" },
+    "reason": "Perennial, drought-tolerant, low-growing ground cover, nearly indestructible"
+  },
+  "growth_stages": [
+    {
+      "name": "Dormant",
+      "weeks": { "start": 1, "end": 14 },
+      "look_for": "Woody stems with small dry leaves, plant looks brown but alive",
+      "child_actions": []
+    },
+    {
+      "name": "Spring Flush",
+      "weeks": { "start": 15, "end": 20 },
+      "look_for": "Fresh tiny green leaves appearing on the stems",
+      "child_actions": [
+        {
+          "action": "Touch and smell",
+          "type": "sensory",
+          "who": "child",
+          "minutes": 2,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "Run your hand over the thyme -- smell your fingers! What does it remind you of?",
+            "da": "Koer din haand hen over timianen -- lugt paa dine fingre! Hvad minder det dig om?"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Flowering",
+      "weeks": { "start": 22, "end": 30 },
+      "look_for": "Tiny purple-pink flowers covering the plant, bees buzzing around",
+      "child_actions": [
+        {
+          "action": "Count the bees",
+          "type": "observe",
+          "who": "child",
+          "minutes": 3,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "Sit still and watch -- how many bees visit the thyme flowers in one minute?",
+            "da": "Sid stille og se -- hvor mange bier besoeger timianblomsterme paa et minut?"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Late Season",
+      "weeks": { "start": 31, "end": 44 },
+      "look_for": "Plant spreading wider, aromatic when touched",
+      "child_actions": [
+        {
+          "action": "Harvest sprigs for cooking",
+          "type": "harvest",
+          "who": "together",
+          "minutes": 3,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "Pinch off a few sprigs -- we'll put them in tonight's dinner!",
+            "da": "Knib et par kviste af -- vi putter dem i aftensmaden!"
+          }
+        }
+      ]
+    }
+  ],
+  "water_needs": {
+    "human_readable": {
+      "en": "Very drought tolerant. Water only in extended dry spells.",
+      "da": "Meget toerketolerant. Vand kun i laengere toerkeperioder."
+    },
+    "thresholds": {
+      "soil_moisture_min": 15,
+      "soil_moisture_max": 55,
+      "drought_alert_days": 7
+    }
+  },
+  "temperature": {
+    "optimal_min": 10,
+    "optimal_max": 30,
+    "frost_sensitive": false,
+    "frost_threshold": -20,
+    "heat_stress": 35
+  },
+  "harvest": {
+    "first_harvest_week": 18,
+    "last_harvest_week": 40,
+    "days_to_maturity": null,
+    "continuous": true,
+    "notes": "Perennial: harvest sprigs as needed. Best flavor before flowering. Trim after flowering to stay compact."
+  },
+  "companion_plants": {
+    "good": ["strawberry-ostara", "strawberry-korona", "viola"],
+    "bad": [],
+    "notes": "Deters slugs near strawberries. Low ground cover doesn't compete."
+  },
+  "engagement": {
+    "action_types": ["harvest", "observe", "sensory"],
+    "peak_engagement_weeks": { "start": 22, "end": 30 },
+    "attention_minutes_per_week": 5,
+    "sensory": ["smell", "touch", "taste"]
+  },
+  "beds": ["bed-a", "bed-d"],
+  "sowing": {
+    "method": "buy-plant",
+    "indoor_start": null,
+    "outdoor_sow": null,
+    "transplant_week": 16,
+    "succession": false,
+    "interval_weeks": null
+  },
+  "alerts": [
+    {
+      "type": "drought",
+      "trigger": "soil_moisture_below",
+      "threshold": 15,
+      "delay_hours": 24,
+      "message": {
+        "en": "Even thyme needs water eventually -- soil is very dry!",
+        "da": "Selv timian har brug for vand til sidst -- jorden er meget toer!"
+      }
+    }
+  ]
+}

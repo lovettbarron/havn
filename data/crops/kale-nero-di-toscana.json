@@ -1,0 +1,129 @@
+{
+  "$schema": "../schemas/crop.schema.json",
+  "id": "kale-nero-di-toscana",
+  "name": {
+    "common": "Kale Nero di Toscana",
+    "botanical": "Brassica oleracea var. palmifolia",
+    "da": "Groenkal Nero di Toscana",
+    "shortcode": "KAL"
+  },
+  "type": "vegetable",
+  "difficulty": {
+    "tier": "cant_fail",
+    "label": { "en": "Can't Fail", "da": "Kan ikke fejle" },
+    "reason": "Very hardy, tolerates neglect, dramatic dinosaur-skin texture fascinates children"
+  },
+  "growth_stages": [
+    {
+      "name": "Germination",
+      "weeks": { "start": 17, "end": 18 },
+      "look_for": "Small seedlings with round seed leaves",
+      "child_actions": [
+        {
+          "action": "Spot the seedlings",
+          "type": "observe",
+          "who": "child",
+          "minutes": 3,
+          "frequency": "daily",
+          "prompt": {
+            "en": "Can you find the baby kale plants? They have tiny round leaves!",
+            "da": "Kan du finde baby-groenkaalsplanterne? De har bittesmaa runde blade!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Leaf Development",
+      "weeks": { "start": 19, "end": 24 },
+      "look_for": "Dark bumpy leaves growing in a rosette -- looks like dinosaur skin!",
+      "child_actions": [
+        {
+          "action": "Feel the dinosaur leaves",
+          "type": "sensory",
+          "who": "child",
+          "minutes": 3,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "Run your finger over the bumpy leaves -- they feel like dinosaur skin!",
+            "da": "Koer din finger hen over de bumpede blade -- de foeles som dinosaurhud!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Harvest",
+      "weeks": { "start": 24, "end": 40 },
+      "look_for": "Lower leaves are large enough to pick (15-20cm long)",
+      "child_actions": [
+        {
+          "action": "Pick outer leaves",
+          "type": "harvest",
+          "who": "together",
+          "minutes": 5,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "Snap off the BIG bottom leaves -- leave the small ones at the top growing!",
+            "da": "Knaek de STORE nederste blade af -- lad de smaa i toppen vokse videre!"
+          }
+        }
+      ]
+    }
+  ],
+  "water_needs": {
+    "human_readable": {
+      "en": "Water regularly but tolerates some drought. Prefers consistently moist soil.",
+      "da": "Vand regelmaessigt, men taaler lidt toerke. Foretraekker jaevnt fugtig jord."
+    },
+    "thresholds": {
+      "soil_moisture_min": 30,
+      "soil_moisture_max": 70,
+      "drought_alert_days": 4
+    }
+  },
+  "temperature": {
+    "optimal_min": 10,
+    "optimal_max": 22,
+    "frost_sensitive": false,
+    "frost_threshold": -10,
+    "heat_stress": 28
+  },
+  "harvest": {
+    "first_harvest_week": 24,
+    "last_harvest_week": 40,
+    "days_to_maturity": 60,
+    "continuous": true,
+    "notes": "Pick-and-come-again: harvest lower leaves, plant keeps producing. Flavor improves after light frost."
+  },
+  "companion_plants": {
+    "good": ["borage", "calendula", "nasturtium"],
+    "bad": [],
+    "notes": "Borage and calendula attract beneficial insects. Nasturtium acts as aphid trap crop."
+  },
+  "engagement": {
+    "action_types": ["harvest", "observe", "sensory"],
+    "peak_engagement_weeks": { "start": 19, "end": 30 },
+    "attention_minutes_per_week": 8,
+    "sensory": ["touch", "sight"]
+  },
+  "beds": ["bed-c"],
+  "sowing": {
+    "method": "seed",
+    "indoor_start": null,
+    "outdoor_sow": 17,
+    "transplant_week": null,
+    "succession": false,
+    "interval_weeks": null
+  },
+  "alerts": [
+    {
+      "type": "drought",
+      "trigger": "soil_moisture_below",
+      "threshold": 30,
+      "delay_hours": 8,
+      "message": {
+        "en": "Kale could use some water -- leaves may get bitter if too dry.",
+        "da": "Groenkaalen kunne bruge lidt vand -- bladene kan blive bitre, hvis den er for toer."
+      }
+    }
+  ]
+}

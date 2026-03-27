@@ -1,0 +1,124 @@
+{
+  "$schema": "../schemas/crop.schema.json",
+  "id": "lambs-ear",
+  "name": {
+    "common": "Lamb's Ear",
+    "botanical": "Stachys byzantina",
+    "da": "Lammeoere",
+    "shortcode": "LAM"
+  },
+  "type": "sensory",
+  "difficulty": {
+    "tier": "cant_fail",
+    "label": { "en": "Can't Fail", "da": "Kan ikke fejle" },
+    "reason": "Perennial, drought-tolerant, spreading ground cover, irresistibly soft leaves"
+  },
+  "growth_stages": [
+    {
+      "name": "Dormant",
+      "weeks": { "start": 1, "end": 14 },
+      "look_for": "Silvery-green rosette close to the ground, some winter-worn leaves",
+      "child_actions": []
+    },
+    {
+      "name": "Spring Growth",
+      "weeks": { "start": 15, "end": 20 },
+      "look_for": "New velvety silver leaves unfurling from the center",
+      "child_actions": [
+        {
+          "action": "Pet the fuzzy leaves",
+          "type": "sensory",
+          "who": "child",
+          "minutes": 2,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "Touch the new leaves -- they feel like a lamb's ear! So soft and fuzzy!",
+            "da": "Roer ved de nye blade -- de foeles som et lammeoere! Saa bloede og lodne!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Flowering",
+      "weeks": { "start": 22, "end": 28 },
+      "look_for": "Tall fuzzy flower spikes with tiny purple flowers",
+      "child_actions": [
+        {
+          "action": "Feel the flower spike",
+          "type": "sensory",
+          "who": "child",
+          "minutes": 2,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "The flower tower is fuzzy too! Run your fingers up it -- feel the tiny flowers!",
+            "da": "Blomstertaarnet er ogsaa lodent! Koer dine fingre op ad det -- maarke de smaa blomster!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Late Season",
+      "weeks": { "start": 29, "end": 44 },
+      "look_for": "Plant spreading wider, lower leaves may dry out",
+      "child_actions": [
+        {
+          "action": "Remove dry leaves",
+          "type": "tend",
+          "who": "child",
+          "minutes": 3,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "Pull off the crispy brown leaves at the bottom -- only keep the soft ones!",
+            "da": "Traek de sprode brune blade af i bunden -- behold kun de bloede!"
+          }
+        }
+      ]
+    }
+  ],
+  "water_needs": {
+    "human_readable": {
+      "en": "Very drought tolerant. Prefers dry conditions. Overwatering causes rot.",
+      "da": "Meget toerketolerant. Foretraekker toerre forhold. Overvanding giver raad."
+    },
+    "thresholds": {
+      "soil_moisture_min": 15,
+      "soil_moisture_max": 50,
+      "drought_alert_days": 10
+    }
+  },
+  "temperature": {
+    "optimal_min": 10,
+    "optimal_max": 30,
+    "frost_sensitive": false,
+    "frost_threshold": -20,
+    "heat_stress": 35
+  },
+  "harvest": {
+    "first_harvest_week": null,
+    "last_harvest_week": null,
+    "days_to_maturity": null,
+    "continuous": false,
+    "notes": "Not harvested for food. Purely sensory/tactile plant. Remove spent flower spikes to keep tidy."
+  },
+  "companion_plants": {
+    "good": ["strawberry-ostara", "strawberry-korona", "thyme", "lemon-balm"],
+    "bad": [],
+    "notes": "Part of the sensory edge in Bed A. Silvery leaves provide visual contrast."
+  },
+  "engagement": {
+    "action_types": ["sensory", "tend"],
+    "peak_engagement_weeks": { "start": 15, "end": 28 },
+    "attention_minutes_per_week": 3,
+    "sensory": ["touch", "sight"]
+  },
+  "beds": ["bed-a"],
+  "sowing": {
+    "method": "buy-plant",
+    "indoor_start": null,
+    "outdoor_sow": null,
+    "transplant_week": 16,
+    "succession": false,
+    "interval_weeks": null
+  },
+  "alerts": []
+}

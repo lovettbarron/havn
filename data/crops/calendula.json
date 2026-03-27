@@ -1,0 +1,118 @@
+{
+  "$schema": "../schemas/crop.schema.json",
+  "id": "calendula",
+  "name": {
+    "common": "Calendula (Pot Marigold)",
+    "botanical": "Calendula officinalis",
+    "da": "Morgenfrue",
+    "shortcode": "CAL"
+  },
+  "type": "flower",
+  "difficulty": {
+    "tier": "cant_fail",
+    "label": { "en": "Can't Fail", "da": "Kan ikke fejle" },
+    "reason": "Direct sow, germinates easily, self-sows, pest deterrent, edible petals"
+  },
+  "growth_stages": [
+    {
+      "name": "Germination",
+      "weeks": { "start": 17, "end": 18 },
+      "look_for": "Two elongated seed leaves pushing up",
+      "child_actions": [
+        {
+          "action": "Find the seedlings",
+          "type": "observe",
+          "who": "child",
+          "minutes": 3,
+          "frequency": "daily",
+          "prompt": {
+            "en": "Look where we planted the curly seeds -- can you see green coming up?",
+            "da": "Kig hvor vi plantede de krullede froe -- kan du se groent komme op?"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Leaf Growth",
+      "weeks": { "start": 19, "end": 22 },
+      "look_for": "Sticky leaves and sturdy stems growing taller",
+      "child_actions": [
+        {
+          "action": "Touch the sticky leaves",
+          "type": "sensory",
+          "who": "child",
+          "minutes": 2,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "Touch the leaves gently -- feel how sticky they are? That stickiness traps tiny bugs!",
+            "da": "Roer forsigtigt ved bladene -- kan du maerke, hvor klaebrige de er? Det klaebrige fanger smaa insekter!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Flowering",
+      "weeks": { "start": 23, "end": 38 },
+      "look_for": "Bright orange and yellow daisy-like flowers opening",
+      "child_actions": [
+        {
+          "action": "Pick petals for salad",
+          "type": "harvest",
+          "who": "child",
+          "minutes": 5,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "Pull the orange petals off and sprinkle them on your salad -- flower confetti!",
+            "da": "Traek de orange kronblade af og drys dem paa din salat -- blomsterkonfetti!"
+          }
+        }
+      ]
+    }
+  ],
+  "water_needs": {
+    "human_readable": {
+      "en": "Tolerates dry conditions. Water occasionally in prolonged dry spells.",
+      "da": "Taaler toerre forhold. Vand af og til i laengere toerkeperioder."
+    },
+    "thresholds": {
+      "soil_moisture_min": 20,
+      "soil_moisture_max": 65,
+      "drought_alert_days": 5
+    }
+  },
+  "temperature": {
+    "optimal_min": 10,
+    "optimal_max": 25,
+    "frost_sensitive": false,
+    "frost_threshold": -5,
+    "heat_stress": 30
+  },
+  "harvest": {
+    "first_harvest_week": 23,
+    "last_harvest_week": 38,
+    "days_to_maturity": 45,
+    "continuous": true,
+    "notes": "Edible petals: sprinkle on salads or dry for tea. Deadhead to keep flowering. Self-sows if allowed to seed."
+  },
+  "companion_plants": {
+    "good": ["strawberry-ostara", "strawberry-korona", "cherry-tomato-sungold"],
+    "bad": [],
+    "notes": "Repels aphids and whiteflies. Attracts hoverflies and ladybugs."
+  },
+  "engagement": {
+    "action_types": ["harvest", "observe", "sensory"],
+    "peak_engagement_weeks": { "start": 23, "end": 35 },
+    "attention_minutes_per_week": 5,
+    "sensory": ["sight", "touch", "taste"]
+  },
+  "beds": ["bed-a", "bed-e"],
+  "sowing": {
+    "method": "seed",
+    "indoor_start": null,
+    "outdoor_sow": 17,
+    "transplant_week": null,
+    "succession": false,
+    "interval_weeks": null
+  },
+  "alerts": []
+}

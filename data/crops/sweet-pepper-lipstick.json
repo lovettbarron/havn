@@ -1,0 +1,145 @@
+{
+  "$schema": "../schemas/crop.schema.json",
+  "id": "sweet-pepper-lipstick",
+  "name": {
+    "common": "Sweet Pepper Lipstick",
+    "botanical": "Capsicum annuum 'Lipstick'",
+    "da": "Soed peber Lipstick",
+    "shortcode": "PEP"
+  },
+  "type": "vegetable",
+  "difficulty": {
+    "tier": "needs_care",
+    "label": { "en": "Needs Care", "da": "Kraever pasning" },
+    "reason": "Long season, frost-sensitive, slow to start, needs warm position"
+  },
+  "growth_stages": [
+    {
+      "name": "Seedling",
+      "weeks": { "start": 10, "end": 20 },
+      "look_for": "Small sturdy plant with dark green leaves",
+      "child_actions": []
+    },
+    {
+      "name": "Transplant & Establishment",
+      "weeks": { "start": 22, "end": 25 },
+      "look_for": "Plant settling in, new leaves appearing at top",
+      "child_actions": [
+        {
+          "action": "Water the pepper",
+          "type": "tend",
+          "who": "child",
+          "minutes": 3,
+          "frequency": "daily",
+          "prompt": {
+            "en": "Give the pepper a drink -- it's getting used to living outside now!",
+            "da": "Giv peberen en taar vand -- den vaenner sig til at bo udenfor nu!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Flowering",
+      "weeks": { "start": 26, "end": 32 },
+      "look_for": "Small white flowers that turn into tiny green peppers",
+      "child_actions": [
+        {
+          "action": "Find baby peppers",
+          "type": "observe",
+          "who": "child",
+          "minutes": 3,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "Behind the white flowers, look for tiny green peppers forming! How many can you count?",
+            "da": "Bag de hvide blomster, kig efter smaa groenne pebre der dannes! Hvor mange kan du taelle?"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Fruiting",
+      "weeks": { "start": 30, "end": 40 },
+      "look_for": "Green peppers turning red as they ripen",
+      "child_actions": [
+        {
+          "action": "Pick ripe peppers",
+          "type": "harvest",
+          "who": "child",
+          "minutes": 5,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "Wait for RED -- red peppers are sweeter! Twist and pull gently!",
+            "da": "Vent paa ROED -- roede pebre er soedere! Drej og traek forsigtigt!"
+          }
+        }
+      ]
+    }
+  ],
+  "water_needs": {
+    "human_readable": {
+      "en": "Water consistently. Peppers need even moisture for good fruit development.",
+      "da": "Vand jaevnt. Pebre har brug for jaevn fugt for god frugtudvikling."
+    },
+    "thresholds": {
+      "soil_moisture_min": 40,
+      "soil_moisture_max": 70,
+      "drought_alert_days": 2
+    }
+  },
+  "temperature": {
+    "optimal_min": 18,
+    "optimal_max": 28,
+    "frost_sensitive": true,
+    "frost_threshold": 4,
+    "heat_stress": 35
+  },
+  "harvest": {
+    "first_harvest_week": 32,
+    "last_harvest_week": 40,
+    "days_to_maturity": 75,
+    "continuous": true,
+    "notes": "Pick green or wait for red (sweeter). Cold-hardy variety for Danish climate but still needs warm position."
+  },
+  "companion_plants": {
+    "good": ["basil", "cherry-tomato-sungold"],
+    "bad": [],
+    "notes": "Same family as tomatoes, similar needs. Compact variety works alongside staked tomato."
+  },
+  "engagement": {
+    "action_types": ["harvest", "observe", "tend"],
+    "peak_engagement_weeks": { "start": 30, "end": 40 },
+    "attention_minutes_per_week": 8,
+    "sensory": ["taste", "sight", "touch"]
+  },
+  "beds": ["bed-c"],
+  "sowing": {
+    "method": "plug",
+    "indoor_start": 10,
+    "outdoor_sow": null,
+    "transplant_week": 22,
+    "succession": false,
+    "interval_weeks": null
+  },
+  "alerts": [
+    {
+      "type": "frost",
+      "trigger": "temperature_below",
+      "threshold": 4,
+      "delay_hours": 0,
+      "message": {
+        "en": "Cold warning for peppers! Cover or bring indoors tonight!",
+        "da": "Kuldeadvarsel for pebre! Daek eller tag ind i aften!"
+      }
+    },
+    {
+      "type": "drought",
+      "trigger": "soil_moisture_below",
+      "threshold": 40,
+      "delay_hours": 4,
+      "message": {
+        "en": "Peppers need water -- fruit won't develop properly if soil is dry!",
+        "da": "Pebre har brug for vand -- frugten udvikles ikke ordentligt, hvis jorden er toer!"
+      }
+    }
+  ]
+}

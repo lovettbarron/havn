@@ -1,0 +1,135 @@
+{
+  "$schema": "../schemas/crop.schema.json",
+  "id": "raspberry-autumn-bliss",
+  "name": {
+    "common": "Raspberry Autumn Bliss",
+    "botanical": "Rubus idaeus 'Autumn Bliss'",
+    "da": "Hindbaer Autumn Bliss",
+    "shortcode": "RB"
+  },
+  "type": "fruit",
+  "difficulty": {
+    "tier": "cant_fail",
+    "label": { "en": "Can't Fail", "da": "Kan ikke fejle" },
+    "reason": "Perennial, self-supporting canes, produces fruit first year with minimal care"
+  },
+  "growth_stages": [
+    {
+      "name": "Dormant",
+      "weeks": { "start": 1, "end": 14 },
+      "look_for": "Bare brown canes sticking up from the soil",
+      "child_actions": []
+    },
+    {
+      "name": "New Cane Growth",
+      "weeks": { "start": 15, "end": 20 },
+      "look_for": "Green shoots emerging from the base, leaves unfurling on canes",
+      "child_actions": [
+        {
+          "action": "Measure cane height",
+          "type": "observe",
+          "who": "child",
+          "minutes": 3,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "How tall are the new green canes this week? Are they taller than your hand?",
+            "da": "Hvor hoeje er de nye groenne stammer denne uge? Er de hoejere end din haand?"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Flowering",
+      "weeks": { "start": 25, "end": 30 },
+      "look_for": "Small white-pink flowers in clusters at the top of canes",
+      "child_actions": [
+        {
+          "action": "Count flower clusters",
+          "type": "observe",
+          "who": "child",
+          "minutes": 3,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "Each little flower becomes a raspberry! How many can you count?",
+            "da": "Hver lille blomst bliver til et hindbaer! Hvor mange kan du taelle?"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Fruiting",
+      "weeks": { "start": 31, "end": 40 },
+      "look_for": "Green berries turning pink, then deep red when ripe",
+      "child_actions": [
+        {
+          "action": "Pick ripe raspberries",
+          "type": "harvest",
+          "who": "child",
+          "minutes": 5,
+          "frequency": "daily",
+          "prompt": {
+            "en": "Tug gently -- if it slides off the white cone easily, it's ripe! Eat it right there!",
+            "da": "Traek forsigtigt -- hvis det glider let af den hvide kegle, er det modent! Spis det med det samme!"
+          }
+        }
+      ]
+    }
+  ],
+  "water_needs": {
+    "human_readable": {
+      "en": "Water well in dry spells, especially when fruiting. Prefers well-drained soil.",
+      "da": "Vand godt i toerke, isaer under frugtdannelse. Foretraekker veldraenet jord."
+    },
+    "thresholds": {
+      "soil_moisture_min": 25,
+      "soil_moisture_max": 65,
+      "drought_alert_days": 4
+    }
+  },
+  "temperature": {
+    "optimal_min": 12,
+    "optimal_max": 25,
+    "frost_sensitive": false,
+    "frost_threshold": -15,
+    "heat_stress": 30
+  },
+  "harvest": {
+    "first_harvest_week": 31,
+    "last_harvest_week": 40,
+    "days_to_maturity": null,
+    "continuous": true,
+    "notes": "Primocane (autumn-fruiting): fruits on first-year canes from August through October. Cut all canes to ground in late autumn."
+  },
+  "companion_plants": {
+    "good": ["chives"],
+    "bad": ["strawberry-ostara", "strawberry-korona"],
+    "notes": "Chives repel Japanese beetles and aphids. Keep away from strawberries (verticillium wilt)."
+  },
+  "engagement": {
+    "action_types": ["harvest", "observe"],
+    "peak_engagement_weeks": { "start": 31, "end": 40 },
+    "attention_minutes_per_week": 10,
+    "sensory": ["taste", "touch"]
+  },
+  "beds": ["bed-b"],
+  "sowing": {
+    "method": "bare-root",
+    "indoor_start": null,
+    "outdoor_sow": null,
+    "transplant_week": 16,
+    "succession": false,
+    "interval_weeks": null
+  },
+  "alerts": [
+    {
+      "type": "drought",
+      "trigger": "soil_moisture_below",
+      "threshold": 25,
+      "delay_hours": 8,
+      "message": {
+        "en": "Raspberries need water -- fruiting will suffer if soil stays dry!",
+        "da": "Hindbaer har brug for vand -- frugtdannelsen lider, hvis jorden forbliver toer!"
+      }
+    }
+  ]
+}
