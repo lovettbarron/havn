@@ -1,0 +1,200 @@
+{
+  "_doc": "Automation-ready alert rule definitions for Havn garden. These are v2 definitions -- not live HA automations yet. 3 rules per bed (dry, wet, frost) = 15 total.",
+  "rules": [
+    {
+      "id": "havn_bed_a_moisture_below_min",
+      "bed_id": "bed-a",
+      "trigger_type": "moisture_below_min",
+      "entity": "sensor.havn_bed_a_moisture",
+      "threshold": 40,
+      "delay_hours": 6,
+      "notification_target": "notify.mobile_app",
+      "message": {
+        "en": "Bed A (His Bed) soil moisture is below 40% -- time to water!",
+        "da": "Bed A (Hans Bed) jordfugtighed er under 40% -- tid til at vande!"
+      }
+    },
+    {
+      "id": "havn_bed_a_moisture_above_max",
+      "bed_id": "bed-a",
+      "trigger_type": "moisture_above_max",
+      "entity": "sensor.havn_bed_a_moisture",
+      "threshold": 50,
+      "delay_hours": 6,
+      "notification_target": "notify.mobile_app",
+      "message": {
+        "en": "Bed A (His Bed) soil moisture is above 50% -- soil may be too wet for lambs ear.",
+        "da": "Bed A (Hans Bed) jordfugtighed er over 50% -- jorden kan vaere for vad til lammeoere."
+      }
+    },
+    {
+      "id": "havn_bed_a_temperature_below_frost",
+      "bed_id": "bed-a",
+      "trigger_type": "temperature_below_frost",
+      "entity": "sensor.havn_bed_a_temperature",
+      "threshold": 0,
+      "delay_hours": 0,
+      "notification_target": "notify.mobile_app",
+      "message": {
+        "en": "Frost warning for Bed A (His Bed)! Soil temperature at 0C. Cover sensitive plants with fleece.",
+        "da": "Frostadvarsel for Bed A (Hans Bed)! Jordtemperatur ved 0C. Daek folsomme planter med fiberdug."
+      }
+    },
+    {
+      "id": "havn_bed_b_moisture_below_min",
+      "bed_id": "bed-b",
+      "trigger_type": "moisture_below_min",
+      "entity": "sensor.havn_bed_b_moisture",
+      "threshold": 25,
+      "delay_hours": 6,
+      "notification_target": "notify.mobile_app",
+      "message": {
+        "en": "Bed B (Raspberry Bed) soil moisture is below 25% -- raspberries need water!",
+        "da": "Bed B (Hindbaerbed) jordfugtighed er under 25% -- hindbaer har brug for vand!"
+      }
+    },
+    {
+      "id": "havn_bed_b_moisture_above_max",
+      "bed_id": "bed-b",
+      "trigger_type": "moisture_above_max",
+      "entity": "sensor.havn_bed_b_moisture",
+      "threshold": 65,
+      "delay_hours": 6,
+      "notification_target": "notify.mobile_app",
+      "message": {
+        "en": "Bed B (Raspberry Bed) soil moisture is above 65% -- too wet, risk of root rot.",
+        "da": "Bed B (Hindbearbed) jordfugtighed er over 65% -- for vadt, risiko for rodraad."
+      }
+    },
+    {
+      "id": "havn_bed_b_temperature_below_frost",
+      "bed_id": "bed-b",
+      "trigger_type": "temperature_below_frost",
+      "entity": "sensor.havn_bed_b_temperature",
+      "threshold": -15,
+      "delay_hours": 0,
+      "notification_target": "notify.mobile_app",
+      "message": {
+        "en": "Extreme frost warning for Bed B (Raspberry Bed)! Soil at -15C. Mulch heavily to protect roots.",
+        "da": "Ekstrem frostadvarsel for Bed B (Hindbearbed)! Jord ved -15C. Dak godt med barkflis."
+      }
+    },
+    {
+      "id": "havn_bed_c_moisture_below_min",
+      "bed_id": "bed-c",
+      "trigger_type": "moisture_below_min",
+      "entity": "sensor.havn_bed_c_moisture",
+      "threshold": 45,
+      "delay_hours": 6,
+      "notification_target": "notify.mobile_app",
+      "message": {
+        "en": "Bed C (Shared Bed) soil moisture is below 45% -- cucumbers and tomatoes need water!",
+        "da": "Bed C (Faellesbed) jordfugtighed er under 45% -- agurker og tomater har brug for vand!"
+      }
+    },
+    {
+      "id": "havn_bed_c_moisture_above_max",
+      "bed_id": "bed-c",
+      "trigger_type": "moisture_above_max",
+      "entity": "sensor.havn_bed_c_moisture",
+      "threshold": 65,
+      "delay_hours": 6,
+      "notification_target": "notify.mobile_app",
+      "message": {
+        "en": "Bed C (Shared Bed) soil moisture is above 65% -- too wet for borage.",
+        "da": "Bed C (Faellesbed) jordfugtighed er over 65% -- for vadt til hjulkrone."
+      }
+    },
+    {
+      "id": "havn_bed_c_temperature_below_frost",
+      "bed_id": "bed-c",
+      "trigger_type": "temperature_below_frost",
+      "entity": "sensor.havn_bed_c_temperature",
+      "threshold": 4,
+      "delay_hours": 0,
+      "notification_target": "notify.mobile_app",
+      "message": {
+        "en": "Cold warning for Bed C (Shared Bed)! Soil at 4C -- cucumbers, basil, and peppers are frost-sensitive. Cover or bring indoors.",
+        "da": "Kuldeadvarsel for Bed C (Faellesbed)! Jord ved 4C -- agurker, basilikum og peberfrugter er frostfolsomme. Daek til eller tag ind."
+      }
+    },
+    {
+      "id": "havn_bed_d_moisture_below_min",
+      "bed_id": "bed-d",
+      "trigger_type": "moisture_below_min",
+      "entity": "sensor.havn_bed_d_moisture",
+      "threshold": 40,
+      "delay_hours": 6,
+      "notification_target": "notify.mobile_app",
+      "message": {
+        "en": "Bed D (Terrace Herb Bed) soil moisture is below 40% -- lettuce and herbs need water!",
+        "da": "Bed D (Terrasseurtbed) jordfugtighed er under 40% -- salat og urter har brug for vand!"
+      }
+    },
+    {
+      "id": "havn_bed_d_moisture_above_max",
+      "bed_id": "bed-d",
+      "trigger_type": "moisture_above_max",
+      "entity": "sensor.havn_bed_d_moisture",
+      "threshold": 55,
+      "delay_hours": 6,
+      "notification_target": "notify.mobile_app",
+      "message": {
+        "en": "Bed D (Terrace Herb Bed) soil moisture is above 55% -- too wet for thyme.",
+        "da": "Bed D (Terrasseurtbed) jordfugtighed er over 55% -- for vadt til timian."
+      }
+    },
+    {
+      "id": "havn_bed_d_temperature_below_frost",
+      "bed_id": "bed-d",
+      "trigger_type": "temperature_below_frost",
+      "entity": "sensor.havn_bed_d_temperature",
+      "threshold": -3,
+      "delay_hours": 0,
+      "notification_target": "notify.mobile_app",
+      "message": {
+        "en": "Frost warning for Bed D (Terrace Herb Bed)! Soil at -3C. Lettuce is most sensitive -- cover with fleece.",
+        "da": "Frostadvarsel for Bed D (Terrasseurtbed)! Jord ved -3C. Salat er mest folsom -- daek med fiberdug."
+      }
+    },
+    {
+      "id": "havn_bed_e_moisture_below_min",
+      "bed_id": "bed-e",
+      "trigger_type": "moisture_below_min",
+      "entity": "sensor.havn_bed_e_moisture",
+      "threshold": 40,
+      "delay_hours": 6,
+      "notification_target": "notify.mobile_app",
+      "message": {
+        "en": "Bed E (Terrace Flower Bed) soil moisture is below 40% -- broccoli and tomatoes need water!",
+        "da": "Bed E (Terrasseblomsterbed) jordfugtighed er under 40% -- broccoli og tomater har brug for vand!"
+      }
+    },
+    {
+      "id": "havn_bed_e_moisture_above_max",
+      "bed_id": "bed-e",
+      "trigger_type": "moisture_above_max",
+      "entity": "sensor.havn_bed_e_moisture",
+      "threshold": 65,
+      "delay_hours": 6,
+      "notification_target": "notify.mobile_app",
+      "message": {
+        "en": "Bed E (Terrace Flower Bed) soil moisture is above 65% -- too wet for borage and calendula.",
+        "da": "Bed E (Terrasseblomsterbed) jordfugtighed er over 65% -- for vadt til hjulkrone og morgenfrue."
+      }
+    },
+    {
+      "id": "havn_bed_e_temperature_below_frost",
+      "bed_id": "bed-e",
+      "trigger_type": "temperature_below_frost",
+      "entity": "sensor.havn_bed_e_temperature",
+      "threshold": 2,
+      "delay_hours": 0,
+      "notification_target": "notify.mobile_app",
+      "message": {
+        "en": "Cold warning for Bed E (Terrace Flower Bed)! Soil at 2C -- beans and tomatoes are frost-sensitive. Cover tonight.",
+        "da": "Kuldeadvarsel for Bed E (Terrasseblomsterbed)! Jord ved 2C -- boenner og tomater er frostfolsomme. Daek til i aften."
+      }
+    }
+  ]
+}

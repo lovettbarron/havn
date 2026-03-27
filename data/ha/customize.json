@@ -1,0 +1,56 @@
+{
+  "_doc": "Home Assistant entity customization -- friendly names and icons for all Havn garden sensors.",
+  "entities": [
+    {
+      "entity_id": "sensor.havn_bed_a_moisture",
+      "friendly_name": "Bed A (His Bed) - Soil Moisture",
+      "icon": "mdi:water-percent"
+    },
+    {
+      "entity_id": "sensor.havn_bed_a_temperature",
+      "friendly_name": "Bed A (His Bed) - Soil Temperature",
+      "icon": "mdi:thermometer"
+    },
+    {
+      "entity_id": "sensor.havn_bed_b_moisture",
+      "friendly_name": "Bed B (Raspberry Bed) - Soil Moisture",
+      "icon": "mdi:water-percent"
+    },
+    {
+      "entity_id": "sensor.havn_bed_b_temperature",
+      "friendly_name": "Bed B (Raspberry Bed) - Soil Temperature",
+      "icon": "mdi:thermometer"
+    },
+    {
+      "entity_id": "sensor.havn_bed_c_moisture",
+      "friendly_name": "Bed C (Shared Bed) - Soil Moisture",
+      "icon": "mdi:water-percent"
+    },
+    {
+      "entity_id": "sensor.havn_bed_c_temperature",
+      "friendly_name": "Bed C (Shared Bed) - Soil Temperature",
+      "icon": "mdi:thermometer"
+    },
+    {
+      "entity_id": "sensor.havn_bed_d_moisture",
+      "friendly_name": "Bed D (Terrace Herb Bed) - Soil Moisture",
+      "icon": "mdi:water-percent"
+    },
+    {
+      "entity_id": "sensor.havn_bed_d_temperature",
+      "friendly_name": "Bed D (Terrace Herb Bed) - Soil Temperature",
+      "icon": "mdi:thermometer"
+    },
+    {
+      "entity_id": "sensor.havn_bed_e_moisture",
+      "friendly_name": "Bed E (Terrace Flower Bed) - Soil Moisture",
+      "icon": "mdi:water-percent"
+    },
+    {
+      "entity_id": "sensor.havn_bed_e_temperature",
+      "friendly_name": "Bed E (Terrace Flower Bed) - Soil Temperature",
+      "icon": "mdi:thermometer"
+    }
+  ],
+  "yaml_output": "# customize.yaml\nhomeassistant:\n  customize:\n    sensor.havn_bed_a_moisture:\n      friendly_name: \"Bed A (His Bed) - Soil Moisture\"\n      icon: mdi:water-percent\n    sensor.havn_bed_a_temperature:\n      friendly_name: \"Bed A (His Bed) - Soil Temperature\"\n      icon: mdi:thermometer\n    sensor.havn_bed_b_moisture:\n      friendly_name: \"Bed B (Raspberry Bed) - Soil Moisture\"\n      icon: mdi:water-percent\n    sensor.havn_bed_b_temperature:\n      friendly_name: \"Bed B (Raspberry Bed) - Soil Temperature\"\n      icon: mdi:thermometer\n    sensor.havn_bed_c_moisture:\n      friendly_name: \"Bed C (Shared Bed) - Soil Moisture\"\n      icon: mdi:water-percent\n    sensor.havn_bed_c_temperature:\n      friendly_name: \"Bed C (Shared Bed) - Soil Temperature\"\n      icon: mdi:thermometer\n    sensor.havn_bed_d_moisture:\n      friendly_name: \"Bed D (Terrace Herb Bed) - Soil Moisture\"\n      icon: mdi:water-percent\n    sensor.havn_bed_d_temperature:\n      friendly_name: \"Bed D (Terrace Herb Bed) - Soil Temperature\"\n      icon: mdi:thermometer\n    sensor.havn_bed_e_moisture:\n      friendly_name: \"Bed E (Terrace Flower Bed) - Soil Moisture\"\n      icon: mdi:water-percent\n    sensor.havn_bed_e_temperature:\n      friendly_name: \"Bed E (Terrace Flower Bed) - Soil Temperature\"\n      icon: mdi:thermometer\n"
+}
