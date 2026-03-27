@@ -15,7 +15,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 1: Bed Infrastructure** - Order, build, and fill 5 raised beds with soil, drainage, and slug defense (completed 2026-03-26)
 - [ ] **Phase 2: Spring Planting** - Plant all cold-hardy crops, perennials, edible flowers, and sensory plants (W16-W18)
 - [ ] **Phase 3: Warm Season Planting** - Transplant frost-tender seedlings and complete companion planting layouts (W21-W22)
-- [ ] **Phase 4: Data System and Schedules** - Build crop JSON database, weekly schedule files, and Home Assistant schemas (parallel with Phases 2-3)
+- [x] **Phase 4: Data System and Schedules** - Build crop JSON database, weekly schedule files, and Home Assistant schemas (parallel with Phases 2-3) (completed 2026-03-27)
 - [x] **Phase 5: Documentation and Guides** - Property visualization, troubleshooting guide, difficulty tiers, and project CLAUDE.md (completed 2026-03-27)
 - [ ] **Phase 6: Vacation Preparation** - Test reservoirs, mulch beds, finalize neighbor guide, execute pre-departure protocol
 
@@ -80,7 +80,7 @@ Plans:
   3. A staggered planting schedule ensures continuous harvest from late May through October with no 2-week gap
   4. Home Assistant entity schemas follow the havn_ prefix convention with per-bed sensor entities and Plant Monitor configurations
   5. Zigbee/LoRaWAN sensor recommendations are documented with specific models, prices, and HA compatibility
-**Plans:** 2/3 plans executed
+**Plans:** 3/3 plans complete
 
 Plans:
 - [ ] 04-01-PLAN.md — Crop JSON database (27 files) with schemas and bed mapping files
@@ -130,6 +130,6 @@ Note: Phase 4 (Data) and Phase 5 (Docs) can run in parallel with physical planti
 | 1. Bed Infrastructure | 3/3 | Complete   | 2026-03-26 |
 | 2. Spring Planting | 0/2 | Planned | - |
 | 3. Warm Season Planting | 0/2 | Planned | - |
-| 4. Data System and Schedules | 2/3 | In Progress|  |
+| 4. Data System and Schedules | 3/3 | Complete   | 2026-03-27 |
 | 5. Documentation and Guides | 3/3 | Complete   | 2026-03-27 |
 | 6. Vacation Preparation | 0/2 | Not started | - |

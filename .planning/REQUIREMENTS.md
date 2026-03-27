@@ -68,15 +68,15 @@
 ### Planting Schedule
 
 - [x] **SCHED-01**: Bed-by-bed planting distribution specifying exactly which plants go in which bed with spacing
-- [ ] **SCHED-02**: Staggered planting schedule ensuring continuous harvest from late May through October
-- [ ] **SCHED-03**: Week-by-week maintenance plan from W14 (early April) through W44 (late October)
-- [ ] **SCHED-04**: Succession sowing calendar for radish, lettuce, beans, spring onion, and peas
+- [x] **SCHED-02**: Staggered planting schedule ensuring continuous harvest from late May through October
+- [x] **SCHED-03**: Week-by-week maintenance plan from W14 (early April) through W44 (late October)
+- [x] **SCHED-04**: Succession sowing calendar for radish, lettuce, beans, spring onion, and peas
 
 ### Data System
 
 - [x] **DATA-01**: JSON schema for crop database (growth stages, water needs, harvest timing, companion plants, difficulty tier, child actions, alert triggers)
 - [x] **DATA-02**: Individual JSON crop files for every planted crop with all schema fields populated
-- [ ] **DATA-03**: Weekly schedule JSON files (one per ISO week) with themed names, prioritized tasks, expected growth events
+- [x] **DATA-03**: Weekly schedule JSON files (one per ISO week) with themed names, prioritized tasks, expected growth events
 - [x] **DATA-04**: Home Assistant entity schema following havn_ prefix convention with per-bed sensor entities
 - [x] **DATA-05**: Home Assistant Plant Monitor configuration with moisture/temperature thresholds per crop
 - [x] **DATA-06**: Zigbee/LoRaWAN sensor recommendations with specific models, prices, and HA compatibility confirmation
@@ -179,13 +179,13 @@
 | CRTR-02 | Phase 3 | Complete |
 | DATA-01 | Phase 4 | Complete |
 | DATA-02 | Phase 4 | Complete |
-| DATA-03 | Phase 4 | Pending |
+| DATA-03 | Phase 4 | Complete |
 | DATA-04 | Phase 4 | Complete |
 | DATA-05 | Phase 4 | Complete |
 | DATA-06 | Phase 4 | Complete |
-| SCHED-02 | Phase 4 | Pending |
-| SCHED-03 | Phase 4 | Pending |
-| SCHED-04 | Phase 4 | Pending |
+| SCHED-02 | Phase 4 | Complete |
+| SCHED-03 | Phase 4 | Complete |
+| SCHED-04 | Phase 4 | Complete |
 | DOCS-01 | Phase 5 | Complete |
 | DOCS-02 | Phase 5 | Complete |
 | DOCS-03 | Phase 5 | Complete |

@@ -3,8 +3,8 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 05-02-PLAN.md
-last_updated: "2026-03-27T06:40:43.321Z"
+stopped_at: Completed 04-02-PLAN.md
+last_updated: "2026-03-27T06:40:58.345Z"
 last_activity: 2026-03-27 -- Completed Plan 05-02 (crop knowledge references)
 progress:
   total_phases: 6
@@ -97,6 +97,9 @@ Recent decisions affecting current work:
 - [Phase 04-03]: Alert delay: 6h for moisture (avoid false alarms), 0h for frost (immediate)
 - [Phase 05]: Aphid watch-and-wait is #1 featured entry in troubleshooting guide, not buried among other symptoms
 - [Phase 05]: Mint and Tumbling Tom classified as Needs Care (pot care profile) rather than Can't Fail
+- [Phase 04]: Succession radish uses 3-bed rotation (A, C, D) with 2-week intervals for continuous supply W16-W36
+- [Phase 04]: Vacation weeks W30-W33 flag neighbor watering with simple instructions in weekly schedules
+- [Phase 04]: Gap analysis validates minimum 2 harvestable crops every week W22-W43 with 1-week buffer on harvest estimates
 
 ### Pending Todos
 
@@ -110,6 +113,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-27T06:40:04.485Z
-Stopped at: Completed 05-02-PLAN.md
+Last session: 2026-03-27T06:40:58.342Z
+Stopped at: Completed 04-02-PLAN.md
 Resume file: None
