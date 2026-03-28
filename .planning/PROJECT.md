@@ -81,7 +81,7 @@ A child who independently checks on, cares for, and harvests from plants he chos
 - **Gardening experience:** Some basics (herbs, a tomato plant)
 - **Daily time:** Varies wildly -- 5 min some days, hour+ on weekends
 - **Vacations:** 2-3 weeks mid-summer (peak watering season), plus other 1-2 week trips throughout the year, occasional weekends away
-- **Budget:** 2000-5000 DKK for beds, soil, seeds, tools (corten steel preferred but need both price points)
+- **Budget:** ~8,500-10,500 DKK total (infrastructure ~7,200-7,900 + spring plants ~520-910 + warm-season plants ~430-625). See shopping lists in docs/ for full breakdown.
 
 ### Technical Infrastructure
 - **Home Assistant:** Running, being transferred to TuringPi cluster (~/src/turingpi)
@@ -96,7 +96,7 @@ A child who independently checks on, cares for, and harvests from plants he chos
 - **Vacation gaps:** 2-3 weeks mid-summer without daily care. Must design for drought tolerance or neighbor maintenance.
 - **Child's attention:** 5-10 minute engagement windows. Tasks must be concrete, varied, and produce visible results.
 - **Deck weight:** Roof terrace beds must account for structural load (soil + water is heavy). Smaller/shallower beds recommended.
-- **Budget:** ~10,000 DKK actual (original 2,000-5,000 DKK ceiling exceeded -- corten steel + full infrastructure). Documented in shopping list.
+- **Budget:** ~8,500-10,500 DKK total across infrastructure, spring planting, and warm-season purchases. Original estimate of 2,000-5,000 DKK was pre-corten-steel decision. Full breakdown in docs/shopping-list.md, docs/spring-planting-shopping-list.md, and docs/warm-season-shopping-list.md.
 
 ## Key Decisions
 

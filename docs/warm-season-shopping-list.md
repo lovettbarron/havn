@@ -4,6 +4,8 @@
 **Purpose:** All seedlings, seeds, and materials needed for Phase 3 warm-season planting sessions
 **Purchase timing:** W19-W20 (May 5-16)
 
+> See also: `shopping-list.md` Purchase Priority Timeline for the consolidated ordering sequence across all three shopping lists.
+
 > **Do NOT buy seedlings before May 5.** Seedlings sitting indoors lose vigor. Buy as close to planting day as possible. Seeds can be purchased anytime.
 
 ---
@@ -12,13 +14,13 @@
 
 | Item | Qty | Variety | Where | Approx DKK | Destination | Notes |
 |------|-----|---------|-------|------------|-------------|-------|
-| Cherry tomato seedling | 1 | Sungold (indeterminate) | Garden center | 30-40 | Bed B (south zone) | Must be staked. Buy strong, stocky plant with dark green leaves. Avoid leggy/yellowing plants. |
-| Cucumber seedling | 2 | Mini Munch or Picolino | Garden center | 25-35 each | Bed B (south zone, A-frame trellis) | Compact fruit, good for child picking. |
-| Sweet pepper seedling | 1 | Lipstick or King of the North | Garden center | 30-40 | Bed B (south zone) | Cold-hardy variety for Danish climate. Thick-walled, sweet flavor. |
-| Basil seedling | 2 | Genovese or Sweet basil | Garden center | 20-25 each | Bed B (south zone, near tomatoes) | Pinch tips for bushy growth. Aroma activity for child. |
-| Mint plant | 1 | Spearmint or peppermint | Garden center | 25-35 | Pot next to Bed A | Goes in pot, NOT in bed. Part of daily sensory route. |
-| Broccoli seedling | 1 | Calabrese | Garden center | 20-30 | Bed C | Side shoots provide extended harvest after main head is cut. |
-| Leek seedlings | 4 | Musselburgh | Garden center | 15-20 (bundle) | Bed C | Only if not started from seed indoors in March. Look for pencil-thick transplants. |
+| Cherry tomato seedling | 1 | Sungold (indeterminate) | Garden center | 30-40 | Bed A (south zone) | Must be staked. Buy strong, stocky plant with dark green leaves. Avoid leggy/yellowing plants. |
+| Cucumber seedling | 2 | Mini Munch or Picolino | Garden center | 25-35 each | Bed A (south zone, A-frame trellis) | Compact fruit, good for child picking. |
+| Sweet pepper seedling | 1 | Lipstick or King of the North | Garden center | 30-40 | Bed A (south zone) | Cold-hardy variety for Danish climate. Thick-walled, sweet flavor. |
+| Basil seedling | 2 | Genovese or Sweet basil | Garden center | 20-25 each | Bed A (south zone, near tomatoes) | Pinch tips for bushy growth. Aroma activity for child. |
+| Mint plant | 1 | Spearmint or peppermint | Garden center | 25-35 | Pot next to Bed B | Goes in pot, NOT in bed. Part of daily sensory route. |
+| Broccoli seedling | 1 | Calabrese | Garden center | 20-30 | Bed A (middle zone) | Side shoots provide extended harvest after main head is cut. |
+| Leek seedlings | 4 | Musselburgh | Garden center | 15-20 (bundle) | Bed A (middle zone) | Only if not started from seed indoors in March. Look for pencil-thick transplants. |
 
 **Seedling subtotal: ~210-300 DKK**
 
@@ -28,10 +30,10 @@
 
 | Item | Qty | Variety | Approx DKK | Destination | Notes |
 |------|-----|---------|------------|-------------|-------|
-| Sunflower seeds | 1 packet | Tall variety (e.g., Russian Giant, Mammoth) | 20-30 | Bed A (north end) | Sow 5-6 seeds, thin to 2-3. Ruler stake for weekly height measurement. |
-| Nasturtium seeds | 1 packet | Trailing variety (e.g., Gleam, Jewel trailing) | 20-30 | Bed A (east edge) | Big seeds, easy for child to handle. Trailing from edge. Trap crop for aphids. |
-| Bush bean seeds | 1 packet | Provider or Speedy | 20-30 | Bed B (north zone) | Direct sow W20 (May 15). 4-6 seeds at 12cm spacing. |
-| Dill seeds | 1 packet | Any standard variety | 15-20 | Bed B and Bed C | Tiny seeds -- father sows. 1 plant in Bed B, 1 plant in Bed C. Attracts hoverflies. |
+| Sunflower seeds | 1 packet | Tall variety (e.g., Russian Giant, Mammoth) | 20-30 | Bed B (north end) | Sow 5-6 seeds, thin to 2-3. Ruler stake for weekly height measurement. |
+| Nasturtium seeds | 1 packet | Trailing variety (e.g., Gleam, Jewel trailing) | 20-30 | Bed B (east edge) | Big seeds, easy for child to handle. Trailing from edge. Trap crop for aphids. |
+| Bush bean seeds | 1 packet | Provider or Speedy | 20-30 | Bed A (south zone) | Direct sow W20 (May 15). 4-6 seeds at 12cm spacing. |
+| Dill seeds | 1 packet | Any standard variety | 15-20 | Bed A | Tiny seeds -- father sows. Attracts hoverflies. |
 
 **Seed subtotal: ~75-110 DKK**
 
@@ -42,9 +44,9 @@
 | Item | Qty | Purpose | Approx DKK | Notes |
 |------|-----|---------|------------|-------|
 | Ruler stake (wood lath 2m+) | 1 | Sunflower height measurement | 15-25 (DIY) | Mark in 10cm increments with waterproof marker. Push into soil next to tallest sunflower. |
-| Terracotta/plastic pot 30cm+ | 1 | Mint containment | 40-60 | Must have drainage hole. Place on ground next to Bed A. |
+| Terracotta/plastic pot 30cm+ | 1 | Mint containment | 40-60 | Must have drainage hole. Place on ground next to Bed B. |
 | Potting soil | ~10 liters | Fill mint pot | 30-40 | Standard potting mix. Also useful for topping up any beds. |
-| Tomato stake or cage | 1 | Support Sungold in Bed B south zone | 40-60 | Must be 1.5m+ tall. Sungold is indeterminate -- grows 2-3m. Stake on transplant day. |
+| Tomato stake or cage | 1 | Support Sungold in Bed A south zone | 40-60 | Must be 1.5m+ tall. Sungold is indeterminate -- grows 2-3m. Stake on transplant day. |
 | Twine/soft ties | 1 roll | Tie tomato stems to stake | 20-30 | Soft material to avoid stem damage. Tie loosely in figure-8 pattern. |
 
 **Materials subtotal: ~145-215 DKK**
@@ -77,6 +79,8 @@
 ## Notes
 
 - **Check what's available at your garden center.** Exact varieties may vary -- the important thing is the plant type (e.g., any trailing nasturtium, any indeterminate cherry tomato). Ask staff if unsure.
-- **Bed B south zone is the warm-crop hub.** Tomato, cucumbers, pepper, and basil all go here, with the trellis and reservoir. This zone gets full sun and has consistent moisture from the reservoir.
+- **Bed A south zone is the warm-crop hub.** Tomato, cucumbers, pepper, and basil all go here, with the trellis and reservoir. This zone gets full sun and has consistent moisture from the reservoir.
+- **Bed A middle zone is for broccoli and leeks.** These go between the warm-crop south zone and the raspberry north zone.
 - **Leek sourcing:** If you started leeks from seed indoors in March, skip buying leek transplants. If not, garden centers stock pencil-thick leek bundles in May.
-- **Dill tip:** Buy 1 packet -- you'll sow a few seeds in Bed B AND Bed C. Dill self-sows freely, so one packet lasts years.
+- **Dill tip:** Buy 1 packet -- you'll sow a few seeds in Bed A. Dill self-sows freely, so one packet lasts years.
+- **Spring onions go in Bed B** as a small row for the child to tend alongside his strawberries and sensory plants.
