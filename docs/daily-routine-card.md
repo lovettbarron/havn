@@ -6,7 +6,7 @@
 
 ## The Walk
 
-### 1. LOOK
+### 1. LOOK 👀
 
 > Walk past all beds. What changed overnight?
 
@@ -16,7 +16,7 @@
 
 ---
 
-### 2. TOUCH
+### 2. TOUCH 🤚
 
 > Feel the soil in each bed. Dry = water time!
 
@@ -26,7 +26,7 @@ Stick a finger in the soil. Does it feel dry and dusty, or cool and damp?
 
 ---
 
-### 3. WATER
+### 3. WATER 💧
 
 > Small watering can, gentle pour on dry beds
 
@@ -36,7 +36,7 @@ Only the dry ones! Pour slowly at the base of the plants, not on the leaves.
 
 ---
 
-### 4. PICK
+### 4. PICK 🧺
 
 > Any ripe strawberries? Radish tops poking out? Lettuce to snip?
 
@@ -49,7 +49,7 @@ Only the dry ones! Pour slowly at the base of the plants, not on the leaves.
 
 ---
 
-### 5. MEASURE
+### 5. MEASURE 📏
 
 > How tall is the sunflower today? Mark on the ruler stick
 
@@ -59,14 +59,14 @@ Stand next to the ruler stake in Bed A. Where does the sunflower reach today?
 
 ---
 
-## This Week's Special
+## This Week's Special 🌟
 
 *(Father fills in verbally or with a sticky note)*
 
 Seasonal examples:
-- **W18:** Can you find sunflower sprouts in Bed A?
-- **W24:** Count the green tomatoes in Bed C
-- **W34:** Which strawberry plant in Bed A has the most berries?
+- **W18:** Can you find sunflower sprouts in Bed A? / Kan du finde solsikkespirer i Bed A?
+- **W24:** Count the green tomatoes in Bed C / Tael de groenne tomater i Bed C
+- **W34:** Which strawberry plant in Bed A has the most berries? / Hvilken jordbaerplante i Bed A har flest baer?
 
 ---
 
@@ -79,3 +79,5 @@ Seasonal examples:
 - **Never extend past 5 minutes** even if there is more to do. The routine is short and predictable -- that is what makes it sustainable.
 
 - **Lamination tip:** Print on A4, laminate if possible for outdoor use. Hang near the back door or on the garden fence.
+
+- **Danish cues are for you to say aloud** -- the child follows the emoji icons, not the text.
