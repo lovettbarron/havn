@@ -3,7 +3,7 @@
 **Project:** Haven -- A Learning Garden
 **Date:** 2026-03-28
 
-This guide sequences the complete garden infrastructure build from the day materials arrive through the first watering. Follow the steps in order -- each step builds on the previous one, and some things (like reservoirs and copper tape) must happen before others (like adding soil).
+This guide sequences the complete garden infrastructure build from the day materials arrive through the first watering. Follow the steps in order -- each step builds on the previous one, and some things (like reservoirs) must happen before others (like adding soil).
 
 **Estimated total time:** 5.5-7 hours across 2 days.
 
@@ -62,19 +62,7 @@ The north zone of Bed A holds the warm crops (cucumber, tomato, pepper, basil) w
 
 **Verify:** Water fills via tube, exits via overflow, no leaks visible. See the 4-step testing procedure in [reservoir-build.md](reservoir-build.md).
 
-### Step 4: Apply Copper Tape to Bed A (~15 min)
-
-- **Time:** ~15 min
-- **People:** 1 adult
-- **Child can:** Hold the tape roll, press tape firmly against the bed
-
-Follow [slug-defense.md](slug-defense.md) for the application method. Clean the steel surface with rubbing alcohol, apply the tape in a continuous band ~5cm below the top rim, fold at corners (do not cut), and overlap the ends by at least 2cm.
-
-**Important:** Apply IMMEDIATELY on new steel. The adhesive bonds much better before the rust patina develops. Do not wait.
-
-**Verify:** Continuous band around Bed A, no gaps at corners, overlapped at joints.
-
-### Step 5: Assemble Bed B (150x60) on Grass Over Mesh (~15 min)
+### Step 4: Assemble Bed B (150x60) on Grass Over Mesh (~15 min)
 
 - **Time:** ~15 min
 - **People:** 1-2 adults
@@ -84,19 +72,11 @@ Assemble Bed B per manufacturer instructions on top of the mesh sheet at the pos
 
 **Verify:** Bed is level, positioned per layout, mesh folded up inside walls with no gaps, all sides accessible.
 
-### Step 6: Apply Copper Tape to Bed B (~10 min)
-
-- **Time:** ~10 min
-- **People:** 1 adult
-- **Child can:** Same as Step 4
-
-Follow [slug-defense.md](slug-defense.md). Same method as Bed A.
-
-**Verify:** Continuous band around Bed B, no gaps at corners, overlapped at joints.
-
 ---
 
 ## Day 2: Soil Fill + Trellis (~2.5-3 hours)
+
+> **Slug defense note:** Ferramol slug pellets are applied on planting day (W16), not on build day. See [slug-defense.md](slug-defense.md).
 
 ### Step 7: Fill Bed A North Zone (Reservoir Zone) (~25 min)
 
@@ -171,7 +151,7 @@ Beds will settle 5-10cm over the next week. Plan to top up with hojbedsmuld befo
 - [ ] Bed A (230x120) assembled and positioned -- "Family Bed"
 - [ ] Bed B (150x60) assembled and positioned -- "His Bed"
 - [ ] Reservoir installed and tested in Bed A north zone
-- [ ] Copper tape applied to both beds (no gaps)
+- [ ] Ferramol slug pellets purchased (apply on planting day, not build day)
 - [ ] Both beds filled with correct soil layers
 - [ ] Lean-to trellis installed on Bed A north end (east side), stable and anchored
 - [ ] Fill tube accessible above soil in Bed A north zone
@@ -189,7 +169,7 @@ All Phase 1 documents:
 | [shopping-list.md](shopping-list.md) | What to buy -- complete bill of materials |
 | [bed-layout.md](bed-layout.md) | Where to put it -- backyard placement with ASCII diagrams |
 | [soil-layers.md](soil-layers.md) | How to fill beds -- three-layer system |
-| [slug-defense.md](slug-defense.md) | Copper tape application -- step-by-step with per-bed tape lengths |
+| [slug-defense.md](slug-defense.md) | Slug defense -- Ferramol pellets, evening patrols, passive defenses |
 | [reservoir-build.md](reservoir-build.md) | Self-watering system -- DIY wicking bed construction for Bed A north zone |
 | [trellis-build.md](trellis-build.md) | Cucumber lean-to trellis -- child-accessible trellis for Bed A north end, east side |
 | [setup-guide.md](setup-guide.md) | This document -- master construction sequence from delivery through first watering |

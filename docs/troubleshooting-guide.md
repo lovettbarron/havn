@@ -80,12 +80,12 @@
 
 **Severity:** :yellow_circle: This week
 
-**What is happening:** Slugs and snails are feeding at night. They leave silvery slime trails on leaves and soil. Our beds have copper tape as a first line of defense, but small slugs can sometimes get past it.
+**What is happening:** Slugs and snails are feeding at night. They leave silvery slime trails on leaves and soil. Our 40cm bed height is the first line of defense, with Ferramol pellets around the base.
 
 **Affects:** Lettuce (Bed A middle zone), strawberries (Bed B), basil (Bed A north zone), radish (Bed B), young seedlings everywhere
 
 **What to do:**
-1. Check copper tape around the bed edges -- is it still intact and clean? Wipe with vinegar if tarnished.
+1. Check Ferramol pellets around the bed base -- re-apply if it has been more than 2 weeks or since heavy rain.
 2. Go out after dark with a torch and pick slugs off by hand. Drop them in a bucket of salty water or move them far from the garden.
 3. Place beer traps: bury a small container (yogurt pot) so the rim is at soil level, fill halfway with cheap beer. Slugs crawl in and drown.
 4. Sprinkle crushed eggshells around vulnerable plants as an extra barrier.
@@ -93,7 +93,7 @@
 **Child action:** "Let's go on a slug hunt! Take the torch and see how many slugs you can find on the bed. We'll move them to the wild area at the back."
 
 [PHOTO: Slug damage on lettuce -- irregular holes with slime trail]
-[PHOTO: Copper tape around bed edge]
+[PHOTO: Ferramol pellets scattered around bed base]
 
 ### Small round holes in neat rows
 
@@ -297,7 +297,7 @@
 
 **Affects:** All seedlings, especially lettuce (Bed A middle zone) and basil (Bed A north zone)
 
-**What to do:** See "Holes in Leaves > Irregular ragged holes" section above for full slug control measures. Focus on copper tape integrity and evening slug hunts.
+**What to do:** See "Holes in Leaves > Irregular ragged holes" section above for full slug control measures. Focus on Ferramol pellets and evening slug patrols.
 
 **Child action:** "Let's check for slime trails around the baby plants. If we find them, we know it was slugs -- let's go on a slug hunt tonight!"
 

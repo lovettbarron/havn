@@ -31,7 +31,7 @@ These 13 crops are the backbone of the garden. They germinate easily, tolerate i
 
 **Bed:** B (north end, Phase 2 only -- replaced by sunflowers in W18)
 **Why it is "can't fail":** 2-3 weeks from seed to harvest. Just scatter, water, and cut with scissors. No pests bother them in their short life.
-**The one thing that could go wrong:** Slugs eating young shoots in the first few days. Check copper tape is intact on Bed B.
+**The one thing that could go wrong:** Slugs eating young shoots in the first few days. Scatter Ferramol pellets around bed base and do evening slug patrols.
 
 ---
 
@@ -95,7 +95,7 @@ These 13 crops are the backbone of the garden. They germinate easily, tolerate i
 
 **Bed:** B (north end cluster, 2-3 plants)
 **Why it is "can't fail":** Large seeds, dramatic growth, very hardy. The ruler-stake height measurement is a highlight of the garden engagement programme.
-**The one thing that could go wrong:** Slugs eat seedlings in the first week. Protect with copper tape and evening slug checks until plants are 15cm tall.
+**The one thing that could go wrong:** Slugs eat seedlings in the first week. Scatter Ferramol pellets and do evening slug patrols until plants are 15cm tall.
 
 ---
 
@@ -135,7 +135,7 @@ These 11 crops produce excellent harvests but need regular attention. Check on t
 **Care it needs:**
 - Consistent watering, especially during fruiting (Jun-Sep for everbearing)
 - Runner management -- clip runners to direct energy into fruit production
-- Slug protection -- check copper tape, evening slug patrols during fruiting
+- Slug protection -- Ferramol pellets around bed base, evening slug patrols during fruiting
 
 **Most likely failure mode:** Grey mould (botrytis) in wet weather. Remove affected fruit immediately. Ensure good air circulation between plants.
 **Cross-reference:** See `docs/troubleshooting-guide.md` for Runner Management and slug control.

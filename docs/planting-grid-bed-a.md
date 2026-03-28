@@ -491,7 +491,7 @@ This bed concentrates all the child's garden activities in one place:
 - **Reservoir construction:** See `docs/reservoir-build.md` -- PVC pipe system in north zone only (L=0-120cm)
 - **Shopping list:** See `docs/shopping-list.md` for Phase 1/2 materials; `docs/warm-season-shopping-list.md` for Phase 3 seeds
 - **Session scripts:** See `docs/planting-day-script.md` for Phase 2 planting; `docs/warm-season-session-scripts.md` for Phase 3
-- **Slug defense:** See `docs/slug-defense.md` -- copper tape applied to all beds including Bed A
+- **Slug defense:** See `docs/slug-defense.md` -- Ferramol pellets + evening patrols
 - **Other bed grids:** `docs/planting-grid-bed-b.md`
 - **Phase 2 baseline:** Peas on trellis (nitrogen pre-crop), borage, calendula, kale placeholder, baby lettuce, spring onions, raspberry canes, chives
 - **Phase 3 handoff:** Peas cut back W21. Cucumbers transplant at east edge, trained onto lean-to trellis. Warm crops fill north zone. Leeks replace bolted lettuce. Broccoli transplanted. Raspberry zone unchanged.

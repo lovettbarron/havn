@@ -229,7 +229,7 @@ Column 0 = west edge (path side, approach from house), Column 50-60 = east edge.
 - **Dimensions:** 150 x 60 x 40 cm corten steel, bottomless on grass with mole mesh, no reservoir, no trellis
 - **Shopping list:** See `docs/shopping-list.md` for Phase 1/2 materials; `docs/warm-season-shopping-list.md` for Phase 3 seeds
 - **Session scripts:** See `docs/planting-day-script.md` for Phase 2 planting; `docs/warm-season-session-scripts.md` for Phase 3
-- **Slug defense:** See `docs/slug-defense.md` -- copper tape applied to all beds including Bed B
+- **Slug defense:** See `docs/slug-defense.md` -- Ferramol pellets + evening patrols
 - **Other bed grids:** `docs/planting-grid-bed-a.md`
 
 ---

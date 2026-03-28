@@ -59,13 +59,13 @@
     },
     {
       "id": "W19-04",
-      "action": "Check slug defense copper tape on all beds",
+      "action": "Re-apply Ferramol slug pellets around both beds",
       "priority": "nice_to_do",
       "who": "father",
       "minutes": 5,
       "frequency": "once",
       "prompt": {
-        "en": "Walk around all beds checking the copper tape -- replace any peeling sections.",
+        "en": "Scatter fresh Ferramol pellets around both bed bases -- previous application may have dissolved.",
         "da": "Gaa rundt om alle bede og tjek kobbertapen -- udskift loese stykker."
       }
     }

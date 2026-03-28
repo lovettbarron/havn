@@ -20,12 +20,12 @@
     },
     {
       "id": "W15-02",
-      "action": "Check beds are ready: soil level, drainage, copper tape intact",
+      "action": "Check beds are ready: soil level, drainage, reservoir filled",
       "priority": "must_do",
       "who": "father",
       "minutes": 15,
       "frequency": "once",
-      "prompt": { "en": "Walk the bed circuit: check soil level is 5cm from rim, copper tape unbroken, reservoirs filled.", "da": "Gaa bedrunden: tjek jordniveau er 5cm fra kanten, kobbertape er hel, reservoirer fyldt." }
+      "prompt": { "en": "Walk the bed circuit: check soil level is 5cm from rim, reservoir filled, Ferramol scattered around bases.", "da": "Gaa bedrunden: tjek jordniveau er 5cm fra kanten, reservoir fyldt, Ferramol stroedt rundt om bedene." }
     },
     {
       "id": "W15-03",

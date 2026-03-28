@@ -122,7 +122,7 @@ Bed A's 120 cm width is reachable from both long sides (60 cm reach from each si
 - Both beds are **bottomless on grass** with **mole mesh** underneath, allowing earthworms and beneficial soil organisms to colonize from below while keeping moles out.
 - The **self-watering reservoir** is in Bed A only (north/warm crop zone).
 - The **lean-to trellis** extends outward from the east side of Bed A (north zone). Single mesh panel leaning away from the bed at ~70 degrees. Cucumbers are planted at the east edge of the warm crop zone and trained outward onto the panel. Fruit hangs on the west-facing underside.
-- **Copper tape** slug defense is applied to both beds.
+- **Ferramol slug pellets** slug defense is applied to both beds.
 
 ---
 
@@ -144,6 +144,6 @@ The quantities in `docs/shopping-list.md` match this layout:
 - **1 reservoir set** (PVC pipe, liner, geotextile, overflow) = Bed A (north/warm crop zone)
 - **1 trellis set** (timber, mesh, hardware) = Bed A (lean-to trellis extending outward from east side, cucumber trellis)
 - **Mole mesh** = Both beds (underneath, on grass)
-- **Copper tape** = Both beds
+- **Ferramol slug pellets** = Both beds
 
 For detailed planting positions, see `docs/planting-grid-bed-a.md` and `docs/planting-grid-bed-b.md`.

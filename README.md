@@ -35,7 +35,7 @@ Construction guides for beds and infrastructure. The setup guide is the master s
 | [Soil Layers](docs/soil-layers.md) | Three-layer fill system (drainage, growing medium, top dressing) per bed type |
 | [Reservoir Build](docs/reservoir-build.md) | DIY self-watering wicking system for high-demand beds |
 | [Trellis Build](docs/trellis-build.md) | A-frame cucumber trellis -- child picks from underneath |
-| [Slug Defense](docs/slug-defense.md) | Copper tape installation guide for all beds |
+| [Slug Defense](docs/slug-defense.md) | Ferramol pellets, evening patrols, passive defenses |
 
 #### Planting
 

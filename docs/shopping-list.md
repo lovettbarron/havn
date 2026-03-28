@@ -31,8 +31,10 @@ All beds are corten steel from byJEMA. All prices are in DKK and were sourced in
 
 | # | Item | Specification | Qty | Unit Price | Total | Supplier | Link |
 |---|------|---------------|-----|-----------|-------|----------|------|
-| 6 | Copper tape (kobbertape / kobberband) | Self-adhesive, 50mm width, 25m roll (selvklæbende kobberband 50mm) | 1 | ~200 | ~200 | Amazon.de or byggemarked | [Amazon.de search](https://www.amazon.de/s?k=kupferband+50mm+selbstklebend) |
-| | | **Slug defense subtotal** | | | **~200** | | |
+| 6 | Slug pellets (sneglekorn / Ferramol) | Ferric phosphate type (jernfosfat). Organic-approved, safe for children and pets. NOT metaldehyd-based. Look for "Ferramol" or "Eco-Style Sneglekorn". | 1 | ~50 | ~50 | Byggemarked or garden center | In-store |
+| | | **Slug defense subtotal** | | | **~50** | | |
+
+**Application:** Scatter pellets around bed bases every 2-3 weeks during wet periods (W16-W24). Most critical in the first 2 weeks after planting when seedlings are vulnerable. The 40cm bed height provides significant passive defense -- slugs must climb smooth vertical corten steel to reach plants.
 
 ### Reservoir Materials (for Bed A north zone only)
 
@@ -76,7 +78,7 @@ Both beds sit bottomless on grass and need mesh to protect against burrowing pes
 
 | # | Item | Specification | Qty | Unit Price | Total | Supplier | Link |
 |---|------|---------------|-----|-----------|-------|----------|------|
-| 19 | Rubbing alcohol (isopropylalkohol / rensesprit) | For cleaning steel surface before copper tape application. Ask for "rensesprit" at apotek. | 1 | ~30 | ~30 | Apotek or byggemarked | In-store |
+| 19 | ~~Rubbing alcohol~~ | ~~No longer needed -- copper tape removed~~ | 0 | 0 | 0 | -- | -- |
 | 20 | Drill + 10-12mm bit | For drilling PVC pipe drainage holes (skip if you already own a drill) | 1 | ~0 | ~0 | -- | -- |
 | | | **Tools subtotal** | | | **~30** | | |
 
@@ -88,14 +90,14 @@ Both beds sit bottomless on grass and need mesh to protect against burrowing pes
 |----------|----------------|
 | Raised beds | ~4,600-5,300 |
 | Soil and fill | ~1,600 |
-| Slug defense | ~200 |
+| Slug defense | ~50 |
 | Mole protection | ~90 |
 | Reservoir materials | ~675 |
 | Trellis materials | ~295 |
-| Tools/consumables | ~30 |
-| **TOTAL** | **~7,490-8,190** |
+| Tools/consumables | ~0 |
+| **TOTAL** | **~7,310-8,010** |
 
-Estimated range: **7,500 -- 8,200 DKK**
+Estimated range: **7,300 -- 8,000 DKK**
 
 ---
 
@@ -107,7 +109,7 @@ Estimated range: **7,500 -- 8,200 DKK**
 - **Trellis from scrap wood:** If you have leftover treated timber or access to pallet wood, trellis cost drops to near zero.
 - **Compare soil suppliers:** Get delivery quotes from both sandshoppen.dk and droemmehave.dk to your address in Vejle. Delivery surcharges vary significantly.
 - **One reservoir only:** The 2-bed layout needs only 1 reservoir set (Bed A north zone), keeping reservoir material cost low.
-- **One roll of copper tape:** With only 2 beds totaling ~11.2m of perimeter, a single 25m roll is more than enough.
+- **Ferramol instead of copper tape:** One box of organic slug pellets (~50 DKK) replaces copper tape (~200 DKK). More effective, no aesthetic impact on the corten steel beds.
 
 ---
 
@@ -126,9 +128,9 @@ Estimated range: **7,500 -- 8,200 DKK**
   - [droemmehave.dk](https://www.droemmehave.dk) -- compare pricing and delivery terms
 - **Volume needed:** ~0.7 m3 total for the top growing layer across both beds. You may want to order 0.8 m3 to have a reserve for settling and top-ups.
 
-### Copper Tape (Line 6)
-- **Timing:** Apply copper tape on bed assembly day, before the corten patina develops. New steel provides better adhesive grip. Both beds are corten, so apply to both on day one.
-- **Application:** Clean the surface with rubbing alcohol first. Apply in a continuous band around each bed exterior, ~5cm below the top rim. Overlap ends by at least 2cm. Fold at corners rather than cutting.
+### Ferramol Slug Pellets (Line 6)
+- **Timing:** Apply on planting day (W16) and every 2-3 weeks during wet periods through W24. NOT needed on build day.
+- **Application:** Scatter thinly around bed bases on the ground. Also scatter a few inside the bed near new seedlings for the first 2 weeks.
 
 ### Byggemarked Items (Lines 4, 7-20)
 - **One trip:** Most reservoir, trellis, and drainage items can be bought in a single byggemarked visit (Silvan or Bauhaus in Vejle).
@@ -147,7 +149,7 @@ Every tool needed across build day, spring planting, and warm-season planting --
 | Drill + 10-12mm bit | *likely have* | For drilling PVC pipe drainage holes (reservoir). |
 | Hose with tap connection | *likely have* | Water tap is on covered terrace near house. |
 | Scissors or tin snips | *likely have* | For cutting hardware cloth/mole mesh to size. |
-| Rubbing alcohol (isopropyl) | **buy/confirm** | For cleaning corten steel surface before copper tape application. Already on this shopping list (Line 19). |
+| ~~Rubbing alcohol~~ | ~~removed~~ | ~~Copper tape removed from plan~~ |
 | Measuring tape | *likely have* | For verifying bed placement, spacing, and mesh cuts. |
 | Gloves (gardening) | *likely have* | Corten steel edges can be sharp during assembly. |
 | Wheelbarrow or large bucket | *likely have* | For carrying soil from delivery point to beds. |
@@ -194,7 +196,7 @@ This is the master ordering sequence across all three shopping lists. Print this
 | W12-W13 (late March) | Order raised beds from byjema.dk | Infrastructure | 1-2 week delivery lead time. Order early. |
 | W13-W14 (early April) | Order soil, drainage gravel, hojbedsmuld | Infrastructure | Heavy items -- schedule delivery for build day. Get quotes from sandshoppen.dk and droemmehave.dk. |
 | W14 | Order Autumn Bliss raspberry canes online (if not in local stock) | Spring Planting | Bare-root canes have the longest lead time of any plant purchase. |
-| W14-W15 | Buy all remaining infrastructure (copper tape, PVC, mesh, liner, trellis timber, screws) | Infrastructure | In-stock items at Bauhaus/Silvan. One byggemarked trip. |
+| W14-W15 | Buy all remaining infrastructure (Ferramol, PVC, mesh, liner, trellis timber, screws) | Infrastructure | In-stock items at Bauhaus/Silvan. One byggemarked trip. |
 | W15 | Buy seed packets + craft materials (markers, paint, brushes) | Spring Planting | Seeds keep indefinitely. Craft materials needed for the pre-planting marker painting activity with the child. |
 | W15 | Buy/confirm tools: trowel, hand fork, small watering can | Infrastructure / Spring Planting | Check what you already have. Buy any missing tools before planting week. |
 | W16 | Buy strawberry plugs, herb plants (lamb's ear, lemon balm, thyme), viola seedlings, chive plants | Spring Planting | Buy fresh, plant same day. Seedlings lose vigor sitting indoors. |

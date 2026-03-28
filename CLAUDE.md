@@ -27,7 +27,7 @@ Bed letters A-B are canonical identifiers used throughout all documentation.
 
 - **Self-watering reservoir** in Bed A north zone (warm crops -- cucumber, tomato, pepper, basil). North end gets full sun.
 - **Lean-to trellis** extending outward from Bed A east side for cucumbers to climb
-- **Copper tape** slug defense on both beds
+- **Ferramol slug pellets** (jernfosfat) scattered around bed bases during vulnerable periods (W16-W24)
 - **Mole mesh** under both beds (bottomless on grass)
 - **Mint** lives in a pot beside Bed B (contained to prevent spread)
 
@@ -67,7 +67,7 @@ Detailed grid maps with cm-level positions are in `docs/planting-grid-bed-a.md` 
 | `soil-layers.md` | Soil layer recipes per bed type |
 | `reservoir-build.md` | Self-watering reservoir construction |
 | `trellis-build.md` | Lean-to cucumber trellis for Bed A east side |
-| `slug-defense.md` | Copper tape application guide |
+| `slug-defense.md` | Slug defense (Ferramol pellets, evening patrols) |
 | `bug-hotel-guide.md` | Insect hotel build + treasure hunt activity |
 
 ### `data/` -- Structured reference data (JSON)
@@ -123,7 +123,7 @@ When working on this project, push back if I try to:
 - Crop data JSON files created with schemas
 - Shopping lists finalized for both planting rounds
 
-**Next milestone:** Phase 1 physical execution -- order beds from byJEMA, drill + glue reservoir pipes, build beds, install reservoir in Bed A, apply copper tape. Then Phase 2: spring planting W16-W18.
+**Next milestone:** Phase 1 physical execution -- order beds from byJEMA, drill + glue reservoir pipes, build beds, install reservoir in Bed A. Then Phase 2: spring planting W16-W18.
 
 **Upcoming decisions:**
 - Garlic variety selection for October planting (hardneck, e.g., Music or Chesnok Red)
