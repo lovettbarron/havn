@@ -1,6 +1,6 @@
-# Home Assistant Setup Guide -- Havn Garden
+# Home Assistant Setup Guide -- Haven Garden
 
-A step-by-step walkthrough for configuring Home Assistant to monitor your Havn garden beds. Follow these 8 steps in order. Each step includes the exact YAML to paste.
+A step-by-step walkthrough for configuring Home Assistant to monitor your Haven garden beds. Follow these 8 steps in order. Each step includes the exact YAML to paste.
 
 > **Note:** This guide is a reference for when your Zigbee soil sensors arrive and are paired. You can set up the configuration now (sensors will show 0 values), or wait until the hardware is installed. Either way, the steps are the same.
 
@@ -17,11 +17,11 @@ Before starting, confirm the following are in place:
 
 ### Entity Naming Convention
 
-All Havn garden entities use the `havn_` prefix:
+All Haven garden entities use the `haven_` prefix:
 
-- Sensors: `sensor.havn_bed_a_moisture`, `sensor.havn_bed_b_temperature`, etc.
-- Plant monitors: `plant.havn_bed_a`, `plant.havn_bed_b`
-- Automations: `havn_bed_a_moisture_below_min`, etc.
+- Sensors: `sensor.haven_bed_a_moisture`, `sensor.haven_bed_b_temperature`, etc.
+- Plant monitors: `plant.haven_bed_a`, `plant.haven_bed_b`
+- Automations: `haven_bed_a_moisture_below_min`, etc.
 
 This keeps garden entities grouped together and easy to find in Developer Tools.
 
@@ -40,32 +40,32 @@ The template sensors below expect your Zigbee2MQTT devices to create these entit
 
 ## Step 2: Template Sensors
 
-Template sensors wrap the raw Zigbee sensor entities into the `havn_` namespace with proper device classes.
+Template sensors wrap the raw Zigbee sensor entities into the `haven_` namespace with proper device classes.
 
 Open `configuration.yaml` and add the following block. If you already have a `template:` section, merge the sensor list under it.
 
 ```yaml
-# Havn Garden -- Template Sensors
+# Haven Garden -- Template Sensors
 # Source: data/ha/sensors.json
 template:
   - sensor:
-      - name: "Havn Bed A Soil Moisture"
-        unique_id: havn_bed_a_moisture
+      - name: "Haven Bed A Soil Moisture"
+        unique_id: haven_bed_a_moisture
         unit_of_measurement: "%"
         device_class: moisture
         state: "{{ states('sensor.zigbee_soil_sensor_bed_a_moisture') | float(0) }}"
-      - name: "Havn Bed A Soil Temperature"
-        unique_id: havn_bed_a_temperature
+      - name: "Haven Bed A Soil Temperature"
+        unique_id: haven_bed_a_temperature
         unit_of_measurement: "°C"
         device_class: temperature
         state: "{{ states('sensor.zigbee_soil_sensor_bed_a_temperature') | float(0) }}"
-      - name: "Havn Bed B Soil Moisture"
-        unique_id: havn_bed_b_moisture
+      - name: "Haven Bed B Soil Moisture"
+        unique_id: haven_bed_b_moisture
         unit_of_measurement: "%"
         device_class: moisture
         state: "{{ states('sensor.zigbee_soil_sensor_bed_b_moisture') | float(0) }}"
-      - name: "Havn Bed B Soil Temperature"
-        unique_id: havn_bed_b_temperature
+      - name: "Haven Bed B Soil Temperature"
+        unique_id: haven_bed_b_temperature
         unit_of_measurement: "°C"
         device_class: temperature
         state: "{{ states('sensor.zigbee_soil_sensor_bed_b_temperature') | float(0) }}"
@@ -79,12 +79,12 @@ template:
 
 ### What You Should See
 
-After restart, go to **Developer Tools > States** and search for `havn`. You should see 4 new entities:
+After restart, go to **Developer Tools > States** and search for `haven`. You should see 4 new entities:
 
-- `sensor.havn_bed_a_moisture` -- value will be 0.0 until sensors are installed
-- `sensor.havn_bed_a_temperature` -- value will be 0.0 until sensors are installed
-- `sensor.havn_bed_b_moisture` -- value will be 0.0 until sensors are installed
-- `sensor.havn_bed_b_temperature` -- value will be 0.0 until sensors are installed
+- `sensor.haven_bed_a_moisture` -- value will be 0.0 until sensors are installed
+- `sensor.haven_bed_a_temperature` -- value will be 0.0 until sensors are installed
+- `sensor.haven_bed_b_moisture` -- value will be 0.0 until sensors are installed
+- `sensor.haven_bed_b_temperature` -- value will be 0.0 until sensors are installed
 
 ---
 
@@ -95,20 +95,20 @@ Entity customization adds friendly display names and icons so your sensors look 
 Open `configuration.yaml` and ensure you have the `homeassistant:` block with a `customize:` section. If you already have one, merge these entries into it.
 
 ```yaml
-# Havn Garden -- Entity Customization
+# Haven Garden -- Entity Customization
 # Source: data/ha/customize.json
 homeassistant:
   customize:
-    sensor.havn_bed_a_moisture:
+    sensor.haven_bed_a_moisture:
       friendly_name: "Bed A (Family Bed) - Soil Moisture"
       icon: mdi:water-percent
-    sensor.havn_bed_a_temperature:
+    sensor.haven_bed_a_temperature:
       friendly_name: "Bed A (Family Bed) - Soil Temperature"
       icon: mdi:thermometer
-    sensor.havn_bed_b_moisture:
+    sensor.haven_bed_b_moisture:
       friendly_name: "Bed B (His Bed) - Soil Moisture"
       icon: mdi:water-percent
-    sensor.havn_bed_b_temperature:
+    sensor.haven_bed_b_temperature:
       friendly_name: "Bed B (His Bed) - Soil Temperature"
       icon: mdi:thermometer
 ```
@@ -117,7 +117,7 @@ homeassistant:
 
 ### What You Should See
 
-After restart, go to **Developer Tools > States** and search for `havn`. The "Friendly Name" column should now show the bed names (e.g., "Bed A (Family Bed) - Soil Moisture") instead of the raw entity IDs.
+After restart, go to **Developer Tools > States** and search for `haven`. The "Friendly Name" column should now show the bed names (e.g., "Bed A (Family Bed) - Soil Moisture") instead of the raw entity IDs.
 
 ---
 
@@ -128,20 +128,20 @@ Plant monitors give you a single health status per bed. If moisture or temperatu
 Add the following to `configuration.yaml`:
 
 ```yaml
-# Havn Garden -- Plant Monitors
+# Haven Garden -- Plant Monitors
 # Source: data/ha/plants.json
 plant:
-  havn_bed_a:
+  haven_bed_a:
     sensors:
-      moisture: sensor.havn_bed_a_moisture
-      temperature: sensor.havn_bed_a_temperature
+      moisture: sensor.haven_bed_a_moisture
+      temperature: sensor.haven_bed_a_temperature
     min_moisture: 40
     max_moisture: 55
     min_temperature: 0
-  havn_bed_b:
+  haven_bed_b:
     sensors:
-      moisture: sensor.havn_bed_b_moisture
-      temperature: sensor.havn_bed_b_temperature
+      moisture: sensor.haven_bed_b_moisture
+      temperature: sensor.haven_bed_b_temperature
     min_moisture: 40
     max_moisture: 50
     min_temperature: 0
@@ -158,7 +158,7 @@ plant:
 
 ### What You Should See
 
-After restart, check **Developer Tools > States** for `plant.havn_bed_a` and `plant.havn_bed_b`. They will show as "problem" until sensors are reporting real data above the minimum thresholds.
+After restart, check **Developer Tools > States** for `plant.haven_bed_a` and `plant.haven_bed_b`. They will show as "problem" until sensors are reporting real data above the minimum thresholds.
 
 ---
 
@@ -174,102 +174,102 @@ Open `automations.yaml` (or the automations section of `configuration.yaml`). Ad
 
 ```yaml
 # Bed A: Moisture too low (spring/general)
-- alias: "Havn: Bed A moisture below 40%"
-  id: havn_bed_a_moisture_below_min
+- alias: "Haven: Bed A moisture below 40%"
+  id: haven_bed_a_moisture_below_min
   triggers:
     - trigger: numeric_state
-      entity_id: sensor.havn_bed_a_moisture
+      entity_id: sensor.haven_bed_a_moisture
       below: 40
       for:
         hours: 6
   actions:
     - action: notify.mobile_app_REPLACEME
       data:
-        title: "Havn Garden"
+        title: "Haven Garden"
         message: "Bed A (Family Bed) soil moisture is below 40% -- time to water!"
 
 # Bed A: Moisture too high (thyme sensitive)
-- alias: "Havn: Bed A moisture above 55%"
-  id: havn_bed_a_moisture_above_max
+- alias: "Haven: Bed A moisture above 55%"
+  id: haven_bed_a_moisture_above_max
   triggers:
     - trigger: numeric_state
-      entity_id: sensor.havn_bed_a_moisture
+      entity_id: sensor.haven_bed_a_moisture
       above: 55
       for:
         hours: 6
   actions:
     - action: notify.mobile_app_REPLACEME
       data:
-        title: "Havn Garden"
+        title: "Haven Garden"
         message: "Bed A (Family Bed) soil moisture is above 55% -- soil may be too wet for thyme."
 
 # Bed A: Frost warning (0°C)
-- alias: "Havn: Bed A frost warning"
-  id: havn_bed_a_temperature_below_frost
+- alias: "Haven: Bed A frost warning"
+  id: haven_bed_a_temperature_below_frost
   triggers:
     - trigger: numeric_state
-      entity_id: sensor.havn_bed_a_temperature
+      entity_id: sensor.haven_bed_a_temperature
       below: 0
   actions:
     - action: notify.mobile_app_REPLACEME
       data:
-        title: "Havn Garden - FROST"
+        title: "Haven Garden - FROST"
         message: "Frost warning for Bed A (Family Bed)! Soil temperature at 0°C. Cover sensitive plants with fleece."
 
 # Bed A: Warm-season moisture too low (cucumbers/tomatoes)
-- alias: "Havn: Bed A moisture below 45% (warm season)"
-  id: havn_bed_a_moisture_below_min_warm
+- alias: "Haven: Bed A moisture below 45% (warm season)"
+  id: haven_bed_a_moisture_below_min_warm
   triggers:
     - trigger: numeric_state
-      entity_id: sensor.havn_bed_a_moisture
+      entity_id: sensor.haven_bed_a_moisture
       below: 45
       for:
         hours: 6
   actions:
     - action: notify.mobile_app_REPLACEME
       data:
-        title: "Havn Garden"
+        title: "Haven Garden"
         message: "Bed A (Family Bed) soil moisture is below 45% -- cucumbers and tomatoes need water!"
 
 # Bed A: Warm-season moisture too high (borage)
-- alias: "Havn: Bed A moisture above 65% (warm season)"
-  id: havn_bed_a_moisture_above_max_warm
+- alias: "Haven: Bed A moisture above 65% (warm season)"
+  id: haven_bed_a_moisture_above_max_warm
   triggers:
     - trigger: numeric_state
-      entity_id: sensor.havn_bed_a_moisture
+      entity_id: sensor.haven_bed_a_moisture
       above: 65
       for:
         hours: 6
   actions:
     - action: notify.mobile_app_REPLACEME
       data:
-        title: "Havn Garden"
+        title: "Haven Garden"
         message: "Bed A (Family Bed) soil moisture is above 65% -- too wet for borage."
 
 # Bed A: Cold warning for warm-season crops (4°C)
-- alias: "Havn: Bed A cold warning 4°C (warm season)"
-  id: havn_bed_a_temperature_below_frost_warm
+- alias: "Haven: Bed A cold warning 4°C (warm season)"
+  id: haven_bed_a_temperature_below_frost_warm
   triggers:
     - trigger: numeric_state
-      entity_id: sensor.havn_bed_a_temperature
+      entity_id: sensor.haven_bed_a_temperature
       below: 4
   actions:
     - action: notify.mobile_app_REPLACEME
       data:
-        title: "Havn Garden - COLD"
+        title: "Haven Garden - COLD"
         message: "Cold warning for Bed A (Family Bed)! Soil at 4°C -- cucumbers, basil, and peppers are frost-sensitive. Cover or bring indoors."
 
 # Bed A: Cold warning for beans (2°C)
-- alias: "Havn: Bed A cold warning 2°C (beans)"
-  id: havn_bed_a_temperature_below_frost_beans
+- alias: "Haven: Bed A cold warning 2°C (beans)"
+  id: haven_bed_a_temperature_below_frost_beans
   triggers:
     - trigger: numeric_state
-      entity_id: sensor.havn_bed_a_temperature
+      entity_id: sensor.haven_bed_a_temperature
       below: 2
   actions:
     - action: notify.mobile_app_REPLACEME
       data:
-        title: "Havn Garden - COLD"
+        title: "Haven Garden - COLD"
         message: "Cold warning for Bed A (Family Bed)! Soil at 2°C -- beans are frost-sensitive. Cover tonight."
 ```
 
@@ -277,46 +277,46 @@ Open `automations.yaml` (or the automations section of `configuration.yaml`). Ad
 
 ```yaml
 # Bed B: Moisture too low
-- alias: "Havn: Bed B moisture below 40%"
-  id: havn_bed_b_moisture_below_min
+- alias: "Haven: Bed B moisture below 40%"
+  id: haven_bed_b_moisture_below_min
   triggers:
     - trigger: numeric_state
-      entity_id: sensor.havn_bed_b_moisture
+      entity_id: sensor.haven_bed_b_moisture
       below: 40
       for:
         hours: 6
   actions:
     - action: notify.mobile_app_REPLACEME
       data:
-        title: "Havn Garden"
+        title: "Haven Garden"
         message: "Bed B (His Bed) soil moisture is below 40% -- time to water!"
 
 # Bed B: Moisture too high (lamb's ear sensitive)
-- alias: "Havn: Bed B moisture above 50%"
-  id: havn_bed_b_moisture_above_max
+- alias: "Haven: Bed B moisture above 50%"
+  id: haven_bed_b_moisture_above_max
   triggers:
     - trigger: numeric_state
-      entity_id: sensor.havn_bed_b_moisture
+      entity_id: sensor.haven_bed_b_moisture
       above: 50
       for:
         hours: 6
   actions:
     - action: notify.mobile_app_REPLACEME
       data:
-        title: "Havn Garden"
+        title: "Haven Garden"
         message: "Bed B (His Bed) soil moisture is above 50% -- soil may be too wet for lamb's ear."
 
 # Bed B: Frost warning (0°C)
-- alias: "Havn: Bed B frost warning"
-  id: havn_bed_b_temperature_below_frost
+- alias: "Haven: Bed B frost warning"
+  id: haven_bed_b_temperature_below_frost
   triggers:
     - trigger: numeric_state
-      entity_id: sensor.havn_bed_b_temperature
+      entity_id: sensor.haven_bed_b_temperature
       below: 0
   actions:
     - action: notify.mobile_app_REPLACEME
       data:
-        title: "Havn Garden - FROST"
+        title: "Haven Garden - FROST"
         message: "Frost warning for Bed B (His Bed)! Soil temperature at 0°C. Cover sensitive plants with fleece."
 ```
 
@@ -326,7 +326,7 @@ The warm-season rules (4°C cold warning, 45% moisture for cucumbers) will simpl
 
 ### What You Should See
 
-After saving and reloading automations (**Settings > Automations > Reload**), go to **Settings > Automations & Scenes**. You should see 10 automations starting with "Havn:".
+After saving and reloading automations (**Settings > Automations > Reload**), go to **Settings > Automations & Scenes**. You should see 10 automations starting with "Haven:".
 
 ---
 
@@ -369,7 +369,7 @@ This replacement needs to happen in all 10 automations.
 3. In **Service Data**, enter:
 
 ```yaml
-title: "Havn Garden Test"
+title: "Haven Garden Test"
 message: "If you see this, notifications are working!"
 ```
 
@@ -378,7 +378,7 @@ message: "If you see this, notifications are working!"
 
 ### What You Should See
 
-A push notification on your phone with the title "Havn Garden Test" and the test message. If it does not arrive, check that the Home Assistant Companion App is installed and logged in on your phone.
+A push notification on your phone with the title "Haven Garden Test" and the test message. If it does not arrive, check that the Home Assistant Companion App is installed and logged in on your phone.
 
 ---
 
@@ -405,7 +405,7 @@ type: vertical-stack
 title: Bed A - Family Bed
 cards:
   - type: gauge
-    entity: sensor.havn_bed_a_moisture
+    entity: sensor.haven_bed_a_moisture
     name: Soil Moisture
     unit: '%'
     min: 0
@@ -416,7 +416,7 @@ cards:
       yellow: 25
       red: 0
   - type: gauge
-    entity: sensor.havn_bed_a_temperature
+    entity: sensor.haven_bed_a_temperature
     name: Soil Temperature
     unit: 'C'
     min: -5
@@ -427,7 +427,7 @@ cards:
       yellow: 0
       red: -5
   - type: entity
-    entity: plant.havn_bed_a
+    entity: plant.haven_bed_a
     name: Bed A Health
 ```
 
@@ -438,7 +438,7 @@ type: vertical-stack
 title: Bed B - His Bed
 cards:
   - type: gauge
-    entity: sensor.havn_bed_b_moisture
+    entity: sensor.haven_bed_b_moisture
     name: Soil Moisture
     unit: '%'
     min: 0
@@ -449,7 +449,7 @@ cards:
       yellow: 25
       red: 0
   - type: gauge
-    entity: sensor.havn_bed_b_temperature
+    entity: sensor.haven_bed_b_temperature
     name: Soil Temperature
     unit: 'C'
     min: -5
@@ -460,7 +460,7 @@ cards:
       yellow: 0
       red: -5
   - type: entity
-    entity: plant.havn_bed_b
+    entity: plant.haven_bed_b
     name: Bed B Health
 ```
 
@@ -476,9 +476,9 @@ Two card stacks on your dashboard, each with a moisture gauge, a temperature gau
 
 After completing all steps above, walk through this checklist to confirm everything is working.
 
-- [ ] **Developer Tools > States** shows `sensor.havn_bed_a_moisture` (and all 3 other havn sensors)
-- [ ] **Developer Tools > States** shows `plant.havn_bed_a` and `plant.havn_bed_b`
-- [ ] **Settings > Automations & Scenes** lists all 10 Havn automations (search "Havn")
+- [ ] **Developer Tools > States** shows `sensor.haven_bed_a_moisture` (and all 3 other haven sensors)
+- [ ] **Developer Tools > States** shows `plant.haven_bed_a` and `plant.haven_bed_b`
+- [ ] **Settings > Automations & Scenes** lists all 10 Haven automations (search "Haven")
 - [ ] **Dashboard** shows gauge cards for both beds (values will be 0 until sensors are installed)
 - [ ] **Test notification:** Developer Tools > Actions > select `notify.mobile_app_<your_device>` > call with test message > push notification received
 - [ ] **No errors** in Settings > System > Logs after restart
@@ -487,7 +487,7 @@ After completing all steps above, walk through this checklist to confirm everyth
 
 ---
 
-## Quick Reference -- All Havn Entities
+## Quick Reference -- All Haven Entities
 
 A complete list of every entity created by this guide, for easy lookup.
 
@@ -495,29 +495,29 @@ A complete list of every entity created by this guide, for easy lookup.
 
 | Entity ID | Type | Bed |
 |-----------|------|-----|
-| `sensor.havn_bed_a_moisture` | Soil Moisture (%) | Bed A (Family Bed) |
-| `sensor.havn_bed_a_temperature` | Soil Temperature (C) | Bed A (Family Bed) |
-| `sensor.havn_bed_b_moisture` | Soil Moisture (%) | Bed B (His Bed) |
-| `sensor.havn_bed_b_temperature` | Soil Temperature (C) | Bed B (His Bed) |
+| `sensor.haven_bed_a_moisture` | Soil Moisture (%) | Bed A (Family Bed) |
+| `sensor.haven_bed_a_temperature` | Soil Temperature (C) | Bed A (Family Bed) |
+| `sensor.haven_bed_b_moisture` | Soil Moisture (%) | Bed B (His Bed) |
+| `sensor.haven_bed_b_temperature` | Soil Temperature (C) | Bed B (His Bed) |
 
 ### Plant Monitors (2)
 
 | Entity ID | Bed | Min Moisture | Max Moisture | Min Temp |
 |-----------|-----|-------------|-------------|----------|
-| `plant.havn_bed_a` | Bed A (Family Bed) | 40% | 55% | 0C |
-| `plant.havn_bed_b` | Bed B (His Bed) | 40% | 50% | 0C |
+| `plant.haven_bed_a` | Bed A (Family Bed) | 40% | 55% | 0C |
+| `plant.haven_bed_b` | Bed B (His Bed) | 40% | 50% | 0C |
 
 ### Automations (10)
 
 | Automation ID | Bed | Trigger | Threshold | Delay |
 |---------------|-----|---------|-----------|-------|
-| `havn_bed_a_moisture_below_min` | A | Moisture below | 40% | 6h |
-| `havn_bed_a_moisture_above_max` | A | Moisture above | 55% | 6h |
-| `havn_bed_a_temperature_below_frost` | A | Temp below | 0C | immediate |
-| `havn_bed_a_moisture_below_min_warm` | A | Moisture below | 45% | 6h |
-| `havn_bed_a_moisture_above_max_warm` | A | Moisture above | 65% | 6h |
-| `havn_bed_a_temperature_below_frost_warm` | A | Temp below | 4C | immediate |
-| `havn_bed_a_temperature_below_frost_beans` | A | Temp below | 2C | immediate |
-| `havn_bed_b_moisture_below_min` | B | Moisture below | 40% | 6h |
-| `havn_bed_b_moisture_above_max` | B | Moisture above | 50% | 6h |
-| `havn_bed_b_temperature_below_frost` | B | Temp below | 0C | immediate |
+| `haven_bed_a_moisture_below_min` | A | Moisture below | 40% | 6h |
+| `haven_bed_a_moisture_above_max` | A | Moisture above | 55% | 6h |
+| `haven_bed_a_temperature_below_frost` | A | Temp below | 0C | immediate |
+| `haven_bed_a_moisture_below_min_warm` | A | Moisture below | 45% | 6h |
+| `haven_bed_a_moisture_above_max_warm` | A | Moisture above | 65% | 6h |
+| `haven_bed_a_temperature_below_frost_warm` | A | Temp below | 4C | immediate |
+| `haven_bed_a_temperature_below_frost_beans` | A | Temp below | 2C | immediate |
+| `haven_bed_b_moisture_below_min` | B | Moisture below | 40% | 6h |
+| `haven_bed_b_moisture_above_max` | B | Moisture above | 50% | 6h |
+| `haven_bed_b_temperature_below_frost` | B | Temp below | 0C | immediate |

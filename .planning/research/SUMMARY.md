@@ -1,13 +1,13 @@
 # Project Research Summary
 
-**Project:** Havn -- A Learning Garden
+**Project:** Haven -- A Learning Garden
 **Domain:** Physical garden infrastructure + IoT sensor integration for child with ADHD/Autism
 **Researched:** 2026-03-26
 **Confidence:** MEDIUM-HIGH
 
 ## Executive Summary
 
-Havn is a backyard learning garden in Vejle, Denmark (zone 7b) designed around a 7-year-old with ADHD and Autism. The project spans physical infrastructure (corten/galvanized steel raised beds, soil systems), crop planning (engagement-optimized for neurodivergent child), structured data (JSON schemas for crops, schedules, troubleshooting), and Home Assistant IoT integration (Zigbee soil sensors, automated alerts, dashboards). Experts in this domain emphasize that the garden must be built around the child's engagement patterns, not around horticultural efficiency. The single most important design constraint is continuous harvest events -- the child needs to pick something every visit from late May through October, or interest dies.
+Haven is a backyard learning garden in Vejle, Denmark (zone 7b) designed around a 7-year-old with ADHD and Autism. The project spans physical infrastructure (corten/galvanized steel raised beds, soil systems), crop planning (engagement-optimized for neurodivergent child), structured data (JSON schemas for crops, schedules, troubleshooting), and Home Assistant IoT integration (Zigbee soil sensors, automated alerts, dashboards). Experts in this domain emphasize that the garden must be built around the child's engagement patterns, not around horticultural efficiency. The single most important design constraint is continuous harvest events -- the child needs to pick something every visit from late May through October, or interest dies.
 
 The recommended approach is to prioritize physical beds and planting above all else, given that it is late March and the growing season clock is ticking. Beds must be ordered immediately (week 13), placed and filled by week 15, and first cold-hardy crops in the ground by week 16. Data architecture and IoT sensors are explicitly secondary -- the JSON schemas and HA configuration can be developed in parallel or after planting. Sensors should be deferred to season two as a "level up" moment. The budget reality is that the premium path (corten beds + soil + sensors + tools) exceeds the 5,000 DKK ceiling at 6,500-8,000 DKK. A hybrid approach using corten for visible backyard beds and galvanized steel for the terrace bed, with sensors deferred, lands at approximately 6,200-6,750 DKK.
 
@@ -53,7 +53,7 @@ Corten steel raised beds from Danish manufacturers (byJEMA, Gronfeld) form the d
 
 ### Architecture Approach
 
-The architecture has two distinct halves: physical and data. Physically, the garden comprises 5 beds across 2 zones -- 3 ground-level backyard beds (120x60x40cm, child-ergonomic width) positioned in the west-central backyard for 8-10 hours of summer sun, and 2 shallow terrace beds (80x40x30cm, lightweight soil) on the elevated roof terrace with best sun exposure but wind and weight constraints. The data system uses one JSON file per crop, one JSON file per ISO week for scheduling, plus structured troubleshooting and vacation guide schemas. Home Assistant entities follow a `havn_` prefix convention with per-bed sensor entities, plant monitor configurations with moisture/temperature thresholds, and Danish-language automations.
+The architecture has two distinct halves: physical and data. Physically, the garden comprises 5 beds across 2 zones -- 3 ground-level backyard beds (120x60x40cm, child-ergonomic width) positioned in the west-central backyard for 8-10 hours of summer sun, and 2 shallow terrace beds (80x40x30cm, lightweight soil) on the elevated roof terrace with best sun exposure but wind and weight constraints. The data system uses one JSON file per crop, one JSON file per ISO week for scheduling, plus structured troubleshooting and vacation guide schemas. Home Assistant entities follow a `haven_` prefix convention with per-bed sensor entities, plant monitor configurations with moisture/temperature thresholds, and Danish-language automations.
 
 **Major components:**
 1. **Physical beds (5 total)** -- 3 backyard (Sol-bedet, Baer-bedet, Eventyr-bedet) + 2 terrace (Terasse-krydder, Terasse-baer), each with named purposes and companion planting layouts

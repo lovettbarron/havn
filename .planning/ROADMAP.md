@@ -1,4 +1,4 @@
-# Roadmap: Havn -- A Learning Garden
+# Roadmap: Haven -- A Learning Garden
 
 ## Overview
 
@@ -95,7 +95,7 @@ Plans:
   1. A JSON schema defines all crop fields (growth stages, water needs, harvest timing, companion plants, difficulty tier, child actions, alert triggers) and every planted crop has a populated JSON file
   2. Weekly schedule JSON files exist for W15 through W44 with themed names, prioritized tasks, and expected growth events
   3. A staggered planting schedule ensures continuous harvest from late May through October with no 2-week gap
-  4. Home Assistant entity schemas follow the havn_ prefix convention with per-bed sensor entities and Plant Monitor configurations
+  4. Home Assistant entity schemas follow the haven_ prefix convention with per-bed sensor entities and Plant Monitor configurations
   5. Zigbee/LoRaWAN sensor recommendations are documented with specific models, prices, and HA compatibility
 **Plans:** 3/3 plans complete
 

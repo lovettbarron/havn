@@ -1,4 +1,4 @@
-# Feature Landscape: Havn Learning Garden
+# Feature Landscape: Haven Learning Garden
 
 **Domain:** Child-focused backyard learning garden (Danish zone 7b, Vejle)
 **Researched:** 2026-03-26

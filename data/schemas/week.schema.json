@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "week.schema.json",
   "title": "Weekly Schedule",
-  "description": "Schema for Havn garden weekly schedule files (W15-W44)",
+  "description": "Schema for Haven garden weekly schedule files (W15-W44)",
   "type": "object",
   "required": ["week", "iso_week", "date_range", "theme", "tasks", "growth_events", "sowing_tasks"],
   "properties": {

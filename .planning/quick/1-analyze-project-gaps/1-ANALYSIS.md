@@ -1,4 +1,4 @@
-# Havn Project Gap Analysis
+# Haven Project Gap Analysis
 
 **Date:** 2026-03-27
 **Scope:** Full audit of v1.0 milestone (6 phases, 15 plans, 59 requirements)
@@ -6,7 +6,7 @@
 
 ## Executive Summary
 
-The Havn project is remarkably thorough for a pre-season planning effort. Across 6 phases, 15 plans, and 59 requirements, the documentation forms an internally consistent, deeply cross-referenced system that would allow a garden-naive father to build beds, plant crops, and maintain a garden through an entire growing season. The session scripts are genuinely ADHD-adapted with mandatory breaks, sensory sequencing, and meltdown protocols. The data system (27 crop JSONs, 30 weekly schedules, 5 bed mappings, HA schemas) is production-quality for what is fundamentally a family garden project.
+The Haven project is remarkably thorough for a pre-season planning effort. Across 6 phases, 15 plans, and 59 requirements, the documentation forms an internally consistent, deeply cross-referenced system that would allow a garden-naive father to build beds, plant crops, and maintain a garden through an entire growing season. The session scripts are genuinely ADHD-adapted with mandatory breaks, sensory sequencing, and meltdown protocols. The data system (27 crop JSONs, 30 weekly schedules, 5 bed mappings, HA schemas) is production-quality for what is fundamentally a family garden project.
 
 The three most important findings are: (1) a persistent bed identity discrepancy between Phase 1 naming (Bed 1-5) and Phase 2+ naming (Bed A-E) that creates confusion about which physical beds have reservoirs, (2) no documentation exists for the child's daily garden routine between planting sessions -- the gap between "planting day script" and "weekly schedule JSON" is too large for a 7-year-old to bridge independently, and (3) the REQUIREMENTS.md tracking has two items (DOCS-04 and COOK-02) marked Pending despite their deliverables existing, and the ROADMAP.md progress table has inconsistencies with plan completion checkboxes.
 
@@ -388,7 +388,7 @@ PROJECT.md "Active" requirements section (lines 19-34) lists 16 bullet points th
 
 **Finding 11.4: Bed E alert rule message references "tomatoes" but Bed E has no tomatoes (MINOR)**
 
-`data/ha/alert-rules.json` rule `havn_bed_e_moisture_below_min` (line 168) says "broccoli and tomatoes need water!" but Bed E contains broccoli, bush beans, dill, borage, and calendula -- no tomatoes. Similarly, rule `havn_bed_e_temperature_below_frost` (line 194) says "beans and tomatoes are frost-sensitive" -- again, no tomatoes in Bed E.
+`data/ha/alert-rules.json` rule `haven_bed_e_moisture_below_min` (line 168) says "broccoli and tomatoes need water!" but Bed E contains broccoli, bush beans, dill, borage, and calendula -- no tomatoes. Similarly, rule `haven_bed_e_temperature_below_frost` (line 194) says "beans and tomatoes are frost-sensitive" -- again, no tomatoes in Bed E.
 
 **Proposed fix:** Update Bed E alert messages to reference the correct crops (broccoli, beans).
 

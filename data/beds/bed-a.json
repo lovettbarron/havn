@@ -223,7 +223,7 @@
     }
   ],
   "ha_sensors": {
-    "moisture": "sensor.havn_bed_a_moisture",
-    "temperature": "sensor.havn_bed_a_temperature"
+    "moisture": "sensor.haven_bed_a_moisture",
+    "temperature": "sensor.haven_bed_a_temperature"
   }
 }

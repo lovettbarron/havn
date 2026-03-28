@@ -1,11 +1,11 @@
 {
-  "_doc": "Automation-ready alert rule definitions for Havn garden. These are v2 definitions -- not live HA automations yet. 2 beds, multiple rules per bed.",
+  "_doc": "Automation-ready alert rule definitions for Haven garden. These are v2 definitions -- not live HA automations yet. 2 beds, multiple rules per bed.",
   "rules": [
     {
-      "id": "havn_bed_a_moisture_below_min",
+      "id": "haven_bed_a_moisture_below_min",
       "bed_id": "bed-a",
       "trigger_type": "moisture_below_min",
-      "entity": "sensor.havn_bed_a_moisture",
+      "entity": "sensor.haven_bed_a_moisture",
       "threshold": 40,
       "delay_hours": 6,
       "notification_target": "notify.mobile_app",
@@ -15,10 +15,10 @@
       }
     },
     {
-      "id": "havn_bed_a_moisture_above_max",
+      "id": "haven_bed_a_moisture_above_max",
       "bed_id": "bed-a",
       "trigger_type": "moisture_above_max",
-      "entity": "sensor.havn_bed_a_moisture",
+      "entity": "sensor.haven_bed_a_moisture",
       "threshold": 55,
       "delay_hours": 6,
       "notification_target": "notify.mobile_app",
@@ -28,10 +28,10 @@
       }
     },
     {
-      "id": "havn_bed_a_temperature_below_frost",
+      "id": "haven_bed_a_temperature_below_frost",
       "bed_id": "bed-a",
       "trigger_type": "temperature_below_frost",
-      "entity": "sensor.havn_bed_a_temperature",
+      "entity": "sensor.haven_bed_a_temperature",
       "threshold": 0,
       "delay_hours": 0,
       "notification_target": "notify.mobile_app",
@@ -41,10 +41,10 @@
       }
     },
     {
-      "id": "havn_bed_a_moisture_below_min_warm",
+      "id": "haven_bed_a_moisture_below_min_warm",
       "bed_id": "bed-a",
       "trigger_type": "moisture_below_min",
-      "entity": "sensor.havn_bed_a_moisture",
+      "entity": "sensor.haven_bed_a_moisture",
       "threshold": 45,
       "delay_hours": 6,
       "notification_target": "notify.mobile_app",
@@ -54,10 +54,10 @@
       }
     },
     {
-      "id": "havn_bed_a_moisture_above_max_warm",
+      "id": "haven_bed_a_moisture_above_max_warm",
       "bed_id": "bed-a",
       "trigger_type": "moisture_above_max",
-      "entity": "sensor.havn_bed_a_moisture",
+      "entity": "sensor.haven_bed_a_moisture",
       "threshold": 65,
       "delay_hours": 6,
       "notification_target": "notify.mobile_app",
@@ -67,10 +67,10 @@
       }
     },
     {
-      "id": "havn_bed_a_temperature_below_frost_warm",
+      "id": "haven_bed_a_temperature_below_frost_warm",
       "bed_id": "bed-a",
       "trigger_type": "temperature_below_frost",
-      "entity": "sensor.havn_bed_a_temperature",
+      "entity": "sensor.haven_bed_a_temperature",
       "threshold": 4,
       "delay_hours": 0,
       "notification_target": "notify.mobile_app",
@@ -80,10 +80,10 @@
       }
     },
     {
-      "id": "havn_bed_a_temperature_below_frost_beans",
+      "id": "haven_bed_a_temperature_below_frost_beans",
       "bed_id": "bed-a",
       "trigger_type": "temperature_below_frost",
-      "entity": "sensor.havn_bed_a_temperature",
+      "entity": "sensor.haven_bed_a_temperature",
       "threshold": 2,
       "delay_hours": 0,
       "notification_target": "notify.mobile_app",
@@ -93,10 +93,10 @@
       }
     },
     {
-      "id": "havn_bed_b_moisture_below_min",
+      "id": "haven_bed_b_moisture_below_min",
       "bed_id": "bed-b",
       "trigger_type": "moisture_below_min",
-      "entity": "sensor.havn_bed_b_moisture",
+      "entity": "sensor.haven_bed_b_moisture",
       "threshold": 40,
       "delay_hours": 6,
       "notification_target": "notify.mobile_app",
@@ -106,10 +106,10 @@
       }
     },
     {
-      "id": "havn_bed_b_moisture_above_max",
+      "id": "haven_bed_b_moisture_above_max",
       "bed_id": "bed-b",
       "trigger_type": "moisture_above_max",
-      "entity": "sensor.havn_bed_b_moisture",
+      "entity": "sensor.haven_bed_b_moisture",
       "threshold": 50,
       "delay_hours": 6,
       "notification_target": "notify.mobile_app",
@@ -119,10 +119,10 @@
       }
     },
     {
-      "id": "havn_bed_b_temperature_below_frost",
+      "id": "haven_bed_b_temperature_below_frost",
       "bed_id": "bed-b",
       "trigger_type": "temperature_below_frost",
-      "entity": "sensor.havn_bed_b_temperature",
+      "entity": "sensor.haven_bed_b_temperature",
       "threshold": 0,
       "delay_hours": 0,
       "notification_target": "notify.mobile_app",

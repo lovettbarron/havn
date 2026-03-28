@@ -100,8 +100,8 @@ This is the canonical mapping between Phase 1 numeric names and Phase 2+ letter 
 - Note: If Tumbling Tom ends up in a pot rather than a bed, it has no bed JSON entry (which is correct -- pots are not beds).
 
 **`data/ha/alert-rules.json`:**
-- Rule `havn_bed_e_moisture_below_min` (line 168-171): Message says "broccoli and tomatoes need water" -- should say "broccoli and beans need water" (Tumbling Tom is not in this bed per the grid; beans are the other water-sensitive crop)
-- Rule `havn_bed_e_temperature_below_frost` (line 194-196): Message says "beans and tomatoes are frost-sensitive" -- should say "beans and broccoli are frost-sensitive" (or just "beans" since broccoli is frost-tolerant)
+- Rule `haven_bed_e_moisture_below_min` (line 168-171): Message says "broccoli and tomatoes need water" -- should say "broccoli and beans need water" (Tumbling Tom is not in this bed per the grid; beans are the other water-sensitive crop)
+- Rule `haven_bed_e_temperature_below_frost` (line 194-196): Message says "beans and tomatoes are frost-sensitive" -- should say "beans and broccoli are frost-sensitive" (or just "beans" since broccoli is frost-tolerant)
 - Danish translations must be updated in parallel
 
 **`data/crops/radish.json`:**

@@ -1,4 +1,4 @@
-# Havn -- A Learning Garden
+# Haven -- A Learning Garden
 
 ## What This Is
 

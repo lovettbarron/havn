@@ -1,8 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "crop.schema.json",
-  "title": "Havn Crop",
-  "description": "Schema for individual crop data files in the Havn garden project",
+  "title": "Haven Crop",
+  "description": "Schema for individual crop data files in the Haven garden project",
   "type": "object",
   "required": [
     "id", "name", "type", "difficulty", "growth_stages", "water_needs",

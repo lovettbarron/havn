@@ -1,6 +1,6 @@
-# Shopping List: Havn Garden Infrastructure
+# Shopping List: Haven Garden Infrastructure
 
-**Project:** Havn -- A Learning Garden
+**Project:** Haven -- A Learning Garden
 **Date:** 2026-03-28
 **Location:** Vejle, Denmark
 
@@ -22,16 +22,16 @@ All beds are corten steel from byJEMA. All prices are in DKK and were sourced in
 
 | # | Item | Specification | Qty | Unit Price | Total | Supplier | Link |
 |---|------|---------------|-----|-----------|-------|----------|------|
-| 3 | Hojbedsmuld (raised bed soil) | Organic raised bed soil mix, peat-free preferred | ~0.7 m3 | ~1,500/m3 | ~1,050 | sandshoppen.dk | [Hojbedsmuld](https://www.sandshoppen.dk/hoejbedsmuld/) |
-| 4 | Drainage gravel (singels) | Washed gravel 16-32mm | ~0.12 m3 | ~2,000/m3 | ~240 | Local byggemarked (Silvan/Bauhaus) | In-store |
-| 5 | Garden waste fill | Branches, leaves, grass clippings from own garden | -- | 0 | 0 | Own garden | -- |
-| | | **Soil subtotal** | | | **~1,290** | | |
+| 3 | Raised bed soil (højbedsmuld) | Organic raised bed soil mix, peat-free preferred (økologisk højbedsmuld) | ~0.8 m3 | ~1,500/m3 | ~1,200 | sandshoppen.dk | [Højbedsmuld](https://www.sandshoppen.dk/hoejbedsmuld/) |
+| 4 | Drainage gravel (vasket singels 16-32mm) | Washed gravel 16-32mm. Ask for "vasket singels" or "dræn singels". NOT granitskærver or perlesten. | ~0.2 m3 | ~2,000/m3 | ~400 | Local byggemarked (Silvan/Bauhaus) | In-store |
+| 5 | Garden waste fill (haveaffald) | Branches (grene), leaves (blade), grass clippings (græsafklip) from own garden | -- | 0 | 0 | Own garden | -- |
+| | | **Soil subtotal** | | | **~1,600** | | |
 
 ### Slug Defense
 
 | # | Item | Specification | Qty | Unit Price | Total | Supplier | Link |
 |---|------|---------------|-----|-----------|-------|----------|------|
-| 6 | Copper tape | Self-adhesive, 50mm width, 25m roll | 1 | ~200 | ~200 | Amazon.de or byggemarked | [Amazon.de search](https://www.amazon.de/s?k=kupferband+50mm+selbstklebend) |
+| 6 | Copper tape (kobbertape / kobberband) | Self-adhesive, 50mm width, 25m roll (selvklæbende kobberband 50mm) | 1 | ~200 | ~200 | Amazon.de or byggemarked | [Amazon.de search](https://www.amazon.de/s?k=kupferband+50mm+selbstklebend) |
 | | | **Slug defense subtotal** | | | **~200** | | |
 
 ### Reservoir Materials (for Bed A north zone only)
@@ -40,13 +40,13 @@ The reservoir uses a 6-channel header manifold oriented so the channels run alon
 
 | # | Item | Specification | Qty | Unit Price | Total | Supplier | Link |
 |---|------|---------------|-----|-----------|-------|----------|------|
-| 7 | PVC pipe | 50mm diameter, 3m length | 3 | ~50 | ~150 | Byggemarked (Silvan/Bauhaus) | In-store |
-| 8 | PVC T-fittings | 50mm, connects each channel to the header | 6 | ~15 | ~90 | Byggemarked | In-store |
-| 9 | PVC end caps | 50mm (6 for channel ends + 1 for header end) | 7 | ~10 | ~70 | Byggemarked | In-store |
-| 10 | PVC 90-degree elbow | 50mm, connects header to fill tube | 1 | ~15 | ~15 | Byggemarked | In-store |
-| 11 | PVC fill tube | 50mm diameter, 50cm length (cut from pipe) | 1 | -- | -- | (Cut from line 7) | -- |
-| 12 | Pond liner / EPDM | 0.5mm+ thickness, ~1.6x1.6m (lines north zone interior with 20cm up sides + dam) | 1 | ~250 | ~250 | Byggemarked | In-store |
-| 13 | Geotextile / ukrudtsdug | Water-permeable, soil-blocking, ~1.2x1.2m | 1 | ~100 | ~100 | Byggemarked | In-store |
+| 7 | PVC pipe (PVC rør 50mm) | 50mm diameter, 3m length (PVC trykrør 50mm, 3m) | 3 | ~50 | ~150 | Byggemarked (Silvan/Bauhaus) | In-store |
+| 8 | PVC T-fittings (PVC T-stykke 50mm) | 50mm, connects each channel to the header | 6 | ~15 | ~90 | Byggemarked | In-store |
+| 9 | PVC end caps (PVC slutmuffe / prop 50mm) | 50mm (6 for channel ends + 1 for header end) | 7 | ~10 | ~70 | Byggemarked | In-store |
+| 10 | PVC 90-degree elbow (PVC vinkelstykke 90° 50mm) | 50mm, connects header to fill tube | 1 | ~15 | ~15 | Byggemarked | In-store |
+| 11 | PVC fill tube (påfyldningsrør) | 50mm diameter, 50cm length (cut from pipe) | 1 | -- | -- | (Cut from line 7) | -- |
+| 12 | Pond liner (bassinfolie / EPDM-folie) | 0.5mm+ thickness, ~1.6x1.6m. Ask for "bassinfolie" or "damfolie" in the pond/garden section. | 1 | ~250 | ~250 | Byggemarked | In-store |
+| 13 | Geotextile (ukrudtsdug) | Water-permeable, soil-blocking, ~1.2x1.2m. Standard black weed fabric. | 1 | ~100 | ~100 | Byggemarked | In-store |
 | | | **Reservoir subtotal** | | | **~675** | | |
 
 **Pipe cut list:** 3x 3m lengths = 9m total. Cut to: 6x 100cm channels + 1x 110cm header + 1x 50cm fill tube = 8.6m (40cm spare). Drill 10-12mm holes every 10cm on the **top half** of each channel pipe before assembly.
@@ -57,17 +57,17 @@ The reservoir uses a 6-channel header manifold oriented so the channels run alon
 
 | # | Item | Specification | Qty | Unit Price | Total | Supplier | Link |
 |---|------|---------------|-----|-----------|-------|----------|------|
-| 14 | Frame uprights | Pressure-treated 45x45mm timber batten, 150cm | 2 | ~45 | ~90 | Byggemarked | In-store |
-| 15 | Top rail | Pressure-treated 45x45mm timber batten, 120cm | 1 | ~40 | ~40 | Byggemarked | In-store |
-| 16 | Climbing surface | Galvanized wire mesh 10x10cm grid, 120x120cm panel | 1 | ~90 | ~90 | Byggemarked | In-store |
-| 17 | Hardware | Galvanized bolts, brackets, and ground stakes for anchoring | 1 set | ~75 | ~75 | Byggemarked | In-store |
+| 14 | Frame uprights (trykimprægneret lægte 45x45mm) | Pressure-treated 45x45mm timber batten, 150cm | 2 | ~45 | ~90 | Byggemarked | In-store |
+| 15 | Top rail (trykimprægneret lægte 45x45mm) | Pressure-treated 45x45mm timber batten, 120cm | 1 | ~40 | ~40 | Byggemarked | In-store |
+| 16 | Climbing surface (galvaniseret trådnet / espaliernetl) | Galvanized wire mesh 10x10cm grid, 120x120cm panel | 1 | ~90 | ~90 | Byggemarked | In-store |
+| 17 | Hardware (bolte, beslag, jordspyd) | Galvanized bolts, brackets, and ground stakes for anchoring | 1 set | ~75 | ~75 | Byggemarked | In-store |
 | | | **Trellis subtotal** | | | **~295** | | |
 
 ### Mole and Vole Protection
 
 | # | Item | Specification | Qty | Unit Price | Total | Supplier | Link |
 |---|------|---------------|-----|-----------|-------|----------|------|
-| 18 | Hardware cloth (volieretråd) | Galvanized 6mm mesh, 1m x 5m roll | 1 | ~90 | ~90 | Silvan or Bauhaus Vejle | In-store |
+| 18 | Hardware cloth (volieretråd / hønsenet) | Galvanized 6mm mesh, 1m x 5m roll. Ask for "volieretråd 6mm" or "galvaniseret hønsenet". | 1 | ~90 | ~90 | Silvan or Bauhaus Vejle | In-store |
 | | | **Mole protection subtotal** | | | **~90** | | |
 
 Both beds sit bottomless on grass and need mesh to protect against burrowing pests. Cut mesh to: Bed A = 250x140cm, Bed B = 170x80cm. Total mesh area = ~4.9 m2. A 1m x 5m roll (5 m2) provides sufficient coverage with margin.
@@ -76,7 +76,7 @@ Both beds sit bottomless on grass and need mesh to protect against burrowing pes
 
 | # | Item | Specification | Qty | Unit Price | Total | Supplier | Link |
 |---|------|---------------|-----|-----------|-------|----------|------|
-| 19 | Rubbing alcohol (isopropyl) | For cleaning steel surface before copper tape application | 1 | ~30 | ~30 | Apotek or byggemarked | In-store |
+| 19 | Rubbing alcohol (isopropylalkohol / rensesprit) | For cleaning steel surface before copper tape application. Ask for "rensesprit" at apotek. | 1 | ~30 | ~30 | Apotek or byggemarked | In-store |
 | 20 | Drill + 10-12mm bit | For drilling PVC pipe drainage holes (skip if you already own a drill) | 1 | ~0 | ~0 | -- | -- |
 | | | **Tools subtotal** | | | **~30** | | |
 
@@ -87,15 +87,15 @@ Both beds sit bottomless on grass and need mesh to protect against burrowing pes
 | Category | Subtotal (DKK) |
 |----------|----------------|
 | Raised beds | ~4,600-5,300 |
-| Soil and fill | ~1,290 |
+| Soil and fill | ~1,600 |
 | Slug defense | ~200 |
 | Mole protection | ~90 |
 | Reservoir materials | ~675 |
 | Trellis materials | ~295 |
 | Tools/consumables | ~30 |
-| **TOTAL** | **~7,180-7,880** |
+| **TOTAL** | **~7,490-8,190** |
 
-Estimated range: **7,200 -- 7,900 DKK**
+Estimated range: **7,500 -- 8,200 DKK**
 
 ---
 

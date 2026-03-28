@@ -1,6 +1,6 @@
 # Planting Day Session Script
 
-**Project:** Havn -- A Learning Garden
+**Project:** Haven -- A Learning Garden
 **Target:** W16 (April 13-19, 2026) main planting day + W17-W18 follow-ups
 **Total W16 time:** ~65-85 minutes including break
 

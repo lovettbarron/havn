@@ -1,4 +1,4 @@
-# Milestones: Havn -- A Learning Garden
+# Milestones: Haven -- A Learning Garden
 
 ## v1.0 — Foundation Season
 

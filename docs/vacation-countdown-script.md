@@ -1,6 +1,6 @@
 # Vacation Countdown -- 3-Day Pre-Departure Script
 
-**Project:** Havn -- A Learning Garden
+**Project:** Haven -- A Learning Garden
 **Target:** 3 days before vacation departure (Day -3, Day -2, Day -1)
 **Total active time:** ~2-2.5 hours spread across 3 days
 **Audience:** Father runs the sessions; child participates with age-appropriate tasks

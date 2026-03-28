@@ -1,6 +1,6 @@
 # Warm-Season Planting Sessions -- Phase 3
 
-**Project:** Havn -- A Learning Garden
+**Project:** Haven -- A Learning Garden
 **Target:** Session 1 in W18 (May 1), Session 2 in W21 (May 20+)
 **Total Session 1 time:** ~30-45 minutes
 **Total Session 2 time:** ~70-90 minutes including break

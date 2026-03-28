@@ -10,7 +10,7 @@ requires:
     plan: 01
     provides: crop JSON files with moisture/temperature thresholds and bed-to-crop mappings
 provides:
-  - 10 HA template sensor definitions (moisture + temperature per bed) with havn_ prefix
+  - 10 HA template sensor definitions (moisture + temperature per bed) with haven_ prefix
   - 5 Plant Monitor configurations with most-restrictive thresholds derived from crop data
   - 15 bilingual alert rule definitions (dry, wet, frost per bed)
   - Entity customization with friendly names and mdi icons
@@ -37,7 +37,7 @@ key-decisions:
   - "Alert delay: 6 hours for moisture (avoid false alarms from watering), 0 hours for frost (immediate)"
 
 patterns-established:
-  - "HA entity naming: sensor.havn_bed_{letter}_{measurement} across all 4 JSON files"
+  - "HA entity naming: sensor.haven_bed_{letter}_{measurement} across all 4 JSON files"
   - "JSON yaml_output field pattern: each JSON file includes the exact HA YAML it would generate"
   - "Bilingual alert messages: {en: string, da: string} consistent with crop file pattern"
 
@@ -61,7 +61,7 @@ completed: 2026-03-27
 - **Files modified:** 5
 
 ## Accomplishments
-- Created complete HA entity layer: sensors, Plant Monitors, customizations, and alert rules with consistent havn_ naming across all files
+- Created complete HA entity layer: sensors, Plant Monitors, customizations, and alert rules with consistent haven_ naming across all files
 - Derived per-bed thresholds from crop data using most-restrictive logic (highest min moisture, lowest max moisture, highest frost threshold)
 - Produced actionable sensor buying guide with clear primary recommendation (Haozee TS0601_soil) and budget within 500-1000 DKK target
 

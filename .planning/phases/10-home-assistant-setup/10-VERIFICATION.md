@@ -47,7 +47,7 @@ re_verification: false
 
 | From | To | Via | Status | Details |
 |------|----|-----|--------|---------|
-| `docs/ha-setup-guide.md` | `data/ha/sensors.json` | YAML blocks containing `sensor.havn_bed_[ab]_moisture` and `sensor.havn_bed_[ab]_temperature` | WIRED | All 4 entity IDs from sensors.json `yaml_output` appear in the guide (32 references total); template YAML in Step 2 exactly matches sensors.json `yaml_output` field |
+| `docs/ha-setup-guide.md` | `data/ha/sensors.json` | YAML blocks containing `sensor.haven_bed_[ab]_moisture` and `sensor.haven_bed_[ab]_temperature` | WIRED | All 4 entity IDs from sensors.json `yaml_output` appear in the guide (32 references total); template YAML in Step 2 exactly matches sensors.json `yaml_output` field |
 | `docs/ha-setup-guide.md` | `data/ha/alert-rules.json` | Automation YAML derived from alert rules, containing `notify.mobile_app_REPLACEME` | WIRED | All 10 automation IDs from alert-rules.json are present in the guide; `notify.mobile_app_REPLACEME` appears 13 times covering all 10 automations; English notification messages match alert-rules.json `message.en` fields |
 
 ---
@@ -85,13 +85,13 @@ No blocker or warning anti-patterns found.
 #### 2. Notification test with real device
 
 **Test:** Follow Step 6 test procedure on a phone with the HA Companion App installed.
-**Expected:** Push notification arrives with title "Havn Garden Test" within a few seconds.
+**Expected:** Push notification arrives with title "Haven Garden Test" within a few seconds.
 **Why human:** Requires a live HA instance with a paired mobile device; cannot verify notification delivery programmatically.
 
 #### 3. Automation trigger with live sensor data
 
 **Test:** After installing Haozee sensors in W16+, allow moisture to drop below 40% and confirm notification fires after 6-hour delay.
-**Expected:** Push notification received matching the message in `havn_bed_a_moisture_below_min`.
+**Expected:** Push notification received matching the message in `haven_bed_a_moisture_below_min`.
 **Why human:** Requires physical sensor hardware not yet available (sensors are v2 scope, pre-purchase stage).
 
 ---

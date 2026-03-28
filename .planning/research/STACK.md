@@ -1,6 +1,6 @@
-# Technology Stack: Havn Learning Garden
+# Technology Stack: Haven Learning Garden
 
-**Project:** Havn -- Danish backyard learning garden with smart home monitoring
+**Project:** Haven -- Danish backyard learning garden with smart home monitoring
 **Domain:** Physical garden infrastructure + IoT sensor integration
 **Researched:** 2026-03-26
 **Overall confidence:** MEDIUM-HIGH (prices verified against Danish retailer websites; sensor compatibility verified against Home Assistant community testing)

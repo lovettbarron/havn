@@ -122,7 +122,7 @@ Take one photo per garden visit. That is it.
 ### How It Works
 
 1. **Who takes the photo:** Father takes it, OR the child chooses what to photograph and the father captures it on his phone.
-2. **Where it goes:** A shared album called "Havn 2026" (Apple Photos, Google Photos, or whichever the family already uses).
+2. **Where it goes:** A shared album called "Haven 2026" (Apple Photos, Google Photos, or whichever the family already uses).
 3. **No captions needed.** The date metadata on the photo is enough. If the child wants to say something about the photo, the father can add a one-word caption -- but this is optional, not expected.
 4. **What to photograph:** Whatever caught the child's attention that day. A sprout pushing through soil. A bug on a leaf. A ripe strawberry. A tall sunflower. Mud on his hands. The child choosing the subject IS the engagement.
 

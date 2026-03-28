@@ -1,26 +1,26 @@
 {
-  "_doc": "Home Assistant entity customization -- friendly names and icons for all Havn garden sensors.",
+  "_doc": "Home Assistant entity customization -- friendly names and icons for all Haven garden sensors.",
   "entities": [
     {
-      "entity_id": "sensor.havn_bed_a_moisture",
+      "entity_id": "sensor.haven_bed_a_moisture",
       "friendly_name": "Bed A (Family Bed) - Soil Moisture",
       "icon": "mdi:water-percent"
     },
     {
-      "entity_id": "sensor.havn_bed_a_temperature",
+      "entity_id": "sensor.haven_bed_a_temperature",
       "friendly_name": "Bed A (Family Bed) - Soil Temperature",
       "icon": "mdi:thermometer"
     },
     {
-      "entity_id": "sensor.havn_bed_b_moisture",
+      "entity_id": "sensor.haven_bed_b_moisture",
       "friendly_name": "Bed B (His Bed) - Soil Moisture",
       "icon": "mdi:water-percent"
     },
     {
-      "entity_id": "sensor.havn_bed_b_temperature",
+      "entity_id": "sensor.haven_bed_b_temperature",
       "friendly_name": "Bed B (His Bed) - Soil Temperature",
       "icon": "mdi:thermometer"
     }
   ],
-  "yaml_output": "# customize.yaml\nhomeassistant:\n  customize:\n    sensor.havn_bed_a_moisture:\n      friendly_name: \"Bed A (Family Bed) - Soil Moisture\"\n      icon: mdi:water-percent\n    sensor.havn_bed_a_temperature:\n      friendly_name: \"Bed A (Family Bed) - Soil Temperature\"\n      icon: mdi:thermometer\n    sensor.havn_bed_b_moisture:\n      friendly_name: \"Bed B (His Bed) - Soil Moisture\"\n      icon: mdi:water-percent\n    sensor.havn_bed_b_temperature:\n      friendly_name: \"Bed B (His Bed) - Soil Temperature\"\n      icon: mdi:thermometer\n"
+  "yaml_output": "# customize.yaml\nhomeassistant:\n  customize:\n    sensor.haven_bed_a_moisture:\n      friendly_name: \"Bed A (Family Bed) - Soil Moisture\"\n      icon: mdi:water-percent\n    sensor.haven_bed_a_temperature:\n      friendly_name: \"Bed A (Family Bed) - Soil Temperature\"\n      icon: mdi:thermometer\n    sensor.haven_bed_b_moisture:\n      friendly_name: \"Bed B (His Bed) - Soil Moisture\"\n      icon: mdi:water-percent\n    sensor.haven_bed_b_temperature:\n      friendly_name: \"Bed B (His Bed) - Soil Temperature\"\n      icon: mdi:thermometer\n"
 }

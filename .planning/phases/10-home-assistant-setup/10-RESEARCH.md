@@ -30,7 +30,7 @@ This phase produces markdown documentation with embedded YAML. No libraries or p
 
 | Component | HA Docs Path | Purpose | Why Standard |
 |-----------|-------------|---------|--------------|
-| Template sensors | `/integrations/template/` | Wrap Zigbee raw sensors into havn_ namespace | Native HA, no custom components needed |
+| Template sensors | `/integrations/template/` | Wrap Zigbee raw sensors into haven_ namespace | Native HA, no custom components needed |
 | Plant Monitor | `/integrations/plant/` | Per-bed health monitoring with thresholds | Built-in integration, ~2000 active installs, community maintained |
 | Automations | `/docs/automation/yaml/` | Alert rules for moisture/temperature thresholds | Core HA feature |
 | Lovelace gauge card | `/dashboards/gauge/` | Moisture display with color severity | Built-in card, no HACS dependency |
@@ -81,7 +81,7 @@ Two sections, one per bed. Each section has:
 ```yaml
 # Bed A moisture gauge with severity colors
 type: gauge
-entity: sensor.havn_bed_a_moisture
+entity: sensor.haven_bed_a_moisture
 name: Bed A Soil Moisture
 unit: '%'
 min: 0
@@ -96,7 +96,7 @@ severity:
 ```yaml
 # Bed A temperature gauge with frost warning
 type: gauge
-entity: sensor.havn_bed_a_temperature
+entity: sensor.haven_bed_a_temperature
 name: Bed A Soil Temperature
 unit: 'C'
 min: -5
@@ -119,18 +119,18 @@ The alert-rules.json uses a `delay_hours` field. In HA, this maps to the `for` p
 
 ```yaml
 automation:
-  - alias: "Havn: Bed A moisture below 40%"
-    id: havn_bed_a_moisture_below_min
+  - alias: "Haven: Bed A moisture below 40%"
+    id: haven_bed_a_moisture_below_min
     triggers:
       - trigger: numeric_state
-        entity_id: sensor.havn_bed_a_moisture
+        entity_id: sensor.haven_bed_a_moisture
         below: 40
         for:
           hours: 6
     actions:
       - action: notify.mobile_app_REPLACEME
         data:
-          title: "Havn Garden"
+          title: "Haven Garden"
           message: "Bed A (Family Bed) soil moisture is below 40% -- time to water!"
 ```
 
@@ -196,23 +196,23 @@ Where `<device_name>` is derived from the phone name in Settings > General > Abo
 # configuration.yaml
 template:
   - sensor:
-      - name: "Havn Bed A Soil Moisture"
-        unique_id: havn_bed_a_moisture
+      - name: "Haven Bed A Soil Moisture"
+        unique_id: haven_bed_a_moisture
         unit_of_measurement: "%"
         device_class: moisture
         state: "{{ states('sensor.zigbee_soil_sensor_bed_a_moisture') | float(0) }}"
-      - name: "Havn Bed A Soil Temperature"
-        unique_id: havn_bed_a_temperature
+      - name: "Haven Bed A Soil Temperature"
+        unique_id: haven_bed_a_temperature
         unit_of_measurement: "C"
         device_class: temperature
         state: "{{ states('sensor.zigbee_soil_sensor_bed_a_temperature') | float(0) }}"
-      - name: "Havn Bed B Soil Moisture"
-        unique_id: havn_bed_b_moisture
+      - name: "Haven Bed B Soil Moisture"
+        unique_id: haven_bed_b_moisture
         unit_of_measurement: "%"
         device_class: moisture
         state: "{{ states('sensor.zigbee_soil_sensor_bed_b_moisture') | float(0) }}"
-      - name: "Havn Bed B Soil Temperature"
-        unique_id: havn_bed_b_temperature
+      - name: "Haven Bed B Soil Temperature"
+        unique_id: haven_bed_b_temperature
         unit_of_measurement: "C"
         device_class: temperature
         state: "{{ states('sensor.zigbee_soil_sensor_bed_b_temperature') | float(0) }}"
@@ -223,17 +223,17 @@ template:
 ```yaml
 # configuration.yaml
 plant:
-  havn_bed_a:
+  haven_bed_a:
     sensors:
-      moisture: sensor.havn_bed_a_moisture
-      temperature: sensor.havn_bed_a_temperature
+      moisture: sensor.haven_bed_a_moisture
+      temperature: sensor.haven_bed_a_temperature
     min_moisture: 40
     max_moisture: 55
     min_temperature: 0
-  havn_bed_b:
+  haven_bed_b:
     sensors:
-      moisture: sensor.havn_bed_b_moisture
-      temperature: sensor.havn_bed_b_temperature
+      moisture: sensor.haven_bed_b_moisture
+      temperature: sensor.haven_bed_b_temperature
     min_moisture: 40
     max_moisture: 50
     min_temperature: 0
@@ -245,16 +245,16 @@ plant:
 # customize.yaml (referenced from configuration.yaml)
 homeassistant:
   customize:
-    sensor.havn_bed_a_moisture:
+    sensor.haven_bed_a_moisture:
       friendly_name: "Bed A (Family Bed) - Soil Moisture"
       icon: mdi:water-percent
-    sensor.havn_bed_a_temperature:
+    sensor.haven_bed_a_temperature:
       friendly_name: "Bed A (Family Bed) - Soil Temperature"
       icon: mdi:thermometer
-    sensor.havn_bed_b_moisture:
+    sensor.haven_bed_b_moisture:
       friendly_name: "Bed B (His Bed) - Soil Moisture"
       icon: mdi:water-percent
-    sensor.havn_bed_b_temperature:
+    sensor.haven_bed_b_temperature:
       friendly_name: "Bed B (His Bed) - Soil Temperature"
       icon: mdi:thermometer
 ```
@@ -263,30 +263,30 @@ homeassistant:
 
 ```yaml
 # automations.yaml
-- alias: "Havn: Bed A moisture below 40%"
-  id: havn_bed_a_moisture_below_min
+- alias: "Haven: Bed A moisture below 40%"
+  id: haven_bed_a_moisture_below_min
   triggers:
     - trigger: numeric_state
-      entity_id: sensor.havn_bed_a_moisture
+      entity_id: sensor.haven_bed_a_moisture
       below: 40
       for:
         hours: 6
   actions:
     - action: notify.mobile_app_REPLACEME
       data:
-        title: "Havn Garden"
+        title: "Haven Garden"
         message: "Bed A (Family Bed) soil moisture is below 40% -- time to water!"
 
-- alias: "Havn: Bed A frost warning"
-  id: havn_bed_a_temperature_below_frost
+- alias: "Haven: Bed A frost warning"
+  id: haven_bed_a_temperature_below_frost
   triggers:
     - trigger: numeric_state
-      entity_id: sensor.havn_bed_a_temperature
+      entity_id: sensor.haven_bed_a_temperature
       below: 0
   actions:
     - action: notify.mobile_app_REPLACEME
       data:
-        title: "Havn Garden - FROST"
+        title: "Haven Garden - FROST"
         message: "Frost warning for Bed A (Family Bed)! Soil temperature at 0C. Cover sensitive plants with fleece."
 ```
 
@@ -298,7 +298,7 @@ type: vertical-stack
 title: Bed A - Family Bed
 cards:
   - type: gauge
-    entity: sensor.havn_bed_a_moisture
+    entity: sensor.haven_bed_a_moisture
     name: Soil Moisture
     unit: '%'
     min: 0
@@ -309,7 +309,7 @@ cards:
       yellow: 25
       red: 0
   - type: gauge
-    entity: sensor.havn_bed_a_temperature
+    entity: sensor.haven_bed_a_temperature
     name: Soil Temperature
     unit: 'C'
     min: -5
@@ -320,7 +320,7 @@ cards:
       yellow: 0
       red: -5
   - type: entity
-    entity: plant.havn_bed_a
+    entity: plant.haven_bed_a
     name: Bed A Health
 ```
 

@@ -1,6 +1,6 @@
 # Master Setup Guide: Build Day Sequence
 
-**Project:** Havn -- A Learning Garden
+**Project:** Haven -- A Learning Garden
 **Date:** 2026-03-28
 
 This guide sequences the complete garden infrastructure build from the day materials arrive through the first watering. Follow the steps in order -- each step builds on the previous one, and some things (like reservoirs and copper tape) must happen before others (like adding soil).

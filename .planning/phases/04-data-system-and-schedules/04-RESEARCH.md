@@ -6,9 +6,9 @@
 
 ## Summary
 
-Phase 4 establishes the canonical JSON data layer for the entire Havn project. This is a documentation/data project, not a software project -- the deliverables are JSON files that describe crops, weekly schedules, succession calendars, and Home Assistant entity schemas. The technical complexity lies in schema design that serves multiple consumers (human reading, HA Plant Monitor integration, future IoT automations, and Phase 5 doc generation) while remaining maintainable by hand.
+Phase 4 establishes the canonical JSON data layer for the entire Haven project. This is a documentation/data project, not a software project -- the deliverables are JSON files that describe crops, weekly schedules, succession calendars, and Home Assistant entity schemas. The technical complexity lies in schema design that serves multiple consumers (human reading, HA Plant Monitor integration, future IoT automations, and Phase 5 doc generation) while remaining maintainable by hand.
 
-The crop database covers approximately 25 distinct plant species across 5 beds (A-E), each requiring growth stage timelines calibrated to Danish zone 7b conditions (Vejle area, ~55.7N). Weekly schedules span W15-W44 (30 weeks), each with themed names, prioritized tasks, and child-friendly growth event prompts. The Home Assistant schemas must follow the official Plant Monitor integration format with per-bed sensors using the `havn_` prefix convention.
+The crop database covers approximately 25 distinct plant species across 5 beds (A-E), each requiring growth stage timelines calibrated to Danish zone 7b conditions (Vejle area, ~55.7N). Weekly schedules span W15-W44 (30 weeks), each with themed names, prioritized tasks, and child-friendly growth event prompts. The Home Assistant schemas must follow the official Plant Monitor integration format with per-bed sensors using the `haven_` prefix convention.
 
 **Primary recommendation:** Design one JSON schema per concern (crop, bed, week, succession-calendar, HA sensors, HA plants), keep files flat and human-readable, and use `$ref` cross-references by filename rather than deep nesting. The Haozee Zigbee soil sensor is the clear hardware recommendation based on community testing.
 
@@ -30,7 +30,7 @@ The crop database covers approximately 25 distinct plant species across 5 beds (
 - Master succession-calendar.json shows full season sowing/harvest timeline with gap analysis
 - JSON is the source of truth; HA YAML is generated/derived from JSON
 - Split by concern: sensors.json, plants.json, customize.json -- each generates its own YAML output
-- Per-bed sensors (not per-crop): havn_bed_a_moisture, havn_bed_a_temperature, etc.
+- Per-bed sensors (not per-crop): haven_bed_a_moisture, haven_bed_a_temperature, etc.
 - Plant Monitor configs map crop thresholds to bed sensors
 - Alert rules included in JSON: trigger type, delay hours, message template, notification target
 - Bilingual alert messages with i18n keys (da + en) for all notification text
@@ -61,7 +61,7 @@ None -- discussion stayed within phase scope
 | DATA-01 | JSON schema for crop database (growth stages, water needs, harvest timing, companion plants, difficulty tier, child actions, alert triggers) | Schema pattern with field inventory documented below; JSON Schema Draft 2020-12 recommended for formal validation |
 | DATA-02 | Individual JSON crop files for every planted crop with all schema fields populated | Complete plant inventory (25+ species) derived from existing planting grids; growth timelines for Danish zone 7b researched |
 | DATA-03 | Weekly schedule JSON files (one per ISO week) with themed names, prioritized tasks, expected growth events | 30-week span (W15-W44) with task structure, themed naming approach, and growth event prompt patterns documented |
-| DATA-04 | Home Assistant entity schema following havn_ prefix convention with per-bed sensor entities | HA entity naming conventions researched; template sensor YAML format documented |
+| DATA-04 | Home Assistant entity schema following haven_ prefix convention with per-bed sensor entities | HA entity naming conventions researched; template sensor YAML format documented |
 | DATA-05 | Home Assistant Plant Monitor configuration with moisture/temperature thresholds per crop | Official Plant Monitor integration YAML format verified (active integration, ~1971 installations); threshold fields documented |
 | DATA-06 | Zigbee/LoRaWAN sensor recommendations with specific models, prices, and HA compatibility confirmation | Sensor shootout data analyzed; Haozee wins; ThirdReality and Dragino LSE01 as alternatives; pricing researched |
 | SCHED-02 | Staggered planting schedule ensuring continuous harvest from late May through October | Succession methodology documented; gap analysis approach using harvest-window overlap verification |
@@ -316,8 +316,8 @@ data/
     }
   ],
   "ha_sensors": {
-    "moisture": "sensor.havn_bed_a_moisture",
-    "temperature": "sensor.havn_bed_a_temperature"
+    "moisture": "sensor.haven_bed_a_moisture",
+    "temperature": "sensor.haven_bed_a_temperature"
   }
 }
 ```
@@ -433,7 +433,7 @@ data/
 | Problem | Don't Build | Use Instead | Why |
 |---------|-------------|-------------|-----|
 | Danish growing timelines | Guessing week numbers | Cross-reference planting grids (already have exact sow weeks from Phase 2) + standard zone 7b maturity data | Existing grids have exact dates; supplement with days-to-maturity from seed packets |
-| HA entity naming | Inventing entity ID patterns | Follow HA official convention: `sensor.havn_bed_{letter}_{measurement}` | HA auto-generates entity IDs from name; custom IDs must use `unique_id` |
+| HA entity naming | Inventing entity ID patterns | Follow HA official convention: `sensor.haven_bed_{letter}_{measurement}` | HA auto-generates entity IDs from name; custom IDs must use `unique_id` |
 | Plant Monitor thresholds | Making up moisture/temp ranges | Use crop-specific thresholds from agricultural references; the sensor shootout data for calibration context | Threshold values directly affect alert accuracy |
 | ISO week calculations | Manual date math | Use ISO 8601 week numbering; 2026 W15 = Apr 6-12, W44 = Oct 26-Nov 1 | Week boundaries must match ISO standard |
 
@@ -479,10 +479,10 @@ data/
 # This YAML would be generated FROM data/ha/plants.json
 
 plant:
-  havn_bed_a:
+  haven_bed_a:
     sensors:
-      moisture: sensor.havn_bed_a_moisture
-      temperature: sensor.havn_bed_a_temperature
+      moisture: sensor.haven_bed_a_moisture
+      temperature: sensor.haven_bed_a_temperature
     # Use the most restrictive thresholds from Bed A crops
     # Strawberry Ostara: min 30%, max 70%
     # Thyme: min 20%, max 50% (most restrictive max)
@@ -491,18 +491,18 @@ plant:
     max_moisture: 70
     min_temperature: 5
 
-  havn_bed_b:
+  haven_bed_b:
     sensors:
-      moisture: sensor.havn_bed_b_moisture
-      temperature: sensor.havn_bed_b_temperature
+      moisture: sensor.haven_bed_b_moisture
+      temperature: sensor.haven_bed_b_temperature
     min_moisture: 25
     max_moisture: 65
     min_temperature: 3
 
-  havn_bed_c:
+  haven_bed_c:
     sensors:
-      moisture: sensor.havn_bed_c_moisture
-      temperature: sensor.havn_bed_c_temperature
+      moisture: sensor.haven_bed_c_moisture
+      temperature: sensor.haven_bed_c_temperature
     min_moisture: 30
     max_moisture: 75
     min_temperature: 5
@@ -511,18 +511,18 @@ plant:
 ### Home Assistant Template Sensor YAML (derived from sensors.json)
 ```yaml
 # Source: https://www.home-assistant.io/docs/configuration/customizing-devices/
-# Per-bed sensors with havn_ prefix
+# Per-bed sensors with haven_ prefix
 
 template:
   - sensor:
-      - name: "Havn Bed A Moisture"
-        unique_id: havn_bed_a_moisture
+      - name: "Haven Bed A Moisture"
+        unique_id: haven_bed_a_moisture
         unit_of_measurement: "%"
         device_class: moisture
         state: "{{ states('sensor.zigbee_soil_sensor_bed_a_soil_moisture') }}"
 
-      - name: "Havn Bed A Temperature"
-        unique_id: havn_bed_a_temperature
+      - name: "Haven Bed A Temperature"
+        unique_id: haven_bed_a_temperature
         unit_of_measurement: "C"
         device_class: temperature
         state: "{{ states('sensor.zigbee_soil_sensor_bed_a_temperature') }}"
@@ -533,10 +533,10 @@ template:
 # Source: https://www.home-assistant.io/docs/configuration/customizing-devices/
 homeassistant:
   customize:
-    sensor.havn_bed_a_moisture:
+    sensor.haven_bed_a_moisture:
       friendly_name: "Bed A (His Bed) - Soil Moisture"
       icon: mdi:water-percent
-    sensor.havn_bed_a_temperature:
+    sensor.haven_bed_a_temperature:
       friendly_name: "Bed A (His Bed) - Temperature"
       icon: mdi:thermometer
 ```
@@ -546,7 +546,7 @@ homeassistant:
 {
   "id": "bed-a-dry",
   "trigger": "moisture_below_min",
-  "entity": "sensor.havn_bed_a_moisture",
+  "entity": "sensor.haven_bed_a_moisture",
   "threshold": 30,
   "delay_hours": 6,
   "message": {
@@ -716,7 +716,7 @@ All crops that need JSON files, derived from Phase 2 planting grids and Phase 3 
 | DATA-01 | Crop schema defines all required fields | manual review | Verify schema file has growth_stages, water_needs, harvest, companion_plants, difficulty, child_actions, alert thresholds | Wave 0 |
 | DATA-02 | Every planted crop has a populated JSON file | manual count | `ls data/crops/*.json \| wc -l` should be >= 27 | Wave 0 |
 | DATA-03 | Weekly schedule JSON files W15-W44 exist with required fields | manual count | `ls data/schedules/w*.json \| wc -l` should be 30 | Wave 0 |
-| DATA-04 | HA entity schema uses havn_ prefix, per-bed sensors | manual review | Check sensors.json for havn_bed_{a-e}_{measurement} pattern | Wave 0 |
+| DATA-04 | HA entity schema uses haven_ prefix, per-bed sensors | manual review | Check sensors.json for haven_bed_{a-e}_{measurement} pattern | Wave 0 |
 | DATA-05 | HA Plant Monitor configs have moisture/temp thresholds | manual review | Check plants.json has min_moisture, max_moisture, min_temperature per bed | Wave 0 |
 | DATA-06 | Sensor recommendations with models, prices, HA compatibility | manual review | Check sensor-recommendations.md for 2-3 Zigbee + 1 LoRaWAN with prices | Wave 0 |
 | SCHED-02 | No 2-week harvest gap late May through October | manual review | Check succession-calendar.json gap_analysis.gaps_found is empty | Wave 0 |

@@ -1,4 +1,4 @@
-# Havn -- A Learning Garden
+# Haven -- A Learning Garden
 
 Backyard raised-bed garden in Vejle, Denmark, designed to build developmental agency in a 7-year-old with ADHD/Autism.
 
@@ -133,7 +133,7 @@ When working on this project, push back if I try to:
 ## Key Conventions
 
 - All documentation is markdown in `docs/`
-- Home Assistant entities use `havn_` prefix (e.g., `havn_bed_a_moisture`)
+- Home Assistant entities use `haven_` prefix (e.g., `haven_bed_a_moisture`)
 - Bed letters A-B are canonical -- never use Bed 1-2 or Bed C/D/E in new documents
 - Danish plant names appear alongside English where relevant (e.g., tomat/tomato, agurk/cucumber)
 - Photo placeholders use `[PHOTO: description]` format for in-season replacement

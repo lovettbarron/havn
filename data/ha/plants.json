@@ -2,12 +2,12 @@
   "_doc": "Home Assistant Plant Monitor configurations per bed. Thresholds are the most restrictive across all crops in each bed.",
   "plants": [
     {
-      "id": "plant.havn_bed_a",
-      "name": "Havn Bed A - Family Bed",
+      "id": "plant.haven_bed_a",
+      "name": "Haven Bed A - Family Bed",
       "bed_id": "bed-a",
       "sensors": {
-        "moisture": "sensor.havn_bed_a_moisture",
-        "temperature": "sensor.havn_bed_a_temperature"
+        "moisture": "sensor.haven_bed_a_moisture",
+        "temperature": "sensor.haven_bed_a_temperature"
       },
       "thresholds": {
         "min_moisture": 40,
@@ -19,15 +19,15 @@
           "min_temperature_from": "cucumber-mini-munch (4C -- highest frost threshold, tied with basil and pepper). Using 0C as bed-wide alert since south zone has hardy raspberries."
         }
       },
-      "yaml_output": "# Plant Monitor for Bed A\nplant:\n  havn_bed_a:\n    sensors:\n      moisture: sensor.havn_bed_a_moisture\n      temperature: sensor.havn_bed_a_temperature\n    min_moisture: 40\n    max_moisture: 55\n    min_temperature: 0\n"
+      "yaml_output": "# Plant Monitor for Bed A\nplant:\n  haven_bed_a:\n    sensors:\n      moisture: sensor.haven_bed_a_moisture\n      temperature: sensor.haven_bed_a_temperature\n    min_moisture: 40\n    max_moisture: 55\n    min_temperature: 0\n"
     },
     {
-      "id": "plant.havn_bed_b",
-      "name": "Havn Bed B - His Bed",
+      "id": "plant.haven_bed_b",
+      "name": "Haven Bed B - His Bed",
       "bed_id": "bed-b",
       "sensors": {
-        "moisture": "sensor.havn_bed_b_moisture",
-        "temperature": "sensor.havn_bed_b_temperature"
+        "moisture": "sensor.haven_bed_b_moisture",
+        "temperature": "sensor.haven_bed_b_temperature"
       },
       "thresholds": {
         "min_moisture": 40,
@@ -39,7 +39,7 @@
           "min_temperature_from": "sunflower (0C -- highest frost threshold)"
         }
       },
-      "yaml_output": "# Plant Monitor for Bed B\nplant:\n  havn_bed_b:\n    sensors:\n      moisture: sensor.havn_bed_b_moisture\n      temperature: sensor.havn_bed_b_temperature\n    min_moisture: 40\n    max_moisture: 50\n    min_temperature: 0\n"
+      "yaml_output": "# Plant Monitor for Bed B\nplant:\n  haven_bed_b:\n    sensors:\n      moisture: sensor.haven_bed_b_moisture\n      temperature: sensor.haven_bed_b_temperature\n    min_moisture: 40\n    max_moisture: 50\n    min_temperature: 0\n"
     }
   ]
 }

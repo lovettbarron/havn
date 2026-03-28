@@ -1,4 +1,4 @@
-# Requirements: Havn -- A Learning Garden
+# Requirements: Haven -- A Learning Garden
 
 **Defined:** 2026-03-26
 **Core Value:** A child who independently checks on, cares for, and harvests from plants he chose to grow
@@ -77,7 +77,7 @@
 - [x] **DATA-01**: JSON schema for crop database (growth stages, water needs, harvest timing, companion plants, difficulty tier, child actions, alert triggers)
 - [x] **DATA-02**: Individual JSON crop files for every planted crop with all schema fields populated
 - [x] **DATA-03**: Weekly schedule JSON files (one per ISO week) with themed names, prioritized tasks, expected growth events
-- [x] **DATA-04**: Home Assistant entity schema following havn_ prefix convention with per-bed sensor entities
+- [x] **DATA-04**: Home Assistant entity schema following haven_ prefix convention with per-bed sensor entities
 - [x] **DATA-05**: Home Assistant Plant Monitor configuration with moisture/temperature thresholds per crop
 - [x] **DATA-06**: Zigbee/LoRaWAN sensor recommendations with specific models, prices, and HA compatibility confirmation
 

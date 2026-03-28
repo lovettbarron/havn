@@ -1,6 +1,6 @@
 # Bug Hotel and Pollinator Water Stations Guide
 
-**Project:** Havn -- A Learning Garden
+**Project:** Haven -- A Learning Garden
 **When:** Separate weekend activity, W17 or W18 (NOT on planting day)
 **Duration:** ~30-45 minutes for bug hotel construction + 10 minutes for water station setup
 **Who:** Father and child together

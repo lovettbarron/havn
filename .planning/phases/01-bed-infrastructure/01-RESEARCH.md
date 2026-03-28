@@ -262,7 +262,7 @@ This phase produces documentation, not code. "Code examples" here are templates 
 
 ### Shopping List Format
 ```markdown
-## Shopping List: Havn Garden Infrastructure
+## Shopping List: Haven Garden Infrastructure
 
 ### Option A: Hybrid Corten + Galvanized (Recommended)
 

@@ -1,4 +1,4 @@
-# Havn -- A Learning Garden
+# Haven -- A Learning Garden
 
 A backyard garden project in Vejle, Denmark designed as a developmental tool for a neurodiverse 7-year-old. The garden gives him incrementally increasing agency over something living -- his own raised beds, his own routines, his own harvest decisions -- while producing tangible, edible output from his work.
 

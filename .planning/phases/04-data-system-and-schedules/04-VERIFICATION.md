@@ -24,7 +24,7 @@ re_verification: false
 | 1 | A JSON schema defines all crop fields (growth stages, water needs, harvest timing, companion plants, difficulty tier, child actions, alert triggers) and every planted crop has a populated JSON file | VERIFIED | crop.schema.json covers all 14 required field groups; 27 crop files all pass JSON validation, each with growth_stages (3-5 stages), child_actions (bilingual en/da prompts per stage), difficulty.tier, water_needs, harvest, companion_plants, and alerts |
 | 2 | Weekly schedule JSON files exist for W15 through W44 with themed names, prioritized tasks, and expected growth events | VERIFIED | 30 files in data/schedules/ (w15.json-w44.json); all valid JSON; all 30 have theme.name (en+da), theme.hero_task, and at least one must_do task; crop_id references in tasks all resolve to actual crop files |
 | 3 | A staggered planting schedule ensures continuous harvest from late May through October with no 2-week gap | VERIFIED | data/succession-calendar.json gap_analysis covers W22-W43; gaps_found: [] (empty); coverage_ok: true; no week has fewer than 2 harvestable crops; radish has 9 sowings, lettuce 6, spring onion 4 |
-| 4 | Home Assistant entity schemas follow the havn_ prefix convention with per-bed sensor entities and Plant Monitor configurations | VERIFIED | sensors.json: 10 entities (havn_bed_a/b/c/d/e_moisture and _temperature); plants.json: 5 Plant Monitor configs with sensor.havn_bed_X_moisture refs; alert-rules.json: 15 bilingual rules referencing sensor.havn_bed_X entities; all entity IDs consistent across 4 HA files |
+| 4 | Home Assistant entity schemas follow the haven_ prefix convention with per-bed sensor entities and Plant Monitor configurations | VERIFIED | sensors.json: 10 entities (haven_bed_a/b/c/d/e_moisture and _temperature); plants.json: 5 Plant Monitor configs with sensor.haven_bed_X_moisture refs; alert-rules.json: 15 bilingual rules referencing sensor.haven_bed_X entities; all entity IDs consistent across 4 HA files |
 | 5 | Zigbee/LoRaWAN sensor recommendations are documented with specific models, prices, and HA compatibility | VERIFIED | data/sensors/sensor-recommendations.md (134 lines): Haozee primary "BUY THIS ONE", ThirdReality alternative, Dragino LoRaWAN fallback, GXM-01 warning, DKK pricing table, HA compatibility notes |
 
 **Score:** 5/5 truths verified
@@ -42,7 +42,7 @@ re_verification: false
 | `data/crops/strawberry-ostara.json` | Example fully populated crop file | VERIFIED | All 14 fields populated; difficulty.tier=cant_fail; 5 growth stages; bilingual prompts; $schema reference resolves |
 | `data/beds/bed-a.json` | Bed-to-crop mapping with positions | VERIFIED | 11 crops with crop_id references; succession_slots present; ha_sensors entity refs set |
 | `data/crops/*.json` (27 files) | All planted crops with full field population | VERIFIED | 27 files; all valid JSON; all have growth_stages, child_actions, difficulty.tier, water_needs, harvest, companion_plants, alerts; zero missing fields across entire set |
-| `data/beds/*.json` (5 files) | All beds with crop mappings | VERIFIED | 5 files; all valid JSON; all have ha_sensors with sensor.havn_bed_X_moisture/temperature |
+| `data/beds/*.json` (5 files) | All beds with crop mappings | VERIFIED | 5 files; all valid JSON; all have ha_sensors with sensor.haven_bed_X_moisture/temperature |
 
 #### Plan 04-02 Artifacts
 
@@ -57,10 +57,10 @@ re_verification: false
 
 | Artifact | Expected | Status | Details |
 |----------|----------|--------|---------|
-| `data/ha/sensors.json` | Template sensor definitions for per-bed Zigbee sensors | VERIFIED | 10 sensor entries; havn_bed_a/b/c/d/e_moisture and _temperature; yaml_output field present |
-| `data/ha/plants.json` | Plant Monitor configurations with per-bed thresholds | VERIFIED | 5 Plant Monitor entries (one per bed); min_moisture present; 10 sensor.havn_bed_X_moisture refs |
+| `data/ha/sensors.json` | Template sensor definitions for per-bed Zigbee sensors | VERIFIED | 10 sensor entries; haven_bed_a/b/c/d/e_moisture and _temperature; yaml_output field present |
+| `data/ha/plants.json` | Plant Monitor configurations with per-bed thresholds | VERIFIED | 5 Plant Monitor entries (one per bed); min_moisture present; 10 sensor.haven_bed_X_moisture refs |
 | `data/ha/customize.json` | Entity customization with friendly names and icons | VERIFIED | 10 entity customizations; friendly_name present; yaml_output field present |
-| `data/ha/alert-rules.json` | Automation-ready alert rule definitions | VERIFIED | 15 rules; delay_hours present; bilingual da+en messages; 15 sensor.havn_bed_X refs |
+| `data/ha/alert-rules.json` | Automation-ready alert rule definitions | VERIFIED | 15 rules; delay_hours present; bilingual da+en messages; 15 sensor.haven_bed_X refs |
 | `data/sensors/sensor-recommendations.md` | Hardware buying guide with prices and compatibility | VERIFIED | 134 lines; Haozee primary recommendation; DKK pricing; LoRaWAN fallback; Dragino and ThirdReality documented |
 
 ---
@@ -86,9 +86,9 @@ re_verification: false
 
 | From | To | Via | Status | Details |
 |------|----|-----|--------|---------|
-| `data/ha/plants.json` | `data/ha/sensors.json` | sensor entity ID references | VERIFIED | 10 occurrences of sensor.havn_bed_[a-e]_moisture in plants.json |
-| `data/ha/sensors.json` | `data/crops/*.json` | threshold values derived from crop water_needs | VERIFIED | havn_bed_[a-e]_moisture and _temperature IDs present (10 unique); bed-crop mapping consistent |
-| `data/ha/alert-rules.json` | `data/ha/sensors.json` | entity refs in trigger rules | VERIFIED | 15 sensor.havn_bed_[a-e] references in alert rules -- one per bed per alert type |
+| `data/ha/plants.json` | `data/ha/sensors.json` | sensor entity ID references | VERIFIED | 10 occurrences of sensor.haven_bed_[a-e]_moisture in plants.json |
+| `data/ha/sensors.json` | `data/crops/*.json` | threshold values derived from crop water_needs | VERIFIED | haven_bed_[a-e]_moisture and _temperature IDs present (10 unique); bed-crop mapping consistent |
+| `data/ha/alert-rules.json` | `data/ha/sensors.json` | entity refs in trigger rules | VERIFIED | 15 sensor.haven_bed_[a-e] references in alert rules -- one per bed per alert type |
 
 ---
 
@@ -99,7 +99,7 @@ re_verification: false
 | DATA-01 | 04-01 | JSON schema for crop database (growth stages, water needs, harvest timing, companion plants, difficulty tier, child actions, alert triggers) | SATISFIED | crop.schema.json has all required field groups; strawberry-ostara.json validates with all 14 top-level fields |
 | DATA-02 | 04-01 | Individual JSON crop files for every planted crop with all schema fields populated | SATISFIED | 27 crop files; all valid JSON; grep for growth_stages, difficulty, water_needs, harvest, companion_plants, alerts returns 0 missing-field files |
 | DATA-03 | 04-02 | Weekly schedule JSON files (one per ISO week) with themed names, prioritized tasks, expected growth events | SATISFIED | 30 schedule files W15-W44; all have theme.name (bilingual), hero_task, must_do tasks, growth_events with bilingual prompts |
-| DATA-04 | 04-03 | Home Assistant entity schema following havn_ prefix convention with per-bed sensor entities | SATISFIED | sensors.json: 10 entities with havn_bed_[a-e]_moisture/_temperature; customize.json: 10 friendly names; entity IDs consistent |
+| DATA-04 | 04-03 | Home Assistant entity schema following haven_ prefix convention with per-bed sensor entities | SATISFIED | sensors.json: 10 entities with haven_bed_[a-e]_moisture/_temperature; customize.json: 10 friendly names; entity IDs consistent |
 | DATA-05 | 04-03 | Home Assistant Plant Monitor configuration with moisture/temperature thresholds per crop | SATISFIED | plants.json: 5 Plant Monitor entries (one per bed); min_moisture, max_moisture, min_temperature derived from crop data; sensor entity refs link to sensors.json |
 | DATA-06 | 04-03 | Zigbee/LoRaWAN sensor recommendations with specific models, prices, and HA compatibility confirmation | SATISFIED | sensor-recommendations.md: Haozee primary, ThirdReality alt, Dragino LoRaWAN fallback, GXM-01 warning, DKK budget table, HA compatibility notes |
 | SCHED-02 | 04-02 | Staggered planting schedule ensuring continuous harvest from late May through October | SATISFIED | succession-calendar.json: coverage_ok=true, gaps_found=[], W22-W43 all have 2+ harvestable crops |
@@ -144,7 +144,7 @@ Phase 4 goal is fully achieved. The structured JSON data system exists at every 
 
 **Schedule layer (Plan 04-02):** 30 weekly schedule files covering the complete growing season (W15-W44), each with bilingual themed names, hero tasks, and must_do items. Succession calendar confirms zero harvest gaps from late May through October with five succession crops documented across multiple staggered sowings.
 
-**HA integration layer (Plan 04-03):** Four HA JSON files provide a complete entity schema ready for v2 IoT sensor deployment -- 10 template sensor definitions (havn_ prefix, per-bed), 5 Plant Monitor configurations with most-restrictive thresholds, 15 bilingual alert rule definitions, and entity customization. Sensor buying guide provides a clear primary recommendation (Haozee) with alternatives and a DKK budget under 1,000 DKK.
+**HA integration layer (Plan 04-03):** Four HA JSON files provide a complete entity schema ready for v2 IoT sensor deployment -- 10 template sensor definitions (haven_ prefix, per-bed), 5 Plant Monitor configurations with most-restrictive thresholds, 15 bilingual alert rule definitions, and entity customization. Sensor buying guide provides a clear primary recommendation (Haozee) with alternatives and a DKK budget under 1,000 DKK.
 
 ---
 

@@ -44,7 +44,7 @@ created: 2026-03-26
 | 04-02-02 | 02 | 1 | SCHED-02 | manual review | Check succession-calendar.json gap_analysis.gaps_found is empty | ❌ W0 | ⬜ pending |
 | 04-02-03 | 02 | 1 | SCHED-03 | manual review | Every weekly JSON has at least one must_do task | ❌ W0 | ⬜ pending |
 | 04-02-04 | 02 | 1 | SCHED-04 | manual review | Check succession-calendar.json has entries for all 5 succession crops | ❌ W0 | ⬜ pending |
-| 04-03-01 | 03 | 2 | DATA-04 | manual review | Check sensors.json for havn_bed_{a-e}_{measurement} pattern | ❌ W0 | ⬜ pending |
+| 04-03-01 | 03 | 2 | DATA-04 | manual review | Check sensors.json for haven_bed_{a-e}_{measurement} pattern | ❌ W0 | ⬜ pending |
 | 04-03-02 | 03 | 2 | DATA-05 | manual review | Check plants.json has min_moisture, max_moisture, min_temperature per bed | ❌ W0 | ⬜ pending |
 | 04-03-03 | 03 | 2 | DATA-06 | manual review | Check sensor-recommendations.md for 2-3 Zigbee + 1 LoRaWAN with prices | ❌ W0 | ⬜ pending |
 
@@ -66,7 +66,7 @@ created: 2026-03-26
 |----------|-------------|------------|-------------------|
 | Crop schema covers all required fields | DATA-01 | Schema correctness is a design review | Review crop.schema.json against requirements list |
 | Succession planting has no 2-week harvest gap | SCHED-02 | Requires domain knowledge of growth timelines | Review succession-calendar.json gap_analysis section |
-| HA entity naming follows havn_ convention | DATA-04 | Naming convention check | Grep sensors.json for havn_ prefix pattern |
+| HA entity naming follows haven_ convention | DATA-04 | Naming convention check | Grep sensors.json for haven_ prefix pattern |
 | Sensor recommendations have prices and HA compatibility | DATA-06 | Requires human judgement on completeness | Review sensor-recommendations.md for specificity |
 
 ---

@@ -54,7 +54,7 @@ Create reference documents for every garden situation: property visualization, t
 - Comprehensive: full garden context + project structure in one file
 - Garden context: property details, bed layout, what's planted where, child's profile and engagement patterns, seasonal timing, maintenance approach
 - Project structure: where docs live, file conventions, what each phase delivered, how to navigate
-- Data system pointers: JSON schema locations, havn_ entity convention, weekly schedule file paths, HA config references
+- Data system pointers: JSON schema locations, haven_ entity convention, weekly schedule file paths, HA config references
 - Garden-adapted behavioral guardrails (vibes CLAUDE.md pattern): "Don't let me add crops mid-season", "Challenge scope creep beyond raised beds", "Remind me that manual watering is intentional"
 - Living document: "Last updated" field + "Current season status" section designed for updates as things change
 - Future Claude sessions get full context without re-explaining the project

@@ -1,6 +1,6 @@
 # Garlic Autumn Planting Plan -- October 2026
 
-**Project:** Havn -- A Learning Garden
+**Project:** Haven -- A Learning Garden
 **Planting window:** Late September to mid-October 2026
 **Harvest:** July 2027
 **Location:** Vejle, Denmark (Zone 7b)

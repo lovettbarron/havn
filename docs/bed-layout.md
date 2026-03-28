@@ -1,6 +1,6 @@
 # Bed Layout and Placement Guide
 
-**Project:** Havn -- A Learning Garden
+**Project:** Haven -- A Learning Garden
 **Date:** 2026-03-28
 **Location:** Vejle, Denmark
 

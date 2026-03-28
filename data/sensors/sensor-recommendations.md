@@ -127,7 +127,7 @@ Fits within the 500-1000 DKK budget target. The TRETAKT is optional -- test rang
 2. Order 2x Haozee TS0601_soil from AliExpress (allow 2-3 weeks shipping)
 3. Insert 2x AA batteries in each sensor
 4. Pair each sensor through Zigbee2MQTT (permit join, insert batteries to trigger pairing)
-5. Rename entities in Zigbee2MQTT to match Havn naming: `zigbee_soil_sensor_bed_a`, `zigbee_soil_sensor_bed_b`
+5. Rename entities in Zigbee2MQTT to match Haven naming: `zigbee_soil_sensor_bed_a`, `zigbee_soil_sensor_bed_b`
 6. Place one sensor per bed, probe inserted 10-15cm into soil at bed center
 7. Test range -- if readings drop out, add IKEA TRETAKT repeater
 8. Optional: apply TS0601_soil calibration offset in Z2M if readings are consistently off vs a reference moisture meter

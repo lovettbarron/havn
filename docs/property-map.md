@@ -1,6 +1,6 @@
-# Property Map -- Havn Garden
+# Property Map -- Haven Garden
 
-**Project:** Havn -- A Learning Garden
+**Project:** Haven -- A Learning Garden
 **Date:** 2026-03-28
 **Location:** Vejle, Denmark (Zone 7b)
 

@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "bed.schema.json",
-  "title": "Havn Bed",
+  "title": "Haven Bed",
   "description": "Schema for garden bed files mapping physical beds to crop placements",
   "type": "object",
   "required": ["id", "name", "physical", "crops", "succession_slots", "ha_sensors"],

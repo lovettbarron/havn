@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "checklist.schema.json",
   "title": "Pre-Departure Checklist",
-  "description": "Schema for Havn garden pre-departure checklist data",
+  "description": "Schema for Haven garden pre-departure checklist data",
   "type": "object",
   "required": ["checklist_type", "departure_date", "return_date", "days"],
   "properties": {

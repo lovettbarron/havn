@@ -40,7 +40,7 @@ key-decisions:
 patterns-established:
   - "Crop ID format: lowercase-hyphen (e.g., strawberry-ostara, cherry-tomato-sungold)"
   - "Bilingual prompt pattern: {en: string, da: string} for all child-facing text"
-  - "HA sensor naming: sensor.havn_bed_{letter}_moisture / sensor.havn_bed_{letter}_temperature"
+  - "HA sensor naming: sensor.haven_bed_{letter}_moisture / sensor.haven_bed_{letter}_temperature"
   - "Difficulty tier enum: cant_fail / needs_care / year_2_challenge"
 
 requirements-completed: [DATA-01, DATA-02]

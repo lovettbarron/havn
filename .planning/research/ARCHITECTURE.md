@@ -1,6 +1,6 @@
 # Architecture: Physical Garden + Data Systems
 
-**Project:** Havn -- A Learning Garden
+**Project:** Haven -- A Learning Garden
 **Location:** Vejle, Denmark (55.7N, 9.5E)
 **Researched:** 2026-03-26
 
@@ -273,7 +273,7 @@ The child names his own beds. The names above are suggestions -- let him pick. T
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "CropData",
-  "description": "Structured crop data for Havn garden project",
+  "description": "Structured crop data for Haven garden project",
   "type": "object",
   "required": ["id", "name", "name_da", "category", "bed_id", "planting", "care", "harvest", "companions"],
   "properties": {
@@ -478,21 +478,21 @@ The child names his own beds. The names above are suggestions -- let him pick. T
 
 **Entity naming convention:** `sensor.<zone>_<bed_id>_<measurement>`
 
-All garden entities use the `havn_` prefix for easy filtering and grouping.
+All garden entities use the `haven_` prefix for easy filtering and grouping.
 
 #### Sensor Entities
 
 | Entity ID | Device Class | Unit | Description |
 |-----------|-------------|------|-------------|
-| `sensor.havn_bed1_sol_soil_moisture` | `moisture` | `%` | Soil moisture, Sun Bed |
-| `sensor.havn_bed1_sol_soil_temperature` | `temperature` | `C` | Soil temp, Sun Bed |
-| `sensor.havn_bed2_baer_soil_moisture` | `moisture` | `%` | Soil moisture, Berry Bed |
-| `sensor.havn_bed2_baer_soil_temperature` | `temperature` | `C` | Soil temp, Berry Bed |
-| `sensor.havn_bed3_eventyr_soil_moisture` | `moisture` | `%` | Soil moisture, Adventure Bed |
-| `sensor.havn_bed3_eventyr_soil_temperature` | `temperature` | `C` | Soil temp, Adventure Bed |
-| `sensor.havn_terrace_air_temperature` | `temperature` | `C` | Air temp, roof terrace |
-| `sensor.havn_terrace_light_level` | `illuminance` | `lx` | Light level, roof terrace |
-| `sensor.havn_backyard_air_temperature` | `temperature` | `C` | Air temp, backyard |
+| `sensor.haven_bed1_sol_soil_moisture` | `moisture` | `%` | Soil moisture, Sun Bed |
+| `sensor.haven_bed1_sol_soil_temperature` | `temperature` | `C` | Soil temp, Sun Bed |
+| `sensor.haven_bed2_baer_soil_moisture` | `moisture` | `%` | Soil moisture, Berry Bed |
+| `sensor.haven_bed2_baer_soil_temperature` | `temperature` | `C` | Soil temp, Berry Bed |
+| `sensor.haven_bed3_eventyr_soil_moisture` | `moisture` | `%` | Soil moisture, Adventure Bed |
+| `sensor.haven_bed3_eventyr_soil_temperature` | `temperature` | `C` | Soil temp, Adventure Bed |
+| `sensor.haven_terrace_air_temperature` | `temperature` | `C` | Air temp, roof terrace |
+| `sensor.haven_terrace_light_level` | `illuminance` | `lx` | Light level, roof terrace |
+| `sensor.haven_backyard_air_temperature` | `temperature` | `C` | Air temp, backyard |
 
 **Note:** Terrace beds (BED-T1, BED-T2) share one set of sensors due to proximity. Backyard beds each get individual soil sensors because moisture varies with position relative to trees.
 
@@ -500,29 +500,29 @@ All garden entities use the `havn_` prefix for easy filtering and grouping.
 
 ```yaml
 plant:
-  havn_bed1_sol_tomato:
+  haven_bed1_sol_tomato:
     sensors:
-      moisture: sensor.havn_bed1_sol_soil_moisture
-      temperature: sensor.havn_bed1_sol_soil_temperature
-      brightness: sensor.havn_terrace_light_level  # placeholder until backyard sensor
+      moisture: sensor.haven_bed1_sol_soil_moisture
+      temperature: sensor.haven_bed1_sol_soil_temperature
+      brightness: sensor.haven_terrace_light_level  # placeholder until backyard sensor
     min_moisture: 30
     max_moisture: 70
     min_temperature: 8
     max_temperature: 35
 
-  havn_bed2_baer_strawberry:
+  haven_bed2_baer_strawberry:
     sensors:
-      moisture: sensor.havn_bed2_baer_soil_moisture
-      temperature: sensor.havn_bed2_baer_soil_temperature
+      moisture: sensor.haven_bed2_baer_soil_moisture
+      temperature: sensor.haven_bed2_baer_soil_temperature
     min_moisture: 35
     max_moisture: 75
     min_temperature: 5
     max_temperature: 30
 
-  havn_bed3_eventyr_mixed:
+  haven_bed3_eventyr_mixed:
     sensors:
-      moisture: sensor.havn_bed3_eventyr_soil_moisture
-      temperature: sensor.havn_bed3_eventyr_soil_temperature
+      moisture: sensor.haven_bed3_eventyr_soil_moisture
+      temperature: sensor.haven_bed3_eventyr_soil_temperature
     min_moisture: 25
     max_moisture: 70
     min_temperature: 8
@@ -533,10 +533,10 @@ plant:
 
 | Automation | Trigger | Action |
 |-----------|---------|--------|
-| `automation.havn_water_reminder` | Any bed moisture < 30% for 2h | Notify: "[Bed name] er torstig! Kan du vande?" |
-| `automation.havn_frost_warning` | Air temp forecast < 2 degC | Notify: "Frost i nat! Skal vi daekke bedene?" |
-| `automation.havn_harvest_check` | Weekly schedule (Wed + Sat) | Notify: "Tjek [crop] -- måske klar til høst!" |
-| `automation.havn_vacation_mode` | Input boolean toggle | Adjust alerts to neighbor-facing mode |
+| `automation.haven_water_reminder` | Any bed moisture < 30% for 2h | Notify: "[Bed name] er torstig! Kan du vande?" |
+| `automation.haven_frost_warning` | Air temp forecast < 2 degC | Notify: "Frost i nat! Skal vi daekke bedene?" |
+| `automation.haven_harvest_check` | Weekly schedule (Wed + Sat) | Notify: "Tjek [crop] -- måske klar til høst!" |
+| `automation.haven_vacation_mode` | Input boolean toggle | Adjust alerts to neighbor-facing mode |
 
 #### Dashboard Cards
 
@@ -545,17 +545,17 @@ plant:
 type: vertical-stack
 cards:
   - type: custom:mushroom-title-card
-    title: "Havns Have"  # Havn's Garden
-    subtitle: "{{ states('sensor.havn_backyard_air_temperature') }}°C udenfor"
+    title: "Havens Have"  # Haven's Garden
+    subtitle: "{{ states('sensor.haven_backyard_air_temperature') }}°C udenfor"
 
   - type: horizontal-stack
     cards:
       - type: custom:mushroom-template-card
         primary: "Sol-bedet"
-        secondary: "{{ states('sensor.havn_bed1_sol_soil_moisture') }}% fugt"
+        secondary: "{{ states('sensor.haven_bed1_sol_soil_moisture') }}% fugt"
         icon: mdi:sprout
         icon_color: >
-          {% if states('sensor.havn_bed1_sol_soil_moisture') | int < 30 %}
+          {% if states('sensor.haven_bed1_sol_soil_moisture') | int < 30 %}
             red
           {% else %}
             green
@@ -583,9 +583,9 @@ cards:
          +----------------------------+
          |     HOME ASSISTANT         |
          |                            |
-         |  sensor.havn_*             |   Entity layer
-         |  plant.havn_*              |   Plant monitor
-         |  automation.havn_*         |   Alert rules
+         |  sensor.haven_*             |   Entity layer
+         |  plant.haven_*              |   Plant monitor
+         |  automation.haven_*         |   Alert rules
          |  input_boolean.vacation    |   Vacation mode toggle
          +---+----------+--------+---+
              |          |        |
@@ -849,7 +849,7 @@ Structured for searchability by symptom, crop, and bed:
 ### 3.1 Project Repository Structure
 
 ```
-havn/
+haven/
   .planning/
     PROJECT.md                    # Project context (exists)
     CLAUDE.md                     # Claude project instructions
@@ -894,11 +894,11 @@ havn/
 
   homeassistant/
     packages/
-      havn_garden.yaml            # HA package: sensors, automations, plant monitors
+      haven_garden.yaml            # HA package: sensors, automations, plant monitors
     dashboards/
-      havn_garden_dashboard.yaml  # Lovelace dashboard config
+      haven_garden_dashboard.yaml  # Lovelace dashboard config
     blueprints/
-      havn_water_reminder.yaml    # Reusable automation blueprints
+      haven_water_reminder.yaml    # Reusable automation blueprints
 
   assets/
     photos/                       # Reference photos (troubleshooting, progress)

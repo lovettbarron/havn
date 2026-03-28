@@ -37,7 +37,7 @@ Build a structured JSON data system covering every planted crop, weekly schedule
 ### Home Assistant schema
 - JSON is the source of truth; HA YAML is generated/derived from JSON
 - Split by concern: sensors.json, plants.json, customize.json -- each generates its own YAML output
-- Per-bed sensors (not per-crop): havn_bed_a_moisture, havn_bed_a_temperature, etc.
+- Per-bed sensors (not per-crop): haven_bed_a_moisture, haven_bed_a_temperature, etc.
 - Plant Monitor configs map crop thresholds to bed sensors
 - Alert rules included in JSON: trigger type, delay hours, message template, notification target
 - Bilingual alert messages with i18n keys (da + en) for all notification text

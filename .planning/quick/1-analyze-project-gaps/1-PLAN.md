@@ -19,7 +19,7 @@ must_haves:
 ---
 
 <objective>
-Perform a thorough audit of the entire Havn project -- all documentation, data files, schemas, schedules, HA configs, planning artifacts, and verification results -- to identify gaps, weaknesses, oversights, and inconsistencies. Produce a structured analysis document that organizes findings into actionable future phases.
+Perform a thorough audit of the entire Haven project -- all documentation, data files, schemas, schedules, HA configs, planning artifacts, and verification results -- to identify gaps, weaknesses, oversights, and inconsistencies. Produce a structured analysis document that organizes findings into actionable future phases.
 
 Purpose: The v1.0 milestone is 93% complete with 6 phases planned/executed. Before moving to physical execution (W16 build day), surface anything that was missed, is inconsistent, or needs strengthening.
 
@@ -121,7 +121,7 @@ Read ALL of the following files systematically. Take notes on inconsistencies, g
 Write .planning/quick/1-analyze-project-gaps/1-ANALYSIS.md with the following structure:
 
 ```markdown
-# Havn Project Gap Analysis
+# Haven Project Gap Analysis
 
 **Date:** 2026-03-27
 **Scope:** Full audit of v1.0 milestone (6 phases, 15 plans, 59 requirements)
