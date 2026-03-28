@@ -140,7 +140,7 @@ Walk back through the whole garden. All 5 beds get a deep soak.
 
 ### Prep Checklist (Father, ~15 min before)
 
-- [ ] Fill ALL reservoirs completely via fill tubes (Beds A and B, plus any others with reservoirs). Fill until water comes out the overflow. This takes about 10 minutes -- do it before the child joins.
+- [ ] Fill ALL reservoirs completely via fill tubes (Bed C is the primary active reservoir; also check Bed B fill tube if reservoir is in use). Fill until water comes out the overflow. This takes about 10 minutes -- do it before the child joins.
 - [ ] Harvest basket or bowl ready (big enough for tomatoes, cucumbers, beans, berries)
 - [ ] Camera/phone ready for harvest photos
 - [ ] Snack ready at garden table for the post-harvest celebration

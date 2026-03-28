@@ -18,18 +18,18 @@ Five raised beds across two locations:
 
 | Bed | Location | Size (cm) | Material | Purpose |
 |-----|----------|-----------|----------|---------|
-| A | Backyard, west | 120 x 60 x 40 | Corten steel | Tomato + basil + nasturtium |
-| B | Backyard, center | 120 x 60 x 40 | Corten steel | Cucumber + pepper + radish + borage |
-| C | Backyard, east | 120 x 60 x 40 | Corten steel | Berry (strawberry + raspberry) + thyme + chives |
-| D | Terrace, south end | 80 x 40 x 30 | Galvanized steel | Herbs + sensory plants |
-| E | Terrace, north end | 80 x 40 x 30 | Galvanized steel | Lettuce + quick wins |
+| A | Backyard, east | 120 x 60 x 40 | Corten steel | Strawberry + sensory plants + flowers ("His Bed") |
+| B | Backyard, west | 120 x 60 x 40 | Corten steel | Raspberry + chives |
+| C | Backyard, center | 120 x 60 x 40 | Corten steel | Warm crops (cucumber + tomato + pepper + basil + dill) |
+| D | Terrace, south end | 80 x 40 x 30 | Galvanized steel | Herbs + lettuce + spring onion |
+| E | Terrace, north end | 80 x 40 x 30 | Galvanized steel | Broccoli + bush beans + dill + flowers |
 
 Bed letters A-E are canonical identifiers used throughout all documentation.
 
 ### Infrastructure
 
-- **Self-watering reservoirs** in Beds A and B (tomato and cucumber beds)
-- **A-frame trellis** on Bed B for cucumbers to climb
+- **Self-watering reservoir** in Bed C (warm crops). Bed B has reservoir hardware from construction but it is not actively used (raspberries prefer free-draining soil).
+- **A-frame trellis** on Bed C for cucumbers to climb
 - **Copper tape** slug defense on all 5 beds
 - **Lightweight soil mix** (LECA + coir) in terrace beds D and E for weight reduction
 - **Mint** lives in a sunken pot at the edge of Bed A (contained to prevent spread)
@@ -69,7 +69,7 @@ Detailed grid maps with cm-level positions are in `docs/planting-grid-bed-a.md` 
 | `setup-guide.md` | 10-step bed construction sequence |
 | `soil-layers.md` | Soil layer recipes per bed type |
 | `reservoir-build.md` | Self-watering reservoir construction |
-| `trellis-build.md` | A-frame trellis for Bed B |
+| `trellis-build.md` | A-frame trellis for Bed C |
 | `slug-defense.md` | Copper tape application guide |
 | `bug-hotel-guide.md` | Insect hotel build + treasure hunt activity |
 
