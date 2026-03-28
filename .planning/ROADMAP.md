@@ -237,6 +237,6 @@ Plans:
 | 7. Data Consistency and Identity Fix | 2/2 | Complete   | 2026-03-28 | - |
 | 8. Child Engagement Bridge | 2/2 | Complete   | 2026-03-28 | - |
 | 9. Operational Readiness | v1.1 | 0/1 | Not started | - |
-| 10. Home Assistant Setup | 1/1 | Complete   | 2026-03-28 | - |
+| 10. Home Assistant Setup | 1/1 | Complete    | 2026-03-28 | - |
 | 11. Season 2 Preparation | v1.1 | 0/? | Not started | - |
 | 12. Planning Artifact Maintenance | v1.1 | 0/? | Not started | - |
