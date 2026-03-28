@@ -22,8 +22,9 @@ Start here. These documents define what you're working with and what you need to
 |----------|-------------|
 | [Property Map](docs/property-map.md) | Full site overview with sun exposure zones and bed placement |
 | [Bed Layout](docs/bed-layout.md) | Dimensions, materials, and spacing for both beds |
-| [Shopping List](docs/shopping-list.md) | Complete materials list with DKK pricing and budget alternatives |
-| [Warm Season Shopping](docs/warm-season-shopping-list.md) | Second-round seeds, seedlings, and supplies for late spring |
+| [Infrastructure Shopping List](docs/shopping-list.md) | Beds, soil, reservoir, trellis, mole mesh -- with Danish product names |
+| [Spring Plant Shopping List](docs/spring-planting-shopping-list.md) | Strawberries, raspberries, herbs, sensory plants, seeds for W16 planting |
+| [Warm Season Plant Shopping List](docs/warm-season-shopping-list.md) | Tomato, cucumber, pepper, basil, broccoli, leek seedlings + sunflower/bean seeds for W21 |
 
 #### Building
 

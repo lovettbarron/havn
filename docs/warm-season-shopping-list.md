@@ -30,7 +30,7 @@
 
 | Item | Qty | Variety | Approx DKK | Destination | Notes |
 |------|-----|---------|------------|-------------|-------|
-| Sunflower seeds | 1 packet | Tall variety (e.g., Russian Giant, Mammoth) | 20-30 | Bed B (north end) | Sow 5-6 seeds, thin to 2-3. Ruler stake for weekly height measurement. |
+| Sunflower seeds | 1 packet | Tall variety (e.g., Russian Giant, Mammoth) | 20-30 | Bed B (south end, house side) | Sow 5-6 seeds, thin to 2-3. Shadows fall toward house, not onto bed. Ruler stake for weekly height measurement. |
 | Nasturtium seeds | 1 packet | Trailing variety (e.g., Gleam, Jewel trailing) | 20-30 | Bed B (east edge) | Big seeds, easy for child to handle. Trailing from edge. Trap crop for aphids. |
 | Bush bean seeds | 1 packet | Provider or Speedy | 20-30 | Bed A (north zone) | Direct sow W20 (May 15). 4-6 seeds at 12cm spacing. |
 | Dill seeds | 1 packet | Any standard variety | 15-20 | Bed A | Tiny seeds -- father sows. Attracts hoverflies. |

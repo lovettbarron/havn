@@ -61,8 +61,9 @@ Detailed grid maps with cm-level positions are in `docs/planting-grid-bed-a.md` 
 | `planting-grid-bed-[a-b].md` | Per-bed grid maps with cm positions |
 | `planting-day-script.md` | Spring planting session script (ADHD-adapted) |
 | `warm-season-session-scripts.md` | Warm season planting sessions |
-| `shopping-list.md` | Phase 1 materials and costs |
-| `warm-season-shopping-list.md` | Phase 3 seeds, seedlings, materials |
+| `shopping-list.md` | Infrastructure shopping list (beds, soil, reservoir, trellis) |
+| `spring-planting-shopping-list.md` | Spring plant shopping list (strawberries, raspberries, herbs, seeds) |
+| `warm-season-shopping-list.md` | Warm season plant shopping list (tomato, cucumber, pepper, seedlings) |
 | `setup-guide.md` | 12-step bed construction sequence |
 | `soil-layers.md` | Soil layer recipes per bed type |
 | `reservoir-build.md` | Self-watering reservoir construction |
