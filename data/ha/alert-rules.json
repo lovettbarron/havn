@@ -166,8 +166,8 @@
       "delay_hours": 6,
       "notification_target": "notify.mobile_app",
       "message": {
-        "en": "Bed E (Terrace Flower Bed) soil moisture is below 40% -- broccoli and tomatoes need water!",
-        "da": "Bed E (Terrasseblomsterbed) jordfugtighed er under 40% -- broccoli og tomater har brug for vand!"
+        "en": "Bed E (Terrace Flower Bed) soil moisture is below 40% -- broccoli and beans need water!",
+        "da": "Bed E (Terrasseblomsterbed) jordfugtighed er under 40% -- broccoli og boenner har brug for vand!"
       }
     },
     {
@@ -192,8 +192,8 @@
       "delay_hours": 0,
       "notification_target": "notify.mobile_app",
       "message": {
-        "en": "Cold warning for Bed E (Terrace Flower Bed)! Soil at 2C -- beans and tomatoes are frost-sensitive. Cover tonight.",
-        "da": "Kuldeadvarsel for Bed E (Terrasseblomsterbed)! Jord ved 2C -- boenner og tomater er frostfolsomme. Daek til i aften."
+        "en": "Cold warning for Bed E (Terrace Flower Bed)! Soil at 2C -- beans are frost-sensitive. Cover tonight.",
+        "da": "Kuldeadvarsel for Bed E (Terrasseblomsterbed)! Jord ved 2C -- boenner er frostfolsomme. Daek til i aften."
       }
     }
   ]

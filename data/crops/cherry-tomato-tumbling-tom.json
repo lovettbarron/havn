@@ -123,7 +123,8 @@
     "attention_minutes_per_week": 10,
     "sensory": ["taste", "smell", "sight"]
   },
-  "beds": ["bed-e"],
+  "beds": [],
+  "bed_notes": "Backup pot overflow from Bed C; not assigned to any raised bed.",
   "sowing": {
     "method": "plug",
     "indoor_start": 12,

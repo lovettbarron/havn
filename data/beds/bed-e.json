@@ -49,12 +49,12 @@
       "planted_week": 20
     },
     {
-      "crop_id": "cherry-tomato-tumbling-tom",
-      "shortcode": "TT",
+      "crop_id": "dill",
+      "shortcode": "DIL",
       "positions": [
-        { "center_w": 5, "center_l": 55, "spread_cm": 30 }
+        { "center_w": 10, "center_l": 70, "spread_cm": 25 }
       ],
-      "planted_week": 21
+      "planted_week": 18
     }
   ],
   "succession_slots": [],

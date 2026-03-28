@@ -1,0 +1,157 @@
+{
+  "$schema": "../schemas/crop.schema.json",
+  "id": "dill",
+  "name": {
+    "common": "Dill",
+    "botanical": "Anethum graveolens",
+    "da": "Dild",
+    "shortcode": "DIL"
+  },
+  "type": "herb",
+  "difficulty": {
+    "tier": "cant_fail",
+    "label": { "en": "Can't Fail", "da": "Kan ikke fejle" },
+    "reason": "Self-sows readily, grows fast, minimal care needed"
+  },
+  "growth_stages": [
+    {
+      "name": "Germination",
+      "weeks": { "start": 18, "end": 19 },
+      "look_for": "Tiny feathery seedlings pushing through the soil within 7-10 days",
+      "child_actions": [
+        {
+          "action": "Check for sprouts",
+          "type": "observe",
+          "who": "child",
+          "minutes": 3,
+          "frequency": "daily",
+          "prompt": {
+            "en": "Look for tiny feathery green threads poking up -- that's dill! It looks like little green hairs.",
+            "da": "Kig efter smaa fjerformede groenne traade, der stikker op -- det er dild! Det ligner smaa groenne haar."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Feathery Growth",
+      "weeks": { "start": 20, "end": 26 },
+      "look_for": "Tall feathery fronds reaching 30-60cm, strong dill scent when touched",
+      "child_actions": [
+        {
+          "action": "Smell the fronds",
+          "type": "sensory",
+          "who": "child",
+          "minutes": 2,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "Brush the feathery leaves with your hand and smell -- what does it remind you of? Pickles!",
+            "da": "Stryg de fjerformede blade med haanden og lugt -- hvad minder det dig om? Syltede agurker!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Harvest",
+      "weeks": { "start": 24, "end": 34 },
+      "look_for": "Abundant feathery fronds ready for picking, stems getting taller",
+      "child_actions": [
+        {
+          "action": "Pick dill for cooking",
+          "type": "harvest",
+          "who": "together",
+          "minutes": 3,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "Snip a few feathery fronds -- we'll put them on potatoes or fish tonight!",
+            "da": "Klip et par fjerformede blade -- vi laegger dem paa kartofler eller fisk i aften!"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Flowering",
+      "weeks": { "start": 30, "end": 38 },
+      "look_for": "Flat yellow flower clusters (umbels) attracting hoverflies and bees",
+      "child_actions": [
+        {
+          "action": "Watch hoverflies on flowers",
+          "type": "observe",
+          "who": "child",
+          "minutes": 5,
+          "frequency": "weekly",
+          "prompt": {
+            "en": "See the tiny flies hovering near the yellow flowers? Those are hoverflies -- their babies eat aphids!",
+            "da": "Ser du de smaa fluer, der svaever ved de gule blomster? Det er svirrefluer -- deres unger spiser bladlus!"
+          }
+        }
+      ]
+    }
+  ],
+  "water_needs": {
+    "human_readable": {
+      "en": "Water moderately. Keep soil lightly moist but not waterlogged. Drought-tolerant once established.",
+      "da": "Vand moderat. Hold jorden let fugtig, men ikke vandmaettet. Toerketolerant naar den er etableret."
+    },
+    "thresholds": {
+      "soil_moisture_min": 30,
+      "soil_moisture_max": 65,
+      "drought_alert_days": 3
+    }
+  },
+  "temperature": {
+    "optimal_min": 10,
+    "optimal_max": 25,
+    "frost_sensitive": false,
+    "frost_threshold": -4,
+    "heat_stress": 30
+  },
+  "harvest": {
+    "first_harvest_week": 24,
+    "last_harvest_week": 38,
+    "days_to_maturity": 50,
+    "continuous": true,
+    "notes": "Harvest fronds regularly to delay flowering. Once it flowers, leaves become less flavorful but flowers attract beneficial insects. Self-sows freely if flower heads left to set seed."
+  },
+  "companion_plants": {
+    "good": ["cucumber", "broccoli-calabrese", "lettuce-baby-mix"],
+    "bad": ["carrot"],
+    "notes": "Attracts hoverflies and beneficial wasps that prey on broccoli pests. Keep away from carrots -- cross-pollination and attracts carrot fly."
+  },
+  "engagement": {
+    "action_types": ["harvest", "observe", "sensory"],
+    "peak_engagement_weeks": { "start": 24, "end": 34 },
+    "attention_minutes_per_week": 5,
+    "sensory": ["smell", "taste", "sight"]
+  },
+  "beds": ["bed-c", "bed-e"],
+  "sowing": {
+    "method": "seed",
+    "indoor_start": null,
+    "outdoor_sow": 18,
+    "transplant_week": null,
+    "succession": false,
+    "interval_weeks": null
+  },
+  "alerts": [
+    {
+      "type": "drought",
+      "trigger": "soil_moisture_below",
+      "threshold": 30,
+      "delay_hours": 6,
+      "message": {
+        "en": "Dill is getting dry -- a light watering will keep the fronds fresh!",
+        "da": "Dilden er ved at toerre ud -- lidt vand holder bladene friske!"
+      }
+    },
+    {
+      "type": "frost",
+      "trigger": "temperature_below",
+      "threshold": -4,
+      "delay_hours": 0,
+      "message": {
+        "en": "Hard frost warning! Dill tolerates light frost but cover if below -4C.",
+        "da": "Haerd frost advarsel! Dild taaler let frost, men daek til under -4 grader."
+      }
+    }
+  ]
+}

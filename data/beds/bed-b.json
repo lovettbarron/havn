@@ -41,6 +41,7 @@
     }
   ],
   "succession_slots": [],
+  "notes": "Reservoir hardware physically installed (was Bed 1/Tomato in Phase 1) but not actively used -- raspberries prefer free-draining soil.",
   "ha_sensors": {
     "moisture": "sensor.havn_bed_b_moisture",
     "temperature": "sensor.havn_bed_b_temperature"

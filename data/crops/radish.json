@@ -124,6 +124,7 @@
     "sensory": ["taste", "touch", "sight"]
   },
   "beds": ["bed-a", "bed-c", "bed-d"],
+  "bed_notes": "Bed E had radish succession slot S1 in Phase 2, but it was stopped at W20 when warm-season crops (broccoli, beans) took the space. Excluded from beds array per Phase 3 final state.",
   "sowing": {
     "method": "seed",
     "indoor_start": null,
