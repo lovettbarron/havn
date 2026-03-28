@@ -3,15 +3,15 @@ gsd_state_version: 1.0
 milestone: v1.1
 milestone_name: Gap Closure and Operational Readiness
 status: completed
-stopped_at: Phase 11 context gathered
-last_updated: "2026-03-28T21:27:57.947Z"
-last_activity: 2026-03-28 -- Completed 10-01 HA setup walkthrough with sensors, automations, dashboard
+stopped_at: Completed 11-02 season review and crop failure recovery
+last_updated: "2026-03-28T22:06:27.021Z"
+last_activity: 2026-03-28 -- Completed 11-02 season review and crop failure recovery
 progress:
   total_phases: 12
   completed_phases: 10
-  total_plans: 21
-  completed_plans: 21
-  percent: 100
+  total_plans: 23
+  completed_plans: 22
+  percent: 96
 ---
 
 # Project State
@@ -21,16 +21,16 @@ progress:
 See: .planning/PROJECT.md (updated 2026-03-28)
 
 **Core value:** A child who independently checks on, cares for, and harvests from plants he chose to grow
-**Current focus:** Phase 10: Home Assistant Setup (v1.1)
+**Current focus:** Phase 11: Season 2 Preparation (v1.1)
 
 ## Current Position
 
-Phase: 10 of 12 (Home Assistant Setup)
-Plan: 1 of 1 (complete)
-Status: Phase 10 complete
-Last activity: 2026-03-28 -- Completed 10-01 HA setup walkthrough with sensors, automations, dashboard
+Phase: 11 of 12 (Season 2 Preparation)
+Plan: 2 of 2 (complete)
+Status: Phase 11 plan 2 complete
+Last activity: 2026-03-28 -- Completed 11-02 season review and crop failure recovery
 
-Progress: [██████████] 100% (21/21 plans complete)
+Progress: [██████████] 96% (22/23 plans complete)
 
 ## Performance Metrics
 
@@ -60,6 +60,7 @@ Progress: [██████████] 100% (21/21 plans complete)
 | Phase 08 P01 | 2 | 2 tasks | 2 files |
 | Phase 09 P01 | 2min | 2 tasks | 4 files |
 | Phase 10 P01 | 2min | 2 tasks | 1 files |
+| Phase 11 P02 | 2min | 2 tasks | 3 files |
 
 ## Accumulated Context
 
@@ -86,6 +87,8 @@ Recent decisions affecting current work:
 - [Phase 09]: Adapted 5-bed plant inventory to 2-bed reality for spring shopping list
 - [Phase 10]: All 10 HA automations always-on year-round; warm-season rules harmless when conditions unmet
 - [Phase 10]: Used UI card editor paste flow for Lovelace, not deprecated mode: yaml
+- [Phase 11]: [11-02]: Included all 27 crops in season review scorecard (including backup/unused varieties)
+- [Phase 11]: [11-02]: Crop failure framing: emotional first, replacement optional, empty space is OK
 
 ### Pending Todos
 
@@ -104,7 +107,7 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-28T21:27:57.937Z
-Stopped at: Phase 11 context gathered
-Resume file: .planning/phases/11-season-2-preparation/11-CONTEXT.md
+Last session: 2026-03-28T22:06:27.014Z
+Stopped at: Completed 11-02 season review and crop failure recovery
+Resume file: None
 Next step: /gsd:execute-phase 9
