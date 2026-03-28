@@ -26,7 +26,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 ### v1.1 Gap Closure and Operational Readiness (Phases 7-12)
 
-- [ ] **Phase 7: Data Consistency and Identity Fix** - Resolve bed naming discrepancy (1-5 vs A-E) and fix all cross-reference inconsistencies across docs and data
+- [x] **Phase 7: Data Consistency and Identity Fix** - Resolve bed naming discrepancy (1-5 vs A-E) and fix all cross-reference inconsistencies across docs and data (completed 2026-03-28)
 - [ ] **Phase 8: Child Engagement Bridge** - Create daily routine card and between-session activities so the child can independently engage with the garden
 - [ ] **Phase 9: Operational Readiness** - Spring planting shopping list, purchase prioritization, and tool inventory for build and planting days
 - [ ] **Phase 10: Home Assistant Setup** - Step-by-step HA configuration walkthrough and basic Lovelace dashboard for sensor deployment
@@ -148,7 +148,7 @@ Plans:
   3. Bed JSON feature arrays and HA alert messages reference the correct crops per bed (no tomato references in Bed E, correct reservoir beds)
   4. Weekly schedule sowing tasks align with Phase 3 grid maps -- stopped succession slots have no future sowing tasks
   5. A dill.json crop file exists with proper schema fields, and the radish crop JSON correctly documents its bed assignments
-**Plans:** 2 plans
+**Plans:** 2/2 plans complete
 
 Plans:
 - [ ] 07-01-PLAN.md -- Phase 1 doc naming fix (bed-layout, setup-guide, reservoir-build) + CLAUDE.md bed table + vacation script reservoir refs
@@ -224,7 +224,7 @@ Plans:
 | 4. Data System and Schedules | v1.0 | 3/3 | Complete | 2026-03-27 |
 | 5. Documentation and Guides | v1.0 | 3/3 | Complete | 2026-03-27 |
 | 6. Vacation Preparation | v1.0 | 2/2 | Complete | 2026-03-28 |
-| 7. Data Consistency and Identity Fix | v1.1 | 0/2 | Planned | - |
+| 7. Data Consistency and Identity Fix | 2/2 | Complete   | 2026-03-28 | - |
 | 8. Child Engagement Bridge | v1.1 | 0/? | Not started | - |
 | 9. Operational Readiness | v1.1 | 0/? | Not started | - |
 | 10. Home Assistant Setup | v1.1 | 0/? | Not started | - |

@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.1
 milestone_name: Gap Closure and Operational Readiness
 status: completed
-stopped_at: Completed 07-02-PLAN.md
-last_updated: "2026-03-28T06:57:17.934Z"
+stopped_at: Completed 07-01-PLAN.md
+last_updated: "2026-03-28T06:58:44.501Z"
 last_activity: 2026-03-28 -- Completed 07-02 JSON data fixes
 progress:
   total_phases: 12
-  completed_phases: 6
+  completed_phases: 7
   total_plans: 17
-  completed_plans: 16
+  completed_plans: 17
   percent: 94
 ---
 
@@ -53,6 +53,7 @@ Progress: [█████████░] 94% (16/17 plans complete)
 **Recent Trend:**
 - Last 5 plans: 13 min, 13 min, 5 min, 2 min, 3 min
 - Trend: Stable
+| Phase 07 P01 | 4min | 2 tasks | 5 files |
 | Phase 07 P02 | 3min | 2 tasks | 9 files |
 
 ## Accumulated Context
@@ -66,6 +67,9 @@ Recent decisions affecting current work:
 - [v1.1 Roadmap]: Phases 7-9 must complete before W16 (April 13) for build day readiness
 - [v1.1 Roadmap]: Phase 10 (HA) deferred to in-season; Phase 11 (Season 2) before W44
 - [v1.1 Roadmap]: Phase 12 (artifact maintenance) is low priority, can run any time
+- [07-01]: Preserved dual naming (Bed N / Bed X) in Phase 1 docs for build-day readability
+- [07-01]: Bed B reservoir documented as physically present but not actively used for raspberries
+- [07-01]: Added canonical mapping note in bed-layout.md (Bed 1=B, 2=C, 3=A, 4=D, 5=E)
 - [07-02]: Dill position uses planting grid source of truth (10,70), not plan suggestion
 - [07-02]: Tumbling Tom kept as crop file with beds=[] (pot-only backup) rather than deleted
 - [07-02]: bed_notes field used for documenting exclusion rationale on crop files
@@ -87,7 +91,7 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-28T06:57:17.931Z
-Stopped at: Completed 07-02-PLAN.md
+Last session: 2026-03-28T06:58:44.498Z
+Stopped at: Completed 07-01-PLAN.md
 Resume file: None
 Next step: /gsd:plan-phase 8

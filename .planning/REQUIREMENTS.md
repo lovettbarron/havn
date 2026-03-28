@@ -103,11 +103,11 @@ Requirements for gap closure and operational readiness. Each maps to roadmap pha
 
 ### Data Consistency
 
-- [ ] **DFIX-01**: All Phase 1 docs (bed-layout, setup-guide, reservoir-build) use canonical Bed A-E naming with clear mapping from original Bed 1-5
-- [ ] **DFIX-02**: CLAUDE.md bed assignment table matches actual Phase 2+ planting grid assignments
+- [x] **DFIX-01**: All Phase 1 docs (bed-layout, setup-guide, reservoir-build) use canonical Bed A-E naming with clear mapping from original Bed 1-5
+- [x] **DFIX-02**: CLAUDE.md bed assignment table matches actual Phase 2+ planting grid assignments
 - [x] **DFIX-03**: Bed JSON feature arrays correctly reflect which beds have reservoirs after Phase 2 remapping
 - [x] **DFIX-04**: HA alert rule messages reference correct crops per bed (fix Bed E tomato references)
-- [ ] **DFIX-05**: Vacation countdown script references correct reservoir beds
+- [x] **DFIX-05**: Vacation countdown script references correct reservoir beds
 - [x] **DFIX-06**: Missing dill.json crop file created with proper schema fields
 - [x] **DFIX-07**: Radish crop JSON beds array includes bed-e or documents why it is excluded
 - [x] **DFIX-08**: Weekly schedule sowing tasks audited against Phase 3 grid maps for stopped succession slots
@@ -264,11 +264,11 @@ Requirements for gap closure and operational readiness. Each maps to roadmap pha
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| DFIX-01 | Phase 7 | Pending |
-| DFIX-02 | Phase 7 | Pending |
+| DFIX-01 | Phase 7 | Complete |
+| DFIX-02 | Phase 7 | Complete |
 | DFIX-03 | Phase 7 | Complete |
 | DFIX-04 | Phase 7 | Complete |
-| DFIX-05 | Phase 7 | Pending |
+| DFIX-05 | Phase 7 | Complete |
 | DFIX-06 | Phase 7 | Complete |
 | DFIX-07 | Phase 7 | Complete |
 | DFIX-08 | Phase 7 | Complete |
