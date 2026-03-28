@@ -148,7 +148,11 @@ Plans:
   3. Bed JSON feature arrays and HA alert messages reference the correct crops per bed (no tomato references in Bed E, correct reservoir beds)
   4. Weekly schedule sowing tasks align with Phase 3 grid maps -- stopped succession slots have no future sowing tasks
   5. A dill.json crop file exists with proper schema fields, and the radish crop JSON correctly documents its bed assignments
-**Plans**: TBD
+**Plans:** 2 plans
+
+Plans:
+- [ ] 07-01-PLAN.md -- Phase 1 doc naming fix (bed-layout, setup-guide, reservoir-build) + CLAUDE.md bed table + vacation script reservoir refs
+- [ ] 07-02-PLAN.md -- JSON data fixes (bed features, HA alerts, dill.json, radish note, schedule succession audit)
 
 ### Phase 8: Child Engagement Bridge
 **Goal**: The child has a simple visual daily routine and structured between-session activities that let him independently engage with the garden every day, not just on planting event days
@@ -220,7 +224,7 @@ Plans:
 | 4. Data System and Schedules | v1.0 | 3/3 | Complete | 2026-03-27 |
 | 5. Documentation and Guides | v1.0 | 3/3 | Complete | 2026-03-27 |
 | 6. Vacation Preparation | v1.0 | 2/2 | Complete | 2026-03-28 |
-| 7. Data Consistency and Identity Fix | v1.1 | 0/? | Not started | - |
+| 7. Data Consistency and Identity Fix | v1.1 | 0/2 | Planned | - |
 | 8. Child Engagement Bridge | v1.1 | 0/? | Not started | - |
 | 9. Operational Readiness | v1.1 | 0/? | Not started | - |
 | 10. Home Assistant Setup | v1.1 | 0/? | Not started | - |
