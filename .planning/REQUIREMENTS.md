@@ -121,10 +121,10 @@ Requirements for gap closure and operational readiness. Each maps to roadmap pha
 
 ### Operational Readiness
 
-- [ ] **OPRD-01**: Spring planting shopping list covering all Phase 2 plant purchases (plugs, canes, herbs, seedlings)
-- [ ] **OPRD-02**: Purchase priority ordering added to shopping lists (lead times, what to order first)
-- [ ] **OPRD-03**: Tool inventory section covering all required tools across build and planting days
-- [ ] **OPRD-04**: PROJECT.md budget constraint updated to reflect actual ~10,000 DKK cost
+- [x] **OPRD-01**: Spring planting shopping list covering all Phase 2 plant purchases (plugs, canes, herbs, seedlings)
+- [x] **OPRD-02**: Purchase priority ordering added to shopping lists (lead times, what to order first)
+- [x] **OPRD-03**: Tool inventory section covering all required tools across build and planting days
+- [x] **OPRD-04**: PROJECT.md budget constraint updated to reflect actual ~10,000 DKK cost
 
 ### HA Integration
 
@@ -276,10 +276,10 @@ Requirements for gap closure and operational readiness. Each maps to roadmap pha
 | CENG-02 | Phase 8 | Complete |
 | CENG-03 | Phase 8 | Complete |
 | CENG-04 | Phase 8 | Complete |
-| OPRD-01 | Phase 9 | Pending |
-| OPRD-02 | Phase 9 | Pending |
-| OPRD-03 | Phase 9 | Pending |
-| OPRD-04 | Phase 9 | Pending |
+| OPRD-01 | Phase 9 | Complete |
+| OPRD-02 | Phase 9 | Complete |
+| OPRD-03 | Phase 9 | Complete |
+| OPRD-04 | Phase 9 | Complete |
 | HAIG-01 | Phase 10 | Pending |
 | HAIG-02 | Phase 10 | Pending |
 | HAIG-03 | Phase 10 | Pending |
