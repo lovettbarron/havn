@@ -431,3 +431,112 @@ An alphabetical list of every crop planted in this garden, with bed assignment, 
 
 **Bed B -- "His Bed"** (150x60cm, near house/terrace)
 Strawberry Ostara, Strawberry Korona, Lamb's Ear, Lemon Balm, Thyme, Viola, Calendula, Sunflower, Nasturtium, Spring Onions, Radish, Mint (pot beside bed)
+
+---
+
+## Crop Failure Recovery
+
+> **It's OK -- this happens to every garden.** Plants fail sometimes. It does not mean you did anything wrong. An empty spot in the bed is an opportunity, not a problem. You can replant, or you can leave it -- both are fine.
+
+Replacement is **optional**. Empty space is acceptable in a learning garden. If the child is upset about a plant dying, acknowledge the feeling first ("That is sad, you took good care of it") before talking about what to do next.
+
+### Month-by-Month Replanting Windows
+
+Use this table to find replacement crops that still have time to produce before the season ends. All suggestions are fast growers suitable for Vejle (Zone 7b).
+
+| Month | Window | Good Replacements | Days to Harvest |
+|-------|--------|-------------------|-----------------|
+| May | After last frost (~May 15) | Radish (radise), baby lettuce (babysalat), arugula (rucola), basil seedling (basilikum) | 20-30 days |
+| June | Full season remaining | Radish (radise), baby lettuce (babysalat), bush beans (buskbonner), basil (basilikum), cilantro (koriander) | 20-45 days |
+| July | Mid-season | Radish (radise), baby lettuce (babysalat), arugula (rucola), quick spinach (spinat), cilantro (koriander), microgreens (indoors) | 20-40 days |
+| August | Last outdoor window | Radish (radise), baby lettuce (babysalat), arugula (rucola), spinach (spinat), kale (groenkal) for autumn harvest | 25-50 days |
+
+### Quick Growers for Crisis Recovery
+
+These are crops not in the original plan but excellent as replacements when something fails mid-season:
+
+- **Microgreens (indoor, any time, 7-14 days)** -- The best crisis recovery crop. "We can grow something right now!" Grow on a windowsill in a shallow tray with damp kitchen paper. Harvest with scissors. Excellent for a child who just lost a plant.
+- **Arugula / rocket / rucola** -- 21 days to baby leaf. Direct sow May-August. Peppery taste, interesting for sensory exploration.
+- **Quick radish (Cherry Belle, French Breakfast / radise)** -- 21-25 days. The fastest outdoor crop. Satisfying to pull out of the soil.
+- **Cilantro / koriander** -- 21-30 days to first leaf harvest. Direct sow May-July. Bolts quickly in heat, so treat as a fast crop.
+
+---
+
+### A Seedling Died
+
+**Severity:** :green_circle: No rush
+
+**What is happening:** A seedling has died. This could be damping off (stem pinched at soil level), slug damage (clean cut, slime trails), or frost damage (blackened leaves after a cold night). It is normal to lose some seedlings -- even experienced gardeners do.
+
+**What to do:**
+1. **Emotional framing first.** "It's OK -- this happens. We still have other plants growing well. Do you want to plant something new in this spot, or leave it empty?"
+2. Remove the dead seedling and put it in compost (unless it has a disease -- then household waste).
+3. Check the month table above. If the season allows, choose a fast replacement together with the child.
+4. If the child does not want to replant, leave the space. An empty spot is fine.
+
+**Replacement options:** Check the month-by-month table above. Radish and baby lettuce are the safest bets at any point in the season.
+
+**Child action:** "This little plant didn't make it. That's OK -- it happens to every garden. Do you want to pick something new to grow here, or should we leave this spot for the other plants to spread into?"
+
+[PHOTO: Empty spot in bed where seedling was removed]
+
+---
+
+### Something Is Eating My Plant
+
+**Severity:** :yellow_circle: This week
+
+**What is happening:** The plant is being eaten faster than it can grow. This could be caterpillars on broccoli (see *Holes in Leaves > Caterpillars*), aphid overwhelm (see *Aphids*), or slug devastation (see *Holes in Leaves > Slugs*). Sometimes a plant is too far gone to save.
+
+**What to do:**
+1. Identify the pest using the relevant section in this guide (Aphids, Holes in Leaves, etc.).
+2. Try the recommended treatment first -- many plants recover.
+3. If the plant is stripped to bare stems or has lost more than 75% of its leaves, it is unlikely to recover.
+4. Remove the damaged plant. Check the month table above for replacement timing.
+5. The replacement does not have to be the same crop. A fast grower like radish or lettuce is often a better choice.
+
+**Replacement options:** Check the month-by-month table above. Pick something different from what was eaten -- it may be less attractive to the same pest.
+
+**Child action:** "The bugs really liked this plant! Some plants get eaten and that is part of having a garden. Do you want to try growing something different here? Let's look at what we can plant this month."
+
+[PHOTO: Heavily damaged plant beyond recovery]
+
+---
+
+### The Plant Looks Sick
+
+**Severity:** :yellow_circle: This week
+
+**What is happening:** The plant has a disease -- powdery mildew (white coating, see *White Powder on Leaves*), blight (brown spots spreading, see *Spots on Leaves*), or grey mould / botrytis (fuzzy grey coating on fruit or stems). Some diseases can be managed, others mean the plant is done.
+
+**What to do:**
+1. Remove the worst-affected leaves or fruit. Put in household waste (NOT compost -- disease spores spread).
+2. Assess: is the plant mostly healthy with a few bad leaves, or is it more sick than healthy?
+3. If mostly healthy: remove affected parts, improve air circulation, water at soil level. Monitor daily.
+4. If mostly sick: remove the whole plant. It will not recover and may spread disease to neighbors.
+5. Check the month table above for replacement options if the plant is removed.
+
+**Replacement options:** Check the month-by-month table above. Avoid replanting the same crop type in the same spot -- the disease may still be in the soil.
+
+**Child action:** "This plant caught a disease -- like when people get a cold, plants can get sick too. We are going to take the sick parts off so the healthy parts can keep growing. Can you hold the bin bag while I cut?"
+
+[PHOTO: Plant with disease symptoms being assessed for recovery vs. removal]
+
+---
+
+### The Plant Bolted or Looks Weird
+
+**Severity:** :green_circle: No rush
+
+**What is happening:** The plant has bolted -- it has suddenly grown a tall central stalk and started making flowers instead of leaves. This happens when lettuce (salat) gets too hot, or when cilantro (koriander) and radish (radise) are left too long. It is a natural lifecycle event, not a failure. Cold damage on warm-season crops (blackened leaf edges after a cold night) can also make plants look strange.
+
+**What to do:**
+1. **Bolting:** Harvest any remaining edible parts immediately -- leaves become bitter after bolting. Pull the plant and compost it. Check the month table for a replacement. Lettuce can be re-sown in late August for an autumn crop.
+2. **Cold damage:** If only leaf edges are blackened, the plant will usually recover. Remove damaged leaves and wait a week. If the growing point (center) is dead, the plant will not recover -- replace it.
+3. **General weird appearance:** If the plant looks strange but is still producing, leave it. Imperfect plants often still produce perfectly good food.
+
+**Replacement options:** Check the month-by-month table above. Bolted lettuce in June-July can be replaced with radish, arugula (rucola), or baby lettuce (babysalat) for a second harvest.
+
+**Child action:** "Look, the lettuce is trying to grow a flower! That means it is finished making leaves. Let's pick the last good leaves and then plant something new. What do you want to try?"
+
+[PHOTO: Bolted lettuce next to a fresh replacement sowing]
