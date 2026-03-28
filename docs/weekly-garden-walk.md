@@ -6,7 +6,7 @@
 
 ## Activities
 
-### SENSORY WALK -- 2-3 min
+### 👃 SENSORY WALK -- 2-3 min
 
 > Touch, smell, and feel your way through the garden
 
@@ -19,7 +19,7 @@
 
 ---
 
-### CREATURE CHECK -- 2-3 min
+### 🦋 CREATURE CHECK -- 2-3 min
 
 > Look for garden visitors on the flowers
 
@@ -33,17 +33,17 @@
 
 ---
 
-### HARVEST ROUND -- 2-3 min
+### 🧺 HARVEST ROUND -- 2-3 min
 
 > Walk all 5 beds and pick anything ripe
 
 | Bed | What to look for |
 |-----|------------------|
 | Bed A | Red strawberries (jordbaer), radish tops poking up |
-| Bed B | Ripe raspberries (hindbear) -- red and soft |
+| Bed B | Ripe raspberries (hindbaer) -- red and soft |
 | Bed C | Fat pea pods (aerter), ripe tomatoes (tomater), cucumbers (agurker) |
 | Bed D | Lettuce leaves (salat) to snip, radishes, herbs for dinner |
-| Bed E | Bush beans (bonner), broccoli side shoots |
+| Bed E | Bush beans (boenner), broccoli side shoots |
 
 Season-dependent -- father guides which beds have harvestable crops this week.
 
@@ -51,7 +51,7 @@ Season-dependent -- father guides which beds have harvestable crops this week.
 
 ---
 
-### GROWTH CHECK -- 2-3 min
+### 📏 GROWTH CHECK -- 2-3 min
 
 > Measure, count, and compare
 
@@ -66,28 +66,28 @@ Season-dependent -- father guides which beds have harvestable crops this week.
 
 ## Seasonal Highlights
 
-### Spring (W16-W20)
+### 🌱 Spring (W16-W20)
 
 - Look for first sprouts pushing through the soil
 - Count how many seeds have germinated in each bed
 - Find the very first flower in the garden -- who blooms first?
 - Bed A: Can you spot sunflower seed leaves?
 
-### Early Summer (W21-W28)
+### ☀️ Early Summer (W21-W28)
 
 - Watch green fruits forming on strawberry (Bed A) and tomato (Bed C) plants
 - First harvests! Radishes (Bed A/D), peas (Bed C), lettuce (Bed D)
 - Bee counting challenge: how many bees on borage in one minute? (Bed C/E)
 - Sunflower is growing fast -- measure every week!
 
-### Peak Summer (W28-W36)
+### 🍅 Peak Summer (W28-W36)
 
 - Harvest party! Strawberries, tomatoes, cucumbers, beans, peppers
 - Tallest sunflower measurement -- is it taller than dad?
 - Taste test: compare cherry tomatoes (Bed C) warm from the sun
 - Count the different colours in the garden
 
-### Autumn (W37-W44)
+### 🍂 Autumn (W37-W44)
 
 - Last harvests -- raspberries (Bed B), peppers (Bed C), late beans (Bed E)
 - Sunflower seed saving: rub seeds out of the big head (Bed A)
