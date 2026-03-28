@@ -1,0 +1,124 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "season-review.schema.json",
+  "title": "Haven Season Review",
+  "description": "Schema for end-of-season review data capturing crop performance and child engagement",
+  "type": "object",
+  "required": ["season", "year", "review_date", "crops", "summary"],
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "description": "Reference to this schema file"
+    },
+    "season": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Season number (1 = first year, 2 = second year, etc.)"
+    },
+    "year": {
+      "type": "integer",
+      "minimum": 2025,
+      "description": "Calendar year of the growing season"
+    },
+    "review_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Date the review was completed (ISO 8601)"
+    },
+    "crops": {
+      "type": "array",
+      "description": "Per-crop scorecard entries",
+      "items": {
+        "type": "object",
+        "required": [
+          "crop_id",
+          "crop_name",
+          "planted_week",
+          "germinated",
+          "harvested",
+          "yield",
+          "child_engagement",
+          "verdict"
+        ],
+        "properties": {
+          "crop_id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9-]*$",
+            "description": "References data/crops/*.json id field"
+          },
+          "crop_name": {
+            "type": "string",
+            "description": "Human-readable crop name (English)"
+          },
+          "planted_week": {
+            "type": "string",
+            "pattern": "^W[0-9]{2}$",
+            "description": "ISO week when planted (e.g. W16)"
+          },
+          "germinated": {
+            "type": "boolean",
+            "description": "Whether the crop germinated / established"
+          },
+          "harvested": {
+            "type": "boolean",
+            "description": "Whether any harvest was collected"
+          },
+          "yield": {
+            "type": "string",
+            "enum": ["none", "some", "lots"],
+            "description": "Rough yield assessment"
+          },
+          "child_engagement": {
+            "type": "string",
+            "enum": ["loved_it", "indifferent", "avoided"],
+            "description": "How engaged the child was with this crop"
+          },
+          "verdict": {
+            "type": "string",
+            "enum": ["keep", "drop", "try_different_variety"],
+            "description": "Decision for next season"
+          },
+          "notes": {
+            "type": "string",
+            "description": "Free text observations (optional)"
+          }
+        }
+      }
+    },
+    "summary": {
+      "type": "object",
+      "required": [
+        "favorite_crop",
+        "least_favorite_crop",
+        "biggest_success",
+        "biggest_challenge",
+        "changes_for_next_year"
+      ],
+      "properties": {
+        "favorite_crop": {
+          "type": "string",
+          "description": "Child's pick for favorite crop"
+        },
+        "least_favorite_crop": {
+          "type": "string",
+          "description": "Child's pick for least favorite crop"
+        },
+        "biggest_success": {
+          "type": "string",
+          "description": "What worked best this season"
+        },
+        "biggest_challenge": {
+          "type": "string",
+          "description": "What was hardest this season"
+        },
+        "changes_for_next_year": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "List of planned changes for the next season"
+        }
+      }
+    }
+  }
+}
