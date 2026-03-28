@@ -66,8 +66,8 @@ completed: 2026-03-28
 
 Each task was committed atomically:
 
-1. **Task 1: Create daily routine card** - `6b696d0` (feat)
-2. **Task 2: Create weekly garden walk checklist** - `fe59537` (feat)
+1. **Task 1: Create daily routine card** - `0b707a8` (feat)
+2. **Task 2: Create weekly garden walk checklist** - `5018ef0` (feat)
 
 ## Files Created/Modified
 - `docs/daily-routine-card.md` - Printable 5-step daily morning garden routine card

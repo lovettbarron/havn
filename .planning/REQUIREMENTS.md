@@ -114,9 +114,9 @@ Requirements for gap closure and operational readiness. Each maps to roadmap pha
 
 ### Child Engagement
 
-- [ ] **CENG-01**: Printable daily routine card exists for the child's 5-minute garden check (visual, child-facing)
+- [x] **CENG-01**: Printable daily routine card exists for the child's 5-minute garden check (visual, child-facing)
 - [x] **CENG-02**: Structured between-session activities for W19-W20 gap (sunflower check, germination watch, sensory walk)
-- [ ] **CENG-03**: Weekly garden walk checklist with 3-5 recurring quick activities
+- [x] **CENG-03**: Weekly garden walk checklist with 3-5 recurring quick activities
 - [x] **CENG-04**: Simple photo log approach documented (low friction, one photo per visit)
 
 ### Operational Readiness
@@ -272,9 +272,9 @@ Requirements for gap closure and operational readiness. Each maps to roadmap pha
 | DFIX-06 | Phase 7 | Complete |
 | DFIX-07 | Phase 7 | Complete |
 | DFIX-08 | Phase 7 | Complete |
-| CENG-01 | Phase 8 | Pending |
+| CENG-01 | Phase 8 | Complete |
 | CENG-02 | Phase 8 | Complete |
-| CENG-03 | Phase 8 | Pending |
+| CENG-03 | Phase 8 | Complete |
 | CENG-04 | Phase 8 | Complete |
 | OPRD-01 | Phase 9 | Pending |
 | OPRD-02 | Phase 9 | Pending |
