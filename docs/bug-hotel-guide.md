@@ -211,4 +211,4 @@ A simple observation checklist the child can use after the bug hotel is built. V
 
 - **Planting day script:** `docs/planting-day-script.md` -- the W16 planting sessions (mark the nature corner spot during planting day)
 - **Bed layout:** `docs/bed-layout.md` -- property map showing mature trees and fence boundaries for nature corner placement
-- **Grid maps:** `docs/planting-grid-bed-a.md` through `docs/planting-grid-bed-e.md` -- flower positions that attract pollinators to the water stations
+- **Grid maps:** `docs/planting-grid-bed-a.md` through `docs/planting-grid-bed-c.md` -- flower positions that attract pollinators to the water stations

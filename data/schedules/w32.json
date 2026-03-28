@@ -10,12 +10,12 @@
   "tasks": [
     {
       "id": "W32-01",
-      "action": "Full garden harvest walk: every bed from A to E",
+      "action": "Full garden harvest walk: every bed from A to C",
       "priority": "must_do",
       "who": "child",
       "minutes": 15,
       "frequency": "daily",
-      "prompt": { "en": "Start at Bed A and walk to Bed E -- pick something from every single bed!", "da": "Start ved Bed A og gaa til Bed E -- pluk noget fra hvert eneste bed!" }
+      "prompt": { "en": "Start at Bed A and walk to Bed C -- pick something from every single bed!", "da": "Start ved Bed A og gaa til Bed C -- pluk noget fra hvert eneste bed!" }
     },
     {
       "id": "W32-02",
@@ -39,23 +39,23 @@
     },
     {
       "id": "W32-04",
-      "action": "Cut broccoli main head from Bed E when fist-sized",
+      "action": "Cut broccoli main head from Bed C when fist-sized",
       "priority": "must_do",
       "who": "together",
       "minutes": 5,
       "frequency": "once",
-      "bed": "bed-e",
+      "bed": "bed-c",
       "crop_id": "broccoli-calabrese",
       "prompt": { "en": "Cut the main head with a sharp knife -- leave the stem for side-shoot broccoli!", "da": "Skaer hovedet af med en skarp kniv -- lad stilken staa til side-skuds broccoli!" }
     },
     {
       "id": "W32-05",
-      "action": "Pick first sweet peppers from Bed C if turning red",
+      "action": "Pick first sweet peppers from Bed B if turning red",
       "priority": "nice_to_do",
       "who": "child",
       "minutes": 5,
       "frequency": "weekly",
-      "bed": "bed-c",
+      "bed": "bed-b",
       "crop_id": "sweet-pepper-lipstick",
       "prompt": { "en": "Wait until it's really red -- green ones are okay too but red is sweeter!", "da": "Vent til den er helt roed -- groenne er ogsaa okay, men roede er soedere!" }
     }
@@ -68,16 +68,16 @@
     },
     {
       "crop_id": "cherry-tomato-tumbling-tom",
-      "event": "Tumbling Tom cascading over edge of Bed E with ripe red tomatoes",
+      "event": "Tumbling Tom cascading over edge of Bed B with ripe red tomatoes",
       "prompt": { "en": "The Tumbling Tom is hanging over the edge like a tomato waterfall!", "da": "Tumbling Tom haenger ud over kanten som et tomat-vandfald!" }
     }
   ],
   "sowing_tasks": [
     {
       "crop_id": "radish",
-      "bed": "bed-d",
+      "bed": "bed-c",
       "slot": "S1",
-      "action": "Sow ninth (final) succession radish in Bed D"
+      "action": "Sow ninth (final) succession radish in Bed C"
     }
   ]
 }

@@ -41,23 +41,23 @@
     },
     {
       "id": "W24-04",
-      "action": "Train cucumber onto trellis in Bed C",
+      "action": "Train cucumber onto trellis in Bed B",
       "priority": "must_do",
       "who": "together",
       "minutes": 5,
       "frequency": "weekly",
-      "bed": "bed-c",
+      "bed": "bed-b",
       "crop_id": "cucumber-mini-munch",
       "prompt": { "en": "Gently tie the cucumber stem to the trellis with soft string.", "da": "Bind forsigtigt agurkstilken til espalieren med bloedt snor." }
     },
     {
       "id": "W24-05",
-      "action": "Harvest spring onions from Bed D (first batch ready)",
+      "action": "Harvest spring onions from Bed C (first batch ready)",
       "priority": "nice_to_do",
       "who": "child",
       "minutes": 5,
       "frequency": "once",
-      "bed": "bed-d",
+      "bed": "bed-c",
       "crop_id": "spring-onion-white-lisbon",
       "prompt": { "en": "Pull a spring onion up -- smell it! Want to try a bite?", "da": "Traek et foraarsloeg op -- lugt til det! Vil du proeve en bid?" }
     }
@@ -70,7 +70,7 @@
     },
     {
       "crop_id": "bush-bean-provider",
-      "event": "Bean seedlings emerging in Bed E",
+      "event": "Bean seedlings emerging in Bed B",
       "prompt": { "en": "The bean pushed the soil up like a strongman! See the arch?", "da": "Boennen skubbede jorden op som en staerk mand! Ser du buen?" }
     }
   ],
@@ -83,15 +83,15 @@
     },
     {
       "crop_id": "spring-onion-white-lisbon",
-      "bed": "bed-d",
+      "bed": "bed-c",
       "slot": "S3",
-      "action": "Sow third spring onion batch in Bed D"
+      "action": "Sow third spring onion batch in Bed C"
     },
     {
       "crop_id": "bush-bean-provider",
-      "bed": "bed-e",
+      "bed": "bed-b",
       "slot": "S2",
-      "action": "Sow second bush bean seeds in Bed E"
+      "action": "Sow second bush bean seeds in Bed B"
     }
   ]
 }

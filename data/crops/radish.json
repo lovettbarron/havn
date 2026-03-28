@@ -123,8 +123,8 @@
     "attention_minutes_per_week": 8,
     "sensory": ["taste", "touch", "sight"]
   },
-  "beds": ["bed-a", "bed-c", "bed-d"],
-  "bed_notes": "Bed E had radish succession slot S1 in Phase 2, but it was stopped at W20 when warm-season crops (broccoli, beans) took the space. Excluded from beds array per Phase 3 final state.",
+  "beds": ["bed-a", "bed-c"],
+  "bed_notes": "Old Bed E had radish succession slot S1 in Phase 2, but it was stopped at W20 when warm-season crops took the space. Radish succession now consolidated in Bed A and Bed C.",
   "sowing": {
     "method": "seed",
     "indoor_start": null,

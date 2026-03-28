@@ -9,21 +9,21 @@
       "tasks": [
         {
           "id": "D3-00",
-          "action": "Take photos of each bed (A, B, C, D, E) for neighbor guide",
+          "action": "Take photos of each bed (A, B, C) for neighbor guide",
           "who": "together",
           "minutes": 5,
           "completed": false
         },
         {
           "id": "D3-01",
-          "action": "Spread straw mulch on Beds A, B, C (5-8cm depth)",
+          "action": "Spread straw mulch on Beds A, B (5-8cm depth)",
           "who": "together",
           "minutes": 20,
           "completed": false
         },
         {
           "id": "D3-02",
-          "action": "Spread bark mulch on Beds D, E (5-8cm depth)",
+          "action": "Spread bark mulch on Bed C (5-8cm depth)",
           "who": "together",
           "minutes": 10,
           "completed": false
@@ -37,7 +37,7 @@
         },
         {
           "id": "D3-04",
-          "action": "Deep water all 5 beds after mulching",
+          "action": "Deep water all 3 beds after mulching",
           "who": "child",
           "minutes": 15,
           "completed": false
@@ -57,14 +57,14 @@
         },
         {
           "id": "D2-02",
-          "action": "Harvest all ripe tomatoes, cucumbers, peppers from Bed C",
+          "action": "Harvest all ripe tomatoes, cucumbers, peppers from Bed B",
           "who": "child",
           "minutes": 15,
           "completed": false
         },
         {
           "id": "D2-03",
-          "action": "Harvest all ripe strawberries (Bed A), raspberries (Bed B), beans (Bed E)",
+          "action": "Harvest all ripe strawberries (Bed A), raspberries (Bed B), beans (Bed B)",
           "who": "child",
           "minutes": 15,
           "completed": false
@@ -112,7 +112,7 @@
         },
         {
           "id": "D1-05",
-          "action": "Final top-up watering all 5 beds",
+          "action": "Final top-up watering all 3 beds",
           "who": "child",
           "minutes": 10,
           "completed": false

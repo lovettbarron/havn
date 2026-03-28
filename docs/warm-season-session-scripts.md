@@ -3,7 +3,7 @@
 **Project:** Havn -- A Learning Garden
 **Target:** Session 1 in W18 (May 1), Session 2 in W21 (May 20+)
 **Total Session 1 time:** ~30-45 minutes
-**Total Session 2 time:** ~75-100 minutes including break
+**Total Session 2 time:** ~70-90 minutes including break
 
 Two sessions separated by about three weeks. Session 1 is quick and fun -- big seeds only, direct sowing, done in under an hour. Session 2 is the big transplant day with a pea harvest celebration, mint pot setup, mandatory snack break, and all the warm-crop transplants.
 
@@ -42,9 +42,9 @@ If conditions are not right, postpone 1-3 days. Seeds do not mind waiting.
 
 - [ ] Check soil temperature (thermometer or hand test -- should feel warmish)
 - [ ] Pre-mark sowing positions in Bed A: sunflower spots at north end (around row 100-120cm), nasturtium at east edge (around 55, 50)
-- [ ] Pre-mark sowing positions in Bed E: bean row along east edge (W=35cm, 12cm intervals)
+- [ ] Pre-mark sowing positions in Bed B south zone: bean row (12cm intervals)
 - [ ] Have ruler stake ready -- marked in 10cm increments with waterproof marker
-- [ ] Lay out seed packets by their destination: sunflower and nasturtium near Bed A, bush bean near Bed E, dill near Bed E and Bed C
+- [ ] Lay out seed packets by their destination: sunflower and nasturtium near Bed A, bush bean near Bed B, dill near Bed B and Bed C
 - [ ] Set out watering can (small one for him, large one for you)
 - [ ] Fill both watering cans
 
@@ -52,7 +52,7 @@ If conditions are not right, postpone 1-3 days. Seeds do not mind waiting.
 
 ### Step 1 -- Sunflowers in Bed A North End (10 min)
 
-Bed A is physical Bed 3 (backyard, east position). Refer to `docs/planting-grid-bed-a.md` for exact positions.
+Bed A is in the east position near the trampoline. Refer to `docs/planting-grid-bed-a.md` for exact positions.
 
 **FATHER:** Poke 5-6 holes, 2.5cm deep, 15cm apart at the north end of Bed A (around row 100-120cm, centered around position 30, 105).
 
@@ -74,15 +74,15 @@ Bed A is physical Bed 3 (backyard, east position). Refer to `docs/planting-grid-
 
 **FATHER:** "These flowers are bee magnets -- let's see how many bees visit when they bloom! And ladybugs love them too."
 
-> **Transition cue:** "Let's go to the terrace and plant beans!"
+> **Transition cue:** "Now let's plant beans in the big bed!"
 
 ---
 
-### Step 3 -- Bush Beans in Bed E (10 min)
+### Step 3 -- Bush Beans in Bed B South Zone (10 min)
 
-Walk to the terrace together. Bed E is physical Bed 5 (terrace, north end). Refer to `docs/planting-grid-bed-e.md` for exact positions.
+Walk to Bed B together -- just across the grass. Refer to `docs/planting-grid-bed-b.md` for exact positions.
 
-**FATHER:** Pre-mark a row along the east edge of Bed E at W=35cm. Poke 4-6 holes, 3-5cm deep, 12cm apart (positions at L=10, 22, 34, 46, 58, 70).
+**FATHER:** Pre-mark a row in the Bed B south zone. Poke 4-6 holes, 3-5cm deep, 12cm apart.
 
 **HE:** Pushes one bean seed into each hole -- big seeds, satisfying push. Covers with soil and pats down.
 
@@ -94,9 +94,9 @@ Walk to the terrace together. Bed E is physical Bed 5 (terrace, north end). Refe
 
 ---
 
-### Step 4 -- Dill in Bed E and Bed C (5 min)
+### Step 4 -- Dill in Bed B and Bed C (5 min)
 
-**FATHER ONLY:** Sprinkle dill seeds (tiny -- 0.5cm deep) at position (10, 70) in Bed E near the broccoli zone. Optionally sprinkle a few at position (50, 95) in Bed C near the pepper zone. Lightly cover with soil.
+**FATHER ONLY:** Sprinkle dill seeds (tiny -- 0.5cm deep) in Bed B south zone near the pepper area. Sprinkle a few in Bed C as well. Lightly cover with soil.
 
 **HE:** Waters the dill spots with the watering can.
 
@@ -118,7 +118,7 @@ Walk back to Bed A together. Stand next to the ruler stake.
 
 ### Wrap-Up (5 min)
 
-- Final watering of all sowed areas -- he uses the small can on Bed A, father handles Bed E
+- Final watering of all sowed areas -- he uses the small can on Bed A, father handles Bed B and Bed C
 - Walk the garden together to check how the Phase 2 plants are doing: "Look at the peas climbing! And the strawberry flowers!"
 - "In three weeks, we'll have a harvest party for the peas AND plant the big ones -- tomatoes, cucumbers, peppers!"
 
@@ -131,7 +131,7 @@ Walk back to Bed A together. Stand next to the ruler stake.
 | Prep (father only) | ~15 min | Yes |
 | Step 1 -- Sunflowers in Bed A | ~10 min | Yes |
 | Step 2 -- Nasturtiums at Bed A edge | ~5 min | Yes |
-| Step 3 -- Bush beans in Bed E | ~10 min | Yes |
+| Step 3 -- Bush beans in Bed B | ~10 min | Yes |
 | Step 4 -- Dill (father only + watering) | ~5 min | Yes |
 | Step 5 -- First sunflower measurement | ~5 min | Yes |
 | Wrap-up | ~5 min | Yes |
@@ -141,7 +141,7 @@ Walk back to Bed A together. Stand next to the ruler stake.
 
 ## Session 2: Big Transplant Day (~W21, May 20+)
 
-**Duration target:** 75-100 minutes with break
+**Duration target:** 70-90 minutes with break
 **Vibe:** Achievement day -- harvest celebration followed by planting the big warm-season crops
 
 ### Weather Check
@@ -160,15 +160,13 @@ Session 2 happens AFTER Session 1 sunflowers, nasturtiums, and beans have been g
 
 - [ ] Water all beds thoroughly the evening before
 - [ ] Lay out seedlings by their destination beds:
-  - **Bed C:** cucumber seedlings (x2), tomato Sungold seedling (x1), pepper seedling (x1), basil seedlings (x2)
-  - **Bed D:** leek seedlings (x3-4)
-  - **Bed E:** broccoli seedling (x1)
+  - **Bed B south zone:** cucumber seedlings (x2), tomato Sungold seedling (x1), pepper seedling (x1), basil seedlings (x2)
+  - **Bed C:** leek seedlings (x3-4), broccoli seedling (x1)
   - **Next to Bed A:** mint plant + 30cm+ pot + potting soil bag
-- [ ] Have tomato stake (1.5m+) and twine/soft ties ready for Bed C
+- [ ] Have tomato stake (1.5m+) and twine/soft ties ready for Bed B
 - [ ] Pre-dig ALL transplant holes at grid map positions (saves time during the session -- see each bed's grid map for exact cm):
-  - Bed C: holes at (15, 10), (45, 10), (30, 55), (30, 85), (15, 60), (45, 60)
-  - Bed D: dibber holes 15cm deep at (20, 20), (20, 35), (20, 50), optionally (20, 65)
-  - Bed E: hole at (20, 55)
+  - Bed B south zone: holes for cucumbers at trellis base, tomato, pepper, basil
+  - Bed C: dibber holes 15cm deep for leeks, hole for broccoli
 - [ ] Set out snacks and water at the garden table
 - [ ] Have watering can filled (both sizes)
 
@@ -182,7 +180,7 @@ Walk to Bed A first.
 
 "Look! Your sunflowers are sprouting!" (If visible -- they should be 5-15cm tall after 3 weeks.) "And the nasturtium seeds too!"
 
-Check bean sprouts in Bed E on the terrace. "Your beans are up! Can you see the flowers starting?"
+Check bean sprouts in Bed B south zone. "Your beans are up! Can you see the flowers starting?"
 
 Quick sunflower measurement if sprouts are visible:
 - He reads the ruler stake at the top of the tallest sunflower
@@ -191,9 +189,9 @@ Quick sunflower measurement if sprouts are visible:
 
 > **Transition cue:** "Now -- it's time for a harvest party!"
 
-#### Step 2 -- Pea Harvest Party in Bed C (10-15 min)
+#### Step 2 -- Pea Harvest Party in Bed B South Zone (10-15 min)
 
-Walk to Bed C (physical Bed 2, backyard center) together.
+Walk to Bed B together.
 
 "Let's pick every last pea! How many can we find?"
 
@@ -243,58 +241,56 @@ Let him reset. Do not talk about what comes next unless he asks.
 
 ---
 
-### Session 2C: Shared Bed Transplants (30-40 min)
+### Session 2C: Bed B Transplants (20 min)
 
-#### Step 4 -- Bed C Transplants (20 min)
+Bed B is in the west position. Father has pre-dug all holes at the grid map positions. Refer to `docs/planting-grid-bed-b.md` for exact positions.
 
-Bed C is physical Bed 2 (backyard center). Father has pre-dug all holes at the grid map positions. Refer to `docs/planting-grid-bed-c.md` for exact positions.
+**Cucumber transplants at trellis base (south zone):**
 
-**Cucumber transplants at trellis base:**
-
-**HE:** Places the first cucumber seedling in the hole at position (15, 10).
+**HE:** Places the first cucumber seedling in the pre-dug hole at the south end of Bed B.
 **FATHER:** Backfills gently around the root ball. Waters well.
 
-**HE:** Places the second cucumber seedling at position (45, 10).
+**HE:** Places the second cucumber seedling at the next position.
 **FATHER:** Backfills and waters.
 
 "These will climb the trellis just like the peas did -- but instead of peas hanging down, there will be cucumbers! You can pick them right off the vine."
 
 **Tomato Sungold transplant:**
 
-**HE:** Places the tomato seedling in the hole at position (30, 55).
+**HE:** Places the tomato seedling in the pre-dug hole in Bed B south zone.
 **FATHER:** Backfills and waters. Immediately installs the tomato stake next to the plant. Ties the stem loosely with twine in a figure-8 pattern.
 
 "This tomato will grow taller than you! Every week we'll tie it up higher and pinch off the side shoots so it focuses on making tomatoes."
 
 **Sweet pepper transplant:**
 
-**HE:** Places the pepper seedling at position (30, 85).
+**HE:** Places the pepper seedling in its position in Bed B south zone.
 **FATHER:** Backfills and waters.
 
 "Peppers start green and slowly turn red when they're ready. We'll watch them change color all summer!"
 
 **Basil transplants:**
 
-**HE:** Places the first basil at position (15, 60) and the second at (45, 60).
+**HE:** Places the basil seedlings in their positions in Bed B south zone.
 **FATHER:** Backfills and waters each one.
 
 **HE:** Pinches a basil leaf and smells it.
 
 "Basil helps the tomatoes grow better AND it smells amazing. When the tomatoes are ripe, we'll pick basil leaves to eat with them."
 
-> **Transition cue:** "The big bed is done! Let's go to the terrace for the last two."
+> **Transition cue:** "The big bed is done! Now let's do the last two plants in the kitchen cart."
 
 ---
 
-#### Step 5 -- Terrace Bed Transplants (10-15 min)
+#### Step 5 -- Bed C Transplants (10 min)
 
-Walk to the terrace together.
+Walk to Bed C on the cobblestones -- just a few steps away.
 
-**Bed D -- Leeks:**
+**Bed C -- Leeks:**
 
-Bed D is physical Bed 4 (terrace south end). Refer to `docs/planting-grid-bed-d.md`.
+Refer to `docs/planting-grid-bed-c.md`.
 
-**FATHER:** Has pre-made 15cm deep holes with a dibber at 15cm spacing -- positions (20, 20), (20, 35), (20, 50), and optionally (20, 65).
+**FATHER:** Has pre-made 15cm deep holes with a dibber at 15cm spacing.
 
 **HE:** Drops a leek seedling into each deep hole. Just drops it in -- do not push down.
 
@@ -302,11 +298,9 @@ Bed D is physical Bed 4 (terrace south end). Refer to `docs/planting-grid-bed-d.
 
 **FATHER:** Gently waters into each hole. **Do NOT backfill** -- the soil washes in naturally over time as the leek grows.
 
-**Bed E -- Broccoli:**
+**Bed C -- Broccoli:**
 
-Bed E is physical Bed 5 (terrace north end). Refer to `docs/planting-grid-bed-e.md`.
-
-**HE:** Places the broccoli seedling in the pre-dug hole at position (20, 55).
+**HE:** Places the broccoli seedling in the pre-dug hole.
 **FATHER:** Backfills and waters.
 
 "Broccoli grows a big green head first. After you pick the main head, little ones keep coming for weeks -- like bonus broccoli!"
@@ -323,7 +317,7 @@ Bed E is physical Bed 5 (terrace north end). Refer to `docs/planting-grid-bed-e.
 
 ### Wrap-Up (5 min)
 
-Walk the whole garden together. Count all the different plants across every bed.
+Walk the whole garden together. Count all the different plants across all 3 beds.
 
 "Your garden is complete! Every bed has plants growing."
 
@@ -353,11 +347,11 @@ Set the first weekly sunflower measurement day for next [pick a consistent day o
 | Step 2 -- Pea Harvest Party | ~10-15 min | Yes |
 | Step 3 -- Mint pot setup (his bed) | ~10-15 min | Yes |
 | **MANDATORY SNACK BREAK** | **~10-15 min** | **Yes** |
-| Step 4 -- Bed C transplants | ~20 min | Yes |
-| Step 5 -- Terrace bed transplants | ~10-15 min | Yes |
+| Step 4 -- Bed B transplants | ~20 min | Yes |
+| Step 5 -- Bed C transplants | ~10 min | Yes |
 | Step 6 -- Final watering | ~5 min | Yes |
 | Wrap-up | ~5 min | Yes |
-| **Total (child present)** | **~75-95 min** | |
+| **Total (child present)** | **~70-90 min** | |
 
 ---
 
@@ -385,7 +379,7 @@ Woven into the daily garden routine, not a separate scheduled activity.
 
 ### Tomato Suckering (Weekly, Father-Led)
 
-- Show him the side shoots growing in the leaf axils of the Sungold tomato
+- Show him the side shoots growing in the leaf axils of the Sungold tomato in Bed B
 - Pinch them out together -- snap off the small shoot growing between the main stem and a leaf branch
 - "We keep the plant focused on making tomatoes, not extra leaves."
 - This is a quick weekly task during the garden walk (2-3 minutes)
@@ -393,7 +387,7 @@ Woven into the daily garden routine, not a separate scheduled activity.
 
 ### Bean Check (Daily, His Task)
 
-- Bush beans are fast growers. He can check daily for flowers, then pods
+- Bush beans in Bed B are fast growers. He can check daily for flowers, then pods
 - "Pick beans when they're as long as your finger!"
 - Regular picking encourages more pod production
 - This becomes his daily harvest responsibility starting in early-mid July
@@ -463,8 +457,8 @@ The companion planting layout works with any variety within each crop type. The 
 
 ## Cross-References
 
-- **Grid maps:** `docs/planting-grid-bed-a.md` through `docs/planting-grid-bed-e.md` -- exact plant positions for each bed
+- **Grid maps:** `docs/planting-grid-bed-a.md` through `docs/planting-grid-bed-c.md` -- exact plant positions for each bed
 - **Shopping list:** `docs/warm-season-shopping-list.md` -- all seedlings, seeds, and materials for Phase 3
-- **Phase 2 planting script:** `docs/planting-day-script.md` -- Session 1/2/3 format reference (same structure used here)
+- **Phase 2 planting script:** `docs/planting-day-script.md` -- Session 1/2 format reference (same structure used here)
 - **Bed layout:** `docs/bed-layout.md` -- physical bed positions, dimensions, and property map
-- **Bed C grid map:** `docs/planting-grid-bed-c.md` -- critical reference for Session 2 transplant positions
+- **Bed B grid map:** `docs/planting-grid-bed-b.md` -- critical reference for Session 2 transplant positions

@@ -60,47 +60,7 @@
       "state_template": "{{ states('sensor.zigbee_soil_sensor_bed_c_temperature') | float(0) }}",
       "source_entity": "sensor.zigbee_soil_sensor_bed_c_temperature",
       "bed_id": "bed-c"
-    },
-    {
-      "unique_id": "havn_bed_d_moisture",
-      "name": "Havn Bed D Soil Moisture",
-      "entity_id": "sensor.havn_bed_d_moisture",
-      "unit_of_measurement": "%",
-      "device_class": "moisture",
-      "state_template": "{{ states('sensor.zigbee_soil_sensor_bed_d_moisture') | float(0) }}",
-      "source_entity": "sensor.zigbee_soil_sensor_bed_d_moisture",
-      "bed_id": "bed-d"
-    },
-    {
-      "unique_id": "havn_bed_d_temperature",
-      "name": "Havn Bed D Soil Temperature",
-      "entity_id": "sensor.havn_bed_d_temperature",
-      "unit_of_measurement": "\u00b0C",
-      "device_class": "temperature",
-      "state_template": "{{ states('sensor.zigbee_soil_sensor_bed_d_temperature') | float(0) }}",
-      "source_entity": "sensor.zigbee_soil_sensor_bed_d_temperature",
-      "bed_id": "bed-d"
-    },
-    {
-      "unique_id": "havn_bed_e_moisture",
-      "name": "Havn Bed E Soil Moisture",
-      "entity_id": "sensor.havn_bed_e_moisture",
-      "unit_of_measurement": "%",
-      "device_class": "moisture",
-      "state_template": "{{ states('sensor.zigbee_soil_sensor_bed_e_moisture') | float(0) }}",
-      "source_entity": "sensor.zigbee_soil_sensor_bed_e_moisture",
-      "bed_id": "bed-e"
-    },
-    {
-      "unique_id": "havn_bed_e_temperature",
-      "name": "Havn Bed E Soil Temperature",
-      "entity_id": "sensor.havn_bed_e_temperature",
-      "unit_of_measurement": "\u00b0C",
-      "device_class": "temperature",
-      "state_template": "{{ states('sensor.zigbee_soil_sensor_bed_e_temperature') | float(0) }}",
-      "source_entity": "sensor.zigbee_soil_sensor_bed_e_temperature",
-      "bed_id": "bed-e"
     }
   ],
-  "yaml_output": "# configuration.yaml - Template Sensors\n# Auto-generated from data/ha/sensors.json\ntemplate:\n  - sensor:\n      - name: \"Havn Bed A Soil Moisture\"\n        unique_id: havn_bed_a_moisture\n        unit_of_measurement: \"%\"\n        device_class: moisture\n        state: \"{{ states('sensor.zigbee_soil_sensor_bed_a_moisture') | float(0) }}\"\n      - name: \"Havn Bed A Soil Temperature\"\n        unique_id: havn_bed_a_temperature\n        unit_of_measurement: \"\u00b0C\"\n        device_class: temperature\n        state: \"{{ states('sensor.zigbee_soil_sensor_bed_a_temperature') | float(0) }}\"\n      - name: \"Havn Bed B Soil Moisture\"\n        unique_id: havn_bed_b_moisture\n        unit_of_measurement: \"%\"\n        device_class: moisture\n        state: \"{{ states('sensor.zigbee_soil_sensor_bed_b_moisture') | float(0) }}\"\n      - name: \"Havn Bed B Soil Temperature\"\n        unique_id: havn_bed_b_temperature\n        unit_of_measurement: \"\u00b0C\"\n        device_class: temperature\n        state: \"{{ states('sensor.zigbee_soil_sensor_bed_b_temperature') | float(0) }}\"\n      - name: \"Havn Bed C Soil Moisture\"\n        unique_id: havn_bed_c_moisture\n        unit_of_measurement: \"%\"\n        device_class: moisture\n        state: \"{{ states('sensor.zigbee_soil_sensor_bed_c_moisture') | float(0) }}\"\n      - name: \"Havn Bed C Soil Temperature\"\n        unique_id: havn_bed_c_temperature\n        unit_of_measurement: \"\u00b0C\"\n        device_class: temperature\n        state: \"{{ states('sensor.zigbee_soil_sensor_bed_c_temperature') | float(0) }}\"\n      - name: \"Havn Bed D Soil Moisture\"\n        unique_id: havn_bed_d_moisture\n        unit_of_measurement: \"%\"\n        device_class: moisture\n        state: \"{{ states('sensor.zigbee_soil_sensor_bed_d_moisture') | float(0) }}\"\n      - name: \"Havn Bed D Soil Temperature\"\n        unique_id: havn_bed_d_temperature\n        unit_of_measurement: \"\u00b0C\"\n        device_class: temperature\n        state: \"{{ states('sensor.zigbee_soil_sensor_bed_d_temperature') | float(0) }}\"\n      - name: \"Havn Bed E Soil Moisture\"\n        unique_id: havn_bed_e_moisture\n        unit_of_measurement: \"%\"\n        device_class: moisture\n        state: \"{{ states('sensor.zigbee_soil_sensor_bed_e_moisture') | float(0) }}\"\n      - name: \"Havn Bed E Soil Temperature\"\n        unique_id: havn_bed_e_temperature\n        unit_of_measurement: \"\u00b0C\"\n        device_class: temperature\n        state: \"{{ states('sensor.zigbee_soil_sensor_bed_e_temperature') | float(0) }}\"\n"
+  "yaml_output": "# configuration.yaml - Template Sensors\n# Auto-generated from data/ha/sensors.json\ntemplate:\n  - sensor:\n      - name: \"Havn Bed A Soil Moisture\"\n        unique_id: havn_bed_a_moisture\n        unit_of_measurement: \"%\"\n        device_class: moisture\n        state: \"{{ states('sensor.zigbee_soil_sensor_bed_a_moisture') | float(0) }}\"\n      - name: \"Havn Bed A Soil Temperature\"\n        unique_id: havn_bed_a_temperature\n        unit_of_measurement: \"\u00b0C\"\n        device_class: temperature\n        state: \"{{ states('sensor.zigbee_soil_sensor_bed_a_temperature') | float(0) }}\"\n      - name: \"Havn Bed B Soil Moisture\"\n        unique_id: havn_bed_b_moisture\n        unit_of_measurement: \"%\"\n        device_class: moisture\n        state: \"{{ states('sensor.zigbee_soil_sensor_bed_b_moisture') | float(0) }}\"\n      - name: \"Havn Bed B Soil Temperature\"\n        unique_id: havn_bed_b_temperature\n        unit_of_measurement: \"\u00b0C\"\n        device_class: temperature\n        state: \"{{ states('sensor.zigbee_soil_sensor_bed_b_temperature') | float(0) }}\"\n      - name: \"Havn Bed C Soil Moisture\"\n        unique_id: havn_bed_c_moisture\n        unit_of_measurement: \"%\"\n        device_class: moisture\n        state: \"{{ states('sensor.zigbee_soil_sensor_bed_c_moisture') | float(0) }}\"\n      - name: \"Havn Bed C Soil Temperature\"\n        unique_id: havn_bed_c_temperature\n        unit_of_measurement: \"\u00b0C\"\n        device_class: temperature\n        state: \"{{ states('sensor.zigbee_soil_sensor_bed_c_temperature') | float(0) }}\"\n"
 }

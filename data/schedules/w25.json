@@ -10,12 +10,12 @@
   "tasks": [
     {
       "id": "W25-01",
-      "action": "Harvest first pea pods from Bed C trellis",
+      "action": "Harvest first pea pods from Bed B trellis",
       "priority": "must_do",
       "who": "child",
       "minutes": 10,
       "frequency": "weekly",
-      "bed": "bed-c",
+      "bed": "bed-b",
       "crop_id": "pea-kelvedon-wonder",
       "prompt": { "en": "Feel the pod -- when it's bumpy and fat, it's ready! Pop it open and eat the peas!", "da": "Maaerk skullen -- naar den er knoldret og tyk, er den klar! Knaek den op og spis aerterne!" }
     },
@@ -41,23 +41,23 @@
     },
     {
       "id": "W25-04",
-      "action": "Cut lettuce from Bed E (second sowing ready)",
+      "action": "Cut lettuce from Bed C (second sowing ready)",
       "priority": "nice_to_do",
       "who": "child",
       "minutes": 5,
       "frequency": "weekly",
-      "bed": "bed-e",
+      "bed": "bed-c",
       "crop_id": "lettuce-baby-mix",
       "prompt": { "en": "Cut-and-come-again! Snip the outer leaves for a salad.", "da": "Klip-og-kom-igen! Klip de yderste blade til en salat." }
     },
     {
       "id": "W25-05",
-      "action": "Check for aphids on Bed C crops -- spray water if found",
+      "action": "Check for aphids on Bed B crops -- spray water if found",
       "priority": "nice_to_do",
       "who": "together",
       "minutes": 5,
       "frequency": "weekly",
-      "bed": "bed-c",
+      "bed": "bed-b",
       "prompt": { "en": "Look under the leaves -- see any tiny green bugs? Spray them off with the hose!", "da": "Kig under bladene -- ser du smaa groenne insekter? Spraaejt dem af med slangen!" }
     }
   ],

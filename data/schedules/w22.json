@@ -21,12 +21,12 @@
     },
     {
       "id": "W22-02",
-      "action": "Sow broccoli seeds in Bed E",
+      "action": "Sow broccoli seeds in Bed C",
       "priority": "must_do",
       "who": "together",
       "minutes": 10,
       "frequency": "once",
-      "bed": "bed-e",
+      "bed": "bed-c",
       "crop_id": "broccoli-calabrese",
       "prompt": { "en": "Tiny seeds for a big plant -- broccoli looks like little trees!", "da": "Smaa froe til en stor plante -- broccoli ligner smaa traeer!" }
     },
@@ -52,12 +52,12 @@
     },
     {
       "id": "W22-05",
-      "action": "Sow leek seeds in Bed D",
+      "action": "Sow leek seeds in Bed C",
       "priority": "must_do",
       "who": "father",
       "minutes": 10,
       "frequency": "once",
-      "bed": "bed-d",
+      "bed": "bed-c",
       "crop_id": "leek-musselburgh",
       "prompt": { "en": "Leeks are slow growers but worth the wait -- they'll be ready in autumn.", "da": "Porrer gror langsomt, men det er ventetiden vaerd -- de er klar til efteraaret." }
     }
@@ -83,15 +83,15 @@
     },
     {
       "crop_id": "lettuce-baby-mix",
-      "bed": "bed-d",
+      "bed": "bed-c",
       "slot": "S2",
-      "action": "Sow third succession lettuce in Bed D"
+      "action": "Sow third succession lettuce in Bed C"
     },
     {
       "crop_id": "pea-kelvedon-wonder",
-      "bed": "bed-c",
+      "bed": "bed-b",
       "slot": "S2",
-      "action": "Sow second pea planting in Bed C"
+      "action": "Sow second pea planting in Bed B"
     }
   ]
 }

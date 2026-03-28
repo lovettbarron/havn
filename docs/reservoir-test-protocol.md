@@ -6,19 +6,15 @@ This test confirms that the self-watering reservoir sustains plants for 5+ conse
 
 **When to test:** Complete by W26 (late June) at the latest. This leaves 2-3 weeks before departure for fallback planning if the test fails.
 
-**What it proves:** Whether the reservoir alone can keep root-zone soil damp for the full absence window, or whether neighbor visits need to be more frequent for reservoir beds.
+**What it proves:** Whether the reservoir alone can keep root-zone soil damp for the full absence window, or whether neighbor visits need to be more frequent for the reservoir bed.
 
 ---
 
-## Which Beds to Test
+## Which Bed to Test
 
-Test every bed that has a reservoir installed. Confirm which physical beds have reservoirs before starting -- there is a mapping discrepancy between project documents:
+Test the **south zone of Bed B** -- this is the only bed with a reservoir. The south zone (L=0 to L=100cm) contains the warm crops (cucumbers, tomato, pepper, basil, dill, borage, bush beans) with high water demand.
 
-- CLAUDE.md references reservoirs in Beds A and B
-- Data files show a reservoir feature on Bed C
-- The reservoir build guide references "Bed 1 (tomato)" and "Bed 2 (cucumber)"
-
-**Action:** Walk the garden and identify which beds have a fill tube and overflow fitting. Test each of those beds. Non-reservoir beds rely on mulch plus neighbor watering -- they do not need this test.
+All other beds (Bed A, Bed B north zone, Bed C) rely on mulch plus neighbor watering and do not need this test.
 
 ---
 
@@ -26,7 +22,7 @@ Test every bed that has a reservoir installed. Confirm which physical beds have 
 
 1. **Fill the reservoir completely** via the fill tube. Pour water until it flows from the overflow hole. Note the date and time.
 2. **Top-water the bed once** to saturate the full soil column (replicates what you would do on departure day).
-3. **Stop all manual watering** for this bed. Do not water it again for 5 days.
+3. **Stop all manual watering** for the south zone of Bed B. Do not water it again for 5 days.
 4. **Each morning for 5 consecutive days**, the child does the finger test:
    - Push a finger into the soil at the bed edge, 5-10cm deep
    - Report: **surface** (top 2-3cm) -- dry or damp?
@@ -46,9 +42,9 @@ Root depth goes **dry** on any day before Day 5. Note which day it dried out -- 
 
 ## Daily Log Template
 
-Print one copy per reservoir bed. Fill in during the test.
+Print one copy. Fill in during the test.
 
-**Bed:** ___
+**Bed:** B (south zone)
 **Start date:** ___
 **Reservoir filled:** ___ (time)
 **Last manual watering:** ___ (date/time)
@@ -70,8 +66,8 @@ Print one copy per reservoir bed. Fill in during the test.
 
 Do not add new hardware. Instead:
 
-- **Increase neighbor visit frequency** to every 2-3 days for each failed bed (instead of every 3 days)
-- **Note the failure in the neighbor guide** so the neighbor knows which beds need priority watering
+- **Increase neighbor visit frequency** to every 2-3 days for Bed B (instead of every 3 days)
+- **Note the failure in the neighbor guide** so the neighbor knows Bed B south zone needs priority watering
 - If the reservoir sustained 3-4 days, the combination of reservoir + neighbor visits every 2-3 days provides adequate coverage
 
 ---
@@ -86,4 +82,4 @@ The child is the daily soil check partner. Each morning during the test:
 
 **Framing:** "We are testing whether the plants can drink from their underground water bottle for 5 whole days. You check on them every morning to see if they are still happy."
 
-See [reservoir-build.md](reservoir-build.md) for reservoir construction details and capacity specifications (15-20L per bed).
+See [reservoir-build.md](reservoir-build.md) for reservoir construction details and capacity specifications.

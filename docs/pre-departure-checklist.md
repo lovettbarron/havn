@@ -6,21 +6,21 @@
 
 ## Day -3: Mulching Day
 
-- [ ] Take a photo of each bed (A, B, C, D, E) for the neighbor guide
-- [ ] Spread straw mulch on Bed A -- 5-8cm depth, leave space around stems
-- [ ] Spread straw mulch on Bed B -- 5-8cm depth, leave space around stems
+- [ ] Take a photo of each bed (A, B, C) for the neighbor guide
+- [ ] Spread straw mulch on Bed A -- 5-8cm depth, leave space around stems and strawberry crowns
+- [ ] Spread straw mulch on Bed B -- 5-8cm depth, leave space around stems, keep fill tube clear
 - [ ] Spread straw mulch on Bed C -- 5-8cm depth, leave space around stems
-- [ ] Spread bark mulch on Bed D (terrace) -- 5-8cm depth
-- [ ] Spread bark mulch on Bed E (terrace) -- 5-8cm depth
 - [ ] Check mulch depth on all beds with the marked stick (5-8cm)
-- [ ] Deep water all 5 beds after mulching
+- [ ] Deep water all 3 beds after mulching
 
 ## Day -2: Harvest Party
 
-- [ ] Fill all reservoirs via fill tubes (before child joins)
-- [ ] Harvest all ripe tomatoes, cucumbers, peppers from Bed C
-- [ ] Harvest all ripe strawberries from Bed A, raspberries from Bed B
-- [ ] Harvest all ripe beans from Bed E
+- [ ] Fill Bed B south zone reservoir via fill tube (before child joins)
+- [ ] Harvest all ripe tomatoes, cucumbers, peppers from Bed B south zone
+- [ ] Harvest all ripe strawberries from Bed A
+- [ ] Harvest all ripe raspberries from Bed B north end
+- [ ] Harvest all ripe beans from Bed B
+- [ ] Harvest any ripe broccoli from Bed C
 - [ ] Wash, count, and celebrate the harvest together
 
 ## Day -1: Neighbor Day
@@ -29,7 +29,7 @@
 - [ ] Walk primary neighbor through the garden bed by bed (15-20 min)
 - [ ] Hand printed guide to primary neighbor
 - [ ] Deliver backup copy to second neighbor
-- [ ] Final top-up watering -- all 5 beds
+- [ ] Final top-up watering -- all 3 beds
 - [ ] Child says goodbye to each bed
 
 ---

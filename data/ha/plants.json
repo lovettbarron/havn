@@ -23,7 +23,7 @@
     },
     {
       "id": "plant.havn_bed_b",
-      "name": "Havn Bed B - Raspberry Bed",
+      "name": "Havn Bed B - Family Bed",
       "bed_id": "bed-b",
       "sensors": {
         "moisture": "sensor.havn_bed_b_moisture",
@@ -43,7 +43,7 @@
     },
     {
       "id": "plant.havn_bed_c",
-      "name": "Havn Bed C - Shared Bed",
+      "name": "Havn Bed C - Kitchen Cart",
       "bed_id": "bed-c",
       "sensors": {
         "moisture": "sensor.havn_bed_c_moisture",
@@ -60,46 +60,6 @@
         }
       },
       "yaml_output": "# Plant Monitor for Bed C\nplant:\n  havn_bed_c:\n    sensors:\n      moisture: sensor.havn_bed_c_moisture\n      temperature: sensor.havn_bed_c_temperature\n    min_moisture: 45\n    max_moisture: 65\n    min_temperature: 4\n"
-    },
-    {
-      "id": "plant.havn_bed_d",
-      "name": "Havn Bed D - Terrace Herb Bed",
-      "bed_id": "bed-d",
-      "sensors": {
-        "moisture": "sensor.havn_bed_d_moisture",
-        "temperature": "sensor.havn_bed_d_temperature"
-      },
-      "thresholds": {
-        "min_moisture": 40,
-        "max_moisture": 55,
-        "min_temperature": -3,
-        "notes": {
-          "min_moisture_from": "lettuce-baby-mix (40% -- tied with radish)",
-          "max_moisture_from": "thyme (55% -- lowest max among bed crops)",
-          "min_temperature_from": "lettuce-baby-mix (-3C -- highest frost threshold)"
-        }
-      },
-      "yaml_output": "# Plant Monitor for Bed D\nplant:\n  havn_bed_d:\n    sensors:\n      moisture: sensor.havn_bed_d_moisture\n      temperature: sensor.havn_bed_d_temperature\n    min_moisture: 40\n    max_moisture: 55\n    min_temperature: -3\n"
-    },
-    {
-      "id": "plant.havn_bed_e",
-      "name": "Havn Bed E - Terrace Flower Bed",
-      "bed_id": "bed-e",
-      "sensors": {
-        "moisture": "sensor.havn_bed_e_moisture",
-        "temperature": "sensor.havn_bed_e_temperature"
-      },
-      "thresholds": {
-        "min_moisture": 40,
-        "max_moisture": 65,
-        "min_temperature": 2,
-        "notes": {
-          "min_moisture_from": "broccoli-calabrese (40% -- tied with cherry-tomato-tumbling-tom)",
-          "max_moisture_from": "borage (65% -- tied with calendula)",
-          "min_temperature_from": "bush-bean-provider (2C -- tied with cherry-tomato-tumbling-tom)"
-        }
-      },
-      "yaml_output": "# Plant Monitor for Bed E\nplant:\n  havn_bed_e:\n    sensors:\n      moisture: sensor.havn_bed_e_moisture\n      temperature: sensor.havn_bed_e_temperature\n    min_moisture: 40\n    max_moisture: 65\n    min_temperature: 2\n"
     }
   ]
 }

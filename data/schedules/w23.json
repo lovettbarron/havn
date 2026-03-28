@@ -46,18 +46,18 @@
       "who": "child",
       "minutes": 3,
       "frequency": "weekly",
-      "bed": "bed-c",
+      "bed": "bed-b",
       "crop_id": "cherry-tomato-sungold",
       "prompt": { "en": "Look for little yellow star flowers on the tomato -- each one becomes a tomato!", "da": "Kig efter smaa gule stjerneblomster paa tomaten -- hver en bliver til en tomat!" }
     },
     {
       "id": "W23-05",
-      "action": "Cut first lettuce harvest from Bed D",
+      "action": "Cut first lettuce harvest from Bed C",
       "priority": "nice_to_do",
       "who": "child",
       "minutes": 5,
       "frequency": "weekly",
-      "bed": "bed-d",
+      "bed": "bed-c",
       "crop_id": "lettuce-baby-mix",
       "prompt": { "en": "Cut the outer leaves with scissors -- leave the middle so it grows back!", "da": "Klip de yderste blade med en saks -- lad midten staa, saa den gror igen!" }
     }

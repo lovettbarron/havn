@@ -4,15 +4,13 @@ How to fill each raised bed with a three-layer system: drainage at the bottom, g
 
 ---
 
-## 40cm Backyard Beds (Beds 1-3)
+## Bed A -- "His Bed" (120x60x40cm, on grass)
 
-Dimensions: 120 x 60 x 40cm each (288 liters total volume per bed).
+Standard 3-layer fill. Total volume: 288 liters.
 
 ### Bottom Layer: Drainage Gravel (8-10cm)
 
-Spread 8-10cm of coarse gravel (16-32mm singels) evenly across the bed floor. This layer prevents waterlogging during Danish autumn rains by allowing excess water to drain freely through the bed.
-
-> **Beds 1 and 2 (reservoir beds):** The drainage gravel layer is replaced by the self-watering reservoir system. See [reservoir-build.md](reservoir-build.md) for the bottom ~10cm construction, then continue with the garden waste and hojbedsmuld layers on top as described below.
+Spread 8-10cm of coarse gravel (16-32mm singels) evenly across the bed floor. This layer prevents waterlogging during Danish autumn rains by allowing excess water to drain freely through the bed and into the grass below.
 
 ### Middle Layer: Garden Waste (10-15cm)
 
@@ -31,50 +29,73 @@ Fill the remaining depth with hojbedsmuld (purchased raised bed soil mix). Level
 
 ---
 
-## 30cm Terrace Beds (Beds 4-5)
+## Bed B -- "Family Bed" (230x80x40cm, on grass)
 
-Dimensions: 80 x 40 x 30cm each (96 liters total volume per bed).
+Total volume: 736 liters. This bed has two zones with different bottom layers.
 
-These beds use lighter materials to reduce weight on the roof terrace.
+### South Zone (~100cm length, reservoir)
 
-### Bottom Layer: Lightweight Drainage (5cm)
+The south zone houses the warm crops (tomato, cucumber, pepper, basil) and uses a self-watering reservoir instead of drainage gravel.
 
-Use perlite or lightweight expanded clay aggregate (LECA) instead of heavy gravel. Spread 5cm evenly across the bed floor. LECA balls (8-16mm) provide excellent drainage at a fraction of the weight of stone gravel.
+**Bottom Layer: Reservoir (~10cm)**
+The drainage gravel layer is replaced by the self-watering reservoir system. See [reservoir-build.md](reservoir-build.md) for the bottom ~10cm construction.
 
-### Middle Layer: Coconut Coir or Light Compost (8-10cm)
+**Middle Layer: Garden Waste (10-15cm)**
+Same as Bed A -- loosely packed branches, leaves, grass clippings, and straw above the reservoir's geotextile layer.
 
-Use coconut coir (compressed bricks, rehydrated) or lightweight peat-free compost instead of heavy garden waste. Avoid branches and dense organic material -- weight matters on the terrace.
+**Top Layer: Hojbedsmuld (15-20cm)**
+Same hojbedsmuld as all other beds. Level and lightly tamp.
 
-Coconut coir holds moisture well while remaining lightweight, making it ideal for elevated beds.
+### North Zone (~130cm length, standard 3-layer)
 
-### Top Layer: Hojbedsmuld (15cm)
+The north zone houses raspberries and bush beans with standard drainage.
 
-Same hojbedsmuld as the backyard beds. Level and lightly tamp.
+**Bottom Layer: Drainage Gravel (8-10cm)**
+Same as Bed A -- coarse gravel across the bed floor.
 
-### Weight Note
+**Middle Layer: Garden Waste (10-15cm)**
+Same as Bed A.
 
-Using LECA instead of gravel and coir instead of garden waste reduces saturated weight by approximately 20-30% compared to the standard backyard bed fill. Each terrace bed at full saturation weighs approximately 100-130 kg. Position beds over structural supports (carport walls/beams below the terrace), not in the center of unsupported spans.
+**Top Layer: Hojbedsmuld (15-20cm)**
+Same as all other beds.
+
+> **Note:** There is no physical divider between the south and north zones. The reservoir liner in the south zone creates a natural boundary at the bottom layer. The garden waste and hojbedsmuld layers are continuous across the full 230cm length.
+
+---
+
+## Bed C -- "Kitchen Cart" (150x40x40cm, on cobblestones, on wheels)
+
+Standard 3-layer fill. Total volume: 240 liters.
+
+### Bottom Layer: Drainage Gravel (8-10cm)
+
+Spread 8-10cm of coarse gravel (16-32mm singels) evenly across the bed floor. Since this bed is on wheels on cobblestones (not on grass), drainage exits through the bed bottom and onto the cobblestones below.
+
+### Middle Layer: Garden Waste (10-15cm)
+
+Same mix as Beds A and B -- loosely packed branches, leaves, grass clippings, and straw.
+
+### Top Layer: Hojbedsmuld (15-20cm)
+
+Fill the remaining depth with hojbedsmuld. Level and lightly tamp.
 
 ---
 
 ## Volume Calculations
 
-| Bed | Dimensions (cm) | Total Volume (L) | Drainage (L) | Middle Layer (L) | Top Soil (L) |
-|-----|-----------------|-------------------|---------------|-------------------|---------------|
-| Bed 1 (backyard, reservoir) | 120 x 60 x 40 | 288 | ~58 (reservoir) | 72-108 | 108-144 |
-| Bed 2 (backyard, reservoir) | 120 x 60 x 40 | 288 | ~58 (reservoir) | 72-108 | 108-144 |
-| Bed 3 (backyard) | 120 x 60 x 40 | 288 | 58-72 | 72-108 | 108-144 |
-| Bed 4 (terrace) | 80 x 40 x 30 | 96 | 16 | 26-32 | 48 |
-| Bed 5 (terrace) | 80 x 40 x 30 | 96 | 16 | 26-32 | 48 |
-| **Totals** | | **1,056** | | | |
+| Bed | Zone | Dimensions (cm) | Total Volume (L) | Drainage (L) | Middle Layer (L) | Top Soil (L) |
+|-----|------|-----------------|-------------------|---------------|-------------------|---------------|
+| Bed A | Full bed | 120 x 60 x 40 | 288 | 58-72 (gravel) | 72-108 | 108-144 |
+| Bed B | South zone (reservoir) | 80 x 100 x 40 | 320 | ~64 (reservoir) | 80-120 | 120-160 |
+| Bed B | North zone (standard) | 80 x 130 x 40 | 416 | 66-83 (gravel) | 83-125 | 125-166 |
+| Bed C | Full bed | 150 x 40 x 40 | 240 | 48-60 (gravel) | 60-90 | 90-120 |
+| **Totals** | | | **1,264** | | | |
 
 ### Material Summary
 
-- **Hojbedsmuld needed:** Approximately 420-530 liters (0.42-0.53 m3) for all top layers across 5 beds. Order 0.5-0.6 m3 to allow for settling.
-- **Drainage gravel needed:** Approximately 58-72 liters (0.06-0.07 m3) for Bed 3 only (Beds 1-2 use reservoir system, Beds 4-5 use LECA).
-- **LECA needed:** Approximately 32 liters for the two terrace beds.
-- **Coconut coir needed:** Approximately 52-64 liters (rehydrated) for the two terrace beds.
-- **Garden waste needed:** Approximately 144-216 liters for Bed 3 (Beds 1-2 have reduced middle layers above the reservoir). Sourced free from your own garden -- branches, leaves, grass clippings.
+- **Hojbedsmuld needed:** Approximately 443-590 liters (0.44-0.59 m3) for all top layers across 3 beds. Order 0.7-0.8 m3 to allow for settling and top-ups.
+- **Drainage gravel needed:** Approximately 172-215 liters (0.17-0.22 m3) for Bed A, Bed B north zone, and Bed C. The Bed B south zone uses the reservoir system instead of gravel.
+- **Garden waste needed:** Approximately 295-443 liters for the middle layers of all 3 beds. Sourced free from your own garden -- branches, leaves, grass clippings.
 
 ---
 

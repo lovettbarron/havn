@@ -21,13 +21,13 @@
     },
     {
       "id": "W31-02",
-      "action": "Harvest tomatoes and cucumbers from Bed C",
+      "action": "Harvest tomatoes and cucumbers from Bed B",
       "priority": "must_do",
       "who": "child",
       "minutes": 10,
       "frequency": "daily",
-      "bed": "bed-c",
-      "prompt": { "en": "Daily Bed C round -- tomatoes, cucumbers, and check the pepper!", "da": "Daglig Bed C runde -- tomater, agurker, og tjek peberfrugten!" }
+      "bed": "bed-b",
+      "prompt": { "en": "Daily Bed B round -- tomatoes, cucumbers, and check the pepper!", "da": "Daglig Bed B runde -- tomater, agurker, og tjek peberfrugten!" }
     },
     {
       "id": "W31-03",
@@ -40,23 +40,23 @@
     },
     {
       "id": "W31-04",
-      "action": "Check broccoli heads forming in Bed E",
+      "action": "Check broccoli heads forming in Bed C",
       "priority": "nice_to_do",
       "who": "child",
       "minutes": 3,
       "frequency": "weekly",
-      "bed": "bed-e",
+      "bed": "bed-c",
       "crop_id": "broccoli-calabrese",
       "prompt": { "en": "Look for the tiny green tree forming in the middle -- that's the broccoli head!", "da": "Kig efter det lille groenne trae i midten -- det er broccolihovedet!" }
     },
     {
       "id": "W31-05",
-      "action": "Harvest bush beans from Bed E",
+      "action": "Harvest bush beans from Bed B",
       "priority": "must_do",
       "who": "child",
       "minutes": 5,
       "frequency": "weekly",
-      "bed": "bed-e",
+      "bed": "bed-b",
       "crop_id": "bush-bean-provider",
       "prompt": { "en": "Pick beans every few days so the plant keeps making more!", "da": "Pluk boenner hver faa dage, saa planten bliver ved med at lave flere!" }
     }

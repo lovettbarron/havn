@@ -21,12 +21,12 @@
     },
     {
       "id": "W20-02",
-      "action": "Sow bush bean seeds in Bed E (after last frost)",
+      "action": "Sow bush bean seeds in Bed B (after last frost)",
       "priority": "must_do",
       "who": "together",
       "minutes": 10,
       "frequency": "once",
-      "bed": "bed-e",
+      "bed": "bed-b",
       "crop_id": "bush-bean-provider",
       "prompt": { "en": "Push each bean into the soil -- they look like little kidneys!", "da": "Tryk hver boenne ned i jorden -- de ligner smaa nyrer!" }
     },
@@ -64,21 +64,21 @@
   "sowing_tasks": [
     {
       "crop_id": "radish",
-      "bed": "bed-d",
+      "bed": "bed-c",
       "slot": "S1",
-      "action": "Sow third succession radish in Bed D"
+      "action": "Sow third succession radish in Bed C"
     },
     {
       "crop_id": "spring-onion-white-lisbon",
-      "bed": "bed-d",
+      "bed": "bed-c",
       "slot": "S3",
-      "action": "Sow second spring onion batch in Bed D"
+      "action": "Sow second spring onion batch in Bed C"
     },
     {
       "crop_id": "bush-bean-provider",
-      "bed": "bed-e",
+      "bed": "bed-b",
       "slot": "S2",
-      "action": "Sow first bush bean seeds in Bed E"
+      "action": "Sow first bush bean seeds in Bed B"
     }
   ]
 }

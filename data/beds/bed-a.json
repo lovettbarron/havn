@@ -3,11 +3,13 @@
   "id": "bed-a",
   "name": "His Bed",
   "physical": {
-    "position": "Bed 3, backyard east",
+    "position": "Backyard east, on grass near trampoline",
     "dimensions": { "length_cm": 120, "width_cm": 60, "height_cm": 40 },
     "material": "corten_steel",
-    "features": [],
-    "orientation": "N-S"
+    "product": "byJEMA CUBY Corten B60xH40 L120",
+    "features": ["bottomless", "mole-mesh"],
+    "orientation": "N-S",
+    "surface": "grass"
   },
   "crops": [
     {
@@ -77,7 +79,8 @@
       "positions": [
         { "center_w": 25, "center_l": 105, "spread_cm": 30 }
       ],
-      "planted_week": 16
+      "planted_week": 16,
+      "notes": "Replaced by sunflowers in W18"
     },
     {
       "crop_id": "sunflower",
@@ -101,7 +104,8 @@
       "positions": [
         { "center_w": 65, "center_l": 50, "spread_cm": 30 }
       ],
-      "planted_week": 21
+      "planted_week": 21,
+      "notes": "In pot outside bed, east side"
     }
   ],
   "succession_slots": [

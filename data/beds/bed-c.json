@@ -1,81 +1,99 @@
 {
   "$schema": "../schemas/bed.schema.json",
   "id": "bed-c",
-  "name": "Shared Bed",
+  "name": "Kitchen Cart",
   "physical": {
-    "position": "Bed 2, backyard center",
-    "dimensions": { "length_cm": 120, "width_cm": 60, "height_cm": 40 },
+    "position": "Backyard cobblestones, near north fence",
+    "dimensions": { "length_cm": 150, "width_cm": 40, "height_cm": 40 },
     "material": "corten_steel",
-    "features": ["a-frame-trellis", "self-watering-reservoir"],
-    "orientation": "N-S"
+    "product": "byJEMA Corten Plantekasse 150x40x40 on wheels",
+    "features": ["wheels"],
+    "orientation": "E-W",
+    "surface": "cobblestones"
   },
   "crops": [
     {
-      "crop_id": "pea-kelvedon-wonder",
-      "shortcode": "PEA",
+      "crop_id": "lettuce-baby-mix",
+      "shortcode": "LETTUCE",
       "positions": [
-        { "center_w": 15, "center_l": 5, "spread_cm": 20 },
-        { "center_w": 30, "center_l": 5, "spread_cm": 20 },
-        { "center_w": 45, "center_l": 5, "spread_cm": 20 }
+        { "center_w": 20, "center_l": 25, "spread_cm": 20 }
+      ],
+      "planted_week": 16,
+      "notes": "Broadcast sow. Bolts in summer, zone replaced by leeks."
+    },
+    {
+      "crop_id": "spring-onion-white-lisbon",
+      "shortcode": "SON",
+      "positions": [
+        { "center_w": 20, "center_l": 50, "spread_cm": 40 }
       ],
       "planted_week": 16
     },
     {
-      "crop_id": "kale-nero-di-toscana",
-      "shortcode": "KAL",
+      "crop_id": "thyme",
+      "shortcode": "THY",
       "positions": [
-        { "center_w": 25, "center_l": 70, "spread_cm": 30 },
-        { "center_w": 35, "center_l": 90, "spread_cm": 30 }
+        { "center_w": 5, "center_l": 5, "spread_cm": 20 },
+        { "center_w": 5, "center_l": 145, "spread_cm": 20 }
+      ],
+      "planted_week": 16
+    },
+    {
+      "crop_id": "viola",
+      "shortcode": "VIO",
+      "positions": [
+        { "center_w": 35, "center_l": 5, "spread_cm": 15 },
+        { "center_w": 35, "center_l": 145, "spread_cm": 15 }
+      ],
+      "planted_week": 16
+    },
+    {
+      "crop_id": "calendula",
+      "shortcode": "CAL",
+      "positions": [
+        { "center_w": 35, "center_l": 110, "spread_cm": 22 }
       ],
       "planted_week": 17
+    },
+    {
+      "crop_id": "leek-musselburgh",
+      "shortcode": "LEK",
+      "positions": [
+        { "center_w": 20, "center_l": 60, "spread_cm": 15 },
+        { "center_w": 20, "center_l": 75, "spread_cm": 15 },
+        { "center_w": 20, "center_l": 90, "spread_cm": 15 }
+      ],
+      "planted_week": 21
+    },
+    {
+      "crop_id": "broccoli-calabrese",
+      "shortcode": "BRC",
+      "positions": [
+        { "center_w": 20, "center_l": 120, "spread_cm": 35 }
+      ],
+      "planted_week": 21
+    },
+    {
+      "crop_id": "dill",
+      "shortcode": "DIL",
+      "positions": [
+        { "center_w": 10, "center_l": 140, "spread_cm": 25 }
+      ],
+      "planted_week": 18
     },
     {
       "crop_id": "borage",
       "shortcode": "BOR",
       "positions": [
-        { "center_w": 15, "center_l": 30, "spread_cm": 35 }
+        { "center_w": 10, "center_l": 130, "spread_cm": 35 }
       ],
       "planted_week": 17
-    },
-    {
-      "crop_id": "cucumber-mini-munch",
-      "shortcode": "CUC",
-      "positions": [
-        { "center_w": 15, "center_l": 10, "spread_cm": 30 },
-        { "center_w": 45, "center_l": 10, "spread_cm": 30 }
-      ],
-      "planted_week": 21
-    },
-    {
-      "crop_id": "cherry-tomato-sungold",
-      "shortcode": "TOM",
-      "positions": [
-        { "center_w": 30, "center_l": 55, "spread_cm": 45 }
-      ],
-      "planted_week": 21
-    },
-    {
-      "crop_id": "basil",
-      "shortcode": "BAS",
-      "positions": [
-        { "center_w": 15, "center_l": 60, "spread_cm": 25 },
-        { "center_w": 45, "center_l": 60, "spread_cm": 25 }
-      ],
-      "planted_week": 21
-    },
-    {
-      "crop_id": "sweet-pepper-lipstick",
-      "shortcode": "PEP",
-      "positions": [
-        { "center_w": 30, "center_l": 85, "spread_cm": 35 }
-      ],
-      "planted_week": 22
     }
   ],
   "succession_slots": [
     {
       "id": "S1",
-      "area": { "w_start": 10, "w_end": 50, "l_start": 35, "l_end": 55 },
+      "area": { "w_start": 10, "w_end": 30, "l_start": 35, "l_end": 45 },
       "crop_id": "radish",
       "first_sow_week": 18,
       "interval_weeks": 2

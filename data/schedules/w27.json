@@ -10,12 +10,12 @@
   "tasks": [
     {
       "id": "W27-01",
-      "action": "Search for first baby cucumbers on Bed C trellis",
+      "action": "Search for first baby cucumbers on Bed B trellis",
       "priority": "must_do",
       "who": "child",
       "minutes": 5,
       "frequency": "daily",
-      "bed": "bed-c",
+      "bed": "bed-b",
       "crop_id": "cucumber-mini-munch",
       "prompt": { "en": "Look behind the big leaves -- cucumbers love to hide! Can you find one?", "da": "Kig bag de store blade -- agurker elsker at gemme sig! Kan du finde en?" }
     },
@@ -41,12 +41,12 @@
     },
     {
       "id": "W27-04",
-      "action": "Harvest peas from Bed C",
+      "action": "Harvest peas from Bed B",
       "priority": "must_do",
       "who": "child",
       "minutes": 5,
       "frequency": "weekly",
-      "bed": "bed-c",
+      "bed": "bed-b",
       "crop_id": "pea-kelvedon-wonder",
       "prompt": { "en": "Keep picking! The more you pick, the more the plant makes!", "da": "Bliv ved med at plukke! Jo mere du plukker, jo mere laver planten!" }
     },

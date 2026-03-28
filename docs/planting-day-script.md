@@ -2,7 +2,7 @@
 
 **Project:** Havn -- A Learning Garden
 **Target:** W16 (April 13-19, 2026) main planting day + W17-W18 follow-ups
-**Total W16 time:** ~75-100 minutes including break
+**Total W16 time:** ~65-85 minutes including break
 
 This script guides the big W16 planting weekend step by step. It tells you who does what, when to take a break, and what to say at transitions. Follow-up sessions for W17 and W18 are at the end.
 
@@ -43,10 +43,8 @@ Do this while he is still having breakfast or getting dressed.
 - [ ] Check weather: temperature above 5C, no heavy rain forecast
 - [ ] Lay out all seeds and seedlings by each bed:
   - Bed A: strawberry plugs (Ostara + Korona), pea shoot seeds, viola seedlings, lamb's ear plant, thyme plants, lemon balm plant, calendula seeds
-  - Bed B: raspberry canes (Autumn Bliss), chive divisions
-  - Bed C: pea seeds (Kelvedon Wonder), kale seeds (Nero di Toscana), radish seeds, calendula seeds, borage seeds
-  - Bed D: lettuce seed mix, spring onion seeds (White Lisbon), thyme plant, viola seedlings
-  - Bed E: borage seeds, radish seeds, calendula seeds
+  - Bed B: raspberry canes (Autumn Bliss), chive divisions, pea seeds (Kelvedon Wonder) for south zone trellis base
+  - Bed C: lettuce seed mix, spring onion seeds (White Lisbon), thyme plant, calendula seeds, viola seedlings
 - [ ] Lay out tools by each bed: trowel, hand fork, watering can (small one for him, large one for you)
 - [ ] Fill both watering cans
 - [ ] Pre-dig holes for strawberry plugs in Bed A (6-8 holes at correct spacing -- see grid map)
@@ -61,7 +59,7 @@ Do this while he is still having breakfast or getting dressed.
 
 **This is the main event.** His bed comes first because it has the highest ownership value. Everything else is a bonus.
 
-Bed A is physical Bed 3 (east position, backyard). Refer to `docs/planting-grid-bed-a.md` for exact positions.
+Bed A is in the east position near the trampoline. Refer to `docs/planting-grid-bed-a.md` for exact positions.
 
 #### What HE Does
 
@@ -105,12 +103,11 @@ Walk to the garden table together. Do NOT start the next session immediately.
 
 ---
 
-### Session 2 -- Shared Beds / Beds B and C (~20-30 min)
+### Session 2 -- Shared Beds / Bed B and Bed C (~20-30 min)
 
 He is the helper now, not the star. Keep his tasks simple and physical.
 
-Bed B is physical Bed 1 (west position) -- the raspberry bed.
-Bed C is physical Bed 2 (center position) -- the pea and cooking bed with A-frame trellis.
+Bed B is in the west position near the stairway. Bed C is on the cobblestones near the north fence.
 
 Refer to `docs/planting-grid-bed-b.md` and `docs/planting-grid-bed-c.md` for exact positions.
 
@@ -118,55 +115,22 @@ Refer to `docs/planting-grid-bed-b.md` and `docs/planting-grid-bed-c.md` for exa
 
 | Step | Action | How to Help |
 |------|--------|-------------|
-| 1 | Pushes big pea seeds (Kelvedon Wonder) into holes along the trellis base in Bed C | Pre-poke holes 5 cm deep, 5 cm apart. He drops one seed in each hole and covers it. |
-| 2 | Helps carry raspberry canes to Bed B | He carries one cane at a time while you dig. Handle thorny parts yourself. |
-| 3 | Waters both beds when planting is done | He uses the small can, you use the large one. |
+| 1 | Pushes big pea seeds (Kelvedon Wonder) into holes along the trellis base in Bed B south zone | Pre-poke holes 5 cm deep, 5 cm apart. He drops a seed in each hole and covers it. |
+| 2 | Helps carry raspberry canes to Bed B north zone | He carries one cane at a time while you dig. Handle thorny parts yourself. |
+| 3 | Sprinkles lettuce seeds in Bed C (broadcast sowing -- fun and imprecise!) | Let him scatter seeds across the surface. Cover lightly with soil. |
+| 4 | Waters all beds when planting is done | He uses the small can, you use the large one. |
 
 #### What FATHER Does
 
-- Plant raspberry canes in Bed B (3 canes, 45 cm apart, 8 cm deep) -- sturdy Autumn Bliss canes do not need extra support
-- Divide and plant chives around the perimeter of Bed B (15-20 cm apart)
-- Sow kale (Nero di Toscana) in Bed C (1 cm deep, will thin to 30 cm apart)
-- Sow radish in the succession slot in Bed C (1 cm deep, 5 cm apart)
-- Sow calendula in Bed C as companion pest deterrent (0.5 cm deep, thin to 20-25 cm)
-- Sow borage in its designated position (1 cm deep, thin to 30-40 cm)
+- Plant raspberry canes in Bed B north zone (3 canes, 45 cm apart, 8 cm deep) -- sturdy Autumn Bliss canes do not need extra support
+- Divide and plant chives around the perimeter of Bed B north zone (15-20 cm apart)
+- Sow spring onion rows in Bed C (1 cm deep, thin to 5-8 cm apart)
+- Plant thyme at the edges of Bed C
+- Position calendula in Bed C as companion pest deterrent (0.5 cm deep)
 
 #### Transition Cue
 
-**Say:** "All the backyard beds are done! Tomorrow we can check if anything has changed."
-
----
-
-### Session 3 -- Terrace Beds / Beds D and E (~10-15 min, OPTIONAL)
-
-**Only do this if he still has energy.** Read his body language. If he is fidgeting, asking to go inside, or getting frustrated -- skip this entirely.
-
-Bed D is physical Bed 4 (terrace, south end) -- the salad and herb bed.
-Bed E is physical Bed 5 (terrace, north end) -- the future warm-season bed.
-
-Refer to `docs/planting-grid-bed-d.md` and `docs/planting-grid-bed-e.md` for exact positions.
-
-#### What HE Does
-
-| Step | Action | How to Help |
-|------|--------|-------------|
-| 1 | Sprinkles lettuce seeds in Bed D | Broadcast sowing -- let him scatter seeds across the surface. Fun and imprecise is fine. Cover lightly with soil. |
-| 2 | Places viola seedlings at the edges of Bed D | Same as Session 1 -- he knows the routine now. |
-| 3 | Waters both terrace beds | Small watering can. |
-
-#### What FATHER Does
-
-- Sow spring onion rows in Bed D (1 cm deep, thin to 5-8 cm apart)
-- Plant thyme at the edges of Bed D
-- Sow borage in Bed E (bee attractor, positioned for future tomato/cucumber companions)
-- Sow radish in the succession slot in Bed E
-- Position calendula in Bed E as pest deterrent
-
-#### If Energy Is Gone
-
-**Say:** "We can do the terrace beds tomorrow. The backyard beds are the important ones."
-
-The terrace beds are less time-sensitive. They can be planted any day in W16 or even W17 without consequence.
+**Say:** "All three beds are planted! Tomorrow we can check if anything has changed."
 
 ---
 
@@ -189,10 +153,8 @@ The terrace beds are less time-sensitive. They can be planted any day in W16 or 
 | Session 1 -- His Bed (Bed A) | ~30-40 min | Yes |
 | Break -- Snack + Admire | ~10-15 min | Yes (mandatory) |
 | Session 2 -- Shared Beds (B, C) | ~20-30 min | Yes |
-| Session 3 -- Terrace Beds (D, E) | ~10-15 min | Optional |
 | Wrap-Up | ~5 min | Yes |
-| **Total (with Session 3)** | **~75-100 min** | |
-| **Total (without Session 3)** | **~65-90 min** | |
+| **Total** | **~65-85 min** | |
 
 ---
 
@@ -203,7 +165,7 @@ The terrace beds are less time-sensitive. They can be planted any day in W16 or 
 
 ### Tasks
 
-1. **Check germination** -- Walk all planted beds together
+1. **Check germination** -- Walk all 3 planted beds together
    - "Can you see anything poking out of the soil?"
    - Pea shoots and radish may show green within 7-10 days
    - Lettuce may show tiny leaves
@@ -211,12 +173,11 @@ The terrace beds are less time-sensitive. They can be planted any day in W16 or 
    - If nothing is visible yet: "Sometimes seeds take two weeks to wake up. Let's check again next weekend."
 
 2. **First succession sowing -- Radish**
-   - Sow radish in the marked succession slots in Bed C or Bed E (see grid maps for "S1" slots)
+   - Sow radish in the marked succession slots in Bed A or Bed C (see grid maps for "S1" slots)
    - He pushes seeds in (1 cm deep, 5 cm apart) -- same routine as W16
    - This is quick: 5-10 minutes
 
 3. **Sow W17 crops if not done on planting day**
-   - Kale (Nero di Toscana) if skipped on W16 -- best sown around April 20
    - Calendula and borage if skipped -- same timing
    - These are tiny seeds: father sprinkles, he covers and waters
 
@@ -240,7 +201,7 @@ The terrace beds are less time-sensitive. They can be planted any day in W16 or 
    - "Look how much your garden grew in two weeks!"
 
 2. **Second succession sowing -- Lettuce**
-   - Re-sow lettuce in Bed D using the succession slot (see grid map)
+   - Re-sow lettuce in Bed C using the succession slot (see grid map)
    - Broadcast sowing: he scatters, covers lightly, waters
 
 3. **Thin overcrowded seedlings**
@@ -253,7 +214,7 @@ The terrace beds are less time-sensitive. They can be planted any day in W16 or 
    - See `docs/bug-hotel-guide.md` for the full construction guide
 
 5. **Set up second pollinator water station**
-   - Place the second water dish near the flower-heavy beds (between Bed A and Bed C, or near Bed A)
+   - Place the second water dish near the flower-heavy beds (between Bed A and Bed B, or near Bed A)
    - Shallow dish with pebbles, water to just below the top of the stones
    - "Now the bees have two places to drink -- one at the bug hotel and one near your flowers"
 
@@ -270,7 +231,7 @@ Postpone to the next weekend. All crops in this plan are frost-tolerant and the 
 Stop at the current bed. Whatever is planted is enough. Do not push through -- it will create a negative association with the garden.
 
 - If it happens during Session 1: his bed is mostly done. That is a complete success.
-- If it happens during Session 2: his bed is done AND the backyard beds are partially planted. That is great.
+- If it happens during Session 2: his bed is done AND the shared beds are partially planted. That is great.
 - Come back tomorrow or next weekend for the rest. There is no rush.
 
 **Say:** "We did a lot today. Let's go inside and come back when we feel like it."
@@ -301,7 +262,8 @@ This is expected and normal. Maintain the garden yourself for a few weeks. When 
 |-----------|-------------|---------|
 | Big seeds (easy to handle) | **He does it** | Pea seeds, pea shoots |
 | Seedlings and plugs (place into holes) | **He does it** | Strawberry plugs, viola seedlings |
-| Tiny seeds (hard to handle individually) | **Father does it** (he covers with soil and waters) | Lettuce, radish, kale, spring onion, calendula, borage |
+| Tiny seeds (hard to handle individually) | **Father does it** (he covers with soil and waters) | Lettuce, radish, spring onion, calendula |
+| Broadcast sowing (scatter across surface) | **He does it** | Lettuce in Bed C |
 | Digging holes | **Father does it** | Pre-dig before each session |
 | Watering | **He does it** (small can) | After each session, daily routine |
 | Heavy items | **Father does it** (he helps carry) | Raspberry canes, logs, tools |
@@ -311,7 +273,7 @@ This is expected and normal. Maintain the garden yourself for a few weeks. When 
 
 ## Cross-References
 
-- **Grid maps:** `docs/planting-grid-bed-a.md` through `docs/planting-grid-bed-e.md` -- exact plant positions for each bed
+- **Grid maps:** `docs/planting-grid-bed-a.md` through `docs/planting-grid-bed-c.md` -- exact plant positions for each bed
 - **Bug hotel guide:** `docs/bug-hotel-guide.md` -- the W17/W18 weekend construction activity
 - **Bed layout:** `docs/bed-layout.md` -- physical bed positions, dimensions, and property map
 - **Shopping list:** `docs/shopping-list.md` -- all materials and seeds to purchase before W16

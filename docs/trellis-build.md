@@ -2,7 +2,7 @@
 
 ## Overview
 
-A permanent A-frame trellis sits over Bed 2 (the cucumber bed). Two angled panels meet at a ridge, and cucumbers climb the mesh to the top, then hang down from underneath. This design is specifically chosen because hanging cucumbers are at the perfect picking height for a 7-year-old -- unlike a vertical trellis where fruit clusters at the top, the A-frame creates a "cucumber tunnel" effect where ripe cucumbers dangle at eye and hand level.
+A permanent A-frame trellis sits over the south end of Bed B (the 230x80cm "Family Bed"), where cucumbers are planted. Two angled panels meet at a ridge, and cucumbers climb the mesh to the top, then hang down from underneath. This design is specifically chosen because hanging cucumbers are at the perfect picking height for a 7-year-old -- unlike a vertical trellis where fruit clusters at the top, the A-frame creates a "cucumber tunnel" effect where ripe cucumbers dangle at eye and hand level.
 
 The trellis is designed for permanent installation (year-round), eliminating the hassle of seasonal setup and teardown.
 
@@ -13,13 +13,15 @@ The trellis is designed for permanent installation (year-round), eliminating the
 | Parameter | Value |
 |-----------|-------|
 | Height at peak | 120cm (child-reachable) |
-| Base footprint | 120cm long x 70cm wide |
-| Bed underneath | 120 x 60cm (Bed 2) |
+| Base footprint | ~80-100cm long x 90-100cm wide |
+| Bed underneath | 230 x 80cm (Bed B), trellis covers south end only (L=0-40cm cucumber zone) |
+| Ridge beam length | ~80-100cm (spanning the cucumber zone lengthwise) |
+| Base width | ~90-100cm (wider than the 80cm bed, legs rest on ground on either side) |
 | Panel angle | ~60 degrees from horizontal |
 | Frame material | Pressure-treated timber 45x45mm (class 3+) OR galvanized steel angle 25x25mm |
 | Climbing surface | Galvanized wire mesh (10x10cm grid) or UV-resistant nylon netting |
 
-The base footprint is slightly wider than the 60cm bed to allow for the panel angle -- the legs rest on the ground on either side of the bed, not inside it.
+The base footprint is slightly wider than the 80cm bed to allow for the panel angle -- the legs rest on the ground on either side of the bed, not inside it.
 
 ---
 
@@ -28,8 +30,8 @@ The base footprint is slightly wider than the 60cm bed to allow for the panel an
 | Item | Specification | Quantity |
 |------|--------------|----------|
 | Frame legs | 150cm long, timber 45x45mm or steel angle 25x25mm | 4 |
-| Ridge pieces | 120cm long (same material as legs) | 2 |
-| Mesh panels | ~120cm x 130cm each, galvanized wire mesh or UV netting | 2 |
+| Ridge pieces | ~80-100cm long (same material as legs) | 2 |
+| Mesh panels | ~100cm x 130cm each, galvanized wire mesh or UV netting | 2 |
 | T-hinges or bolted brackets | For ridge connection | 2 |
 | L-brackets or ground stakes | For anchoring legs | 4 |
 | Galvanized screws/bolts | Assorted, for frame assembly | ~20 |
@@ -47,13 +49,13 @@ Cut 4 legs to 150cm length each. These form the angled sides of the A-frame. If 
 
 ### Step 2: Cut the Ridge Pieces
 
-Cut 2 ridge pieces to 120cm length each (matching the bed length). These run along the top of the frame where the two panels meet.
+Cut 2 ridge pieces to ~80-100cm length each (spanning the cucumber zone lengthwise along Bed B). These run along the top of the frame where the two panels meet.
 
 ### Step 3: Attach Mesh to Frame Panels
 
 Build two rectangular panels, each consisting of:
 - 2 legs (150cm) as the long sides
-- 1 ridge piece (120cm) as the top crossbar
+- 1 ridge piece (~80-100cm) as the top crossbar
 - Mesh or netting stretched across the frame
 
 Attach the mesh to the frame using cable ties every 15-20cm along each edge. If using wire mesh, you can also use galvanized staples (for timber) or small bolts (for steel). The mesh should be taut but does not need to be drum-tight -- cucumbers are not heavy enough to cause significant sag.
@@ -67,9 +69,9 @@ Join the two panels at the ridge using hinges or bolts:
 
 ### Step 5: Spread the Legs to Form the A-Shape
 
-Stand the connected panels upright and spread the legs outward until the base is approximately 70cm wide. The legs should rest on the ground on either side of the bed -- the bed sits underneath the A-frame, not inside the leg span.
+Stand the connected panels upright and spread the legs outward until the base is approximately 90-100cm wide. The legs should rest on the ground on either side of the 80cm-wide bed -- the bed sits underneath the A-frame, not inside the leg span.
 
-Adjust the spread until the frame feels stable. At 70cm base width with 150cm legs and a 120cm peak, the panel angle will be approximately 60 degrees from horizontal.
+Adjust the spread until the frame feels stable. At 90-100cm base width with 150cm legs and a 120cm peak, the panel angle will be approximately 60 degrees from horizontal.
 
 ### Step 6: Anchor the Legs
 
@@ -102,12 +104,12 @@ Push the frame firmly from each side. It should sway slightly but not tip. If it
      /                \
     /                  \
    /____________________\
-   |                    |     Base width: 70cm
-   |    [  Bed 2  ]    |     Bed width: 60cm
-   |    [ 120x60  ]    |
+   |                    |     Base width: 90-100cm
+   |     [  Bed B  ]   |     Bed width: 80cm
+   |     [ 230x80  ]   |
    |____________________|
 
-   <-----  70cm  ------>
+   <---- 90-100cm ------>
 ```
 
 ### Side View
@@ -115,8 +117,8 @@ Push the frame firmly from each side. It should sway slightly but not tip. If it
 ```
         _____
        /     \
-      / ridge \          Ridge: 120cm long
-     /  piece  \         (matches bed length)
+      / ridge \          Ridge: 80-100cm long
+     /  piece  \         (spans cucumber zone)
     /           \
    /     ___     \       Panel angle: ~60 degrees
   /     |   |     \
@@ -131,7 +133,7 @@ Leg length: 150cm each
 
 ## Seasonal Use
 
-- **Spring (April-May):** Trellis is in position. When cucumber seedlings are planted and reach 15-20cm height, begin training them toward the mesh by gently leaning stems against the lower wires.
+- **Spring (April-May):** Trellis is in position over the south end of Bed B. When cucumber seedlings are planted and reach 15-20cm height, begin training them toward the mesh by gently leaning stems against the lower wires.
 - **Summer (June-August):** Cucumbers climb naturally once they contact the mesh -- tendrils wrap around the wire/netting. Redirect wayward vines back toward the mesh if they grow outward.
 - **Harvest:** Ripe cucumbers hang down through the mesh from the inside of the A-frame. The child walks or stands beside the bed and picks cucumbers that dangle at chest or eye level. No reaching overhead required.
 - **Autumn (September-October):** After the last harvest, cut dead vines from the mesh. Leave the trellis in place or fold flat (if hinged) for winter storage.

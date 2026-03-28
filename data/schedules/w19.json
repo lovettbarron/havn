@@ -30,12 +30,12 @@
     },
     {
       "id": "W19-03",
-      "action": "Guide pea tendrils onto trellis in Bed C",
+      "action": "Guide pea tendrils onto trellis in Bed B",
       "priority": "must_do",
       "who": "together",
       "minutes": 5,
       "frequency": "weekly",
-      "bed": "bed-c",
+      "bed": "bed-b",
       "crop_id": "pea-kelvedon-wonder",
       "prompt": { "en": "Gently wrap the curly tendril around the wire -- it will grab on by itself!", "da": "Vikl forsigtigt snoetraaden rundt om traaden -- den griber selv fat!" }
     },
@@ -64,10 +64,9 @@
   "sowing_tasks": [
     {
       "crop_id": "lettuce-baby-mix",
-      "bed": "bed-e",
+      "bed": "bed-c",
       "slot": "S1",
-      "action": "Sow second succession lettuce in Bed E",
-      "note": "Last valid Bed E lettuce sowing -- Bed E transitions to warm-season crops from W20-W21."
+      "action": "Sow second succession lettuce in Bed C"
     }
   ]
 }

@@ -10,7 +10,7 @@
 
 > Walk past all beds. What changed overnight?
 
-**Bed A** -- **Bed B** -- **Bed C** -- **Bed D** -- **Bed E**
+**Bed A** -- **Bed B** -- **Bed C**
 
 *Far siger: "Gaa forbi alle bedene. Hvad har aendret sig siden i gaar?"*
 
@@ -40,10 +40,9 @@ Only the dry ones! Pour slowly at the base of the plants, not on the leaves.
 
 > Any ripe strawberries? Radish tops poking out? Lettuce to snip?
 
-- Bed A: Red strawberries (leave the white ones!)
-- Bed A: Radishes with tops showing above soil
-- Bed D: Lettuce leaves big enough to snip
-- Bed C: Peas in fat pods, herbs to smell
+- Bed A: Red strawberries (leave the white ones!), radish tops showing above soil
+- Bed B: Peas in fat pods, ripe tomatoes, cucumbers, herbs to smell
+- Bed C: Lettuce leaves big enough to snip, herbs for the kitchen
 
 *Far siger: "Pluk kun de RODE jordbaer -- lad de hvide sidde til i morgen!"*
 
@@ -65,7 +64,7 @@ Stand next to the ruler stake in Bed A. Where does the sunflower reach today?
 
 Seasonal examples:
 - **W18:** Can you find sunflower sprouts in Bed A? / Kan du finde solsikkespirer i Bed A?
-- **W24:** Count the green tomatoes in Bed C / Tael de groenne tomater i Bed C
+- **W24:** Count the green tomatoes in Bed B / Tael de groenne tomater i Bed B
 - **W34:** Which strawberry plant in Bed A has the most berries? / Hvilken jordbaerplante i Bed A har flest baer?
 
 ---

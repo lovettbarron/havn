@@ -18,7 +18,7 @@ Three mini-sessions over three days. Each day has a clear theme, a prep checklis
 
 | Task Type | Who Does It | Examples |
 |-----------|-------------|---------|
-| Spreading mulch (handfuls) | **He does it** | Straw around plants, bark on terrace beds |
+| Spreading mulch (handfuls) | **He does it** | Straw on all beds |
 | Carrying mulch bags/bales | **Father does it** | Position materials before session |
 | Depth checking with stick | **Together** | Child holds stick, father reads mark |
 | Watering all beds | **He does it** (small can) | Deep watering after mulching, top-up watering |
@@ -38,8 +38,7 @@ Three mini-sessions over three days. Each day has a clear theme, a prep checklis
 
 ### Prep Checklist (Father, ~20 min before)
 
-- [ ] Straw bale/bags positioned next to backyard beds (A, B, C)
-- [ ] Bark chip bag positioned next to terrace beds (D, E)
+- [ ] Straw bale/bags positioned next to beds (A, B, C)
 - [ ] Depth-check stick ready -- a stick or ruler marked at 5cm and 8cm with waterproof marker
 - [ ] Watering can and hose ready for post-mulch deep soak
 - [ ] Snack and drink set out at garden table for mid-session break
@@ -55,16 +54,14 @@ Three mini-sessions over three days. Each day has a clear theme, a prep checklis
 
 Beds to photograph:
 - Bed A (backyard east) -- strawberries, sunflowers, flowers
-- Bed B (backyard west) -- raspberries, chives
-- Bed C (backyard center) -- tomatoes, cucumbers on trellis, peppers
-- Bed D (terrace south) -- herbs, spring onions, leeks
-- Bed E (terrace north) -- beans, broccoli, flowers
+- Bed B (backyard west) -- south zone: tomatoes, cucumbers on trellis, peppers, basil, dill, borage, bush beans; north zone: raspberries, chives
+- Bed C (near north fence) -- leeks, spring onions, lettuce, broccoli, dill, thyme, herbs
 
 **Say:** "We're making a photo album of the garden so the neighbor knows what everything looks like."
 
 > **Transition cue:** "Now let's tuck the plants in for their nap!"
 
-### Step 2 -- Backyard Beds: Straw Mulch (20 min)
+### Step 2 -- Straw Mulch on All Beds (25 min)
 
 **Who:** Together
 **What:** Spread straw around plants in Beds A, B, and C. Target 5-8cm depth everywhere.
@@ -75,7 +72,7 @@ Beds to photograph:
 
 **Say:** "We're tucking the plants in for their nap while we're away. The straw keeps the soil cool and wet so they don't get thirsty."
 
-**Work order:** Start with Bed A (his bed -- highest engagement), then Bed C (shared bed with tomatoes and cucumbers), then Bed B (raspberries).
+**Work order:** Start with Bed A (his bed -- highest engagement), then Bed B (the big family bed with tomatoes, cucumbers, and raspberries), then Bed C (kitchen cart with herbs and greens).
 
 **Depth check:** After each bed, push the depth-check stick through the mulch to the soil surface. The mulch should reach between the 5cm and 8cm marks.
 
@@ -83,7 +80,7 @@ Beds to photograph:
 
 **Watch for:** Straw blowing around. If windy, water lightly over the straw to settle it.
 
-> **Transition cue:** "Great job! The backyard plants are all tucked in. Let's have a snack before we do the terrace."
+> **Transition cue:** "Great job! Let's have a snack before we give everything a big drink."
 
 ### BREAK -- Snack (5-10 min)
 
@@ -93,39 +90,24 @@ At the garden table. Eat snacks. Drink water. Look at the mulched beds.
 
 Let him reset. Do not rush to the next step.
 
-### Step 3 -- Terrace Beds: Bark Mulch (10 min)
+### Step 3 -- Deep Water ALL Beds (15 min)
 
-Walk to the terrace together.
-
-**Who:** Together
-**What:** Spread bark chips on Beds D and E. Target 5-8cm depth.
-
-**HE:** Scoops bark chips from the bag and spreads them around the herbs, leeks, and bean/broccoli plants.
-
-**FATHER:** Same technique -- keep bark 2-3cm from stems. Depth-check with the stick after each bed.
-
-**Say:** "These beds get bark instead of straw because bark is heavier and won't blow away up here in the wind."
-
-**Depth check:** Use the marked stick. 5-8cm depth confirmed on both terrace beds.
-
-### Step 4 -- Deep Water ALL Beds (15 min)
-
-Walk back through the whole garden. All 5 beds get a deep soak.
+Walk through the whole garden. All 3 beds get a deep soak.
 
 **HE:** Does all the watering. Use the small watering can for close-up work, hose for volume.
 
-**Water order:** Bed A, Bed B, Bed C (backyard), then carry small can up to terrace for Bed D and Bed E.
+**Water order:** Bed A, Bed B, Bed C.
 
 **FATHER:** "Water slowly so it soaks in through the mulch. You'll see the straw get wet and dark -- that means the water is getting through."
 
-**How much:** Each bed should get water until it starts to pool slightly on the mulch surface, then soak in. About 2-3 full watering cans per large bed, 1-2 per terrace bed.
+**How much:** Each bed should get water until it starts to pool slightly on the mulch surface, then soak in. About 2-3 full watering cans per large bed (A and B), 1-2 for the kitchen cart (C).
 
 ### Done Signal
 
-"All 5 beds are tucked in and watered! The plants have their blankets and a big drink. They're ready for their nap."
+"All 3 beds are tucked in and watered! The plants have their blankets and a big drink. They're ready for their nap."
 
 **Verify together:** Walk past each bed. Child confirms:
-- [ ] Mulch visible on all 5 beds
+- [ ] Mulch visible on all 3 beds
 - [ ] Depth stick shows 5-8cm
 - [ ] Soil is wet under the mulch (poke through and feel)
 
@@ -140,7 +122,7 @@ Walk back through the whole garden. All 5 beds get a deep soak.
 
 ### Prep Checklist (Father, ~15 min before)
 
-- [ ] Fill ALL reservoirs completely via fill tubes (Bed C is the primary active reservoir; also check Bed B fill tube if reservoir is in use). Fill until water comes out the overflow. This takes about 10 minutes -- do it before the child joins.
+- [ ] Fill reservoir completely via fill tube on Bed B (south zone -- warm crops). Fill until water comes out the overflow. This takes about 10 minutes -- do it before the child joins.
 - [ ] Harvest basket or bowl ready (big enough for tomatoes, cucumbers, beans, berries)
 - [ ] Camera/phone ready for harvest photos
 - [ ] Snack ready at garden table for the post-harvest celebration
@@ -150,25 +132,23 @@ Walk back through the whole garden. All 5 beds get a deep soak.
 
 **Who:** Child leads the harvest walk. Father carries the basket and helps spot ripe produce.
 
-**Start with his beds first** (highest engagement):
+**Start with his bed first** (highest engagement):
 
 **Bed A -- Strawberries and flowers:**
 - **HE:** Picks all ripe strawberries (red all over, comes off with gentle tug)
-- **HE:** Picks any ripe raspberries from Bed B while nearby
 - Count berries as they go into the basket
 
-**Bed C -- The big harvest bed:**
+**Bed B -- The big harvest bed:**
 - **HE:** Picks ripe cherry tomatoes (orange to deep red, gentle twist)
 - **HE:** Picks ripe cucumbers from the trellis (10-12cm, firm, dark green)
 - **HE:** Picks ripe peppers if any have turned color
 - **HE:** Pinches basil leaves for the kitchen ("Smell this!")
+- **HE:** Picks all bush beans that are finger-length or longer (snap test: bend it -- if it snaps cleanly, it's ready)
+- **HE:** Picks any ripe raspberries from the north end of Bed B
 
-**Bed E (terrace) -- Beans:**
-- **HE:** Picks all beans that are finger-length or longer (snap test: bend it -- if it snaps cleanly, it's ready)
-- Check for any ripe broccoli side shoots
-
-**Bed D (terrace) -- Herbs:**
+**Bed C -- Kitchen cart herbs and greens:**
 - **HE:** Snips a few herb sprigs if desired (spring onions, thyme)
+- Check for any ripe broccoli side shoots
 
 **30 min max cap:** If the child loses interest after 20 minutes, that is fine. Father finishes any remaining harvest while the child does a different activity. Do not push through.
 
@@ -200,10 +180,10 @@ Bring the harvest basket inside together.
 
 ### Done Signal
 
-"Reservoirs are full, and we picked everything that's ready. The neighbor will get the next round!"
+"Reservoir is full, and we picked everything that's ready. The neighbor will get the next round!"
 
 **Verify:**
-- [ ] All reservoirs filled (check indicator tubes -- should show full)
+- [ ] Bed B reservoir filled (check indicator tube -- should show full)
 - [ ] All ripe produce harvested (quick visual scan of beds)
 - [ ] Harvest counted and celebrated
 
@@ -232,28 +212,23 @@ Bring the harvest basket inside together.
 
 1. **Start at the water tap** -- show the neighbor where to connect the hose. "This is your water source for all the beds."
 
-2. **Bed A** (backyard east) -- "Strawberries, sunflowers, and flowers. Water if the top 2cm of soil is dry. Pick strawberries when they're red all over."
+2. **Bed A** (backyard east, near trampoline) -- "Strawberries, sunflowers, and flowers. Water if the top 2cm of soil is dry. Pick strawberries when they're red all over."
    - Child shows the neighbor his strawberry plants
 
-3. **Bed B** (backyard west) -- "Raspberries and chives. These are fairly drought-tolerant -- water every 2-3 days unless it's very hot."
-   - Show ripe raspberry examples if any
-
-4. **Bed C** (backyard center) -- "This is the big one -- tomatoes, cucumbers, peppers."
-   - **Show the reservoir fill tube:** "Pour water into this pipe until it overflows. The tank does most of the watering."
+3. **Bed B** (backyard west, near stairway) -- "This is the big family bed."
+   - **Show the south zone:** "Tomatoes, cucumbers on the trellis, peppers, basil, bush beans."
+   - **Show the reservoir fill tube:** "Pour water into this pipe until it overflows. The tank does most of the watering for the warm crops."
    - **Show the trellis:** "Cucumbers hang down from here -- pick them when they're this long" (gesture 10-12cm)
    - **Show tomato clusters:** "These turn orange then red. Twist gently to pick."
+   - **Show the north zone:** "Raspberries and chives up here. Pick raspberries when they come off with a gentle tug."
 
-5. **Walk to terrace together**
-
-6. **Bed D** (terrace south) -- "Herbs and leeks. Water every day in hot weather -- these small beds dry out fast."
-
-7. **Bed E** (terrace north) -- "Beans and broccoli. Pick beans when they snap cleanly. Water daily in heat."
+4. **Bed C** (on cobblestones near north fence) -- "The kitchen cart -- leeks, spring onions, lettuce, broccoli, herbs. Water every day in hot weather -- this smaller bed dries out fast."
 
 **Key messages during walk-through:**
 - "Everything you pick is yours -- it's our thank-you for helping!"
 - "Text us with a photo if anything looks wrong. Most things can wait until we're back."
-- "The reservoir beds (point to fill tubes) need less attention -- just check the indicator tube and fill when low."
-- "The terrace beds dry out fastest -- these are the priority in hot weather."
+- "The reservoir in Bed B (point to fill tube) means the warm crops need less attention -- just check the indicator tube and fill when low."
+- "Bed C dries out fastest -- that's the priority in hot weather."
 
 **Hand printed guide to neighbor:** "This has everything we just talked about, plus photos. Keep it wherever is handy."
 
@@ -261,13 +236,13 @@ Bring the harvest basket inside together.
 
 **FATHER:** Walk to the second neighbor's door (child can come along or stay).
 
-Hand over the second printed copy: "We've asked [primary neighbor] to look after the garden, but if they're away or need backup, here's the guide. Mostly just watering the small terrace beds if it's hot."
+Hand over the second printed copy: "We've asked [primary neighbor] to look after the garden, but if they're away or need backup, here's the guide. Mostly just watering the kitchen cart if it's hot."
 
 ### Step 3 -- Final Top-Up Watering (10 min)
 
 **HE:** Does all the watering. This is the last time he waters his plants before vacation.
 
-**Water order:** Same route as always. All 5 beds get a thorough soak.
+**Water order:** Same route as always. All 3 beds get a thorough soak.
 
 **Say:** "Give them a really good drink -- this is the last water from you until we're back!"
 
@@ -293,7 +268,7 @@ Hand over the second printed copy: "We've asked [primary neighbor] to look after
 **Verify:**
 - [ ] Primary neighbor has printed guide and completed walk-through
 - [ ] Backup neighbor has a copy of the printed guide
-- [ ] All 5 beds watered (final top-up)
+- [ ] All 3 beds watered (final top-up)
 - [ ] Child has said goodbye to each bed
 - [ ] Phone number filled in on both guide copies
 
@@ -342,4 +317,4 @@ Use the printable checklist (`docs/pre-departure-checklist.md`) taped to the fri
 - **Neighbor guide:** `docs/neighbor-vacation-guide.md` -- the document to print and hand over
 - **Reservoir build specs:** `docs/reservoir-build.md` -- reservoir capacity and fill procedure
 - **Bed layout:** `docs/bed-layout.md` -- physical bed positions and dimensions
-- **Planting grids:** `docs/planting-grid-bed-a.md` through `docs/planting-grid-bed-e.md` -- what is growing where
+- **Planting grids:** `docs/planting-grid-bed-a.md` through `docs/planting-grid-bed-c.md` -- what is growing where

@@ -124,7 +124,7 @@
     "sensory": ["taste", "smell", "sight"]
   },
   "beds": [],
-  "bed_notes": "Backup pot overflow from Bed C; not assigned to any raised bed.",
+  "bed_notes": "Backup pot overflow from Bed B; not assigned to any raised bed.",
   "sowing": {
     "method": "plug",
     "indoor_start": 12,

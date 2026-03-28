@@ -1,47 +1,141 @@
 {
   "$schema": "../schemas/bed.schema.json",
   "id": "bed-b",
-  "name": "Raspberry Bed",
+  "name": "Family Bed",
   "physical": {
-    "position": "Bed 1, backyard west",
-    "dimensions": { "length_cm": 120, "width_cm": 60, "height_cm": 40 },
+    "position": "Backyard west, on grass near stairway",
+    "dimensions": { "length_cm": 230, "width_cm": 80, "height_cm": 40 },
     "material": "corten_steel",
-    "features": [],
-    "orientation": "N-S"
+    "product": "byJEMA Corten B80xH40 L230",
+    "features": ["bottomless", "mole-mesh", "a-frame-trellis", "self-watering-reservoir"],
+    "orientation": "N-S",
+    "surface": "grass"
   },
+  "zones": [
+    {
+      "id": "south-warm-crops",
+      "name": "Warm Crop Zone",
+      "range_l": [0, 110],
+      "features": ["a-frame-trellis", "self-watering-reservoir"]
+    },
+    {
+      "id": "north-raspberry",
+      "name": "Raspberry Zone",
+      "range_l": [130, 230],
+      "features": []
+    }
+  ],
   "crops": [
+    {
+      "crop_id": "pea-kelvedon-wonder",
+      "shortcode": "PEA",
+      "zone": "south-warm-crops",
+      "positions": [
+        { "center_w": 20, "center_l": 5, "spread_cm": 20 },
+        { "center_w": 40, "center_l": 5, "spread_cm": 20 },
+        { "center_w": 60, "center_l": 5, "spread_cm": 20 }
+      ],
+      "planted_week": 16,
+      "notes": "Nitrogen pre-crop on trellis. Cut at ground W21, roots left."
+    },
+    {
+      "crop_id": "cucumber-mini-munch",
+      "shortcode": "CUC",
+      "zone": "south-warm-crops",
+      "positions": [
+        { "center_w": 20, "center_l": 10, "spread_cm": 30 },
+        { "center_w": 60, "center_l": 10, "spread_cm": 30 }
+      ],
+      "planted_week": 21
+    },
+    {
+      "crop_id": "borage",
+      "shortcode": "BOR",
+      "zone": "south-warm-crops",
+      "positions": [
+        { "center_w": 20, "center_l": 35, "spread_cm": 35 }
+      ],
+      "planted_week": 17
+    },
+    {
+      "crop_id": "bush-bean-provider",
+      "shortcode": "BN",
+      "zone": "south-warm-crops",
+      "positions": [
+        { "center_w": 70, "center_l": 25, "spread_cm": 12 },
+        { "center_w": 70, "center_l": 37, "spread_cm": 12 },
+        { "center_w": 70, "center_l": 49, "spread_cm": 12 },
+        { "center_w": 70, "center_l": 61, "spread_cm": 12 },
+        { "center_w": 70, "center_l": 73, "spread_cm": 12 }
+      ],
+      "planted_week": 20
+    },
+    {
+      "crop_id": "cherry-tomato-sungold",
+      "shortcode": "TOM",
+      "zone": "south-warm-crops",
+      "positions": [
+        { "center_w": 40, "center_l": 55, "spread_cm": 45 }
+      ],
+      "planted_week": 21
+    },
+    {
+      "crop_id": "basil",
+      "shortcode": "BAS",
+      "zone": "south-warm-crops",
+      "positions": [
+        { "center_w": 20, "center_l": 60, "spread_cm": 25 },
+        { "center_w": 60, "center_l": 60, "spread_cm": 25 }
+      ],
+      "planted_week": 21
+    },
+    {
+      "crop_id": "sweet-pepper-lipstick",
+      "shortcode": "PEP",
+      "zone": "south-warm-crops",
+      "positions": [
+        { "center_w": 40, "center_l": 80, "spread_cm": 35 }
+      ],
+      "planted_week": 22
+    },
+    {
+      "crop_id": "dill",
+      "shortcode": "DIL",
+      "zone": "south-warm-crops",
+      "positions": [
+        { "center_w": 60, "center_l": 95, "spread_cm": 25 }
+      ],
+      "planted_week": 18
+    },
     {
       "crop_id": "raspberry-autumn-bliss",
       "shortcode": "RB",
+      "zone": "north-raspberry",
       "positions": [
-        { "center_w": 30, "center_l": 25, "spread_cm": 45 },
-        { "center_w": 30, "center_l": 70, "spread_cm": 45 },
-        { "center_w": 30, "center_l": 110, "spread_cm": 45 }
+        { "center_w": 40, "center_l": 145, "spread_cm": 45 },
+        { "center_w": 40, "center_l": 185, "spread_cm": 45 },
+        { "center_w": 40, "center_l": 225, "spread_cm": 45 }
       ],
       "planted_week": 16
     },
     {
       "crop_id": "chives",
       "shortcode": "CHV",
+      "zone": "north-raspberry",
       "positions": [
-        { "center_w": 5, "center_l": 5, "spread_cm": 15 },
-        { "center_w": 15, "center_l": 5, "spread_cm": 15 },
-        { "center_w": 55, "center_l": 5, "spread_cm": 15 },
-        { "center_w": 45, "center_l": 5, "spread_cm": 15 },
-        { "center_w": 5, "center_l": 45, "spread_cm": 15 },
-        { "center_w": 55, "center_l": 45, "spread_cm": 15 },
-        { "center_w": 5, "center_l": 85, "spread_cm": 15 },
-        { "center_w": 55, "center_l": 85, "spread_cm": 15 },
-        { "center_w": 5, "center_l": 115, "spread_cm": 15 },
-        { "center_w": 15, "center_l": 115, "spread_cm": 15 },
-        { "center_w": 45, "center_l": 115, "spread_cm": 15 },
-        { "center_w": 55, "center_l": 115, "spread_cm": 15 }
+        { "center_w": 10, "center_l": 135, "spread_cm": 15 },
+        { "center_w": 70, "center_l": 135, "spread_cm": 15 },
+        { "center_w": 10, "center_l": 165, "spread_cm": 15 },
+        { "center_w": 70, "center_l": 165, "spread_cm": 15 },
+        { "center_w": 10, "center_l": 205, "spread_cm": 15 },
+        { "center_w": 70, "center_l": 205, "spread_cm": 15 },
+        { "center_w": 10, "center_l": 225, "spread_cm": 15 },
+        { "center_w": 70, "center_l": 225, "spread_cm": 15 }
       ],
       "planted_week": 16
     }
   ],
   "succession_slots": [],
-  "notes": "Reservoir hardware physically installed (was Bed 1/Tomato in Phase 1) but not actively used -- raspberries prefer free-draining soil.",
   "ha_sensors": {
     "moisture": "sensor.havn_bed_b_moisture",
     "temperature": "sensor.havn_bed_b_temperature"

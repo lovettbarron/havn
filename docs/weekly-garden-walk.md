@@ -13,7 +13,7 @@
 1. **Bed A:** Touch the lamb's ear (lammeoere) -- so soft and fuzzy!
 2. **Bed A:** Crush a lemon balm (citronmelisse) leaf -- smells like lemon candy!
 3. **Bed A:** Rub a mint (mynte) leaf from the pot -- the freshest smell in the garden!
-4. **Bed A or D:** Pinch a thyme (timian) sprig -- tiny leaves, big smell!
+4. **Bed A or C:** Pinch a thyme (timian) sprig -- tiny leaves, big smell!
 
 *Far siger: "Roer ved lammeoeret... knus citronmelissen... lugt til mynten!"*
 
@@ -23,9 +23,9 @@
 
 > Look for garden visitors on the flowers
 
-- **Bed C or E:** Count bees on the borage (hjulkrone) -- blue star flowers they love!
+- **Bed B:** Count bees on the borage (hjulkrone) -- blue star flowers they love!
 - **Bed A:** Look for ladybugs on the nasturtium (blomsterkarse)
-- **Bed A or E:** Spot butterflies on calendula (morgenfrue)
+- **Bed A or C:** Spot butterflies on calendula (morgenfrue)
 - Check the bug hotel -- anyone home?
 - Check the water station -- does it need a refill?
 
@@ -35,15 +35,13 @@
 
 ### 🧺 HARVEST ROUND -- 2-3 min
 
-> Walk all 5 beds and pick anything ripe
+> Walk all 3 beds and pick anything ripe
 
 | Bed | What to look for |
 |-----|------------------|
 | Bed A | Red strawberries (jordbaer), radish tops poking up |
-| Bed B | Ripe raspberries (hindbaer) -- red and soft |
-| Bed C | Fat pea pods (aerter), ripe tomatoes (tomater), cucumbers (agurker) |
-| Bed D | Lettuce leaves (salat) to snip, radishes, herbs for dinner |
-| Bed E | Bush beans (boenner), broccoli side shoots |
+| Bed B | Ripe tomatoes (tomater), cucumbers (agurker), fat pea pods (aerter), bush beans (boenner), peppers (peberfrugter), ripe raspberries (hindbaer) |
+| Bed C | Lettuce leaves (salat) to snip, herbs for dinner, broccoli side shoots |
 
 Season-dependent -- father guides which beds have harvestable crops this week.
 
@@ -56,9 +54,9 @@ Season-dependent -- father guides which beds have harvestable crops this week.
 > Measure, count, and compare
 
 - **Bed A:** Measure sunflower (solsikke) height on the ruler stake. Write it down!
-- **Bed C:** Stand next to the tallest tomato (tomat) plant. Is it taller than you yet?
-- **Bed C:** Count the peppers (peberfrugter) -- how many green? Any turning red?
-- Look across all beds: what is flowering? What has fruit?
+- **Bed B:** Stand next to the tallest tomato (tomat) plant. Is it taller than you yet?
+- **Bed B:** Count the peppers (peberfrugter) -- how many green? Any turning red?
+- Look across all 3 beds: what is flowering? What has fruit?
 
 *Far siger: "Stil dig ved maalestokken -- hvor hoej er solsikken denne uge?"*
 
@@ -75,21 +73,21 @@ Season-dependent -- father guides which beds have harvestable crops this week.
 
 ### ☀️ Early Summer (W21-W28)
 
-- Watch green fruits forming on strawberry (Bed A) and tomato (Bed C) plants
-- First harvests! Radishes (Bed A/D), peas (Bed C), lettuce (Bed D)
-- Bee counting challenge: how many bees on borage in one minute? (Bed C/E)
+- Watch green fruits forming on strawberry (Bed A) and tomato (Bed B) plants
+- First harvests! Radishes (Bed A/C), peas (Bed B), lettuce (Bed C)
+- Bee counting challenge: how many bees on borage in one minute? (Bed B/C)
 - Sunflower is growing fast -- measure every week!
 
 ### 🍅 Peak Summer (W28-W36)
 
 - Harvest party! Strawberries, tomatoes, cucumbers, beans, peppers
 - Tallest sunflower measurement -- is it taller than dad?
-- Taste test: compare cherry tomatoes (Bed C) warm from the sun
+- Taste test: compare cherry tomatoes (Bed B) warm from the sun
 - Count the different colours in the garden
 
 ### 🍂 Autumn (W37-W44)
 
-- Last harvests -- raspberries (Bed B), peppers (Bed C), late beans (Bed E)
+- Last harvests -- raspberries (Bed B), peppers (Bed B), late beans (Bed B)
 - Sunflower seed saving: rub seeds out of the big head (Bed A)
 - Say goodbye to annual plants -- which ones will come back next year?
 - Plant garlic for next year's harvest

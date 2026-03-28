@@ -14,29 +14,27 @@ Backyard raised-bed garden in Vejle, Denmark, designed to build developmental ag
 
 ### Raised Beds
 
-Five raised beds across two locations:
+Three raised beds in the backyard area:
 
 | Bed | Location | Size (cm) | Material | Purpose |
 |-----|----------|-----------|----------|---------|
-| A | Backyard, east | 120 x 60 x 40 | Corten steel | Strawberry + sensory plants + flowers ("His Bed") |
-| B | Backyard, west | 120 x 60 x 40 | Corten steel | Raspberry + chives |
-| C | Backyard, center | 120 x 60 x 40 | Corten steel | Warm crops (cucumber + tomato + pepper + basil + dill) |
-| D | Terrace, south end | 80 x 40 x 30 | Galvanized steel | Herbs + lettuce + spring onion |
-| E | Terrace, north end | 80 x 40 x 30 | Galvanized steel | Broccoli + bush beans + dill + flowers |
+| A | Backyard, east (grass, near trampoline) | 120 x 60 x 40 | Corten steel | Strawberry + sensory plants + flowers ("His Bed") |
+| B | Backyard, west (grass, near stairway) | 230 x 80 x 40 | Corten steel | Warm crops south zone + raspberry north zone ("Family Bed") |
+| C | Backyard, cobblestones (near north fence) | 150 x 40 x 40 | Corten steel, on wheels | Herbs + salad + broccoli ("Kitchen Cart") |
 
-Bed letters A-E are canonical identifiers used throughout all documentation.
+Bed letters A-C are canonical identifiers used throughout all documentation.
 
 ### Infrastructure
 
-- **Self-watering reservoir** in Bed C (warm crops). Bed B has reservoir hardware from construction but it is not actively used (raspberries prefer free-draining soil).
-- **A-frame trellis** on Bed C for cucumbers to climb
-- **Copper tape** slug defense on all 5 beds
-- **Lightweight soil mix** (LECA + coir) in terrace beds D and E for weight reduction
-- **Mint** lives in a sunken pot at the edge of Bed A (contained to prevent spread)
+- **Self-watering reservoir** in Bed B south zone (warm crops -- cucumber, tomato, pepper, basil)
+- **A-frame trellis** on Bed B south end for cucumbers to climb
+- **Copper tape** slug defense on all 3 beds
+- **Mole mesh** under Beds A and B (bottomless on grass). Not needed for Bed C (on cobblestones).
+- **Mint** lives in a pot beside Bed A (contained to prevent spread)
 
 ### Planting Summary
 
-Detailed grid maps with cm-level positions are in `docs/planting-grid-bed-a.md` through `docs/planting-grid-bed-e.md`. Do not duplicate grid data here -- reference those files.
+Detailed grid maps with cm-level positions are in `docs/planting-grid-bed-a.md` through `docs/planting-grid-bed-c.md`. Do not duplicate grid data here -- reference those files.
 
 **Spring planting (W16-W18):** Strawberries, peas, radishes, lettuce, herbs, spring onions, sensory plants
 **Warm season planting (W20-W22):** Tomatoes, cucumbers, peppers, bush beans, basil, kale, sunflowers
@@ -59,17 +57,17 @@ Detailed grid maps with cm-level positions are in `docs/planting-grid-bed-a.md` 
 
 | File | Contents |
 |------|----------|
-| `bed-layout.md` | Bed positions, dimensions, orientation, weight assessment |
+| `bed-layout.md` | Bed positions, dimensions, orientation |
 | `property-map.md` | Full property ASCII visualization with sun zones |
-| `planting-grid-bed-[a-e].md` | Per-bed grid maps with cm positions |
+| `planting-grid-bed-[a-c].md` | Per-bed grid maps with cm positions |
 | `planting-day-script.md` | Spring planting session script (ADHD-adapted) |
 | `warm-season-session-scripts.md` | Warm season planting sessions |
 | `shopping-list.md` | Phase 1 materials and costs |
 | `warm-season-shopping-list.md` | Phase 3 seeds, seedlings, materials |
-| `setup-guide.md` | 10-step bed construction sequence |
+| `setup-guide.md` | 12-step bed construction sequence |
 | `soil-layers.md` | Soil layer recipes per bed type |
 | `reservoir-build.md` | Self-watering reservoir construction |
-| `trellis-build.md` | A-frame trellis for Bed C |
+| `trellis-build.md` | A-frame trellis for Bed B |
 | `slug-defense.md` | Copper tape application guide |
 | `bug-hotel-guide.md` | Insect hotel build + treasure hunt activity |
 
@@ -99,7 +97,7 @@ When working on this project, push back if I try to:
 
 - **Add crops mid-season** -- the beds are full. New additions compete with established plants for space, nutrients, and light. Wait for next season.
 
-- **Expand beyond raised beds** -- the garden boundary is the 5 beds + mint pot, not the full ~600m2 property. We are not landscaping the backyard.
+- **Expand beyond raised beds** -- the garden boundary is the 3 beds + mint pot, not the full ~600m2 property. We are not landscaping the backyard.
 
 - **Skip manual watering** -- manual watering is intentional. It is part of the child's daily agency-building routine. Do not suggest automating it away.
 
@@ -113,22 +111,21 @@ When working on this project, push back if I try to:
 
 ## Current Season Status
 
-**Last updated:** 2026-03-27
-**Status:** Pre-season planning complete. All documentation and data systems built. Awaiting W16 (mid-April) for first physical planting.
+**Last updated:** 2026-03-28
+**Status:** Pre-season planning complete. Garden reconfigured from 5 beds (3 backyard + 2 terrace) to 3 beds (all backyard). All documentation updated. Awaiting W16 (mid-April) for first physical planting.
 
 **What is done:**
-- All 6 planning phases documented
+- Garden reconfigured: 3 corten steel beds in backyard (no terrace beds)
 - Bed layout, construction guides, and soil recipes written
-- Spring and warm-season planting grids complete for all 5 beds
+- Spring and warm-season planting grids complete for all 3 beds
 - Session scripts adapted for ADHD/Autism (with breaks, transitions, sensory elements)
 - Crop data JSON files created with schemas
 - Shopping lists finalized for both planting rounds
 
-**Next milestone:** Phase 1 physical execution -- build beds, install reservoirs, apply copper tape. Then Phase 2: spring planting W16-W18.
+**Next milestone:** Phase 1 physical execution -- order beds from byJEMA, build beds, install reservoir in Bed B, apply copper tape. Then Phase 2: spring planting W16-W18.
 
 **Upcoming decisions:**
-- Confirm trampoline position relative to bed cluster on build day
-- Terrace structural assessment before placing beds D and E
+- Confirm trampoline buffer distance from Bed A on build day
 - Garlic variety selection for October planting (hardneck, e.g., Music or Chesnok Red)
 
 ---
@@ -137,7 +134,7 @@ When working on this project, push back if I try to:
 
 - All documentation is markdown in `docs/`
 - Home Assistant entities use `havn_` prefix (e.g., `havn_bed_a_moisture`)
-- Bed letters A-E are canonical -- never use Bed 1-5 in new documents
+- Bed letters A-C are canonical -- never use Bed 1-3 or Bed D/E in new documents
 - Danish plant names appear alongside English where relevant (e.g., tomat/tomato, agurk/cucumber)
 - Photo placeholders use `[PHOTO: description]` format for in-season replacement
 - Dimensions are always in centimeters unless otherwise noted

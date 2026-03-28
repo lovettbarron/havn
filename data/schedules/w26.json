@@ -10,12 +10,12 @@
   "tasks": [
     {
       "id": "W26-01",
-      "action": "Pick first kale leaves from Bed C",
+      "action": "Pick first kale leaves from Bed B",
       "priority": "must_do",
       "who": "child",
       "minutes": 5,
       "frequency": "weekly",
-      "bed": "bed-c",
+      "bed": "bed-b",
       "crop_id": "kale-nero-di-toscana",
       "prompt": { "en": "Snap off the lowest big leaves -- feel the bumpy texture, just like dinosaur skin!", "da": "Knaek de nederste store blade af -- maaerk den knoldrede overflade, ligesom dinosaurhud!" }
     },
@@ -41,12 +41,12 @@
     },
     {
       "id": "W26-04",
-      "action": "Harvest pea pods from Bed C",
+      "action": "Harvest pea pods from Bed B",
       "priority": "must_do",
       "who": "child",
       "minutes": 5,
       "frequency": "weekly",
-      "bed": "bed-c",
+      "bed": "bed-b",
       "crop_id": "pea-kelvedon-wonder",
       "prompt": { "en": "Check the trellis top to bottom -- pods hide behind the leaves!", "da": "Tjek espalieren fra top til bund -- skuller gemmer sig bag bladene!" }
     },
@@ -77,9 +77,9 @@
   "sowing_tasks": [
     {
       "crop_id": "radish",
-      "bed": "bed-d",
+      "bed": "bed-c",
       "slot": "S1",
-      "action": "Sow sixth succession radish in Bed D"
+      "action": "Sow sixth succession radish in Bed C"
     }
   ]
 }

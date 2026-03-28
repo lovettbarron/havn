@@ -5,61 +5,61 @@
   "theme": {
     "name": { "en": "Warm Friends Arrive", "da": "Varme Venner Ankommer" },
     "tagline": { "en": "The tomatoes and cucumbers move outside!", "da": "Tomaterne og agurkerne flytter udenfor!" },
-    "hero_task": "Transplant tomato seedlings into Bed C"
+    "hero_task": "Transplant tomato seedlings into Bed B"
   },
   "tasks": [
     {
       "id": "W21-01",
-      "action": "Transplant cherry tomato (Sungold) into Bed C",
+      "action": "Transplant cherry tomato (Sungold) into Bed B",
       "priority": "must_do",
       "who": "together",
       "minutes": 15,
       "frequency": "once",
-      "bed": "bed-c",
+      "bed": "bed-b",
       "crop_id": "cherry-tomato-sungold",
       "prompt": { "en": "Squeeze the pot gently to pop the plant out -- be careful with the roots!", "da": "Klem forsigtigt paa potten for at faa planten ud -- vaer forsigtig med roedderne!" }
     },
     {
       "id": "W21-02",
-      "action": "Transplant cucumber seedling onto trellis in Bed C",
+      "action": "Transplant cucumber seedling onto trellis in Bed B",
       "priority": "must_do",
       "who": "together",
       "minutes": 10,
       "frequency": "once",
-      "bed": "bed-c",
+      "bed": "bed-b",
       "crop_id": "cucumber-mini-munch",
       "prompt": { "en": "Plant it right next to the trellis -- it will climb up like the peas!", "da": "Plant den lige ved espalieren -- den klatrer op ligesom aerterne!" }
     },
     {
       "id": "W21-03",
-      "action": "Transplant sweet pepper into Bed C",
+      "action": "Transplant sweet pepper into Bed B",
       "priority": "must_do",
       "who": "together",
       "minutes": 10,
       "frequency": "once",
-      "bed": "bed-c",
+      "bed": "bed-b",
       "crop_id": "sweet-pepper-lipstick",
       "prompt": { "en": "This plant will make red peppers you can eat right off the plant!", "da": "Den her plante laver roede peberfrugter, du kan spise direkte fra planten!" }
     },
     {
       "id": "W21-04",
-      "action": "Plant basil next to tomatoes in Bed C",
+      "action": "Plant basil next to tomatoes in Bed B",
       "priority": "must_do",
       "who": "child",
       "minutes": 5,
       "frequency": "once",
-      "bed": "bed-c",
+      "bed": "bed-b",
       "crop_id": "basil",
       "prompt": { "en": "Basil is the tomato's best friend -- they grow better together! Smell the leaves!", "da": "Basilikum er tomatens bedste ven -- de gror bedre sammen! Lugt til bladene!" }
     },
     {
       "id": "W21-05",
-      "action": "Transplant Tumbling Tom cherry tomato into Bed E",
+      "action": "Transplant Tumbling Tom cherry tomato into Bed B",
       "priority": "must_do",
       "who": "together",
       "minutes": 10,
       "frequency": "once",
-      "bed": "bed-e",
+      "bed": "bed-b",
       "crop_id": "cherry-tomato-tumbling-tom",
       "prompt": { "en": "This tomato will hang over the edge like a waterfall of tomatoes!", "da": "Denne tomat haenger ud over kanten som et vandfald af tomater!" }
     },

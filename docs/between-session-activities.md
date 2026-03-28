@@ -33,7 +33,7 @@ If he loses interest quickly (no sprouts to see yet), do a "soil check" -- poke 
 > *"Solsikkefroene er ved at vaagne -- kan du se dem skyde op?"*
 
 **What to look for (father's guide):**
-Sunflower seeds sown W18 germinate within 7-10 days (W18-W19). Look for large seed leaves pushing up in Bed A -- the seed shell may still be sitting on top like a little hat. Also check for borage seedlings appearing in Bed C.
+Sunflower seeds sown W18 germinate within 7-10 days (W18-W19). Look for large seed leaves pushing up in Bed A -- the seed shell may still be sitting on top like a little hat. Also check for borage seedlings appearing in Bed B.
 
 **Bonus -- the hero task this week:**
 First pea shoot harvest! The pea shoots in Bed A are 10-15cm tall and ready for a garden snack. Snip the top 5cm with scissors and taste them right there in the garden. Do they taste sweet?
@@ -142,4 +142,4 @@ Take one photo per garden visit. That is it.
 | W18 | Find where you planted seeds | All | Revisit planting spots, water |
 | W19 | Spot sunflower sprouts | Bed A | Sunflower germination + pea shoot harvest |
 | W20 | Pull the first radish | Bed A | Radish harvest + sunflower measurement + strawberry flowers |
-| W21 | Session 2 planting day | Bed C | Tomatoes, cucumbers, peppers |
+| W21 | Session 2 planting day | Bed B | Tomatoes, cucumbers, peppers |

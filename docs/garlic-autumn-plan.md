@@ -55,18 +55,18 @@ Buy in September so you have it ready for the October planting window.
 
 ## Bed Assignment
 
-**Primary option: Bed D** (terrace, south end -- the small galvanized steel box)
-- Spring onions will be finished or nearly finished by October
-- Good sun exposure on the terrace
-- Easy daily access for the child to check on it in spring
-- See `docs/planting-grid-bed-d.md` for current layout
+**Primary option: Bed C** (Kitchen Cart -- the 150×40 corten bed on wheels, on cobblestones)
+- Spring onions and lettuce will be finished or nearly finished by October
+- 40cm soil depth is good for garlic
+- On wheels -- can be positioned for optimal sun exposure
+- See `docs/planting-grid-bed-c.md` for current layout
 
-**Alternative: A section of Bed C** (backyard center bed)
+**Alternative: A section of Bed B south zone** (Family Bed -- the large 230×80 bed)
 - After warm-season crops (tomatoes, cucumbers, peppers) are removed in autumn
-- More soil depth (40cm vs 30cm) which garlic appreciates
-- Larger bed gives more space if you want to plant extra cloves
+- More space if you want to plant extra cloves
+- Deeper root access (bottomless on grass)
 
-**Decision rule:** Decide at planting time based on which bed has cleared first. If Bed D still has leeks growing, use Bed C. If Bed C still has tomatoes clinging on, use Bed D. Both will work well.
+**Decision rule:** Decide at planting time based on which bed has cleared first. If Bed C still has leeks growing, use Bed B. If Bed B still has tomatoes clinging on, use Bed C. Both will work well.
 
 ---
 
@@ -82,7 +82,7 @@ Buy in September so you have it ready for the October planting window.
 
 4. **Place each clove pointed end UP, flat end DOWN.** This is the single most important step. If you plant it upside down, it will still grow, but the stem will curve around and the bulb will be misshapen.
 
-5. **Space cloves 15cm apart** in rows. In Bed D (80x40cm), you can fit 2 rows of 4-5 cloves. In a section of Bed C, space rows 20cm apart.
+5. **Space cloves 15cm apart** in rows. In Bed C (150x40cm), you can fit 2 rows of 4-5 cloves. In a section of Bed B, space rows 20cm apart.
 
 6. **Cover with soil** and firm gently. Water in well after planting -- a thorough soak to settle the soil around the cloves.
 
@@ -138,9 +138,9 @@ Buy seed garlic in September from a garden center or online. Straw can be source
 
 ## Cross-References
 
-- **Bed D layout:** See `docs/planting-grid-bed-d.md` for current bed contents and dimensions
-- **Bed C layout:** See `docs/planting-grid-bed-c.md` for warm-season crop positions (clear before planting)
-- **Bed layout overview:** See `docs/bed-layout.md` for physical bed positions and terrace details
+- **Bed C layout:** See `docs/planting-grid-bed-c.md` for current bed contents and dimensions
+- **Bed B layout:** See `docs/planting-grid-bed-b.md` for warm-season crop positions (clear before planting)
+- **Bed layout overview:** See `docs/bed-layout.md` for physical bed positions
 
 ---
 

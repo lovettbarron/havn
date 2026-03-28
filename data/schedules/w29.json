@@ -10,12 +10,12 @@
   "tasks": [
     {
       "id": "W29-01",
-      "action": "Harvest tomatoes, cucumbers, peas, and kale from Bed C",
+      "action": "Harvest tomatoes, cucumbers, peas, and kale from Bed B",
       "priority": "must_do",
       "who": "child",
       "minutes": 10,
       "frequency": "daily",
-      "bed": "bed-c",
+      "bed": "bed-b",
       "prompt": { "en": "How many different things can you pick from this one bed?", "da": "Hvor mange forskellige ting kan du plukke fra dette ene bed?" }
     },
     {
@@ -40,23 +40,23 @@
     },
     {
       "id": "W29-04",
-      "action": "Harvest bush beans from Bed E (first sowing ready)",
+      "action": "Harvest bush beans from Bed B (first sowing ready)",
       "priority": "must_do",
       "who": "child",
       "minutes": 5,
       "frequency": "weekly",
-      "bed": "bed-e",
+      "bed": "bed-b",
       "crop_id": "bush-bean-provider",
       "prompt": { "en": "Feel the bean pod -- when it snaps cleanly, it's ready! Pick lots!", "da": "Maaerk boenneskallen -- naar den knaaekker rent, er den klar! Pluk mange!" }
     },
     {
       "id": "W29-05",
-      "action": "Cut lettuce from Bed D or Bed E",
+      "action": "Cut lettuce from Bed C",
       "priority": "nice_to_do",
       "who": "child",
       "minutes": 5,
       "frequency": "weekly",
-      "bed": "bed-d",
+      "bed": "bed-c",
       "crop_id": "lettuce-baby-mix",
       "prompt": { "en": "Cut outer leaves for tonight's salad!", "da": "Klip yderste blade til aftenens salat!" }
     },

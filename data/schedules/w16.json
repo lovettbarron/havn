@@ -21,12 +21,12 @@
     },
     {
       "id": "W16-02",
-      "action": "Sow pea seeds along trellis in Bed C",
+      "action": "Sow pea seeds along trellis in Bed B",
       "priority": "must_do",
       "who": "together",
       "minutes": 10,
       "frequency": "once",
-      "bed": "bed-c",
+      "bed": "bed-b",
       "crop_id": "pea-kelvedon-wonder",
       "prompt": { "en": "Push each big seed into the hole -- you can do this one all by yourself!", "da": "Tryk hvert stort froe ned i hullet -- det kan du helt selv!" }
     },
@@ -43,7 +43,7 @@
     },
     {
       "id": "W16-04",
-      "action": "Plant thyme and lemon balm in Bed A and Bed D",
+      "action": "Plant thyme and lemon balm in Bed A and Bed C",
       "priority": "must_do",
       "who": "together",
       "minutes": 10,
@@ -115,21 +115,21 @@
     },
     {
       "crop_id": "lettuce-baby-mix",
-      "bed": "bed-d",
+      "bed": "bed-c",
       "slot": "S2",
-      "action": "Sow first succession lettuce seeds in Bed D"
+      "action": "Sow first succession lettuce seeds in Bed C"
     },
     {
       "crop_id": "spring-onion-white-lisbon",
-      "bed": "bed-d",
+      "bed": "bed-c",
       "slot": "S3",
-      "action": "Sow first spring onion seeds in Bed D"
+      "action": "Sow first spring onion seeds in Bed C"
     },
     {
       "crop_id": "pea-kelvedon-wonder",
-      "bed": "bed-c",
+      "bed": "bed-b",
       "slot": "S2",
-      "action": "Sow pea seeds along trellis in Bed C"
+      "action": "Sow pea seeds along trellis in Bed B"
     }
   ]
 }

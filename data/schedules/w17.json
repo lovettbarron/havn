@@ -30,7 +30,7 @@
     },
     {
       "id": "W17-03",
-      "action": "Sow borage seeds in Bed C and Bed E",
+      "action": "Sow borage seeds in Bed C",
       "priority": "must_do",
       "who": "together",
       "minutes": 10,
@@ -52,12 +52,12 @@
     },
     {
       "id": "W17-05",
-      "action": "Check pea seeds in Bed C for germination",
+      "action": "Check pea seeds in Bed B for germination",
       "priority": "nice_to_do",
       "who": "child",
       "minutes": 3,
       "frequency": "daily",
-      "bed": "bed-c",
+      "bed": "bed-b",
       "crop_id": "pea-kelvedon-wonder",
       "prompt": { "en": "The pea seeds are waking up! Look for fat green shoots near the trellis.", "da": "Aertefroeene vaagner! Kig efter tykke groenne skud ved espalieren." }
     }

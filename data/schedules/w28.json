@@ -10,12 +10,12 @@
   "tasks": [
     {
       "id": "W28-01",
-      "action": "Pick first ripe cherry tomatoes from Bed C (Sungold)",
+      "action": "Pick first ripe cherry tomatoes from Bed B (Sungold)",
       "priority": "must_do",
       "who": "child",
       "minutes": 5,
       "frequency": "daily",
-      "bed": "bed-c",
+      "bed": "bed-b",
       "crop_id": "cherry-tomato-sungold",
       "prompt": { "en": "The orange ones are ripe! Twist gently and taste -- so sweet!", "da": "De orange er modne! Vrid forsigtigt og smag -- saa soedt!" }
     },
@@ -32,12 +32,12 @@
     },
     {
       "id": "W28-03",
-      "action": "Harvest cucumbers from Bed C (pick when 10-15cm)",
+      "action": "Harvest cucumbers from Bed B (pick when 10-15cm)",
       "priority": "must_do",
       "who": "child",
       "minutes": 5,
       "frequency": "daily",
-      "bed": "bed-c",
+      "bed": "bed-b",
       "crop_id": "cucumber-mini-munch",
       "prompt": { "en": "Pick them small -- they taste better little! Use scissors to cut the stem.", "da": "Pluk dem smaa -- de smager bedre, naar de er smaa! Brug saks til at klippe stilken." }
     },
@@ -52,12 +52,12 @@
     },
     {
       "id": "W28-05",
-      "action": "Check Tumbling Tom on Bed E for first tomatoes",
+      "action": "Check Tumbling Tom on Bed B for first tomatoes",
       "priority": "nice_to_do",
       "who": "child",
       "minutes": 3,
       "frequency": "weekly",
-      "bed": "bed-e",
+      "bed": "bed-b",
       "crop_id": "cherry-tomato-tumbling-tom",
       "prompt": { "en": "Look at the hanging tomatoes -- any turning red yet?", "da": "Kig paa de haengende tomater -- er nogen ved at blive roede?" }
     }
@@ -83,15 +83,15 @@
     },
     {
       "crop_id": "lettuce-baby-mix",
-      "bed": "bed-d",
+      "bed": "bed-c",
       "slot": "S2",
-      "action": "Sow fifth succession lettuce in Bed D"
+      "action": "Sow fifth succession lettuce in Bed C"
     },
     {
       "crop_id": "spring-onion-white-lisbon",
-      "bed": "bed-d",
+      "bed": "bed-c",
       "slot": "S3",
-      "action": "Sow fourth spring onion batch in Bed D"
+      "action": "Sow fourth spring onion batch in Bed C"
     }
   ]
 }
