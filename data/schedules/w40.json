@@ -14,7 +14,7 @@
       "en": "Farewell berries -- hello garlic!",
       "da": "Farvel baer -- hej hvidloeg!"
     },
-    "hero_task": "Pick the very last raspberries and plant garlic for next year"
+    "hero_task": "Plant garlic cloves for next year's harvest"
   },
   "tasks": [
     {
@@ -33,10 +33,10 @@
     },
     {
       "id": "W40-02",
-      "action": "Plant garlic cloves for Year 2 harvest",
+      "action": "Plant garlic cloves for Year 2 harvest -- pointy end up, 15cm apart, 10-15cm deep. Cover with 10-15cm straw mulch to insulate through winter.",
       "priority": "must_do",
       "who": "together",
-      "minutes": 15,
+      "minutes": 25,
       "frequency": "once",
       "bed": "bed-a",
       "prompt": {
