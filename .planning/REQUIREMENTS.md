@@ -142,9 +142,9 @@ Requirements for gap closure and operational readiness. Each maps to roadmap pha
 
 ### Planning Maintenance
 
-- [ ] **PMNT-01**: All 15 v1.0 plan checkboxes in ROADMAP.md updated to checked
-- [ ] **PMNT-02**: PROJECT.md Key Decisions outcomes updated from Pending to actual results
-- [ ] **PMNT-03**: REQUIREMENTS.md DOCS-04 and COOK-02 traceability statuses corrected
+- [x] **PMNT-01**: All 15 v1.0 plan checkboxes in ROADMAP.md updated to checked
+- [x] **PMNT-02**: PROJECT.md Key Decisions outcomes updated from Pending to actual results
+- [x] **PMNT-03**: REQUIREMENTS.md DOCS-04 and COOK-02 traceability statuses corrected
 - [x] **PMNT-04**: Vacation week schedule files flag neighbor override for child-assigned tasks
 - [x] **PMNT-05**: W40 schedule includes garlic planting hero task per garlic-autumn-plan.md
 
@@ -288,9 +288,9 @@ Requirements for gap closure and operational readiness. Each maps to roadmap pha
 | SSN2-03 | Phase 11 | Complete |
 | SSN2-04 | Phase 11 | Complete |
 | SSN2-05 | Phase 11 | Complete |
-| PMNT-01 | Phase 12 | Pending |
-| PMNT-02 | Phase 12 | Pending |
-| PMNT-03 | Phase 12 | Pending |
+| PMNT-01 | Phase 12 | Complete |
+| PMNT-02 | Phase 12 | Complete |
+| PMNT-03 | Phase 12 | Complete |
 | PMNT-04 | Phase 12 | Complete |
 | PMNT-05 | Phase 12 | Complete |
 

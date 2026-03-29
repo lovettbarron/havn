@@ -225,7 +225,7 @@ Plans:
 **Plans:** 2/2 plans complete
 
 Plans:
-- [ ] 12-01-PLAN.md -- Fix stale checkboxes, decisions, and traceability in ROADMAP, PROJECT, and REQUIREMENTS markdown files
+- [x] 12-01-PLAN.md -- Fix stale checkboxes, decisions, and traceability in ROADMAP, PROJECT, and REQUIREMENTS markdown files
 - [ ] 12-02-PLAN.md -- Add vacation_note to W30-W33 schedule files and align W40 garlic task with docs
 
 ## Progress
@@ -247,4 +247,4 @@ Plans:
 | 9. Operational Readiness | v1.1 | 1/1 | Complete | 2026-03-28 |
 | 10. Home Assistant Setup | v1.1 | 1/1 | Complete | 2026-03-28 |
 | 11. Season 2 Preparation | v1.1 | 2/2 | Complete | 2026-03-28 |
-| 12. Planning Artifact Maintenance | 2/2 | Complete   | 2026-03-29 | - |
+| 12. Planning Artifact Maintenance | v1.1 | 2/2 | Complete | 2026-03-29 |
