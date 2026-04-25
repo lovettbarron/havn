@@ -11,7 +11,8 @@
   <rect width="1250" height="1500" fill="#f7f4ef"/>
 
   <text x="625" y="28" text-anchor="middle" font-size="20" font-weight="bold" fill="#2c3e50">Havn Garden -- Planting Plan</text>
-  <text x="625" y="46" text-anchor="middle" font-size="11" fill="#7f8c8d">Phase 3 final state | North end = full sun | South end = afternoon shade from house</text>
+  <text x="625" y="46" text-anchor="middle" font-size="11" fill="#7f8c8d">Phase 2 + Phase 3 combined | North end = full sun | South end = afternoon shade from house</text>
+  <text x="625" y="60" text-anchor="middle" font-size="10" fill="#27ae60" font-style="italic">Dashed borders = Phase 2 temporary crops (planted W16, removed before W21)</text>
 
   <!-- North arrow (upper-right, ~NE) -->
   <g transform="translate(1160, 80)">
@@ -21,10 +22,10 @@
 
   <!-- ============================================================ -->
   <!-- BED A: FAMILY BED (230 x 120 cm)                              -->
-  <!-- North (top, fence side, full sun) = WARM CROPS + TRELLIS       -->
-  <!-- Middle = HERBS & SALAD                                         -->
-  <!-- South (bottom, house side, afternoon shade) = RASPBERRIES      -->
-  <!-- 324px wide x 621px tall at 2.7px/cm                           -->
+  <!-- Scale: 2.7px/cm                                                -->
+  <!-- North (top) = L=0 = fence, full sun                            -->
+  <!-- South (bottom) = L=230 = house side, afternoon shade           -->
+  <!-- West (left) = W=0, East (right) = W=120                       -->
   <!-- ============================================================ -->
   <g transform="translate(430, 65)">
     <text x="162" y="-8" text-anchor="middle" font-size="15" font-weight="bold" fill="#8b5e3c">BED A: "Family Bed"</text>
@@ -33,21 +34,21 @@
     <!-- Bed frame -->
     <rect x="0" y="16" width="324" height="621" rx="5" fill="url(#corten)" stroke="#8b5e3c" stroke-width="3"/>
 
-    <!-- NORTH ZONE at TOP = WARM CROPS (full sun) -->
+    <!-- NORTH ZONE: L=0-120 = y=16 to y=340 (324px) -->
     <rect x="4" y="20" width="316" height="320" rx="3" fill="#fdf2e0"/>
-    <!-- MIDDLE ZONE = HERBS & SALAD -->
+    <!-- MIDDLE ZONE: L=120-170 = y=340 to y=475 (135px) -->
     <rect x="4" y="340" width="316" height="135" rx="3" fill="#e8f8f0"/>
-    <!-- BUFFER -->
+    <!-- BUFFER: L=170-180 = y=475 to y=502 (27px) -->
     <rect x="4" y="475" width="316" height="27" rx="2" fill="#f0e6d3" opacity="0.4"/>
-    <!-- SOUTH ZONE at BOTTOM = RASPBERRIES + SHADE-TOLERANT -->
+    <!-- SOUTH ZONE: L=180-230 = y=502 to y=637 (135px) -->
     <rect x="4" y="502" width="316" height="131" rx="3" fill="#fbeae8"/>
 
     <!-- Zone labels -->
     <text x="10" y="35" font-size="9" font-weight="bold" fill="#8b5e3c" opacity="0.7">NORTH: Warm Crops (full sun, fence side)</text>
     <text x="10" y="47" font-size="7" fill="#8b5e3c" opacity="0.5">Reservoir underneath | Lean-to trellis on east side (outward)</text>
-    <text x="10" y="355" font-size="9" font-weight="bold" fill="#1e8449" opacity="0.7">MIDDLE: Herbs &amp; Salad</text>
+    <text x="10" y="355" font-size="9" font-weight="bold" fill="#1e8449" opacity="0.7">MIDDLE: Herbs, Salad, Leeks &amp; Broccoli</text>
     <text x="162" y="490" text-anchor="middle" font-size="7" fill="#8b7355" font-style="italic">~ buffer ~</text>
-    <text x="10" y="517" font-size="9" font-weight="bold" fill="#922b21" opacity="0.7">SOUTH: Raspberries + shade-tolerant crops</text>
+    <text x="10" y="517" font-size="9" font-weight="bold" fill="#922b21" opacity="0.7">SOUTH: Raspberries + Chives (perennial)</text>
     <text x="10" y="529" font-size="7" fill="#922b21" opacity="0.5">Afternoon shade from house | Perennial</text>
 
     <!-- N/S labels -->
@@ -55,120 +56,144 @@
     <text x="162" y="647" text-anchor="middle" font-size="8" fill="#7f8c8d">SOUTH (house side, afternoon shade ~14:00)</text>
 
     <!-- Sun indicator top -->
-    <text x="300" y="35" text-anchor="end" font-size="10" fill="#f39c12">☀ full sun</text>
+    <text x="300" y="35" text-anchor="end" font-size="10" fill="#f39c12">&#9728; full sun</text>
     <!-- Shade indicator bottom -->
-    <text x="300" y="620" text-anchor="end" font-size="9" fill="#7f8c8d" font-style="italic">◐ shade ~14:00</text>
+    <text x="300" y="620" text-anchor="end" font-size="9" fill="#7f8c8d" font-style="italic">&#9684; shade ~14:00</text>
 
     <!-- Lean-to trellis on EAST side (extends outward from bed) -->
     <rect x="310" y="30" width="50" height="220" rx="4" fill="#27ae60" opacity="0.08" stroke="#27ae60" stroke-width="2" stroke-dasharray="8,4"/>
     <text x="335" y="145" text-anchor="middle" font-size="8" fill="#27ae60" font-weight="bold" transform="rotate(90,335,145)">LEAN-TO TRELLIS (east, outward)</text>
 
-    <!-- Reservoir dam line (between north warm crops and middle herbs) -->
+    <!-- Reservoir dam line -->
     <line x1="6" y1="340" x2="318" y2="340" stroke="#2980b9" stroke-width="2" stroke-dasharray="6,4"/>
     <text x="162" y="337" text-anchor="middle" font-size="8" fill="#2980b9">RESERVOIR LINER DAM</text>
 
     <!-- ===== NORTH ZONE (top): Warm Crops ===== -->
 
-    <!-- CUC-1 (east edge, trained outward onto lean-to trellis) -->
-    <path d="M260,36 Q256,30 280,30 L314,32 Q322,34 320,55 L318,96 Q316,108 300,106 L272,104 Q258,102 260,88 Z"
-          fill="#27ae60" opacity="0.3" stroke="#27ae60" stroke-width="1"/>
-    <text x="290" y="66" text-anchor="middle" font-size="10" fill="#1b7a3d" font-weight="bold">CUC</text>
-    <text x="290" y="80" text-anchor="middle" font-size="7" fill="#1b7a3d">→ trellis</text>
+    <!-- PEAS (Phase 2, L=0-30, at trellis base = east side) -->
+    <rect x="240" y="22" width="76" height="82" rx="6" fill="#8bc34a" opacity="0.3" stroke="#558b2f" stroke-width="2" stroke-dasharray="6,3"/>
+    <text x="278" y="52" text-anchor="middle" font-size="10" fill="#33691e" font-weight="bold">PEA</text>
+    <text x="278" y="66" text-anchor="middle" font-size="7" fill="#33691e">Kelvedon</text>
+    <text x="278" y="78" text-anchor="middle" font-size="6" fill="#558b2f" font-style="italic">Phase 2 only</text>
+    <text x="278" y="90" text-anchor="middle" font-size="6" fill="#558b2f" font-style="italic">remove W21</text>
 
-    <!-- CUC-2 (east edge, trained outward onto lean-to trellis) -->
-    <path d="M260,116 Q256,110 280,110 L314,112 Q322,114 320,135 L318,176 Q316,188 300,186 L272,184 Q258,182 260,168 Z"
-          fill="#27ae60" opacity="0.3" stroke="#27ae60" stroke-width="1"/>
-    <text x="290" y="146" text-anchor="middle" font-size="10" fill="#1b7a3d" font-weight="bold">CUC</text>
-    <text x="290" y="160" text-anchor="middle" font-size="7" fill="#1b7a3d">→ trellis</text>
+    <!-- CUC-1 label (Phase 3, replaces peas at east edge) -->
+    <text x="330" y="55" font-size="7" fill="#1b7a3d" font-style="italic">CUC-1</text>
+    <text x="330" y="66" font-size="6" fill="#1b7a3d" font-style="italic">(W21)</text>
 
-    <!-- BOR (left side, top area — cucumbers moved to east edge) -->
-    <path d="M10,36 Q8,30 40,30 L130,32 Q148,34 146,58 L144,96 Q142,110 124,108 L30,106 Q10,104 12,88 Z"
+    <!-- CUC-2 (east edge, Phase 3, lower position) -->
+    <path d="M260,176 Q256,170 280,170 L314,172 Q322,174 320,195 L318,236 Q316,248 300,246 L272,244 Q258,242 260,228 Z"
+          fill="#27ae60" opacity="0.3" stroke="#27ae60" stroke-width="1"/>
+    <text x="290" y="206" text-anchor="middle" font-size="10" fill="#1b7a3d" font-weight="bold">CUC</text>
+    <text x="290" y="220" text-anchor="middle" font-size="7" fill="#1b7a3d">&#8594; trellis</text>
+    <text x="290" y="232" text-anchor="middle" font-size="6" fill="#1b7a3d" font-style="italic">(W21)</text>
+
+    <!-- BOR-1 (left side, around L=40) -->
+    <path d="M60,92 Q56,86 86,86 L150,88 Q168,90 166,114 L164,146 Q162,160 144,158 L76,156 Q58,154 60,138 Z"
           fill="#8e44ad" opacity="0.25" stroke="#8e44ad" stroke-width="1"/>
-    <text x="78" y="72" text-anchor="middle" font-size="10" fill="#6c3483" font-weight="bold">BOR</text>
-    <text x="78" y="86" text-anchor="middle" font-size="7" fill="#6c3483">borage</text>
+    <text x="114" y="124" text-anchor="middle" font-size="10" fill="#6c3483" font-weight="bold">BOR</text>
+    <text x="114" y="138" text-anchor="middle" font-size="7" fill="#6c3483">borage</text>
 
-    <!-- TOM (large center) -->
-    <path d="M95,108 Q90,102 130,102 L200,104 Q225,106 222,130 L220,178 Q218,196 200,194 L118,192 Q92,190 94,174 Z"
+    <!-- CAL-1 (Phase 2, L=40 W=90 -> y=124, x=243) -->
+    <rect x="220" y="92" width="40" height="40" rx="6" fill="#f5b041" opacity="0.25" stroke="#f5b041" stroke-width="1.5" stroke-dasharray="6,3"/>
+    <text x="240" y="112" text-anchor="middle" font-size="7" fill="#b7950b" font-weight="bold">CAL</text>
+    <text x="240" y="124" text-anchor="middle" font-size="5" fill="#b7950b" font-style="italic">Phase 2</text>
+
+    <!-- KALE (Phase 2, center, L=65 W=60 -> y=191, x=162) -->
+    <rect x="130" y="160" width="64" height="50" rx="6" fill="#4caf50" opacity="0.25" stroke="#2e7d32" stroke-width="2" stroke-dasharray="6,3"/>
+    <text x="162" y="180" text-anchor="middle" font-size="9" fill="#1b5e20" font-weight="bold">KALE</text>
+    <text x="162" y="192" text-anchor="middle" font-size="6" fill="#2e7d32" font-style="italic">Phase 2 only</text>
+    <text x="162" y="202" text-anchor="middle" font-size="6" fill="#2e7d32" font-style="italic">remove W21</text>
+
+    <!-- TOM (center, L=55 -> y=16+55*2.7=164.5) -->
+    <path d="M95,138 Q90,132 130,132 L210,134 Q235,136 232,160 L230,208 Q228,226 210,224 L118,222 Q92,220 94,204 Z"
           fill="#e74c3c" opacity="0.25" stroke="#e74c3c" stroke-width="1.5"/>
-    <text x="160" y="144" text-anchor="middle" font-size="12" fill="#a93226" font-weight="bold">TOM</text>
-    <text x="160" y="160" text-anchor="middle" font-size="8" fill="#a93226">tomato [staked]</text>
+    <text x="164" y="172" text-anchor="middle" font-size="12" fill="#a93226" font-weight="bold">TOM</text>
+    <text x="164" y="188" text-anchor="middle" font-size="8" fill="#a93226">tomato [staked]</text>
+    <text x="164" y="200" text-anchor="middle" font-size="6" fill="#a93226" font-style="italic">(W21)</text>
 
-    <!-- BAS-1 (left) -->
-    <path d="M10,168 Q8,162 40,162 L110,164 Q124,166 122,186 L120,218 Q118,232 100,230 L30,228 Q10,226 12,210 Z"
+    <!-- BAS-1 (left, L=60 -> y=178) -->
+    <path d="M40,164 Q36,158 66,158 L130,160 Q146,162 144,182 L142,210 Q140,224 122,222 L56,220 Q38,218 40,202 Z"
           fill="#2ecc71" opacity="0.3" stroke="#2ecc71" stroke-width="1"/>
-    <text x="68" y="200" text-anchor="middle" font-size="9" fill="#1a7a3d" font-weight="bold">BAS</text>
+    <text x="92" y="194" text-anchor="middle" font-size="9" fill="#1a7a3d" font-weight="bold">BAS</text>
 
-    <!-- BAS-2 (right) -->
-    <path d="M210,168 Q206,162 232,162 L300,164 Q316,166 314,186 L312,218 Q310,232 292,230 L226,228 Q208,226 210,210 Z"
+    <!-- BAS-2 (right, L=60) -->
+    <path d="M188,164 Q184,158 212,158 L270,160 Q286,162 284,182 L282,210 Q280,224 262,222 L204,220 Q186,218 188,202 Z"
           fill="#2ecc71" opacity="0.3" stroke="#2ecc71" stroke-width="1"/>
-    <text x="262" y="200" text-anchor="middle" font-size="9" fill="#1a7a3d" font-weight="bold">BAS</text>
+    <text x="236" y="194" text-anchor="middle" font-size="9" fill="#1a7a3d" font-weight="bold">BAS</text>
 
-    <!-- PEP (center) -->
-    <path d="M95,200 Q90,196 120,196 L210,198 Q228,200 226,220 L224,260 Q222,276 205,274 L112,272 Q92,270 94,254 Z"
+    <!-- PEP (center, L=85 -> y=16+85*2.7=245.5) -->
+    <path d="M95,226 Q90,222 120,222 L210,224 Q228,226 226,246 L224,286 Q222,302 205,300 L112,298 Q92,296 94,280 Z"
           fill="#e67e22" opacity="0.25" stroke="#e67e22" stroke-width="1"/>
-    <text x="162" y="236" text-anchor="middle" font-size="11" fill="#c76a0a" font-weight="bold">PEP</text>
-    <text x="162" y="250" text-anchor="middle" font-size="7" fill="#c76a0a">pepper</text>
+    <text x="162" y="260" text-anchor="middle" font-size="11" fill="#c76a0a" font-weight="bold">PEP</text>
+    <text x="162" y="274" text-anchor="middle" font-size="7" fill="#c76a0a">pepper</text>
+    <text x="162" y="286" text-anchor="middle" font-size="6" fill="#c76a0a" font-style="italic">(W21)</text>
 
-    <!-- DIL-1 (right) -->
-    <path d="M200,278 Q196,274 225,274 L305,276 Q318,278 316,298 L314,324 Q312,336 295,334 L218,332 Q198,330 200,314 Z"
+    <!-- DIL-1 (right, L=100 -> y=16+100*2.7=286) -->
+    <path d="M200,290 Q196,286 225,286 L305,288 Q318,290 316,308 L314,330 Q312,338 295,336 L218,334 Q198,332 200,318 Z"
           fill="#1abc9c" opacity="0.3" stroke="#1abc9c" stroke-width="1"/>
-    <text x="258" y="308" text-anchor="middle" font-size="10" fill="#0e8c6e" font-weight="bold">DIL</text>
+    <text x="258" y="316" text-anchor="middle" font-size="10" fill="#0e8c6e" font-weight="bold">DIL</text>
 
-    <!-- BEANS strip (west edge) -->
+    <!-- BEANS strip (west edge, L=20-80) -->
     <path d="M8,60 Q6,54 18,54 L38,56 Q48,58 46,70 L44,272 Q42,282 34,280 L18,278 Q8,276 10,264 Z"
           fill="#795548" opacity="0.3" stroke="#795548" stroke-width="1"/>
     <text x="28" y="170" text-anchor="middle" font-size="8" fill="#4e342e" font-weight="bold" transform="rotate(-90,28,170)">BUSH BEANS (x6)</text>
 
-    <!-- ===== MIDDLE ZONE: Herbs & Salad ===== -->
+    <!-- ===== MIDDLE ZONE: Herbs, Salad, Leeks, Broccoli ===== -->
 
-    <!-- Lettuce broadcast -->
-    <path d="M10,346 Q8,342 40,342 L140,344 Q155,346 153,360 L150,386 Q148,396 132,394 L26,392 Q10,390 12,376 Z"
+    <!-- Lettuce broadcast (L=125-140 -> y=353-394) -->
+    <path d="M10,356 Q8,352 50,352 L140,354 Q155,356 153,370 L150,394 Q148,400 132,398 L26,396 Q10,394 12,380 Z"
           fill="#82e0aa" opacity="0.35" stroke="#27ae60" stroke-width="1"/>
-    <text x="82" y="372" text-anchor="middle" font-size="10" fill="#1e8449" font-weight="bold">LETTUCE</text>
+    <text x="82" y="380" text-anchor="middle" font-size="10" fill="#1e8449" font-weight="bold">LETTUCE</text>
 
-    <!-- Spring onion row -->
-    <path d="M155,346 Q150,342 178,342 L300,344 Q314,346 312,358 L310,384 Q308,394 294,392 L172,390 Q155,388 157,374 Z"
+    <!-- Spring onion row (L=130, W=60-110 -> y=367, x=162-297) -->
+    <path d="M162,358 Q158,354 190,354 L300,356 Q314,358 312,370 L310,390 Q308,398 294,396 L180,394 Q162,392 164,380 Z"
           fill="#f39c12" opacity="0.25" stroke="#f39c12" stroke-width="1"/>
-    <text x="234" y="370" text-anchor="middle" font-size="9" fill="#b7780c" font-weight="bold">SPRING ONIONS</text>
+    <text x="238" y="380" text-anchor="middle" font-size="9" fill="#b7780c" font-weight="bold">SPRING ONIONS</text>
 
-    <!-- BOR-2 -->
-    <path d="M10,398 Q8,394 38,394 L110,396 Q126,398 124,416 L122,448 Q120,462 104,460 L28,458 Q10,456 12,440 Z"
+    <!-- Radish succession slot (L=125-145, W=80-100 -> y=353-407, x=216-270) -->
+    <rect x="216" y="396" width="54" height="30" rx="6" fill="none" stroke="#c0392b" stroke-width="1" stroke-dasharray="4,2"/>
+    <text x="243" y="414" text-anchor="middle" font-size="7" fill="#c0392b">RAD succession</text>
+
+    <!-- BOR-2 (L=155, W=30 -> y=434, x=81) -->
+    <path d="M10,418 Q8,414 38,414 L100,416 Q116,418 114,436 L112,458 Q110,468 94,466 L28,464 Q10,462 12,448 Z"
           fill="#8e44ad" opacity="0.2" stroke="#8e44ad" stroke-width="1"/>
-    <text x="68" y="430" text-anchor="middle" font-size="9" fill="#6c3483" font-weight="bold">BOR</text>
+    <text x="62" y="444" text-anchor="middle" font-size="9" fill="#6c3483" font-weight="bold">BOR</text>
 
-    <!-- DIL-2 (near where broccoli will go in south zone) -->
-    <path d="M270,396 Q266,392 288,392 L312,394 Q320,396 318,410 L316,434 Q314,444 300,442 L278,440 Q266,438 268,424 Z"
+    <!-- DIL-2 (L=140, W=100 -> y=394, x=270) -->
+    <path d="M260,396 Q256,392 280,392 L312,394 Q320,396 318,412 L316,430 Q314,438 300,436 L270,434 Q258,432 260,418 Z"
           fill="#1abc9c" opacity="0.25" stroke="#1abc9c" stroke-width="0.8"/>
-    <text x="294" y="420" text-anchor="middle" font-size="8" fill="#0e8c6e" font-weight="bold">DIL</text>
+    <text x="290" y="418" text-anchor="middle" font-size="8" fill="#0e8c6e" font-weight="bold">DIL</text>
 
-    <!-- Radish succession slot -->
-    <rect x="130" y="400" width="50" height="40" rx="6" fill="none" stroke="#c0392b" stroke-width="1" stroke-dasharray="4,2"/>
-    <text x="155" y="424" text-anchor="middle" font-size="7" fill="#c0392b">RAD succession</text>
-
-    <!-- ===== SOUTH ZONE (bottom): Raspberries + shade-tolerant ===== -->
-
-    <!-- LEK x3 (left side) -->
-    <path d="M10,508 Q8,504 38,504 L100,506 Q114,508 112,528 L110,580 Q108,594 92,592 L28,590 Q10,588 12,572 Z"
+    <!-- LEK x3 (L=145-165, W=60 -> y=407-461, x=162) -->
+    <path d="M130,404 Q126,400 152,400 L192,402 Q206,404 204,422 L202,460 Q200,470 184,468 L144,466 Q128,464 130,448 Z"
           fill="#1a5276" opacity="0.3" stroke="#1a5276" stroke-width="1"/>
-    <text x="62" y="544" text-anchor="middle" font-size="10" fill="#154360" font-weight="bold">LEK</text>
-    <text x="62" y="558" text-anchor="middle" font-size="8" fill="#154360">x3 leeks</text>
-    <text x="62" y="570" text-anchor="middle" font-size="6" fill="#154360">(15cm deep)</text>
+    <text x="168" y="430" text-anchor="middle" font-size="9" fill="#154360" font-weight="bold">LEK</text>
+    <text x="168" y="444" text-anchor="middle" font-size="7" fill="#154360">x3 leeks</text>
+    <text x="168" y="456" text-anchor="middle" font-size="6" fill="#154360" font-style="italic">(W21)</text>
 
-    <!-- BRC (center-left) -->
-    <path d="M100,508 Q96,504 125,504 L200,506 Q218,508 216,530 L214,580 Q212,596 194,594 L118,592 Q98,590 100,572 Z"
+    <!-- BRC (L=150, W=100 -> y=421, x=270) -->
+    <path d="M240,420 Q236,416 262,416 L312,418 Q320,420 318,442 L316,466 Q314,474 298,472 L252,470 Q238,468 240,454 Z"
           fill="#196f3d" opacity="0.25" stroke="#196f3d" stroke-width="1.5"/>
-    <text x="158" y="544" text-anchor="middle" font-size="11" fill="#145a32" font-weight="bold">BRC</text>
-    <text x="158" y="560" text-anchor="middle" font-size="8" fill="#145a32">broccoli</text>
+    <text x="280" y="444" text-anchor="middle" font-size="10" fill="#145a32" font-weight="bold">BRC</text>
+    <text x="280" y="458" text-anchor="middle" font-size="7" fill="#145a32" font-style="italic">(W21)</text>
 
-    <!-- RB zones (right side + bottom) -->
-    <path d="M210,508 Q206,504 240,504 L305,506 Q320,508 318,528 L316,588 Q314,600 298,598 L230,596 Q210,594 212,578 Z"
+    <!-- ===== SOUTH ZONE (bottom): Raspberries + Chives only ===== -->
+
+    <!-- RB x3 (L=185-225, center line W=60) -->
+    <path d="M100,512 Q96,508 140,508 L220,510 Q240,512 238,540 L236,612 Q234,626 216,624 L126,622 Q100,620 102,604 Z"
           fill="#922b21" opacity="0.2" stroke="#922b21" stroke-width="1.5"/>
-    <text x="265" y="544" text-anchor="middle" font-size="10" fill="#78281f" font-weight="bold">RASPBERRY</text>
-    <text x="265" y="560" text-anchor="middle" font-size="8" fill="#78281f">x3 canes</text>
+    <text x="170" y="554" text-anchor="middle" font-size="12" fill="#78281f" font-weight="bold">RASPBERRY</text>
+    <text x="170" y="572" text-anchor="middle" font-size="9" fill="#78281f">Autumn Bliss x3</text>
+    <text x="170" y="590" text-anchor="middle" font-size="8" fill="#78281f">(center line, 25cm apart)</text>
 
-    <!-- Chives (strips along raspberry edges) -->
-    <rect x="206" y="598" width="110" height="28" rx="6" fill="#7d3c98" opacity="0.12" stroke="#7d3c98" stroke-width="0.8"/>
-    <text x="261" y="616" text-anchor="middle" font-size="7" fill="#7d3c98">CHIVES (perimeter)</text>
+    <!-- Chive west column -->
+    <rect x="8" y="508" width="30" height="122" rx="6" fill="#7d3c98" opacity="0.12" stroke="#7d3c98" stroke-width="0.8"/>
+    <text x="23" y="572" text-anchor="middle" font-size="7" fill="#7d3c98" font-weight="bold" transform="rotate(-90,23,572)">CHIVES (west)</text>
+
+    <!-- Chive east column -->
+    <rect x="286" y="508" width="30" height="122" rx="6" fill="#7d3c98" opacity="0.12" stroke="#7d3c98" stroke-width="0.8"/>
+    <text x="301" y="572" text-anchor="middle" font-size="7" fill="#7d3c98" font-weight="bold" transform="rotate(-90,301,572)">CHIVES (east)</text>
 
     <!-- Dimensions -->
     <line x1="-16" y1="16" x2="-16" y2="637" stroke="#555" stroke-width="0.7"/>
@@ -187,7 +212,7 @@
   <!-- ============================================================ -->
   <g transform="translate(810, 670)">
     <text x="81" y="-8" text-anchor="middle" font-size="15" font-weight="bold" fill="#8b5e3c">BED B: "His Bed"</text>
-    <text x="81" y="8" text-anchor="middle" font-size="10" fill="#8b5e3c">150 x 60 x 40 cm | Full sun ☀</text>
+    <text x="81" y="8" text-anchor="middle" font-size="10" fill="#8b5e3c">150 x 60 x 40 cm | Full sun &#9728;</text>
 
     <rect x="0" y="16" width="162" height="405" rx="5" fill="url(#corten)" stroke="#8b5e3c" stroke-width="3"/>
     <rect x="4" y="20" width="154" height="397" rx="3" fill="#fef9f0"/>
@@ -196,12 +221,12 @@
     <text x="81" y="432" text-anchor="middle" font-size="8" fill="#7f8c8d">SOUTH</text>
     <text x="-6" y="225" text-anchor="middle" font-size="7" fill="#2980b9" transform="rotate(-90,-6,225)" font-style="italic">sensory edge</text>
 
-    <!-- THY #3 north corner -->
+    <!-- THY #3 north corner (5, 145 -> near top in SVG since north=top) -->
     <path d="M8,24 Q6,20 22,20 L36,22 Q44,26 42,40 L40,54 Q38,62 28,60 L14,58 Q6,56 8,44 Z"
           fill="#aed6f1" opacity="0.35" stroke="#5dade2" stroke-width="0.8"/>
     <text x="24" y="44" text-anchor="middle" font-size="6" fill="#1a5276">THY</text>
 
-    <!-- VIO #2 + CAL #2 (north end, replacing sunflowers) -->
+    <!-- VIO #2 + CAL #2 (north end) -->
     <path d="M42,24 Q38,20 68,20 L140,22 Q154,24 152,46 L150,88 Q148,100 130,98 L56,96 Q40,94 42,78 Z"
           fill="#d4a8e0" opacity="0.18" stroke="#a569bd" stroke-width="0.8"/>
     <text x="78" y="50" text-anchor="middle" font-size="7" fill="#7d3c98">VIO</text>
@@ -263,12 +288,16 @@
     <text x="30" y="286" text-anchor="middle" font-size="8" fill="#1e8449" font-weight="bold">LE</text>
     <text x="30" y="300" text-anchor="middle" font-size="6" fill="#1e8449">crush</text>
 
-    <!-- SUN cluster (south end, closest to house) -->
-    <path d="M24,348 Q18,342 55,340 L120,342 Q142,344 140,368 L138,404 Q136,416 115,414 L40,412 Q22,410 24,394 Z"
-          fill="#f1c40f" opacity="0.3" stroke="#f1c40f" stroke-width="1.5"/>
-    <text x="82" y="372" text-anchor="middle" font-size="12" fill="#7d6608" font-weight="bold">SUN</text>
-    <text x="82" y="388" text-anchor="middle" font-size="8" fill="#7d6608">sunflowers</text>
-    <text x="82" y="400" text-anchor="middle" font-size="7" fill="#7d6608">[ruler stake]</text>
+    <!-- PEA SHOOTS (Phase 2, south end L=110-145, W=10-50) -->
+    <!-- Shown with dashed border as Phase 2 temporary crop -->
+    <rect x="24" y="300" width="108" height="94" rx="6" fill="#8bc34a" opacity="0.25" stroke="#558b2f" stroke-width="2" stroke-dasharray="6,3"/>
+    <text x="78" y="340" text-anchor="middle" font-size="11" fill="#33691e" font-weight="bold">PEA</text>
+    <text x="78" y="354" text-anchor="middle" font-size="8" fill="#33691e">SHOOTS</text>
+    <text x="78" y="370" text-anchor="middle" font-size="7" fill="#558b2f" font-style="italic">Phase 2 (W16)</text>
+    <text x="78" y="382" text-anchor="middle" font-size="6" fill="#558b2f" font-style="italic">&#8594; sunflowers W18</text>
+
+    <!-- SUN cluster label (Phase 3, replaces pea shoots) -->
+    <text x="78" y="408" text-anchor="middle" font-size="7" fill="#7d6608" font-style="italic">SUN replaces here W18</text>
 
     <!-- THY #1 south corner -->
     <path d="M8,370 Q6,366 18,366 L28,368 Q36,372 34,390 L32,410 Q30,418 22,416 L12,414 Q6,412 8,400 Z"
@@ -292,10 +321,10 @@
   </g>
 
   <!-- ============================================================ -->
-  <!-- LEGEND (below both beds)                                       -->
+  <!-- LEGEND                                                         -->
   <!-- ============================================================ -->
   <g transform="translate(55, 1200)">
-    <rect x="-10" y="-10" width="1100" height="140" rx="6" fill="#fff" stroke="#bdc3c7" stroke-width="1"/>
+    <rect x="-10" y="-10" width="1100" height="160" rx="6" fill="#fff" stroke="#bdc3c7" stroke-width="1"/>
     <text x="550" y="12" text-anchor="middle" font-size="13" font-weight="bold" fill="#2c3e50">Plant Legend</text>
 
     <rect x="15" y="28" width="24" height="16" rx="6" fill="#e74c3c" opacity="0.25" stroke="#e74c3c" stroke-width="1"/>
@@ -335,12 +364,16 @@
     <rect x="665" y="84" width="24" height="16" rx="6" fill="#7d3c98" opacity="0.15" stroke="#7d3c98" stroke-width="1"/>
     <text x="698" y="97" font-size="10" fill="#333">Chives</text>
 
-    <rect x="15" y="108" width="24" height="10" rx="3" fill="#27ae60" opacity="0.1" stroke="#27ae60" stroke-width="2" stroke-dasharray="4,2"/>
-    <text x="48" y="119" font-size="10" fill="#333">Lean-to trellis (east, outward)</text>
-    <line x1="135" y1="112" x2="159" y2="112" stroke="#2980b9" stroke-width="2" stroke-dasharray="4,3"/>
-    <text x="168" y="119" font-size="10" fill="#333">Reservoir dam</text>
-    <rect x="285" y="108" width="24" height="10" rx="3" fill="none" stroke="#c0392b" stroke-width="0.8" stroke-dasharray="3,2"/>
-    <text x="318" y="119" font-size="10" fill="#333">Succession slot</text>
+    <!-- Phase 2 indicator -->
+    <rect x="15" y="108" width="24" height="16" rx="6" fill="#8bc34a" opacity="0.25" stroke="#558b2f" stroke-width="2" stroke-dasharray="5,3"/>
+    <text x="48" y="121" font-size="10" fill="#333" font-weight="bold">Peas / Pea shoots / Kale (Phase 2 temporary -- dashed border)</text>
+
+    <rect x="15" y="130" width="24" height="10" rx="3" fill="#27ae60" opacity="0.1" stroke="#27ae60" stroke-width="2" stroke-dasharray="4,2"/>
+    <text x="48" y="141" font-size="10" fill="#333">Lean-to trellis (east, outward)</text>
+    <line x1="135" y1="134" x2="159" y2="134" stroke="#2980b9" stroke-width="2" stroke-dasharray="4,3"/>
+    <text x="168" y="141" font-size="10" fill="#333">Reservoir dam</text>
+    <rect x="285" y="130" width="24" height="10" rx="3" fill="none" stroke="#c0392b" stroke-width="0.8" stroke-dasharray="3,2"/>
+    <text x="318" y="141" font-size="10" fill="#333">Succession slot</text>
   </g>
 
 </svg>
