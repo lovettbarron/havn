@@ -29,13 +29,13 @@
 
 | Item | Qty | Variety | Approx DKK | Destination | Notes |
 |------|-----|---------|------------|-------------|-------|
-| Pea seeds | 1 packet | Kelvedon Wonder | 20-30 | Bed A middle zone (climbing peas) + Bed B pea shoots | Same packet for both uses. Pea shoots are just peas harvested young. Direct sow W16. |
-| Kale seeds | 1 packet | Nero di Toscana (cavolo nero) | 15-25 | Bed A middle zone | Direct sow W16-W17. Lacinato/dinosaur kale -- textured leaves, cold-hardy. |
-| Radish seeds | 1 packet | Any fast variety (e.g., Cherry Belle, French Breakfast) | 15-25 | Bed B succession slot | Direct sow from W18, re-sow every 2 weeks. One packet lasts all season. |
-| Calendula seeds | 1 packet | Any variety (pot marigold) | 15-25 | Bed B (2 positions near strawberries) | Direct sow W17. Pest deterrent -- repels aphids/whiteflies near strawberries. |
-| Borage seeds | 1 packet | Common borage | 15-25 | Bed A middle zone | Direct sow W16-W17. Attracts bees, edible blue flowers. Self-sows freely. |
+| Pea seeds | 1 packet | Kelvedon Wonder | 20-30 | Bed A north zone (trellis base, L=0-30) + Bed B pea shoots (south end) | Same packet for both uses. Pea shoots are just peas harvested young. Direct sow W16. Bed A peas are a nitrogen pre-crop -- cut at ground level before W21 cucumber transplant. |
+| Kale seeds | 1 packet | Nero di Toscana (cavolo nero) | 15-25 | Bed A north zone (60, 65) | Direct sow W16-W17. Cool-season placeholder -- remove W21 when tomato/pepper go in. Lacinato/dinosaur kale -- textured leaves, cold-hardy. |
+| Radish seeds | 1 packet | Any fast variety (e.g., Cherry Belle, French Breakfast) | 15-25 | Bed A middle zone succession slot + Bed B succession slot | Direct sow from W18, re-sow every 2 weeks. One packet covers both beds all season. |
+| Calendula seeds | 1 packet | Any variety (pot marigold) | 15-25 | Bed A north zone (90, 40) + Bed B (2 positions near strawberries) | Direct sow W17. Pest deterrent -- repels aphids/whiteflies. One packet covers all 3 positions. |
+| Borage seeds | 1 packet | Common borage | 15-25 | Bed A north zone (30, 40) | Direct sow W16-W17. Attracts bees, edible blue flowers. Self-sows freely. Second borage (BOR-2) sown W18 in Bed A middle zone. |
 | Baby lettuce seed mix | 1 packet | Cut-and-come-again mix | 15-25 | Bed A middle zone | Direct sow W16. Harvest outer leaves, regrows. Benefits from Bed A's afternoon shade. |
-| Spring onion seeds | 1 packet | White Lisbon | 15-25 | Bed B (row near strawberries) | Direct sow W16-W18. Easy pull-harvest for the child. Allium scent deters pests. |
+| Spring onion seeds | 1 packet | White Lisbon | 15-25 | Bed A middle zone (row at L=130) + Bed B (row near strawberries) | Direct sow W16-W18. One packet covers both beds. Easy pull-harvest for the child. Allium scent deters pests. |
 
 **Seed subtotal: ~110-180 DKK**
 

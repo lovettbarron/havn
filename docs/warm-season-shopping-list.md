@@ -20,7 +20,7 @@
 | Basil seedling | 2 | Genovese or Sweet basil | Garden center | 20-25 each | Bed A (north zone, near tomatoes) | Pinch tips for bushy growth. Aroma activity for child. |
 | Mint plant | 1 | Spearmint or peppermint | Garden center | 25-35 | Pot next to Bed B | Goes in pot, NOT in bed. Part of daily sensory route. |
 | Broccoli seedling | 1 | Calabrese | Garden center | 20-30 | Bed A (middle zone) | Side shoots provide extended harvest after main head is cut. |
-| Leek seedlings | 4 | Musselburgh | Garden center | 15-20 (bundle) | Bed A (middle zone) | Only if not started from seed indoors in March. Look for pencil-thick transplants. |
+| Leek seedlings | 3 | Musselburgh | Garden center | 15-20 (bundle) | Bed A (middle zone, L=145-165) | 3 positions at 10cm spacing along center line. Only if not started from seed indoors in March. Look for pencil-thick transplants. Buy a bundle -- use 3, compost any extras. |
 
 **Seedling subtotal: ~210-300 DKK**
 
@@ -32,7 +32,7 @@
 |------|-----|---------|------------|-------------|-------|
 | Sunflower seeds | 1 packet | Tall variety (e.g., Russian Giant, Mammoth) | 20-30 | Bed B (south end, house side) | Sow 5-6 seeds, thin to 2-3. Shadows fall toward house, not onto bed. Ruler stake for weekly height measurement. |
 | Nasturtium seeds | 1 packet | Trailing variety (e.g., Gleam, Jewel trailing) | 20-30 | Bed B (east edge) | Big seeds, easy for child to handle. Trailing from edge. Trap crop for aphids. |
-| Bush bean seeds | 1 packet | Provider or Speedy | 20-30 | Bed A (north zone) | Direct sow W20 (May 15). 4-6 seeds at 12cm spacing. |
+| Bush bean seeds | 1 packet | Provider or Speedy | 20-30 | Bed A (north zone, west edge W=10) | Direct sow W18-W20 (frost-sensitive -- wait until nighttime temps stay above 2C). 6 seeds at 12cm spacing along west edge. |
 | Dill seeds | 1 packet | Any standard variety | 15-20 | Bed A | Tiny seeds -- father sows. Attracts hoverflies. |
 
 **Seed subtotal: ~75-110 DKK**
@@ -83,4 +83,4 @@
 - **Bed A middle zone is for broccoli and leeks.** These go between the warm-crop north zone and the raspberry south zone.
 - **Leek sourcing:** If you started leeks from seed indoors in March, skip buying leek transplants. If not, garden centers stock pencil-thick leek bundles in May.
 - **Dill tip:** Buy 1 packet -- you'll sow a few seeds in Bed A. Dill self-sows freely, so one packet lasts years.
-- **Spring onions go in Bed B** as a small row for the child to tend alongside his strawberries and sensory plants.
+- **Spring onions go in both beds** -- Bed A middle zone (row at L=130, W=60-110) and Bed B (row near strawberries). Seeds are on the spring shopping list, not this one.
